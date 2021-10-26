@@ -5,3 +5,10 @@ function hideAlert(){
   
 
 }
+function hideAlert2(){
+    
+ 
+  document.getElementById("alert_div2").style.display ="none";
+  
+
+}
