@@ -361,7 +361,7 @@ div.showSlide.grid_diapo{
         -webkit-animation-duration: 1s;  
         animation-name: fade;  
         animation-duration: 1s;
-        animation-timing-function: ease-in-out;  
+        animation-timing-function: ease-in-out ;  
     }  
     @-webkit-keyframes fade {  
         from {  
