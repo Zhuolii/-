@@ -20,16 +20,13 @@
     margin:0;
     padding:0;
     position: absolute;
-    left: 11%;
+    left: 10%;
     top: 0;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: none;
     letter-spacing: 2px;
-    border: solid 1px;
-    border-right: white;
-    border-bottom: white;
-    border-top: white;
+    
     
     }
     
@@ -229,7 +226,7 @@
         
         text-decoration: none;
         letter-spacing: 2px;
-        font-size: 1.5vw;
+        font-size: 1.2vw;
        position: relative;
        top: 2em;
        text-decoration: underline rgba(5, 5, 5, 0);

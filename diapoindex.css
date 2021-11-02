@@ -5,7 +5,7 @@ body {
     background: #e6e6e6;  
 }  
 .showSlide {  
-    display: none  
+    display:none ;  
 }  
     .showSlide img {  
         width: 100%;  
@@ -283,4 +283,157 @@ div.showSlide.grid_diapo{
     margin-left: 350px;
     padding: 0x;
 }
+}
+@media (min-width: 1024px)
+{
+    .showSlide {  
+        display:none ;  
+    }  
+        .showSlide img {  
+            width: 100%;  
+        }  
+    div.showSlide.grid_diapo{
+        display: grid;
+    }
+    .slidercontainer { 
+        height: auto;
+        
+         
+        margin: auto;  
+    }  
+    .left, .right {  
+        cursor: pointer;  
+        position: absolute;  
+        bottom: -38vw;
+        left:10vw;
+        width: 3vw;  
+        height: 3vw;
+        padding: 16px;  
+          
+        color: black;  
+        font-weight: bold;  
+        font-size: 60px;  
+        transition: 0.6s ease;  
+        border-radius: 10px;
+        background-color: gray;
+        opacity:0.78; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    .button-Diapo{
+        width: 3vw;  
+        height: 3vw;
+        background-color: grey;
+        border:none;
+        font-size:2vw;
+    }
+    .button-Diapo:hover{
+        cursor: pointer;
+    }
+    .left:hover, .right:hover {  
+        background-color: rgba(115, 115, 115, 0.8);  
+    }  
+    .right {  
+        right: -20vw;  
+        width: 3vw;  
+        height: 3vw;
+        position: absolute;
+        left:85vw;
+         
+    }  
+    .content {  
+        color: #eff5d4;  
+        font-size: 30px;  
+        padding: 8px 12px;  
+        position: absolute;  
+        top: 10px;  
+        width: 100%;  
+        text-align: center;  
+    }  
+    .active {  
+        background-color: #717171;  
+    }  
+    /* Fading animation */  
+    .fade {  
+    
+        -webkit-animation-name: fade;  
+        -webkit-animation-duration: 1s;  
+        animation-name: fade;  
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;  
+    }  
+    @-webkit-keyframes fade {  
+        from {  
+            opacity: .8 
+        }  
+        to {  
+            opacity: 1  
+        }  
+    }  
+    
+    @keyframes fade {  
+        from {  
+            opacity: .8  
+        }  
+        to {  
+            opacity: 1  
+        }  
+    } 
+    #image_gradient1 {
+        background-image:
+        linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
+        url('images/img1.jpg');
+        width: 50vw;
+        height: 30vw;
+        background-size: cover;
+        
+        z-index: -1000;
+        
+    }
+    #image_gradient2 {
+        background-image:
+        linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
+        url('images/img2.jpg');
+        width: 50vw;
+        height: 30vw;
+        
+        z-index: -1000;
+       
+        background-size: cover;
+        
+        
+    }
+    #image_gradient3 {
+        background-image:
+        linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
+        url('images/img3.jpg');
+        width: 50vw;
+        height: 30vw;
+        
+        z-index: -1000;
+       
+        background-size: cover;
+        
+        
+    }
+    #image_gradient4 {
+        background-image:
+        linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
+        url('images/img4.jpg');
+        width: 50vw;
+        height: 30vw;
+        
+        
+        z-index: -1000;
+        background-size: cover;
+        
+        
+    }
+    #image_grid_container{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }

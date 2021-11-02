@@ -130,3 +130,12 @@ function displayNumber(){
            }  
            slides[slide_index6 - 1].style.display = "block";  
        }  
+       
+
+
+         
+    function startTimer() {
+        timer = setInterval(function() {
+            nextSlide2(1);
+        }, 5000);
+    }

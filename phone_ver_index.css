@@ -1,4 +1,7 @@
 @media (max-width: 1023px){
+.siteWeb{
+        display: hidden;
+}        
 div.siteMobile{
     width: 1023px;
     height: auto;

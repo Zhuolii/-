@@ -1,10 +1,10 @@
 @media (min-width: 1024px)
 {
-*{
-    
-}
+
 body{
-    background-color: whitesmoke;
+    background-color: rgb(250, 249, 249);
+    overflow-x:hidden;
+    font-family: 'Times New Roman', Times, serif;
 }
 #img_logo{
     margin-left: -0.5vw;
@@ -19,12 +19,13 @@ body{
         url('images/image_event.jpg');
         opacity: 1;
         color:white;
-        
+        margin:0 0 0 0;
+        padding: 0 0 0 0;
         display:block;
         border:solid black 0.1vw;
         height:11vw;
         position: relative;
-        z-index: 3;
+        z-index: 1;
         width: 100vw;
        
         
@@ -92,75 +93,163 @@ body{
 #video{
     margin-top: 0px;
     width: 100vw;
-    height: 57vw;
+    height: 50vw;
     
 }
 .video_text{
     color: white;
 }
-
+.videoDiv{
+    background-color: rgba(0, 0, 0, 0.856);
+}
 #welcome1{
     position: absolute;
     top:15vw;
     left: 22vw;
     z-index:2;
-    font-size:4vw;
+    font-size:3vw;
    
 }
 #welcome2{
     position: absolute;
     top:21vw;
     left: 42vw;
-    font-size:4vw;
-    z-index:2
+    font-size:3vw;
+    z-index:2;
+    
 }
 #welcome3{
     position: absolute;
     top:35vw;
     left: 20vw;
     z-index:2;
-    font-size:2.5vw;
+    font-size:2vw;
 }
 #welcome4{
     position: absolute;
     top:40vw;
     left: 15vw;
     z-index:2;
-    font-size:2.5vw;
+    font-size:2vw;
     line-height: 5vw;
 }
+article1{
+    width: 100vw;
+    height: 30vh;
+    
+   
+}
+article1 h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+article1 div{
+    text-align: center;
+}
+article1 div img{
+    width:45%;
+    height:45%;
+    
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:0 5vw 0 8vw;
+}
+.grid--item{
+    
+    margin:1vw 0 1vw 0;
+    padding: 1vw;
+}
+.grid--item img{
+    padding: none;
+    width:100%;
+    height:100%;
+    
+}
+.grid--item h2{
+    text-align: center;
+}
+.grid--item button{
+   height: 5vw;
+   width: 20vw;
+   border-radius: 2.5vw;
+   background-color: rgb(230, 216, 216);
+   color:rgb(61, 49, 49) ;
+   border: solid rgb(61, 49, 49) 0.2vw;
+   font-size: larger;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.grid--item button:hover{
+    cursor: pointer;
+    background-color:rgb(61, 49, 49) ;
+    color: white;
+    transition: 0.3s ease ;
+}
+.grid--item button a{
+    text-decoration: none;
+}
+.buttonDiv{
+    height: 10vw;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+button.leftButton{
+    background-color: rgb(231, 231, 224);
+}
+.item2,.item6,.item10{
+    background-color: rgb(230, 216, 216);
+}
+.item3,.item7{
+    background-color: rgb(231, 231, 224);
+}
+.item1,.item4,.item5,.item8,.item9{
+    padding: 0 0 0 0;
+}
+
+
+
+
 /* footer grid*/
 #footer_grid{
     background-color: rgba(73, 73, 73, 1);
     background-size: 100vw;
     width: 100vw;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
    
 }
 #footer_logo{
     height:10vw;
     width:10vw;
     border-radius:50%;
-    margin: 1vw 0 0 45vw;
+  
 }
 #footer_header_1{
     background:-webkit-linear-gradient(rgb(255, 196, 2),rgb(255, 255, 255));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;font-weight: strong;
-    font-size: 2vw;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.2vw;
     font-family:serif;
     display: flex;
     justify-content: center;
 }
 #grid_footer{
     display: grid;
-    grid-template-columns: 33vw 33vw 34vw;
+    grid-template-columns: 17vw 17vw 17vw 17vw;
+    margin:0 16vw 0 16vw;
 }
 .grid_footer_item{
-    
+    text-align: center;
     justify-content: center;
     list-style: none;
     text-decoration: none;
-    margin:2vw;
+    margin:2vw 0 0 0;
 }
 .grid_footer_item li a {
     background-color: rgb(73, 73, 73);
@@ -174,7 +263,7 @@ body{
     overflow: hidden;
     font-size:50px;               
     transform:scale(1);
-    font-size:2vw
+    font-size:1vw
 }
 .grid_footer_item a{
     background-color: rgb(73, 73, 73);
@@ -185,11 +274,10 @@ body{
     border-left:none;
     border-right:none;
     top:-20px;
-    overflow: hidden;
-    font-size:50px;               
-    transform:scale(1);
-    font-size:2vw;
-    transition:0.3s;
+    
+    font-size:1vw;               
+    
+    transition:color 0.3s;
 }
 .grid_footer_item a:hover{
     color:rgb(153, 153, 153);
