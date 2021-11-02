@@ -137,5 +137,5 @@ function displayNumber(){
     function startTimer() {
         timer = setInterval(function() {
             nextSlide2(1);
-        }, 5000);
+        }, 5000) ;
     }
