@@ -89,49 +89,27 @@ body{
 
 
 
+#img_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.856) ;
+}
+#img_hebergement_background{
+    
+    width: 70vw;
+    height: 40vw;
+    background-image: url(./image\ video/image_heber.JPG);
+    background-size: cover;
+    
+    justify-self: center;
+    align-items: center;
+}
 
-#video{
-    margin-top: 0px;
-    width: 100vw;
-    height: 50vw;
-    
+
+#img_h1{
+    text-align: center;
 }
-.video_text{
-    color: white;
-}
-.videoDiv{
-    background-color: rgba(0, 0, 0, 0.856);
-}
-#welcome1{
-    position: absolute;
-    top:15vw;
-    left: 22vw;
-    z-index:2;
-    font-size:3vw;
-   
-}
-#welcome2{
-    position: absolute;
-    top:21vw;
-    left: 42vw;
-    font-size:3vw;
-    z-index:2;
-    
-}
-#welcome3{
-    position: absolute;
-    top:35vw;
-    left: 20vw;
-    z-index:2;
-    font-size:2vw;
-}
-#welcome4{
-    position: absolute;
-    top:40vw;
-    left: 15vw;
-    z-index:2;
-    font-size:2vw;
-    line-height: 5vw;
 }
 article1{
     width: 100vw;

@@ -22,7 +22,7 @@
     position: absolute;
     left: 10%;
     top: 0;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: none;
     letter-spacing: 2px;
@@ -31,11 +31,12 @@
     }
     
     .headtitle a {
-        text-decoration: white;
-        color: white;
+        text-decoration: black;
+        color: black;
     }
     .headtitle a:hover{
-        color: white;
+        color: grey;
+        transition: 0.2s color ease-in-out;
     }
     
     
@@ -140,14 +141,14 @@
     
     .sidebar{
     grid-area: sidebar;
-    background-color: rgba(14, 13, 13, 0.801);
+    background-color: rgba(255, 255, 255, 0.836);
     position: fixed;
     top: 0px;
     left: 0px;
     overflow-y: visible;
     width:100%;
     z-index: 3;
-    color: grey;
+    color: black;
     padding: 0;
     margin: 0px 0px;
     border: solid rgba(14, 13, 13, 0.801);
@@ -201,7 +202,7 @@
         width: 100%;
     }
     .sidebarList .current{
-        text-decoration: solid white underline 3px;
+        text-decoration: solid black underline 3px;
         text-underline-offset: 4px;
         
     }
@@ -215,7 +216,7 @@
         display: inline-block;
         display: table-row;
         align-items: center;
-        color: white;
+        color: black;
         text-align: center;
         justify-items: center;
     
@@ -237,7 +238,7 @@
     
     
     div ul li a:hover{
-        text-decoration: underline white 3px;
+        text-decoration: underline black 3px;
         transition: all 0.5s ease-out;   
         
         
