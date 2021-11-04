@@ -4,15 +4,19 @@
 body{
     background-color: rgb(250, 249, 249);
     overflow-x:hidden;
-    font-family: 'Times New Roman', Times, serif;
+   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 #img_logo{
-    margin-left: -0.5vw;
-    margin-top: -1vw;
-    border-radius: 6vw;
-    width: 6vw;
-    height: 6vw;
+    
+    margin-left: -0.2vw;
+    margin-top: -0.5vw;
+    border-radius: 2vw;
+    width: 4vw;
+    height: 4vw;
+    float: left;
 }
+
 #alert_div{
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0)),
@@ -93,27 +97,34 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.856) ;
+    background-color: rgba(255, 255, 255, 0.856) ;
 }
 #img_hebergement_background{
-    
-    width: 70vw;
+    margin-top: 5vw;
+    width: 100vw;
     height: 40vw;
     background-image: url(./image\ video/image_heber.JPG);
     background-size: cover;
-    
-    justify-self: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    font-size: 2vw;
+   
+    color: white;
+    letter-spacing: 0.5vw;
+    
 }
 
 
-#img_h1{
+#img_p{
     text-align: center;
+    justify-content: center;
+    font-size: 4vw;
 }
-}
+
 article1{
     width: 100vw;
-    height: 30vh;
+    height: 35vh;
     
    
 }
@@ -194,12 +205,12 @@ button.leftButton{
 
 /* footer grid*/
 #footer_grid{
-    background-color: rgba(73, 73, 73, 1);
+    background-color: rgb(51, 51, 51);
     background-size: 100vw;
     width: 100vw;
     margin:0 0 0 0;
     padding:0 0 0 0;
-   
+     
 }
 #footer_logo{
     height:10vw;
@@ -219,8 +230,10 @@ button.leftButton{
 }
 #grid_footer{
     display: grid;
-    grid-template-columns: 17vw 17vw 17vw 17vw;
-    margin:0 16vw 0 16vw;
+    
+    grid-template-columns: 25vw 16vw 16vw 16vw 16vw;
+    margin:0 0 0 0;
+    grid-gap:1.5vw;
 }
 .grid_footer_item{
     text-align: center;
@@ -228,9 +241,11 @@ button.leftButton{
     list-style: none;
     text-decoration: none;
     margin:2vw 0 0 0;
+    font-size:1vw;
+    
 }
 .grid_footer_item li a {
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(51, 51, 51);
     color: white;
     
     border-top:none;
@@ -239,12 +254,12 @@ button.leftButton{
     border-right:none;
     top:-20px;
     overflow: hidden;
-    font-size:50px;               
+                   
     transform:scale(1);
-    font-size:1vw
+    font-size:1vw;
 }
 .grid_footer_item a{
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(51, 51, 51);
     color: white;
     text-decoration: none;
     border-top:none;
@@ -256,10 +271,20 @@ button.leftButton{
     font-size:1vw;               
     
     transition:color 0.3s;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 .grid_footer_item a:hover{
     color:rgb(153, 153, 153);
     
 }
+.footer_heading{
+    padding-bottom: 2vw;
+    border-bottom: white solid 2px;
+    font-size: 1.5vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
 /*footrr grid*/
+
+
 }

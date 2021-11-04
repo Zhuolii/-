@@ -5,7 +5,7 @@ body {
     background: #e6e6e6;  
 }  
 .showSlide {  
-    display: none  
+    display:none ;  
 }  
     .showSlide img {  
         width: 100%;  
@@ -15,15 +15,14 @@ div.showSlide.grid_diapo{
 }
 .slidercontainer { 
     height: 850px;
-    margin-top: -150px;
     
      
-     
+    margin: auto;  
 }  
 .left, .right {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -1800px;
+    bottom: -800px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -53,7 +52,7 @@ div.showSlide.grid_diapo{
  .left3, .right3 {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -4200px;
+    bottom: -4800px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -68,7 +67,7 @@ div.showSlide.grid_diapo{
 .left4, .right4 {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -5400px;
+    bottom: -6400px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -83,7 +82,7 @@ div.showSlide.grid_diapo{
 .left5, .right5 {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -7050px;
+    bottom: -8150px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -98,7 +97,7 @@ div.showSlide.grid_diapo{
 .left6, .right6 {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -8650px;
+    bottom: -9950px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -148,15 +147,13 @@ div.showSlide.grid_diapo{
 .fade {  
 
     -webkit-animation-name: fade;  
-    -webkit-animation-duration: .5s;  
+    -webkit-animation-duration: 0.5s;  
     animation-name: fade;  
-    animation-duration: .5s; 
-    
+    animation-duration: 0.5s;  
 }  
-
 @-webkit-keyframes fade {  
     from {  
-        opacity: .8  
+        opacity: .8 
     }  
     to {  
         opacity: 1  
@@ -171,10 +168,59 @@ div.showSlide.grid_diapo{
         opacity: 1  
     }  
 }  
-
+#image_gradient1 {
+    background-image:
+    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
+    url('images/img1.jpg');
+    width: 1023px;
+    height: 827.19px;
+    background-size: cover;
+    display: flex;
+    z-index: -1000;
+    
+}
+#image_gradient2 {
+    background-image:
+    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
+    url('images/img2.jpg');
+    width: 1023px;
+    height: 827.19px;
+    display: flex;
+    z-index: -1000;
+   
+    background-size: cover;
+    
+    
+}
+#image_gradient3 {
+    background-image:
+    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
+    url('images/img3.jpg');
+    width: 1023px;
+    height: 827.19px;
+    display: flex;
+    z-index: -1000;
+   
+    background-size: cover;
+    
+    
+}
+#image_gradient4 {
+    background-image:
+    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
+    url('images/img4.jpg');
+    width: 1023px;
+    height: 827.19px;
+    
+    display: flex;
+    z-index: -1000;
+    background-size: cover;
+    
+    
+}
 #image_royale1 {
     background-image:
-    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), rgb(49, 49, 49)),
+    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
     url('images/img1.jpg');
     width: 1023px;
     height: 827.19px;
@@ -185,7 +231,7 @@ div.showSlide.grid_diapo{
 }
 #image_royale2 {
     background-image:
-    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), rgb(49, 49, 49)),
+    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
     url('images/img2.jpg');
     width: 1023px;
     height: 827.19px;
@@ -198,7 +244,7 @@ div.showSlide.grid_diapo{
 }
 #image_royale3 {
     background-image:
-    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), rgb(49, 49, 49)),
+    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
     url('images/img3.jpg');
     width: 1023px;
     height: 827.19px;
@@ -211,7 +257,7 @@ div.showSlide.grid_diapo{
 }
 #image_royale4 {
     background-image:
-    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), rgb(49, 49, 49)),
+    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
     url('images/img4.jpg');
     width: 1023px;
     height: 827.19px;
@@ -237,7 +283,6 @@ div.showSlide.grid_diapo{
     margin-left: 350px;
     padding: 0x;
 }
-
 }
 @media (min-width: 1024px)
 {
@@ -276,7 +321,13 @@ div.showSlide.grid_diapo{
         justify-content: center;
         align-items: center;
     }  
-    
+    .button-Diapo{
+        width: 3vw;  
+        height: 3vw;
+        background-color: grey;
+        border:none;
+        font-size:2vw;
+    }
     .button-Diapo:hover{
         cursor: pointer;
     }
@@ -333,8 +384,8 @@ div.showSlide.grid_diapo{
         background-image:
         linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
         url('images/img1.jpg');
-        width: 43vw;
-        height: 30.6vw;
+        width: 50vw;
+        height: 30vw;
         background-size: cover;
         
         z-index: -1000;
@@ -344,8 +395,8 @@ div.showSlide.grid_diapo{
         background-image:
         linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
         url('images/img2.jpg');
-        width: 43vw;
-        height: 30.6vw;
+        width: 50vw;
+        height: 30vw;
         
         z-index: -1000;
        
@@ -357,8 +408,8 @@ div.showSlide.grid_diapo{
         background-image:
         linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
         url('images/img3.jpg');
-        width: 43vw;
-        height: 30.6vw;
+        width: 50vw;
+        height: 30vw;
         
         z-index: -1000;
        
@@ -370,8 +421,8 @@ div.showSlide.grid_diapo{
         background-image:
         linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
         url('images/img4.jpg');
-        width: 43vw;
-        height: 30.6vw;
+        width: 50vw;
+        height: 30vw;
         
         
         z-index: -1000;
@@ -386,84 +437,3 @@ div.showSlide.grid_diapo{
         align-items: center;
     }
 }
-
-/* siteweb css*/
-/*diapo chambre 1*/
-
-#button-Diapo1,#button-Diapo2{
-    width: 3vw;  
-    height: 3vw;
-    background-color: grey;
-    border:none;
-    font-size:2vw;
-    position: absolute;
-    bottom: -13vw;
-
-}
-#button-Diapo2{
-    left:47vw;
-} 
-/*diapo chambre 1*/
-/*diapo chambre 2*/
-#button-Diapo3,#button-Diapo4{
-    width: 3vw;  
-    height: 3vw;
-    background-color: grey;
-    border:none;
-    font-size:2vw;
-    position: absolute;
-    bottom: -47vw;
-
-}
-#button-Diapo4{
-    left:90vw;
-} 
-/*diapo chambre 2*/
-/*diapo chambre 3*/
-#button-Diapo5,#button-Diapo6{
-    width: 3vw;  
-    height: 3vw;
-    background-color: grey;
-    border:none;
-    font-size:2vw;
-    position: absolute;
-    bottom: -79vw;
-
-}
-#button-Diapo6{
-    left:47vw;
-} 
-/*diapo chambre 3*/
-/*diapo chambre 4*/
-#button-Diapo7,#button-Diapo8{
-    width: 3vw;  
-    height: 3vw;
-    background-color: grey;
-    border:none;
-    font-size:2vw;
-    position: absolute;
-    bottom: -112vw;
-
-}
-#button-Diapo8{
-    left:90vw;
-} 
-/*diapo chambre 4*/
-/*diapo chambre 5*/
-#button-Diapo9,#button-Diapo10{
-    width: 3vw;  
-    height: 3vw;
-    background-color: grey;
-    border:none;
-    font-size:2vw;
-    position: absolute;
-    bottom: -145vw;
-
-}
-#button-Diapo10{
-    left:47vw;
-} 
-/*diapo chambre 5*/
-
-
-/* siteweb css*/

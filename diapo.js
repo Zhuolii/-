@@ -53,7 +53,109 @@ function displayNumber(){
                 slides[i].style.display = "none";  
             }  
             slides[slide_index2 - 1].style.display = "block";  
+        }
+          /*diapo hebergement */
+        /*diapo chambre 1 */
+        var slide_index2 = 1;  
+        displaySlides21(slide_index2);  
+        function nextSlide21(n) {  
+            displaySlides21(slide_index2 += n);  
         }  
+        function currentSlide21(n) {  
+            displaySlides21(slide_index2 = n);  
+        }  
+        function displaySlides21(n) {  
+            var i;  
+            var slides = document.getElementsByClassName("showSlide21");  
+            if (n > slides.length) { slide_index2 = 1 }  
+            if (n < 1) { slide_index2 = slides.length }  
+            for (i = 0; i < slides.length; i++) {  
+                slides[i].style.display = "none";  
+            }  
+            slides[slide_index2 - 1].style.display = "block";  
+        }  
+        /*diapo chambre 1 */
+        /*diapo chambre 2 */
+        var slide_index2 = 1;  
+        displaySlides22(slide_index2);  
+        function nextSlide22(n) {  
+            displaySlides22(slide_index2 += n);  
+        }  
+        function currentSlide22(n) {  
+            displaySlides22(slide_index2 = n);  
+        }  
+        function displaySlides22(n) {  
+            var i;  
+            var slides = document.getElementsByClassName("showSlide22");  
+            if (n > slides.length) { slide_index2 = 1 }  
+            if (n < 1) { slide_index2 = slides.length }  
+            for (i = 0; i < slides.length; i++) {  
+                slides[i].style.display = "none";  
+            }  
+            slides[slide_index2 - 1].style.display = "block";  
+        }  
+        /*diapo chambre 2 */
+        /*diapo chambre 3 */
+        var slide_index2 = 1;  
+        displaySlides23(slide_index2);  
+        function nextSlide23(n) {  
+            displaySlides23(slide_index2 += n);  
+        }  
+        function currentSlide23(n) {  
+            displaySlides23(slide_index2 = n);  
+        }  
+        function displaySlides23(n) {  
+            var i;  
+            var slides = document.getElementsByClassName("showSlide23");  
+            if (n > slides.length) { slide_index2 = 1 }  
+            if (n < 1) { slide_index2 = slides.length }  
+            for (i = 0; i < slides.length; i++) {  
+                slides[i].style.display = "none";  
+            }  
+            slides[slide_index2 - 1].style.display = "block";  
+        }  
+        /*diapo chambre 3 */
+         /*diapo chambre 4 */
+         var slide_index2 = 1;  
+         displaySlides24(slide_index2);  
+         function nextSlide24(n) {  
+             displaySlides24(slide_index2 += n);  
+         }  
+         function currentSlide24(n) {  
+             displaySlides24(slide_index2 = n);  
+         }  
+         function displaySlides24(n) {  
+             var i;  
+             var slides = document.getElementsByClassName("showSlide24");  
+             if (n > slides.length) { slide_index2 = 1 }  
+             if (n < 1) { slide_index2 = slides.length }  
+             for (i = 0; i < slides.length; i++) {  
+                 slides[i].style.display = "none";  
+             }  
+             slides[slide_index2 - 1].style.display = "block";  
+         }  
+         /*diapo chambre 4 */
+         /*diapo chambre 5 */
+         var slide_index2 = 1;  
+         displaySlides25(slide_index2);  
+         function nextSlide25(n) {  
+             displaySlides25(slide_index2 += n);  
+         }  
+         function currentSlide25(n) {  
+             displaySlides25(slide_index2 = n);  
+         }  
+         function displaySlides25(n) {  
+             var i;  
+             var slides = document.getElementsByClassName("showSlide25");  
+             if (n > slides.length) { slide_index2 = 1 }  
+             if (n < 1) { slide_index2 = slides.length }  
+             for (i = 0; i < slides.length; i++) {  
+                 slides[i].style.display = "none";  
+             }  
+             slides[slide_index2 - 1].style.display = "block";  
+         }  
+         /*diapo chambre 5 */
+        /*diapo hebergement */
       /*diapo 3 */
       var slide_index3 = 1;  
       displaySlides3(slide_index3);  

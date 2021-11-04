@@ -7,12 +7,15 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 #img_logo{
+    
     margin-left: -0.2vw;
     margin-top: -0.5vw;
     border-radius: 2vw;
     width: 4vw;
     height: 4vw;
+    float: left;
 }
+
 #alert_div{
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0)),
@@ -26,7 +29,7 @@ body{
         height:11vw;
         position: relative;
         z-index: 1;
-        width: 99.8vw;
+        width: 100vw;
        
         
 }
@@ -89,53 +92,37 @@ body{
 
 
 
-
-#video{
-    margin-top: 0px;
-    width: 100vw;
-    height: 50vw;
-    
+#img_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.856) ;
 }
-.video_text{
+#img_hebergement_background{
+    
+    width: 70vw;
+    height: 45vw;
+    background-image: url(./image\ video/image_heber.JPG);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    
     color: white;
-}
-.videoDiv{
-    background-color: rgba(0, 0, 0, 0.856);
-}
-#welcome1{
-    position: absolute;
-    top:15vw;
-    left: 22vw;
-    z-index:2;
-    font-size:3vw;
-   
-}
-#welcome2{
-    position: absolute;
-    top:21vw;
-    left: 42vw;
-    font-size:3vw;
-    z-index:2;
+    letter-spacing: 0.5vw;
     
 }
-#welcome3{
-    position: absolute;
-    top:35vw;
-    left: 20vw;
-    z-index:2;
-    font-size:2vw;
+
+
+#img_h1{
+    text-align: center;
+    justify-content: center;
 }
-#welcome4{
-    position: absolute;
-    top:40vw;
-    left: 15vw;
-    z-index:2;
-    font-size:2vw;
-    line-height: 5vw;
-}
+
 article1{
     width: 100vw;
-    height: 30vh;
+    height: 35vh;
     
    
 }
@@ -284,4 +271,6 @@ button.leftButton{
     
 }
 /*footrr grid*/
+
+
 }
