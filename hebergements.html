@@ -66,7 +66,7 @@
     <div class="grid--item item1"> 
        <!-- Code diapo-->
        <div class="slidercontainer">  
-        <div class="showSlide21 fade " style="display: block;">  
+        <div class="showSlide fade grid_diapo">  
             <div  class="grid-item" id="image_grid_container">
                  
                  <div id="image_gradient1" class="imageIndex">
@@ -77,7 +77,7 @@
                  </div>
             </div>
         </div>  
-        <div class="showSlide21 fade " style="display: none;">  
+        <div class="showSlide fade grid_diapo">  
             <div id="image_grid_container" class="grid-item">
          
                 <div id="image_gradient2" class="imageIndex">
@@ -87,7 +87,7 @@
          </div>  
         </div>  
   
-        <div class="showSlide21 fade "style="display: none;">  
+        <div class="showSlide fade grid_diapo">  
             <div id="image_grid_container" class="grid-item">
          
                 <div id="image_gradient3" class="imageIndex">
@@ -96,7 +96,7 @@
                 </div>
          </div> 
         </div>  
-        <div class="showSlide21 fade "style="display: none;">  
+        <div class="showSlide fade grid_diapo">  
             <div id="image_grid_container" class="grid-item">
          
                 <div id="image_gradient4" class="imageIndex">
@@ -106,8 +106,8 @@
          </div> 
         </div>  
         <!-- Navigation arrows -->  
-        <a id="left1" onclick="nextSlide21(-1)" ><button id="button-Diapo1">❮</button></a> 
-        <a id="right1" onclick="nextSlide21(1)"><button id="button-Diapo2">❯</button></a> 
+        <a id="left1" onclick="nextSlide(-1)" ><button id="button-Diapo1">❮</button></a> 
+        <a id="right1" onclick="nextSlide(1)"><button id="button-Diapo2">❯</button></a> 
        
     </div> 
     <!-- Code diapo-->
@@ -468,10 +468,10 @@
                    </p></div>
                  <!-- Code diapo-->
         <div class="slidercontainer">  
-          <div class="showSlide26 fade grid_diapo">  
+          <div class="showSlide26 fade grid_diapo" style="display: block;">  
               <div  class="grid-item" id="image_grid_container">
                    
-                   <div id="image_gradient1" class="imageIndex">
+                   <div id="image_diapo1" class="imageIndex">
                      
                   
                    
@@ -479,37 +479,37 @@
                    </div>
               </div>
           </div>  
-          <div class="showSlide26 fade grid_diapo">  
+          <div class="showSlide26 fade grid_diapo" style="display: none;">  
               <div id="image_grid_container" class="grid-item">
            
-                  <div id="image_gradient2" class="imageIndex">
+                  <div id="image_diapo2" class="imageIndex">
           
                    
                   </div>
            </div>  
           </div>  
     
-          <div class="showSlide26 fade grid_diapo">  
+          <div class="showSlide26 fade grid_diapo" style="display: none;">  
               <div id="image_grid_container" class="grid-item">
            
-                  <div id="image_gradient3" class="imageIndex">
+                  <div id="image_diapo3" class="imageIndex">
                   
                    
                   </div>
            </div> 
           </div>  
-          <div class="showSlide26 fade grid_diapo">  
+          <div class="showSlide26 fade grid_diapo" style="display: none;">  
               <div id="image_grid_container" class="grid-item">
            
-                  <div id="image_gradient4" class="imageIndex">
+                  <div id="image_diapo4" class="imageIndex">
                    
                    
                   </div>
            </div> 
           </div>  
           <!-- Navigation arrows -->  
-           <a class="left"style="bottom:-2300px" onclick="nextSlide26(-1)">❮</a>  
-          <a class="right" style="bottom:-2300px" onclick="nextSlide26(1)">❯</a> 
+           <a class="left" onclick="nextSlide26(-1)">❮</a>  
+          <a class="right"  onclick="nextSlide26(1)">❯</a> 
          
       </div> 
       <!-- Code diapo-->

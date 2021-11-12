@@ -68,12 +68,16 @@ function displayNumber(){
         function displaySlides21(n) {  
             var i;  
             var slides = document.getElementsByClassName("showSlide21");  
-            if (n > slides.length) { slide_index2 = 1 }  
-            if (n < 1) { slide_index2 = slides.length }  
+            if (n > slides.length) {
+                 slide_index2 = 1
+                 }  
+            if (n < 1) {
+                 slide_index2 = slides.length
+                 }  
             for (i = 0; i < slides.length; i++) {  
                 slides[i].style.display = "none";  
             }  
-            slides[slide_index2 - 1].style.display = "block";  
+            slides[slide_index2-1].style.display = "block";  
         }  
         /*diapo chambre 1 */
         /*diapo chambre 2 */
@@ -158,6 +162,7 @@ function displayNumber(){
          /*diapo chambre 5 */
         /*diapo hebergement */
          /* ver web*/
+    
          /* ver mobile*/
              /*diapo hebergement */
           
@@ -262,7 +267,7 @@ function displayNumber(){
          }  
          /*diapo chambre 5 */
         /*diapo hebergement */
-         /* ver mobile*/
+         /* ver mobile*/ 
       /*diapo 3 */
       var slide_index3 = 1;  
       displaySlides3(slide_index3);  

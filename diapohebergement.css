@@ -4,9 +4,14 @@ body {
     margin: 0;  
     background: #e6e6e6;  
 }  
-.showSlide {  
+/* showslide css*/
+.showSlide,.showSlide21,.showSlide22,.showSlide23,.showSlide24,.showSlide25,.showSlide26 {  
     display: none  
 }  
+
+
+
+/* showslide css*/
     .showSlide img {  
         width: 100%;  
     }  
@@ -20,7 +25,7 @@ div.showSlide.grid_diapo{
      
      
 }  
-.left, .right {  
+#left, #right {  
     cursor: pointer;  
     position: absolute;  
     bottom: -1800px;
@@ -35,7 +40,7 @@ div.showSlide.grid_diapo{
     background-color: gray;
     opacity:0.78; 
 }  
-.left2, .right2 {  
+#left2, #right2 {  
     cursor: pointer;  
     position: absolute;  
     bottom: -3000px;
@@ -50,7 +55,7 @@ div.showSlide.grid_diapo{
     background-color: gray;
     opacity:0.78; 
 } 
- .left3, .right3 {  
+#left3, #right3 {  
     cursor: pointer;  
     position: absolute;  
     bottom: -4200px;
@@ -65,7 +70,7 @@ div.showSlide.grid_diapo{
     background-color: gray;
     opacity:0.78; 
 }  
-.left4, .right4 {  
+#left4, #right4 {  
     cursor: pointer;  
     position: absolute;  
     bottom: -5400px;
@@ -80,7 +85,7 @@ div.showSlide.grid_diapo{
     background-color: gray;
     opacity:0.78; 
 }  
-.left5, .right5 {  
+#left5, #right5 {  
     cursor: pointer;  
     position: absolute;  
     bottom: -7050px;
@@ -95,7 +100,7 @@ div.showSlide.grid_diapo{
     background-color: gray;
     opacity:0.78; 
 }  
-.left6, .right6 {  
+#left6, #right6 {  
     cursor: pointer;  
     position: absolute;  
     bottom: -8650px;
@@ -110,26 +115,26 @@ div.showSlide.grid_diapo{
     background-color: gray;
     opacity:0.78; 
 }  
-.right, .right2, .right3, .right4, .right5, .right6 {  
+#right, #right2, #right3, #right4, #right5, #right6 {  
     right: -40px;  
     border-radius: 3px 0 0 3px;  
 }  
-    .left:hover, .right:hover {  
+    #left:hover, #right:hover {  
         background-color: rgba(115, 115, 115, 0.8);  
     }  
-    .left2:hover, .right2:hover {  
+    #left2:hover, #right2:hover {  
         background-color: rgba(115, 115, 115, 0.8);  
     }  
-    .left3:hover, .right3:hover {  
+    #left3:hover, #right3:hover {  
         background-color: rgba(115, 115, 115, 0.8);  
     }  
-    .left4:hover, .right4:hover {  
+    #left4:hover, #right4:hover {  
         background-color: rgba(115, 115, 115, 0.8);  
     }  
-    .left5:hover, .right5:hover {  
+    #left5:hover, #right5:hover {  
         background-color: rgba(115, 115, 115, 0.8);  
     }  
-    .left6:hover, .right6:hover {  
+    #left6:hover, #right6:hover {  
         background-color: rgba(115, 115, 115, 0.8);  
     }  
 .content {  
@@ -305,6 +310,7 @@ div.showSlide.grid_diapo{
     }  
     /* Fading animation */  
     .fade {  
+        display: none;
     
         -webkit-animation-name: fade;  
         -webkit-animation-duration: 1s;  
