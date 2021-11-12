@@ -10,18 +10,54 @@
         grid-template-rows: 341px 341px 341px;
         margin-top: 10em;
         background-image:
-            linear-gradient(to bottom, rgba(161, 161, 161, 0.1), rgb(32, 32, 32)),
-            url('image video/chateau1.1.jpg');
+            
+            url(./image\ video/image_heber.JPG);
             width: 1023px;
             height: 1023px;
-            background-size: cover;
-            
-           
-           
-            
+            background-size: cover;   
+    }
+    #welcome2{
+        word-break: break-word;
+        line-height: 90px;
+        margin: 700px 40px 0 -400px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        font-size:70px;
+        text-shadow: 5px 5px black;
+        color:white;
         
         
-        
+    }
+    #reserver1{
+        font-size:40px;
+        width:330px;
+        padding:20px 20px 20px 20px;
+        margin-top: -60px;
+    }
+    #h0{
+       font-size: 4em; 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       
+       color: rgb(53, 53, 53);
+    }
+    #pp{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    #p0{
+        font-size: 4em; 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
+    #p1{
+        font-family:Georgia, 'Times New Roman', Times, cursive;
+        font-style:oblique ;
     }
     #image_grid_container{
         display: grid;
@@ -39,7 +75,7 @@
     #image_gradient {
             background-image:
             linear-gradient(to bottom, rgba(161, 161, 161, 0.1), rgb(32, 32, 32)),
-            url('image video/chateau1.1.jpg');
+            url(./image\ video/image_heber.JPG);
             width: 1023px;
             height: 1023px;
            
@@ -117,10 +153,7 @@
     
 .grid-container_room{
     display: grid;
-    grid-template-areas:
-     "grid-item_room1 grid-item_room2"
-     "grid-item_room3 grid-item_room4"
-    ;
+    grid-template-rows: 100vw;;
     width: 1023px;
     height: 750px;
 }
@@ -169,4 +202,84 @@
     justify-content: center;
     align-items: center;
 }
+/* sitemobile css*/
+/*diapo chambre 1*/
+
+#button-Diapo11,#button-Diapo12{
+    width: 3vw;  
+    height: 3vw;
+    background-color: grey;
+    border:none;
+    font-size:2vw;
+    position: absolute;
+    bottom: -13vw;
+
+}
+#button-Diapo12{
+    left:47vw;
+} 
+/*diapo chambre 1*/
+/*diapo chambre 2*/
+#button-Diapo13,#button-Diapo14{
+    width: 3vw;  
+    height: 3vw;
+    background-color: grey;
+    border:none;
+    font-size:2vw;
+    position: absolute;
+    bottom: -47vw;
+
+}
+#button-Diapo14{
+    left:90vw;
+} 
+/*diapo chambre 2*/
+/*diapo chambre 3*/
+#button-Diapo15,#button-Diapo16{
+    width: 3vw;  
+    height: 3vw;
+    background-color: grey;
+    border:none;
+    font-size:2vw;
+    position: absolute;
+    bottom: -79vw;
+
+}
+#button-Diapo16{
+    left:47vw;
+} 
+/*diapo chambre 3*/
+/*diapo chambre 4*/
+#button-Diapo17,#button-Diapo18{
+    width: 3vw;  
+    height: 3vw;
+    background-color: grey;
+    border:none;
+    font-size:2vw;
+    position: absolute;
+    bottom: -112vw;
+
+}
+#button-Diapo18{
+    left:90vw;
+} 
+/*diapo chambre 4*/
+/*diapo chambre 5*/
+#button-Diapo19,#button-Diapo20{
+    width: 3vw;  
+    height: 3vw;
+    background-color: grey;
+    border:none;
+    font-size:2vw;
+    position: absolute;
+    bottom: -145vw;
+
+}
+#button-Diapo20{
+    left:47vw;
+} 
+/*diapo chambre 5*/
+
+
+/* sitemobile css*/
  }

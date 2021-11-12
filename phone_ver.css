@@ -18,12 +18,13 @@
         background-color: white;
         position: static;
         z-index: -2;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       
     }
    /* bouton de navigation*/
     label.nav__toggle{
         position:fixed;
-        left: 55em;
+        left: 56.5em;
         top:3em;
         z-index: 200;
         
@@ -33,6 +34,15 @@
     label.nav__toggle:hover{
         cursor: pointer;
         
+    }
+    #labeldiv{
+        position: fixed;
+    left: 54em;
+    top: 0em;
+    z-index: 200;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(185, 185, 185);
     }
     /* bouton de navigation*/
     .nav svg{
@@ -341,7 +351,7 @@ h1#titrefooter{
 }
 #footer_grid{
     
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(51, 51, 51);
     color: white;
    /* background-image:
     url('\image video/logochateau.jpg');*/
