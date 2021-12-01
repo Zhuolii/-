@@ -2,7 +2,7 @@
 {
 body {  
     margin: 0;  
-    background: #e6e6e6;  
+    background: rgb(255, 255, 255);  
 }  
 /* showslide css*/
 .showSlide,.showSlide21,.showSlide22,.showSlide23,.showSlide24,.showSlide25,.showSlide26 {  
@@ -399,15 +399,16 @@ div.showSlide.grid_diapo{
 #button-Diapo1,#button-Diapo2{
     width: 3vw;  
     height: 3vw;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.479);
     border:none;
     font-size:2vw;
     position: absolute;
-    bottom: -13vw;
+    bottom: -68vw;
+    left: 7vw;
 
 }
 #button-Diapo2{
-    left:47vw;
+    left:46vw;
 } 
 /*diapo chambre 1*/
 /*diapo chambre 2*/
@@ -418,11 +419,12 @@ div.showSlide.grid_diapo{
     border:none;
     font-size:2vw;
     position: absolute;
-    bottom: -47vw;
+    bottom: -105vw;
+    left: 7vw;
 
 }
 #button-Diapo4{
-    left:90vw;
+    left:46vw;
 } 
 /*diapo chambre 2*/
 /*diapo chambre 3*/
@@ -433,11 +435,12 @@ div.showSlide.grid_diapo{
     border:none;
     font-size:2vw;
     position: absolute;
-    bottom: -79vw;
+    bottom: -141vw;
+    left: 7vw;
 
 }
 #button-Diapo6{
-    left:47vw;
+    left:46vw;
 } 
 /*diapo chambre 3*/
 /*diapo chambre 4*/
@@ -448,11 +451,11 @@ div.showSlide.grid_diapo{
     border:none;
     font-size:2vw;
     position: absolute;
-    bottom: -112vw;
-
+    bottom: -179vw;
+    left: 7vw;
 }
 #button-Diapo8{
-    left:90vw;
+    left:46vw;
 } 
 /*diapo chambre 4*/
 /*diapo chambre 5*/
@@ -463,11 +466,12 @@ div.showSlide.grid_diapo{
     border:none;
     font-size:2vw;
     position: absolute;
-    bottom: -145vw;
+    bottom: -216vw;
+    left: 7vw;
 
 }
 #button-Diapo10{
-    left:47vw;
+    left:46vw;
 } 
 /*diapo chambre 5*/
 

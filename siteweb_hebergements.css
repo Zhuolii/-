@@ -5,7 +5,8 @@ body{
     background-color: rgb(250, 249, 249);
     overflow-x:hidden;
    
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 #img_logo{
     
@@ -123,8 +124,8 @@ body{
 }
 
 article1{
-    width: 100vw;
-    height: 35vh;
+    width: 89vw;
+    height: 58vh;
     
    
 }
@@ -133,23 +134,73 @@ article1 h1{
     text-transform: uppercase;
 }
 article1 div{
-    text-align: center;
+    text-align: left;
 }
 article1 div img{
     width:45%;
     height:45%;
     
 }
+#wh0{
+    font-size: 3vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    color: rgb(53, 53, 53);
+ }
+ #img_01{
+     width: 90%;
+     height:80%;
+     size-adjust:initial;
+     margin-left: 4vw;
+ }
+ #wpp{
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 1.5em;
+     font-weight: normal;
+     margin-top: 5vw;
+     
+ }
+ #wp0{
+     font-size: 4em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+   
+ }
+ #wp01{
+     letter-spacing: 0.8px;
+     line-height: 1.7em ;
+     font-size: 1em;
+     font-style:normal;
+ }
+ #wp1{
+     font-family:Georgia, 'Times New Roman', Times, cursive;
+     font-style:oblique ;
+     line-height: 2.8vw;
+     letter-spacing: 0.1vw;
+     font-size: larger;
+ }
 
 .grid-container{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    margin:0 5vw 0 8vw;
-}
-.grid--item{
+    margin:0 5vw 2vw 6vw;
     
-    margin:1vw 0 1vw 0;
-    padding: 1vw;
+}
+.grid-container2{
+    display:grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    margin:0 5vw 2vw 6vw;
+}
+.grid--item,.grid--item1{
+   margin:  3vw 0 3vw 0;
+    
+    
+   
 }
 .grid--item img{
     padding: none;
@@ -159,6 +210,10 @@ article1 div img{
 }
 .grid--item h2{
     text-align: center;
+}
+.grid--item p{
+    margin:0 1vw 0 1vw;
+    line-height: 2.5vw;
 }
 .grid--item button{
    height: 5vw;
@@ -196,9 +251,7 @@ button.leftButton{
 .item3,.item7{
     background-color: rgb(231, 231, 224);
 }
-.item1,.item4,.item5,.item8,.item9{
-    padding: 0 0 0 0;
-}
+
 
 
 
