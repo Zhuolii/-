@@ -27,8 +27,8 @@ div.showSlide.grid_diapo{
 }  
 #left, #right {  
     cursor: pointer;  
-    position: absolute;  
-    bottom: -4100px;
+    position:relative;
+    bottom:460px;
     width: 1.5em;  
     height:1.5em;
     
@@ -133,8 +133,10 @@ div.showSlide.grid_diapo{
     opacity:0.78; 
 }  
 #right, #right2, #right3, #right4, #right5, #right6 {  
-    right: -40px;  
-    border-radius: 3px 0 0 3px;  
+      
+    border-radius: 3px 0 0 3px; 
+    left:900px; 
+    bottom:550px;
 }  
     #button-Diapo11:hover,#button-Diapo12:hover {  
         background-color: rgb(228, 194, 0);  
