@@ -5,7 +5,7 @@ body {
     background: rgb(255, 255, 255);  
 }  
 /* showslide css*/
-.showSlide,.showSlide21,.showSlide22,.showSlide23,.showSlide24,.showSlide25,.showSlide26 {  
+.showSlide,.showSlide21,.showSlide22,.showSlide23,.showSlide24,.showSlide25,.showSlide26,.showSlide27,.showSlide28,.showSlide29,.showSlide30 {  
     display: none  
 }  
 
@@ -25,7 +25,11 @@ div.showSlide.grid_diapo{
      
      
 }  
-#left, #right {  
+#left, #right
+,#left2, #right2
+,#left3, #right3
+,#left4, #right4
+,#left5, #right5 {  
     cursor: pointer;  
     position:relative;
     bottom:460px;
@@ -44,7 +48,11 @@ div.showSlide.grid_diapo{
     justify-content: center;
     align-items: center;
 } 
-#button-Diapo11,#button-Diapo12{
+#button-Diapo11,#button-Diapo12
+,#button-Diapo13,#button-Diapo14
+,#button-Diapo15,#button-Diapo16
+,#button-Diapo17,#button-Diapo18
+,#button-Diapo19,#button-Diapo20{
     width: 6em;
     height: 6em;
     border-radius: 50%;
@@ -53,110 +61,30 @@ div.showSlide.grid_diapo{
    
     
 } 
-#button-Diapo11 p,#button-Diapo12 p{
+#button-Diapo11 p,#button-Diapo12 p,
+#button-Diapo13 p,#button-Diapo14 p,
+#button-Diapo15 p,#button-Diapo16 p,
+#button-Diapo17 p,#button-Diapo18 p,
+#button-Diapo19 p,#button-Diapo20 p{
     font-size: 3em;
     margin: 0;
 }
-#left2, #right2 {  
-    cursor: pointer;  
-    position: absolute;  
-    bottom: -3000px;
-    width: auto;  
-    padding: 16px;  
-    margin: 100px 15px 0 15px;  
-    color: black;  
-    font-weight: bold;  
-    font-size: 60px;  
-    transition: 0.6s ease;  
-    border-radius: 10px;
-    background-color: gray;
-    opacity:0.78; 
-} 
-#left3, #right3 {  
-    cursor: pointer;  
-    position: absolute;  
-    bottom: -4200px;
-    width: auto;  
-    padding: 16px;  
-    margin: 100px 15px 0 15px;  
-    color: black;  
-    font-weight: bold;  
-    font-size: 60px;  
-    transition: 0.6s ease;  
-    border-radius: 10px;
-    background-color: gray;
-    opacity:0.78; 
-}  
-#left4, #right4 {  
-    cursor: pointer;  
-    position: absolute;  
-    bottom: -5400px;
-    width: auto;  
-    padding: 16px;  
-    margin: 100px 15px 0 15px;  
-    color: black;  
-    font-weight: bold;  
-    font-size: 60px;  
-    transition: 0.6s ease;  
-    border-radius: 10px;
-    background-color: gray;
-    opacity:0.78; 
-}  
-#left5, #right5 {  
-    cursor: pointer;  
-    position: absolute;  
-    bottom: -7050px;
-    width: auto;  
-    padding: 16px;  
-    margin: 100px 15px 0 15px;  
-    color: black;  
-    font-weight: bold;  
-    font-size: 60px;  
-    transition: 0.6s ease;  
-    border-radius: 10px;
-    background-color: gray;
-    opacity:0.78; 
-}  
-#left6, #right6 {  
-    cursor: pointer;  
-    position: absolute;  
-    bottom: -8650px;
-    width: auto;  
-    padding: 16px;  
-    margin: 100px 15px 0 15px;  
-    color: black;  
-    font-weight: bold;  
-    font-size: 60px;  
-    transition: 0.6s ease;  
-    border-radius: 10px;
-    background-color: gray;
-    opacity:0.78; 
-}  
-#right, #right2, #right3, #right4, #right5, #right6 {  
+
+#right, #right2, #right3, #right4, #right5 {  
       
     border-radius: 3px 0 0 3px; 
     left:900px; 
     bottom:550px;
 }  
-    #button-Diapo11:hover,#button-Diapo12:hover {  
+    #button-Diapo11:hover,#button-Diapo12:hover,
+    #button-Diapo13:hover,#button-Diapo14:hover,
+    #button-Diapo15:hover,#button-Diapo16:hover,
+    #button-Diapo17:hover,#button-Diapo18:hover,
+    #button-Diapo19:hover,#button-Diapo20:hover {  
         background-color: rgb(228, 194, 0);  
         color:white;
     }  
-    #left2:hover, #right2:hover {  
-        background-color: rgba(115, 115, 115, 0.8);  
-    }  
-    #left3:hover, #right3:hover {  
-        background-color: rgba(115, 115, 115, 0.8);  
-    }  
-    #left4:hover, #right4:hover {  
-        background-color: rgba(115, 115, 115, 0.8);  
-    }  
-    #left5:hover, #right5:hover {  
-        background-color: rgba(115, 115, 115, 0.8);  
-    }  
-    #left6:hover, #right6:hover {  
-        background-color: rgba(115, 115, 115, 0.8);  
-    }  
+    
 .content {  
     color: #eff5d4;  
     font-size: 30px;  
@@ -181,7 +109,7 @@ div.showSlide.grid_diapo{
 
 @-webkit-keyframes fade {  
     from {  
-        opacity: .8  
+        opacity: .81  
     }  
     to {  
         opacity: 1  
@@ -190,13 +118,13 @@ div.showSlide.grid_diapo{
 
 @keyframes fade {  
     from {  
-        opacity: .8  
+        opacity: 1  
     }  
     to {  
         opacity: 1  
     }  
 }  
-
+/* Fading animation */  
 #image_royale1 {
     background-image:
     linear-gradient(to bottom, rgba(214, 210, 210, 0.1), rgb(49, 49, 49)),
@@ -249,21 +177,7 @@ div.showSlide.grid_diapo{
     
     
 }
-.plus1{
-    z-index: 2;
-    width: 300px;
-    height: 74.8px;
-    color: white;
-    letter-spacing: 6px;
-    font-size: 30px;
-    background-color: rgb(0, 0, 0);
-    border: solid white 2px;
-    display: flex;
-    align-items: center;
-    margin-top: 650px;
-    margin-left: 350px;
-    padding: 0x;
-}
+
 
 } /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver *//* phone ver *//* phone ver */
 /*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver */
