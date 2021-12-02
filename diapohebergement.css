@@ -1,4 +1,4 @@
-@media (max-width: 1023px)
+@media (max-width: 1023px)  /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */
 {
 body {  
     margin: 0;  
@@ -28,18 +28,35 @@ div.showSlide.grid_diapo{
 #left, #right {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -1800px;
-    width: auto;  
-    padding: 16px;  
-    margin: 100px 15px 0 15px;  
+    bottom: -4100px;
+    width: 1.5em;  
+    height:1.5em;
+    
+    margin: 0 15px 0 15px;  
     color: black;  
     font-weight: bold;  
     font-size: 60px;  
     transition: 0.6s ease;  
     border-radius: 10px;
+    
+    opacity:1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#button-Diapo11,#button-Diapo12{
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    border: solid rgb(255, 255, 255) 0.5em;
     background-color: gray;
-    opacity:0.78; 
-}  
+   
+    
+} 
+#button-Diapo11 p,#button-Diapo12 p{
+    font-size: 3em;
+    margin: 0;
+}
 #left2, #right2 {  
     cursor: pointer;  
     position: absolute;  
@@ -119,8 +136,9 @@ div.showSlide.grid_diapo{
     right: -40px;  
     border-radius: 3px 0 0 3px;  
 }  
-    #left:hover, #right:hover {  
-        background-color: rgba(115, 115, 115, 0.8);  
+    #button-Diapo11:hover,#button-Diapo12:hover {  
+        background-color: rgb(228, 194, 0);  
+        color:white;
     }  
     #left2:hover, #right2:hover {  
         background-color: rgba(115, 115, 115, 0.8);  
@@ -183,6 +201,8 @@ div.showSlide.grid_diapo{
     url('images/img1.jpg');
     width: 1023px;
     height: 827.19px;
+   
+
     background-size: cover;
     display: flex;
     z-index: -1000;
@@ -243,8 +263,9 @@ div.showSlide.grid_diapo{
     padding: 0x;
 }
 
-}
-@media (min-width: 1024px)
+} /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver *//* phone ver *//* phone ver */
+/*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver */
+@media (min-width: 1024px) 
 {
     .showSlide {  
         display:none ;  
@@ -477,3 +498,4 @@ div.showSlide.grid_diapo{
 
 
 /* siteweb css*/
+/*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver */
