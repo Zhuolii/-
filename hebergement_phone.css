@@ -84,16 +84,42 @@
     .texte_chambre{
         word-break: break-word;
     line-height: 90px;
-    padding:100px 40px 200px 40px;
+    padding:100px 40px 0px 40px;
     margin-top:0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 2px;
     color: rgb(58, 58, 58);
-    border-bottom: solid rgb(58, 58, 58) 4px;
+    margin-bottom: 0;
     background-color: rgb(255, 238, 215);
     }
     .image_chambre{
         height:828px;
+    }
+    .small_logos{
+        width: 100px;
+        height: 100px;
+    }
+    span{
+        font-size:80px;
+        color: green;
+    }
+    .chambre_button{
+         font-size:40px;
+        width:500px;
+        height:180px;
+        color: black;
+        background-color: rgb(216, 169, 103);
+        border-radius: 95px;
+        border: none;
+    }
+    .button_chambre_div{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(255, 238, 215);
+        border-bottom: solid rgb(58, 58, 58) 4px;
+        padding: 50px 0 100px 0;
+        
+       
     }
    
     
