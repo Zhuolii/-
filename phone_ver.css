@@ -407,14 +407,14 @@ h1#titrefooter{
     display: grid;
 }
 div#footer_grid.grid-item{
-    width:max-content;
+    width:1040px;
 }
 .logo_contract{
     
     background-color: rgb(51, 51, 51);
     color: white;
     border-radius: solid rgb(51, 51, 51);
-    width: 1040px;
+    
     border: none;
     overflow: hidden;
     font-size:50px;
@@ -423,7 +423,7 @@ div#footer_grid.grid-item{
     width:60px;
     height:60px;
     padding-right:20px;
-    margin-top:60px;
+    margin-top:0px;
 }
 .text_footer{
     color: white;
