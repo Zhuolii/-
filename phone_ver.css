@@ -150,12 +150,12 @@
         color: rgb(0, 0, 0);
         font-size: 40px;
         display: block;
-        width:1017px;
+        width:980px;
         
-        border-top: solid black;
-        border-left:solid black ;
-        border-right: solid black;
-        margin:0 0 0 5px;
+        border-top: solid black 3px;
+        border-left:solid black 3px;
+        border-right: solid black 3px;
+        margin:0 0 0 20px;
         
         transform: scaleY(0);
         transition:all 0.2s ease;
@@ -172,7 +172,7 @@
     }
     #contact{
         border-top:none;
-        border-bottom:solid black;
+        border-bottom:solid black 3px;
     }
     div ul li a:hover{
         background-color: rgb(255, 238, 215);
