@@ -150,7 +150,7 @@
         color: rgb(0, 0, 0);
         font-size: 40px;
         display: block;
-       
+        width:1017px;
         
         border-top: solid black;
         border-left:solid black ;
@@ -167,11 +167,11 @@
     }
     /*texte barre menu */
     #hebergements{
-        width:1023px;
+       
         border:solid black 3px;
     }
     #contact{
-        width:1023px;
+        border-top:none;
         border-bottom:solid black;
     }
     div ul li a:hover{
