@@ -1,11 +1,11 @@
 
-@media (max-width: 1023px){
+@media (max-width: 1040px){
     body{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     
     div.siteMobile{
-        width: 1023px;
+        width: 1040px;
         height: auto;
         
     }
@@ -16,8 +16,8 @@
         background-image:
             
             url(./image\ video/image_heber.JPG);
-            width: 1023px;
-            height: 1023px;
+            width: 1038px;
+            height: 1038px;
             background-size: cover;   
     }
     #welcome2{
