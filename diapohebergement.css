@@ -83,6 +83,7 @@ div.showSlide.grid_diapo{
     #button-Diapo19:hover,#button-Diapo20:hover {  
         background-color: rgb(228, 194, 0);  
         color:white;
+        border:none;
     }  
     
 .content {  
