@@ -239,5 +239,8 @@ function displayNumber(){
     function startTimer() {
         timer = setInterval(function() {
             nextSlide2(1);
-        }, 5000) ;
+        }, 6000) ;
     }
+    function clearTimer() {
+        clearInterval(timer);
+}

@@ -248,31 +248,38 @@ div.showSlide.grid_diapo{
     }  
     /* Fading animation */  
     .fade {  
-        display: none;
+        animation: fadeIn ease 1s;
+        -webkit-animation: fadeIn ease 1s;
+        -moz-animation: fadeIn ease 1s;
+        -o-animation: fadeIn ease 1s;
+        -ms-animation: fadeIn ease 1s;
+      }
+      @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
     
-        -webkit-animation-name: fade;  
-        -webkit-animation-duration: 1s;  
-        animation-name: fade;  
-        animation-duration: 1s;
-        animation-timing-function: ease-in-out ;  
-    }  
-    @-webkit-keyframes fade {  
-        from {  
-            opacity: .8 
-        }  
-        to {  
-            opacity: 1  
-        }  
-    }  
     
-    @keyframes fade {  
-        from {  
-            opacity: .8  
-        }  
-        to {  
-            opacity: 1  
-        }  
-    } 
     #image_gradient1 {
         background-image:
         linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
@@ -329,12 +336,12 @@ div.showSlide.grid_diapo{
         justify-content: center;
         align-items: center;
     }
-
+}
 
 /* siteweb css*/
 /*diapo chambre 1*/
 
-#button-Diapo1,#button-Diapo2,#left1,#right1{
+#button-Diapo1,#button-Diapo2{
     width: 3vw;  
     height: 3vw;
     background-color: rgba(128, 128, 128, 0.479);
@@ -343,24 +350,24 @@ div.showSlide.grid_diapo{
     position: absolute;
     bottom: -68vw;
     left: 7vw;
-    
-    
+    cursor:pointer;
+
 }
 #button-Diapo2{
     left:46vw;
-    
 } 
 /*diapo chambre 1*/
 /*diapo chambre 2*/
 #button-Diapo3,#button-Diapo4{
     width: 3vw;  
     height: 3vw;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.479);
     border:none;
     font-size:2vw;
     position: absolute;
     bottom: -105vw;
     left: 7vw;
+    cursor:pointer;
 
 }
 #button-Diapo4{
@@ -371,12 +378,13 @@ div.showSlide.grid_diapo{
 #button-Diapo5,#button-Diapo6{
     width: 3vw;  
     height: 3vw;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.479);
     border:none;
     font-size:2vw;
     position: absolute;
     bottom: -141vw;
     left: 7vw;
+    cursor:pointer;
 
 }
 #button-Diapo6{
@@ -387,12 +395,13 @@ div.showSlide.grid_diapo{
 #button-Diapo7,#button-Diapo8{
     width: 3vw;  
     height: 3vw;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.479);
     border:none;
     font-size:2vw;
     position: absolute;
     bottom: -179vw;
     left: 7vw;
+    cursor:pointer;
 }
 #button-Diapo8{
     left:46vw;
@@ -402,20 +411,20 @@ div.showSlide.grid_diapo{
 #button-Diapo9,#button-Diapo10{
     width: 3vw;  
     height: 3vw;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.479);
     border:none;
     font-size:2vw;
     position: absolute;
     bottom: -216vw;
     left: 7vw;
+    cursor:pointer;
 
 }
-
 #button-Diapo10{
     left:46vw;
-}
- /*diapo chambre 5*/
+} 
+/*diapo chambre 5*/
+
 
 /* siteweb css*/
 /*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver */
- }

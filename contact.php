@@ -1,3 +1,8 @@
+<?php 
+session_start();
+ ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,7 +44,7 @@
         <li><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
         <li><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>
         <li><a href="hebergements.html"id="hebergements"class=" menu_link">HÉBERGEMENTS</a></li>
-        <li><a href="contact.html"id="contact"class="menu_link current top">CONTACT</a></li>
+        <li><a href="contact.php"id="contact"class="menu_link current top">CONTACT</a></li>
        </ul>
        </div>
 
@@ -49,7 +54,7 @@
  <!--Code site web-->
  <div class="siteWeb">
   <?php
-  
+  include("contact_form.php");
   ?> 
     
   <div id="img_div" > 
@@ -79,20 +84,20 @@
 
     <div class="grid--item item2">
         <h2>ENVOYER UN E-MAIL</h2>
-        <form action="formulaire.php" method="post">
+        <form>
         <label for="nom">Nom</label>
-        <input type="text" name="nom" id="nom" placeholder="Nom">
+        <input type="text" name="Nom" id="nom" placeholder="Nom">
         <label for="prenom">Prénom</label>
-        <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+        <input type="text" name="Prénom" id="prenom" placeholder="Prénom">
         <label for="email">E-mail</label>
-        <input type="email" name="email" id="email" placeholder="Adresse mail">
+        <input type="email" name="E-mail" id="email" placeholder="Adresse mail">
         <label for="tel">Téléphone</label>
-        <input type="tel" name="telephone" id="tel" placeholder="Numéro de téléphone"> 
+        <input type="tel" name="Téléphone" id="tel" placeholder="Numéro de téléphone"> 
         <label for="objet">Objet</label>
-        <input type="text" name="objet" id="objet" placeholder="Objet du message">
+        <input type="text" name="Objet" id="objet" placeholder="Objet du message">
         <label for="message">Message</label>
-        <textarea id="message" name="message" rows="8" cols="80" placeholder="Écrivez votre message ici"></textarea>
-        <input type="submit" name="submit">ENVOYER MON MESSAGE</input>
+        <textarea name="Message" rows="8" cols="80" placeholder="Écrivez votre message ici"></textarea>
+        <button type="submit" name="submit">ENVOYER MON MESSAGE</button>
 
 
         </form>

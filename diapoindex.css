@@ -145,29 +145,36 @@ div.showSlide.grid_diapo{
 }  
 /* Fading animation */  
 .fade {  
-
-    -webkit-animation-name: fade;  
-    -webkit-animation-duration: 0.5s;  
-    animation-name: fade;  
-    animation-duration: 0.5s;  
-}  
-@-webkit-keyframes fade {  
-    from {  
-        opacity: .8 
-    }  
-    to {  
-        opacity: 1  
-    }  
-}  
-
-@keyframes fade {  
-    from {  
-        opacity: .8  
-    }  
-    to {  
-        opacity: 1  
-    }  
-}  
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  } 
 #image_gradient1 {
     background-image:
     linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
@@ -284,6 +291,8 @@ div.showSlide.grid_diapo{
     padding: 0x;
 }
 }
+/*web ver*//*web ver*//*web ver*//*web ver*//*web ver*//*web ver*//*web ver*//*web ver*//*web ver*/
+/*phone ver*//*phone ver*//*phone ver*//*phone ver*//*phone ver*//*phone ver*//*phone ver*//*phone ver*//*phone ver*/
 @media (min-width: 1024px)
 {
     .showSlide {  
@@ -356,30 +365,36 @@ div.showSlide.grid_diapo{
     }  
     /* Fading animation */  
     .fade {  
-    
-        -webkit-animation-name: fade;  
-        -webkit-animation-duration: 1s;  
-        animation-name: fade;  
-        animation-duration: 1s;
-        animation-timing-function: ease-in-out ;  
-    }  
-    @-webkit-keyframes fade {  
-        from {  
-            opacity: .8 
-        }  
-        to {  
-            opacity: 1  
-        }  
-    }  
-    
-    @keyframes fade {  
-        from {  
-            opacity: .8  
-        }  
-        to {  
-            opacity: 1  
-        }  
-    } 
+        animation: fadeIn ease 1s;
+        -webkit-animation: fadeIn ease 1s;
+        -moz-animation: fadeIn ease 1s;
+        -o-animation: fadeIn ease 1s;
+        -ms-animation: fadeIn ease 1s;
+      }
+      @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      } 
     #image_gradient1 {
         background-image:
         linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),

@@ -4,6 +4,11 @@
  (min-width: 1024px){
      body{
          margin:0;
+         
+            background-color: rgb(250, 249, 249);
+            overflow-x: hidden;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
      }
      .siteMobile{
          display: none;
@@ -31,6 +36,7 @@
     
     }
     
+    
     .headtitle a {
         text-decoration: black;
         color: black;
@@ -39,7 +45,29 @@
         color: grey;
         transition: 0.2s color ease-in-out;
     }
-    
+    .reserver_button{
+        height: 2vw;
+    width: 10vw;
+    border-radius: 2.5vw;
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    border: solid rgb(44, 44, 44) 0.3vw;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    position:fixed;
+    right:3vw;
+    top:0.5vw;
+    letter-spacing: 2px;
+    transition: width 2s ease;
+    transition: letter-spacing 1s ease;
+    transition: all 0.5s ease;
+    }
+    .reserver_button:hover{
+        cursor: pointer;
+        letter-spacing: 3px;
+        width: 15vw;
+       
+    }
     
     
     
@@ -260,8 +288,9 @@
     
     /* navigation bar list properties*/
     /*image properties*/
+    /*img header*/
     
-    
+    /*img header*/
     .imglink{
         padding: 0;
         margin: 0;
@@ -309,27 +338,105 @@
     grid-area: content;
     
     }
-    
-    
+    /*text header*/
+    #heading_text{
+        text-align: center;
+        justify-content: center;
+        font-size: 4vw;
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+        font-weight: 100;
+    }
+    /*text header*/
     
     /* Bas de page */
-    
-    div.grid-container{
-      
-        bottom: 0px;
-        left: 0px;
-        background-color: rgba(14, 13, 13, 0.98);
-        border: solid rgba(14, 13, 13, 0.98) 2px;
-        color: white;
-        display:grid;
-        grid-template-rows:  350px 350px 350px ;
-        }
-      
-    
-        div.grid-container img.footerlogo{
-     
-        grid-row: cols-1;
+    #footer_grid{
+        background-color: rgb(92, 92, 92);
+        background-size: 100vw;
+        width: 100vw;
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+        border-top: solid (143, 143, 143) 4px;
+         
     }
+    #footer_logo{
+        height:10vw;
+        width:10vw;
+        border-radius:50%;
+      
+    }
+    #footer_header_1{
+        background:-webkit-linear-gradient(rgb(255, 196, 2),rgb(255, 255, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        font-size: 1.2vw;
+        font-family:serif;
+        display: flex;
+        justify-content: center;
+    }
+    #grid_footer{
+        display: grid;
+        
+        grid-template-columns: 25vw 16vw 16vw 16vw 16vw;
+        margin:0 0 0 0;
+        grid-gap:1.5vw;
+    }
+    .grid_footer_item{
+        text-align: center;
+        justify-content: center;
+        list-style: none;
+        text-decoration: none;
+        margin:2vw 0 0 0;
+        font-size:1vw;
+        
+    }
+    .grid_footer_item li a {
+       
+        color: rgb(255, 255, 255);
+        
+        border-top:none;
+        width: 1000px;
+        border-left:none;
+        border-right:none;
+        top:-20px;
+        overflow: hidden;
+                       
+        transform:scale(1);
+        font-size:1vw;
+    }
+    .grid_footer_item a{
+        
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-top:none;
+        width: 1000px;
+        border-left:none;
+        border-right:none;
+        top:-20px;
+        
+        font-size:1vw;               
+        
+        transition:color 0.3s;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    .grid_footer_item a:hover{
+        color:rgb(153, 153, 153);
+        
+    }
+    .footer_heading{
+        padding-bottom: 2vw;
+        border-bottom:solid rgb(248, 158, 56) 2px;
+        font-size: 1.5vw;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background: -webkit-linear-gradient(rgb(248, 158, 56),rgb(255, 189, 6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        
+        
+    }
+    
     /* Bas de page */ 
         
     

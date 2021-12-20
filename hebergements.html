@@ -11,9 +11,9 @@
    <link rel="stylesheet" href="menu.css">
 <!--common link-->
 <!--separate link-->
-   <link rel="stylesheet" href="diapohebergement.css">
+   <link rel="stylesheet" href="diapo_hebergement.css">
     <link rel="stylesheet" href="siteweb_hebergements.css">
-    <link rel="stylesheet" href="hebergement_phone.css">
+    <link rel="stylesheet" href="phone_ver_hebergement.css">
     <!--separate link-->
 </head>
 <body>
@@ -27,12 +27,12 @@
             <svg class="close nav_button"fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" ><path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z"/></svg>
         </label>
     <div class="sidebar">
-        
+        <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
        
       <ul class="sidebarList" style="padding-left: 0;">
         <a href="index.html" class="imglink"><img class="imglogo" id="img_logo"src=".\image video/logochateau.jpg"/></a> 
        
-        
+        <p class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></p>
         <li><a href="index.html"  id="index"style="margin-top:80px;"class="menu_link">ACCUEIL</a></li>
         <li><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
         <li><a href="mariage.html"id="mariage"class="menu_link">MARIAGE</a></li>
@@ -54,7 +54,7 @@
   <div id="img_hebergement_background">
  
     
-        <p id="img_p">Hébergements</p>
+        <h1 id="heading_text">HÉBERGEMENTS</h1>
         
     
    </div>
@@ -88,7 +88,7 @@
     <div class="grid--item item1"> 
        <!-- Code diapo-->
        <div class="slidercontainer">  
-        <div class="showSlide fade grid_diapo">  
+        <div class="showSlide21 fade "style="display: block;">  
             <div  class="grid-item" id="image_grid_container">
                  
                  <div id="image_gradient1" class="imageIndex">
@@ -99,7 +99,7 @@
                  </div>
             </div>
         </div>  
-        <div class="showSlide fade grid_diapo">  
+        <div class="showSlide21 fade "style="display: none;">  
             <div id="image_grid_container" class="grid-item">
          
                 <div id="image_gradient2" class="imageIndex">
@@ -109,7 +109,7 @@
          </div>  
         </div>  
   
-        <div class="showSlide fade grid_diapo">  
+        <div class="showSlide21 fade "style="display: none;">  
             <div id="image_grid_container" class="grid-item">
          
                 <div id="image_gradient3" class="imageIndex">
@@ -118,7 +118,7 @@
                 </div>
          </div> 
         </div>  
-        <div class="showSlide fade grid_diapo">  
+        <div class="showSlide21 fade "style="display: none;">  
             <div id="image_grid_container" class="grid-item">
          
                 <div id="image_gradient4" class="imageIndex">
@@ -126,10 +126,10 @@
                  
                 </div>
          </div> 
-        </div>  
+        </div>
         <!-- Navigation arrows -->  
-        <a id="left1" onclick="nextSlide(-1)" ><button id="button-Diapo1">❮</button></a> 
-        <a id="right1" onclick="nextSlide(1)"><button id="button-Diapo2">❯</button></a> 
+        <a id="left1" onclick="nextSlide21(-1)" ><button id="button-Diapo1">❮</button></a> 
+        <a id="right1" onclick="nextSlide21(1)"><button id="button-Diapo2">❯</button></a> 
        
     </div> 
     <!-- Code diapo-->
@@ -138,9 +138,16 @@
    
     <div class="grid--item item2">
         <h2>CHAMBRE ROYALE</h2>
-        <br>
-        <p>La chambre royale est la chambre la plus spacieuse du châteaux avec un lit double (mesures = king size??), une grande armoire à quatres portes, une table de maquillage</p>
         
+        <p class="chambre_text">La chambre royale est la chambre la plus spacieuse du châteaux avec un lit double (mesures = king size??), une grande armoire à quatres portes, une table de maquillage
+            La chambre royale est la chambre la plus spacieuse du châteaux avec un lit double (mesures = king size??), une grande armoire à quatres portes, une table de maquillage
+            </p> 
+
+            <div class="chambre_info"> <p><img src=".\image video/icone_personne.png" class="small_logos"/>1-3 personnes<space>spacespacespacespace</space>
+        
+           <img src=".\image video/icone_billet.png" class="small_logos"/>À partir de <spann>250 €</spann> par nuit</p></div>
+        
+        <div class="button_chambre_div"> <a   href="index.html"><button class="chambre_button">Réserver >></button></a></div>
         </div>
         
     
@@ -195,10 +202,15 @@
     </div> 
     <!-- Code diapo--></div>
     <div class="grid--item item3">   <h2>CHAMBRE ELIZABETH</h2>
-        <br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam neque, nostrum itaque id dignissimos laudantium. Provident laborum officiis eius quia consequatur doloremque vitae odio animi. Qui enim ratione aliquam atque.</p>
-  
-          
+        <p class="chambre_text">La chambre royale est la chambre la plus spacieuse du châteaux avec un lit double (mesures = king size??), une grande armoire à quatres portes, une table de maquillage
+            La chambre royale est la chambre la plus spacieuse du châteaux avec un lit double (mesures = king size??), une grande armoire à quatres portes, une table de maquillage
+            </p> 
+
+            <div class="chambre_info"> <p><img src=".\image video/icone_personne.png" class="small_logos"/>1-3 personnes<space>spacespacespacespace</space>
+        
+           <img src=".\image video/icone_billet.png" class="small_logos"/>À partir de <spann>150 €</spann> par nuit</p></div>
+        
+        <div class="button_chambre_div"> <a   href="index.html"><button class="chambre_button">Réserver >></button></a></div>
          </div>
     <div class="grid--item item5">
       <!-- Code diapo-->
@@ -250,10 +262,15 @@
    <!-- Code diapo-->
    </div>
     <div class="grid--item item6">   <h2>CHAMBRE CONSTANCE</h2>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam neque, nostrum itaque id dignissimos laudantium. Provident laborum officiis eius quia consequatur doloremque vitae odio animi. Qui enim ratione aliquam atque.</p>
+        <p class="chambre_text">La chambre royale est la chambre la plus spacieuse du châteaux avec un lit double (mesures = king size??), une grande armoire à quatres portes, une table de maquillage
+            La chambre royale est la chambre la plus spacieuse du châteaux avec un lit double (mesures = king size??), une grande armoire à quatres portes, une table de maquillage
+            </p> 
 
-       
+            <div class="chambre_info"> <p><img src=".\image video/icone_personne.png" class="small_logos"/>1-3 personnes<space>spacespacespacespace</space>
+        
+           <img src=".\image video/icone_billet.png" class="small_logos"/>À partir de <spann>150 €</spann> par nuit</p></div>
+        
+        <div class="button_chambre_div"> <a   href="index.html"><button class="chambre_button">Réserver >></button></a></div>
         </div>
     
     
@@ -312,10 +329,15 @@
    <!-- Code diapo-->
   </div>
   <div class="grid--item item7">   <h2>CHAMBRE ELEONORE</h2>
-    <br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam neque, nostrum itaque id dignissimos laudantium. Provident laborum officiis eius quia consequatur doloremque vitae odio animi. Qui enim ratione aliquam atque.</p>
+    <p class="chambre_text">La chambre royale est la chambre la plus spacieuse du châteaux avec un lit double (mesures = king size??), une grande armoire à quatres portes, une table de maquillage
+        La chambre royale est la chambre la plus spacieuse du châteaux avec un lit double (mesures = king size??), une grande armoire à quatres portes, une table de maquillage
+        </p> 
 
+        <div class="chambre_info"> <p><img src=".\image video/icone_personne.png" class="small_logos"/>1-3 personnes<space>spacespacespacespace</space>
     
+       <img src=".\image video/icone_billet.png" class="small_logos"/>À partir de <spann>150 €</spann> par nuit</p></div>
+    
+    <div class="button_chambre_div"> <a   href="index.html"><button class="chambre_button">Réserver >></button></a></div>
     </div>
     <div class="grid--item item9">
       <!-- Code diapo-->
@@ -367,10 +389,15 @@
    <!-- Code diapo-->
   </div>
     <div class="grid--item item10">   <h2>CHAMBRE CHARLOTTE</h2>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam neque, nostrum itaque id dignissimos laudantium. Provident laborum officiis eius quia consequatur doloremque vitae odio animi. Qui enim ratione aliquam atque.</p>
+        <p class="chambre_text">La chambre royale est la chambre la plus spacieuse du châteaux avec un lit double (mesures = king size??), une grande armoire à quatres portes, une table de maquillage
+            La chambre royale est la chambre la plus spacieuse du châteaux avec un lit double (mesures = king size??), une grande armoire à quatres portes, une table de maquillage
+            </p> 
 
+            <div class="chambre_info"> <p><img src=".\image video/icone_personne.png" class="small_logos"/>1-3 personnes<space>spacespacespacespace</space>
         
+           <img src=".\image video/icone_billet.png" class="small_logos"/>À partir de <spann>150 €</spann> par nuit</p></div>
+        
+        <div class="button_chambre_div"> <a   href="index.html"><button class="chambre_button">Réserver >></button></a></div>
         </div>
     
     
@@ -389,71 +416,81 @@
 
 
      
-    <div id="footer_grid" class="grid-item">
+    <!--footer grid--><!--footer grid--><!--footer grid--><!--footer grid-->
+       
+  <div id="footer_grid" class="grid-item">
           
 
              
 
-        <div id="grid_footer">
-          <div class="grid_footer_item">
-            <img  id="img_logo_footer"src=".\image video/logochateau.jpg"style="width:20vw;height=20vw;border-radius:10vw;"> 
-                   
-            
-        </div>
-            <div class="grid_footer_item">
+    <div id="grid_footer">
+      <div class="grid_footer_item">
+        <img  id="img_logo_footer"src=".\image video/logochateau.jpg"style="width:20vw;height=20vw;border-radius:10vw;"> 
+               
+        
+    </div>
+        <div class="grid_footer_item">
 
+         
+          <li><a href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643">
+            <p class="footer_heading">Coordonnées</p>
+            <p style="line-height: 2vw;"><img src=".\image video/logoadresse.png "style="width:2vwpx;height:2vw;">Château de Moliens <br>
+            17 rue de Picardie<br>60220 Moliens</p></li></a>
+            <div><a href="https://www.instagram.com/chateau_de_moliens?r=nametag"><img src=".\image video/instalogo2.png "style="width:2vw;height:2vw;position:relative;top:5px;">
+            Instagram</a></div>
              
-              <li><a href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643">
-                <img src=".\image video/logoadresse.png "style="width:2vwpx;height:2vw;"><p class="footer_heading">Coordonnées</p>
-                <p style="line-height: 2vw;">Château de Moliens <br>
-                17 rue de Picardie<br>60220 Moliens</p></li></a>
-                <div><a href="https://www.instagram.com/chateau_de_moliens?r=nametag"><img src=".\image video/instalogo2.png "style="width:2vw;height:2vw;position:relative;top:5px;">
-                Instagram</a></div>
+        </div>
+
+
+
+            <div class="grid_footer_item">
                  
+               <li>
+               
+              
+                  <p class="footer_heading">Réserver </p>
+                   <a href="tel:0644221786" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+              <p><img src=".\image video/logotelephone.png "style="width:2vwpx;height:2vw;"> 06 44 22 17 86</p></a>
+              <a href="mailto: lechateaudemoliens@gmail.com"><p> <img src=".\image video/logoemail.png "style="width:2vwpx;height:2vw;">lechateaudemoliens@gmail.com</p> </a></li>
             </div>
 
 
 
-                <div class="grid_footer_item">
-                     
-                   <li><a href="tel:0644221786" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})"
-                   >
-                  
-                     <img src=".\image video/logotelephone.png "style="width:2vwpx;height:2vw;"> <p class="footer_heading">Réserver maintenant </p>
+            <div class="grid_footer_item">
 
-                  <p> 06 44 22 17 86</p> </li></a>
-                </div>
+            <li>
+                 
+                <p style="line-height:3vw;"><p class="footer_heading"> Nos prestations</p> 
+               
 
+               </li>
+               <a href="mariage.html"><li>Mariage ❯❯</li></a><br>
+               <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br>
+               <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br>
+               <a href="hebergements.html"><li>Hébergements ❯❯</li></a><br>
+               
+           </div>
+ 
+      
 
+           <div class="grid_footer_item">
+               
+                <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;">
+               
+              <p  class="footer_heading">Liens utiles</p>
+          
+              <a href="contact.html"><li>Contact ❯❯</li></a><br>
+     
+               <a href="covid-19.html"> <li>Infos sur COVID-19 ❯❯</li></a><br>
+               <a href=""> <li>Mentions légales ❯❯</li></a><br>
+              <a href=""><li>Politique de confidentalité ❯❯</li></a>
+                <a href="https://icones8.fr/"><li>Icones </li></a>
 
-                <div class="grid_footer_item">
-
-                <li><a href="mailto: lechateaudemoliens@gmail.com">
-                     <img src=".\image video/logoemail.png "style="width:2vwpx;height:2vw;"><br>
-                    <p style="line-height:3vw;"><p class="footer_heading"> Écrivez un e-mail à</p> <p> lechateaudemoliens@gmail.com</p></a>
-
-                   </li><br>
-               </div>
-
-
-
-               <div class="grid_footer_item">
-                   
-                    <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;">
-                    <img src=".\image video/logotelephone.png "style="width:2vw;height:2vw;opacity: 0;;">
-                  <p style="color:white;" class="footer_heading">Liens utiles</p>
-              
-                   
-         
-                   <a href="covid-19.html"> <li>Infos sur COVID-19 ❯❯</li></a><br>
-                   <a href=""> <li>Mentions légales ❯❯</li></a><br>
-                  <a href=""><li>Politique de confidentalité ❯❯</li></a>
-                    <a href="https://icones8.fr/"><li>Icones </li></a>
-
-                    </ul>
-                </div>
-      </div>
+                </ul>
+            </div>
   </div>
+</div> 
+<!--footer grid--><!--footer grid--><!--footer grid--><!--footer grid-->
 
 </div>    
    
@@ -494,7 +531,7 @@
 
 
                <div class="p0_div"> <p1 class="p0">Vous souhaitez passer un moment hors du temps dans un lieu calme et majestueux, le Château de Moliens vous ouvre ses portes </p1></div>
-                <br><br><br><br><div id="p1"></div><p>Le château de Moliens dispose de 5 chambres doubles qui bénéficient des meilleures prestations. Toutes ont été rénovées récemment de façon
+                <br><br><br><br><div id="p1"></div><p>Le château de Moliens dispose de <b>cinq chambres doubles</b> qui bénéficient des meilleures prestations. Toutes ont été rénovées récemment de façon
                    à vous proposer des équipements de qualité qui comblent vos envies.<br><br> Meublées avec goût dans un style romantique, les murs recouverts de tapisserie et les authentiques cheminées en pierre dans les chambres  
                    de notre château en Picardie vous réservent un cadre idéal.<br><br> Toutes les chambres sont climatisées et équipées d’une literie neuve, du Wi-Fi gratuit et d'une salle de bain privative.
                    </p>
@@ -823,7 +860,7 @@
 
        <div ><p class="texte_chambre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum labore reprehenderit
         voluptatem soluta sapiente exercitationem, doloribus quo. Ratione, laudantium nesciunt.<br><br>
-        <img src=".\image video/icone_personne.png" class="small_logos"/> 2 personnes
+        <img src=".\image video/icone_personne.png" class="small_logos"/> 1 à 3 personnes
         <br><br>À partir de<br>
         <img src=".\image video/icone_billet.png" class="small_logos"/> <span>150 €</span> par nuit
     </p>

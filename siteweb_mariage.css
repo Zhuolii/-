@@ -1,11 +1,7 @@
 @media (min-width: 1024px)
 {
 
-body{
-    background-color: rgb(250, 249, 249);
-    overflow-x:hidden;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 #img_logo{
     
     margin-left: -0.2vw;
@@ -96,19 +92,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.856) ;
+    background-color: rgb(255, 255, 255) ;
 }
 #img_hebergement_background{
-    
-    width: 70vw;
-    height: 45vw;
+    margin-top: 5vw;
+    width: 100vw;
+    height: 40vw;
     background-image: url(./image\ video/image_heber.JPG);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2vw;
-    
     color: white;
     letter-spacing: 0.5vw;
     
@@ -201,76 +196,7 @@ button.leftButton{
 
 
 
-/* footer grid*/
-#footer_grid{
-    background-color: rgba(73, 73, 73, 1);
-    background-size: 100vw;
-    width: 100vw;
-    margin:0 0 0 0;
-    padding:0 0 0 0;
-   
-}
-#footer_logo{
-    height:10vw;
-    width:10vw;
-    border-radius:50%;
-  
-}
-#footer_header_1{
-    background:-webkit-linear-gradient(rgb(255, 196, 2),rgb(255, 255, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    font-size: 1.2vw;
-    font-family:serif;
-    display: flex;
-    justify-content: center;
-}
-#grid_footer{
-    display: grid;
-    grid-template-columns: 17vw 17vw 17vw 17vw;
-    margin:0 16vw 0 16vw;
-}
-.grid_footer_item{
-    text-align: center;
-    justify-content: center;
-    list-style: none;
-    text-decoration: none;
-    margin:2vw 0 0 0;
-}
-.grid_footer_item li a {
-    background-color: rgb(73, 73, 73);
-    color: white;
-    
-    border-top:none;
-    width: 1000px;
-    border-left:none;
-    border-right:none;
-    top:-20px;
-    overflow: hidden;
-    font-size:50px;               
-    transform:scale(1);
-    font-size:1vw
-}
-.grid_footer_item a{
-    background-color: rgb(73, 73, 73);
-    color: white;
-    text-decoration: none;
-    border-top:none;
-    width: 1000px;
-    border-left:none;
-    border-right:none;
-    top:-20px;
-    
-    font-size:1vw;               
-    
-    transition:color 0.3s;
-}
-.grid_footer_item a:hover{
-    color:rgb(153, 153, 153);
-    
-}
-/*footrr grid*/
+
 
 
 }

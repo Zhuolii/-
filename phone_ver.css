@@ -1,5 +1,5 @@
 
-@media (max-width: 1040px)
+@media (max-width: 1023px)
 {
     
     
@@ -223,7 +223,9 @@
             position:relative;
             top:-1700px;
         }
-
+    .reserver_button{
+        display: none;
+    }
 
 
 
