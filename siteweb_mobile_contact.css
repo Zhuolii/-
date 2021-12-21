@@ -118,7 +118,7 @@ article1 div img{
 /*Contact form CSS*/
 .row{
     display: grid;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr  1fr;
 }
 .row-items{
     padding: 0 0 0 1em;
@@ -322,7 +322,7 @@ input:hover,textarea:hover,input:focus,textarea:focus{
     /*Contact form CSS*/
     .row{
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 3fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr  3fr 1fr;
     }
     .row-items{
         padding: 0 0 0 1em;
