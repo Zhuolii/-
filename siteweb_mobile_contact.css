@@ -347,7 +347,7 @@ input:hover,textarea:hover,input:focus,textarea:focus{
         transition: all 0.5s ease;
     }
     textarea{
-        height:1000px;
+        height:700px;
         font-size: 30px;
     }
     .half, #objet{
