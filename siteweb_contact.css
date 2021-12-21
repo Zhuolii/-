@@ -130,7 +130,7 @@ label,input,textarea{
     display:flex;
 }
 input,textarea{
-    border:solid rgb(196, 196, 196) 2px;
+    border:solid rgb(196, 196, 196) 1px;
     
 }
 .half, #objet{
@@ -148,7 +148,7 @@ input,textarea{
         border-radius: 2px;
         background-color: rgb(255, 255, 255);
         color: rgb(248, 158, 56);
-        border: solid rgb(248, 158, 56) 3px;
+        border: solid rgb(248, 158, 56) 1px;
         font-size: larger;
         font-family: 'Times New Roman', Times, serif;
         
