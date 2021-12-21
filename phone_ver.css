@@ -27,6 +27,11 @@
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       
     }
+    p {
+        
+        
+        font-size: 30px;
+    }
    /* bouton de navigation*/
     label.nav__toggle{
         position:fixed;
@@ -354,85 +359,14 @@
     letter-spacing: 3px;
   
 }
-h1#titrefooter{
-    border-bottom:solid rgb(255, 187, 0) 5px;
-}
-#titrefooter{
-    background:-webkit-linear-gradient(rgb(255, 196, 2),rgb(255, 255, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;font-weight: strong;
-   font-size: 50px;
-   font-family:serif;
-}
-#footer_grid{
-   
-        background-color: rgb(92, 92, 92);
-        background-size: 100vw;
-        width: 100vw;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-        border-top: solid (143, 143, 143) 4px;
-    
-}
-#footer_img{
-    height:200px;
-    width:200px;
-    border-radius:50%;
-    margin: 20px 0 0 420px;
-}
-#footer_grid ul li{
-    font-size: 30px;
-    
-    letter-spacing: 3px;
-    padding: 20px 0 20px 0;
-    
-    text-align: center;
 
-}
-#footer_grid ul li a{
-    font-size: 40px;
-    display: flex;
-    flex-direction: row;
-    letter-spacing: 3px;
-    padding: 20px 0 20px 0;
-
-}
-
-#footer_grid h1{
-    font-size: 60px;
-}
-#footer_grid_container{
-    display: grid;
-}
-div#footer_grid.grid-item{
-    width:1040px;
-}
-.logo_contract{
-    
-    background-color: rgb(51, 51, 51);
-    color: white;
-    border-radius: solid rgb(51, 51, 51);
-    
-    border: none;
-    overflow: hidden;
-    font-size:50px;
-}
-.logo_contract_image{
-    width:60px;
-    height:60px;
-    padding-right:20px;
-    margin-top:0px;
-}
-.text_footer{
-    color: white;
-}
 
 /*footer */
 
 #footer_grid {
     background-color: rgb(92, 92, 92);
-    background-size: 100vw;
-    width: 100vw;
+    background-size: 100%;
+    width: 100%;
     margin: 0 0 0 0;
     padding: 0 0 5em 0;
     border-top: solid (143, 143, 143) 4px;
@@ -465,7 +399,7 @@ div#footer_grid.grid-item{
 .footer_heading {
     padding-bottom: 2vw;
     border-bottom: solid rgb(248, 158, 56) 2px;
-    font-size: 3vw;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -485,14 +419,14 @@ div#footer_grid.grid-item{
     transition: color 0.3s;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.grid-item p {
+.footer_p {
     word-break: break-word;
     line-height: 90px;
     margin: 40px 40px 40px 70px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
-    font-size:30px;
+    
 }
 /*footer */
 /*general properties*/
