@@ -140,8 +140,11 @@ label,input,textarea{
     display:flex;
 }
 input,textarea{
-    border:solid rgb(196, 196, 196) 1px;
+    border:solid rgb(119, 119, 119) 1px;
     
+}
+input:hover,textarea:hover,input:focus,textarea:focus{
+    border:solid rgb(248, 158, 56) 1px !important;
 }
 .half {
     width:20vw;
@@ -173,7 +176,9 @@ input,textarea{
 #envoyer:hover{
     background-color: rgb(248, 158, 56);
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
+
 /*Contact form CSS*/
 
 
@@ -331,6 +336,10 @@ input,textarea{
         font-size: 50px;
         width:90%;
         
+    }
+    input:focus,textarea:focus{
+        border:solid rgb(248, 158, 56) 2px;
+        transition: all 0.5s ease;
     }
     textarea{
         height:1000px;
