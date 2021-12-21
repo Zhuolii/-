@@ -88,6 +88,9 @@ article1 div img{
 .grid--item{
    margin:  3vw 0 3vw 0;
    border: solid rgb(143, 143, 143) 1.5px;
+   width:46vw;
+   height:auto;
+  
     
     
    
@@ -121,11 +124,16 @@ article1 div img{
     padding: 0 0 0 1em;
     font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
     font-size: 16px;
+    width:22vw;
 }
 .column{
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     margin:0 0 1em 0;
+    width:46vw;
+}
+textarea{
+    width:42vw;
 }
 label,input,textarea{
     text-align: left;
@@ -135,12 +143,14 @@ input,textarea{
     border:solid rgb(196, 196, 196) 1px;
     
 }
-.half, #objet{
-    width:90%;
+.half {
+    width:20vw;
     height:3em;
 }
 #objet{
     margin-bottom: 2em;
+    width:40vw;
+    height:3em;
 }
 #envoyer{
     margin: 2em 0 2em 1em;
@@ -280,7 +290,7 @@ input,textarea{
     .grid--item{
        margin:  3vw 0 3vw 0;
        border: solid rgb(143, 143, 143) 1.5px;
-        
+       
         
        
     }

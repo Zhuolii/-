@@ -158,10 +158,7 @@
     .grid-item{
         width: 1023px;
     }
-    .grid-item a{
-        color: black;
-        text-underline-offset: 25px;
-    }
+    
     
    
     .grid-item .miniMenu{
