@@ -235,8 +235,8 @@ input,textarea{
     }
     #img_hebergement_background{
         margin-top: 5vw;
-        width: 100vw;
-        height: 40vw;
+        width: 1038px;
+        height: 1038px;
         background-image: url(./image\ video/image_heber.JPG);
         background-size: cover;
         display: flex;
