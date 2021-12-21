@@ -1,4 +1,6 @@
 <?php
+
+echo "One";
 /*
 if(isset($_POST['submit'])){
     $nom = $_POST['Nom'];
@@ -32,7 +34,7 @@ if(isset($_POST['submit'])){
 }
 
 */
-
+/*
 if(isset($_POST["submit"])){
     $nom = $_POST['Nom'];
     $prenom = $_POST['prenom'];
@@ -60,7 +62,7 @@ if(isset($_POST["submit"])){
 else{
     header("location:contact.html");
 }
-
+*/
 
 
 

@@ -79,29 +79,27 @@
 
     <div class="grid--item item2">
         <h2>ENVOYER UN E-MAIL</h2>
-        <form action="formulaire.php" method="post">
+        <form action="https://formsubmit.co/davidli271098@email.com" method="POST">
+            <input type="hidden" name="_subject" value="Nouveau email">
         <label for="nom">Nom</label>
-        <input type="text" name="nom" id="nom" placeholder="Nom">
+        <input type="text" name="nom" id="nom" placeholder="Nom" required>
         <label for="prenom">Prénom</label>
-        <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+        <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
         <label for="email">E-mail</label>
-        <input type="email" name="email" id="email" placeholder="Adresse mail">
+        <input type="email" name="email" placeholder="Adresse E-mail">
+        <input type="hidden" name="_next" value="https://zhuolii.github.io/thanks.html">
         <label for="tel">Téléphone</label>
-        <input type="tel" name="telephone" id="tel" placeholder="Numéro de téléphone"> 
+        <input type="tel" name="telephone" id="tel" placeholder="Numéro de téléphone" pattern="[0-9]{10}" required> 
+        <small>Format: 0123456789</small>
         <label for="objet">Objet</label>
-        <input type="text" name="objet" id="objet" placeholder="Objet du message">
+        <input type="text" name="objet" id="objet" placeholder="Objet du message" required>
         <label for="message">Message</label>
-        <textarea id="message" name="message" rows="8" cols="80" placeholder="Écrivez votre message ici"></textarea>
-        <input type="submit" name="submit">ENVOYER MON MESSAGE</input>
+        <textarea id="message" name="message" rows="8" cols="80" placeholder="Écrivez votre message ici" required ></textarea>
+        <input type="submit" name="submit" formaction="formulaire.php">ENVOYER MON MESSAGE</input>
 
 
         </form>
-        <?php
         
-        
-        
-        
-        ?>
     </div>
       
     
