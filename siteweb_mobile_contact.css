@@ -333,6 +333,7 @@ input:hover,textarea:hover,input:focus,textarea:focus{
         margin:0 1vw 0 1vw;
         line-height: 8vw;
         font-size: 40px;
+        padding: 80px;
     }
     /*Contact form CSS*/
     .row{
