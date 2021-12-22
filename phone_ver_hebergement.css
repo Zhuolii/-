@@ -103,9 +103,65 @@
        justify-content: center;
        align-items: center;
        text-align: center;
+       margin: 0;
+    padding: 100px 0 100px 0;
+    background-color: rgb(230 209 198);
        
       
     }
+    #chambre_1, #chambre_2, #chambre_3{
+        border: ridge 21px #b38353;
+    }
+    #chambre_4{
+        border: ridge 21px rgba(230, 132, 4, 0.815);
+
+    }
+    #chambre_5{
+        border: ridge 21px rgb(189, 0, 189);
+
+    }
+    .couronne_1{
+ 
+        width: 70px;
+        height: 70px;
+        position:relative;
+        right:6vw;
+       }
+       .couronne_2{
+           
+           width: 70px;
+        height: 70px;
+        position:relative;
+        left: 7vw;
+       }
+       .fleur1{
+           width: 50px;
+           height: 50px;
+           position:relative;
+           right:6vw;
+           bottom: 8vw;
+       }
+       .fleur2{
+           width: 50px;
+           height: 50px;
+           position:relative;
+           left:6vw;
+           bottom: 8vw;
+       }
+       .fleur3{
+        width: 50px;
+        height: 50px;
+        position:relative;
+        right:1vw;
+        top: 8vw;
+       }
+       .fleur4{
+        width: 50px;
+        height: 50px;
+        position:relative;
+        left:1vw;
+        top: 8vw;
+       }
     .texte_chambre{
         word-break: break-word;
     line-height: 90px;

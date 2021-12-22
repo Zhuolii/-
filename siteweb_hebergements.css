@@ -2,7 +2,7 @@
 {
 
 body{
-    background-color: rgb(250, 249, 249);
+    background-color: rgb(255, 255, 255);
     overflow-x:hidden;
    
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -249,11 +249,17 @@ article1 div img{
 button.leftButton{
     background-color: rgb(255, 255, 255);
 }
-.item2,.item6,.item10{
-    background-color: rgb(255, 255, 255);
+.item2,.item6,.item3{
+    border:ridge 7px #b38353;
+    background-color: #e6d1c6;
 }
-.item3,.item7{
-    background-color: rgb(255, 255, 255);
+.item7{
+    border:ridge 7px rgba(230, 132, 4, 0.815);
+    background-color: #e6d1c6;
+}
+.item10{
+    border:ridge  7px rgb(231, 4, 231);
+    background-color: #e6d1c6;
 }
 .button_chambre_div{
     display: flex;
@@ -282,10 +288,43 @@ spann {
 }
 space{
     width:15px;
-    color:white;
+    color:#e6d1c6;
 }
 
-
+.couronne_1{
+ 
+ width: 30px;
+ height: 30px;
+}
+.couronne_2{
+    
+    width: 30px;
+ height: 30px;
+}
+.fleur1{
+    width: 30px;
+    height: 30px;
+    position:relative;
+    right:8vw;
+}
+.fleur2{
+    width: 30px;
+    height: 30px;
+    position:relative;
+    left:8vw;
+}
+.fleur3{
+    width: 30px;
+    height: 30px;
+    position:relative;
+    right:10vw;
+}
+.fleur4{
+    width: 30px;
+    height: 30px;
+    position:relative;
+    left:10vw;
+}
 
 
    }
