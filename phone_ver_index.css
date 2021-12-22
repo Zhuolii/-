@@ -217,7 +217,7 @@ div.grid-item img{
     font-size: 65px;
 }
 .grid-item{
-       
+    margin:150px 0 150px 0;
     width: 1023px;
 }
 .grid-item a{
@@ -245,5 +245,15 @@ div.grid-item img{
         border:solid gray 5px;
         height:700px"
 }
+.letter_spacing{
+        letter-spacing: 3px;
+        font-size:90px;
+        color: rgb(58, 58, 58);
+        padding-bottom: 30px;
+        border-bottom: solid rgb(58, 58, 58) 4px;
+        margin:40px 0 100px 0;
+        justify-content: center;
+        display: flex;
+    }
 
 }
