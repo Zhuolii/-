@@ -122,44 +122,44 @@
     }
     .couronne_1{
  
-        width: 70px;
-        height: 70px;
+        width: 90px;
+        height: 90px;
         position:relative;
-        right:6vw;
+        right:4vw;
        }
        .couronne_2{
            
-           width: 70px;
-        height: 70px;
+           width: 90px;
+        height: 90px;
         position:relative;
-        left: 7vw;
+        left: 5vw;
        }
        .fleur1{
            width: 50px;
            height: 50px;
            position:relative;
-           right:6vw;
+           right:4vw;
            bottom: 8vw;
        }
        .fleur2{
            width: 50px;
            height: 50px;
            position:relative;
-           left:6vw;
+           left:4vw;
            bottom: 8vw;
        }
        .fleur3{
         width: 50px;
         height: 50px;
         position:relative;
-        right:1vw;
+        right:-1vw;
         top: 8vw;
        }
        .fleur4{
         width: 50px;
         height: 50px;
         position:relative;
-        left:1vw;
+        left:-1vw;
         top: 8vw;
        }
     .texte_chambre{
