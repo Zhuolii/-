@@ -158,16 +158,16 @@
         
         
         background-color:rgb(255, 255, 255);
-        padding: 80px 80px 80px 80px;
+        padding: 80px 100px 80px 100px;
         color: rgb(0, 0, 0);
         font-size: 40px;
         display: block;
-        width:980px;
+        width:1020px;
         
         border-top: solid black 3px;
         border-left:solid black 3px;
         border-right: solid black 3px;
-        margin:0 0 0 20px;
+        margin-right: 0;
         
         
         transition:all 0.2s ease;
@@ -226,7 +226,7 @@
         } 
         .menu_link{
             position:relative;
-            top:-1700px;
+            
         }
     .reserver_button{
         display: none;
@@ -243,13 +243,19 @@
         display: hidden;
     } 
     #nav__checkbox:checked ~ div li a{
-        opacity: 2;
-        transform: scaleX(1);
-        transform: scaleY(1);
+        opacity: 1;
+      
         transition:all 0.7s ease;
         display: block; 
            position: relative;
-           top:0;
+           right:0px;
+          font-family:  Georgia, 'Times New Roman', Times, serif;
+          -webkit-font-smoothing: antialiased;
+          font-weight: bold;
+          font-size:50px;
+          color: rgb(68, 68, 68);
+          text-decoration: none;
+
        
         
    
@@ -264,15 +270,29 @@
     #nav__checkbox:not(:checked) ~ div li a{
 
         position:relative;
-        top:-1700px;
+        right:-1100px;
         transition:all 0.7s ease;
+        text-decoration: none;
     }
     ul.sidebarList{
-        position:relative;
-        top:82px;
-        width:0px;
-    height:0px;
+        
+        position: relative;
+        top: 80px;
+        width: 0px;
+        height: 0px;
+       
+       
     }
+    
+    .nav_background{
+        position: relative;
+        top:80px;
+        width: 1023px;
+        height: 1900px;
+        background-color: rgba(0, 0, 0, 0.596);
+    }
+    
+    
     label.nav__toggle .close{
         display: none;
         width: 7rem;
@@ -294,7 +314,7 @@
        
      
     }
-   
+    
     
     
     /*nab button*/
@@ -307,10 +327,11 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         top: 0.5em;
-        left: 6em;
-        font-weight: strong;
+        left: 5em;
+       
         font-size: 50px;
-        font-family:serif
+        letter-spacing: 2px;
+        font-weight: 1000;
     }
     /* nav title*/
     /*video*/

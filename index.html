@@ -20,17 +20,17 @@
     <!--Barre de navigation-->
     
      <nav class="nav">
-        <a href="index.html"><h1 id="navTitle"style="border-bottom:none;">Château de Moliens</h1></a>
+        <a href="index.html"><h1 id="navTitle"style="border-bottom:none;">CHÂTEAU DE MOLIENS</h1></a>
         
-        <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+        <input type="checkbox" id="nav__checkbox" class="nav__checkbox" onclick="toggle_background()">
         <label id="label_div" for="nav__checkbox" class="nav__toggle">
             <svg class="menu nav_button" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="80px" height="80px"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"/></svg>
             <svg class="close nav_button"fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="80px" height="80px"><path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z"/></svg>
         </label>
-    <div class="sidebar">
+    
         <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
-       
-      <ul class="sidebarList" style="padding-left: 0;">
+       <div class="sidebar">
+     <ul class="sidebarList" style="padding-left: 0;"id="nav_background">
         <a href="index.html" class="imglink"><img class="imglogo" id="img_logo"src=".\image video/logochateau.jpg"/></a> 
        
         <p class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></p>
@@ -45,6 +45,7 @@
        </div>
 
     </nav>
+    <div  ></div>
 
    <!--Barre de navigation-->
  <!--Code site web-->
@@ -307,39 +308,7 @@
 <!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web-->
 <!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile-->
 <div class="siteMobile">
-    <div class="grid-item"style="
-    background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0)),
-        url('images/image_event.jpg');color:white;margin-top:160px;display:block;border:solid gray 5px;height:700px" id="alert_div2">
-        <div style="float: right;"><button onClick="hideAlert2()";id="alert_button" style="font-size:50px;width:70px;background-color:black;border:solid gray 2px;color:white;border-radius:35px;">X</button></div>
-      <p style= "font-size:90px;display:block;color:white;" id="alert">
-        -Offre saison 2021: <ul style="list-style: none;font-size: 50px;letter-spacing: 2px;">
-            <li>-15% sur tous les événements hehehehe</li>
-            <li>-10% sur tous les événements entre novembre et février</li>
-      
-
-
-        </ul><br>
-        <button class="découvrir"style="
-        
-        
-        margin:80px 30px 50px 150px;
-        
-        width:700px;
-        height:100px;
-        
-        border-radius:150px;
-        border: solid white 7px;
-        background-color:rgba(0, 0, 0, 0.90);
-        letter-spacing:2px;"><a style="text-decoration:none;font-size:40px" href="covid-19.html" >Précautions COVID-19 ❯❯</a></button>
-          
-          
-        
-    </p>
-        
-
-
- </div>
+    
      
     
    
@@ -362,6 +331,25 @@
              
             </div>
      </div>
+     <div class="grid-item" id="alert_div2">
+        <div style="float: right;"><button onClick="hideAlert2()";id="alert_button" style="font-size:50px;width:70px;background-color:black;border:solid gray 2px;color:white;border-radius:35px;">X</button></div>
+      <p style= "font-size:90px;display:block;color:white;" id="alert">
+        -Offre saison 2021: <ul style="list-style: none;font-size: 50px;letter-spacing: 2px;">
+            <li>-15% sur tous les événements hehehehe</li>
+            <li>-10% sur tous les événements entre novembre et février</li>
+      
+
+
+        </ul><br>
+        <button class="découvrir" id="alert_div_button"><a style="text-decoration:none;font-size:40px" href="covid-19.html" >Précautions COVID-19 ❯❯</a></button>
+          
+          
+        
+    </p>
+        
+
+
+ </div>
         
         
             
@@ -374,6 +362,7 @@
                 <p id="p1"class="adresse"style="justify-content:center; display flex;">33 (1) 88 77 66 55</p>
                 <br><br><br>
         </div>
+        
         <div class="grid-item">
             <br>
                 <h5 style="display: flex;
@@ -517,7 +506,7 @@
                 <br><br><br>
                 <p class="letter_spacing"> Hébergements</p>
                 <p style="line-height: 90px;">Le Château de Moliens met à votre diposition cinq chambres d'hôtes climatisées et équipées d'une salle de bain
-                    privative et d'un lit double avec possibilité d'ajouter un à deux lits d'appoint selon les chambres. Le petit déjeuner est offert.
+                    privative et d'un lit double avec possibilité d'ajouter un lit d'appoint selon les chambres. Le petit déjeuner est offert.
                 <br>
                 <br>
                  
@@ -627,6 +616,7 @@
   
 <script type="text/javascript" src="diapo.js"></script>
 <script type="text/javascript"  src="alert.js"></script>
+<script type="text/javascript"  src="nav_background.js"></script>
 
 
 

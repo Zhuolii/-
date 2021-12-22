@@ -21,7 +21,7 @@
     <!--Barre de navigation-->
     <nav class="nav">  
         <a href="index.html"><h1 id="navTitle"style="border-bottom:none;">Château de Moliens</h1></a>
-        <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+        <input type="checkbox" id="nav__checkbox" class="nav__checkbox"onclick="toggle_background()">
         <label id="label_div" for="nav__checkbox" class="nav__toggle">
             <svg class="menu nav_button" fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" ><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"/></svg>
             <svg class="close nav_button"fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" ><path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z"/></svg>
@@ -29,7 +29,7 @@
     <div class="sidebar">
         <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
        
-      <ul class="sidebarList" style="padding-left: 0;">
+        <ul class="sidebarList" style="padding-left: 0;"id="nav_background">
         <a href="index.html" class="imglink"><img class="imglogo" id="img_logo"src=".\image video/logochateau.jpg"/></a> 
        
         <p class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></p>
@@ -533,7 +533,7 @@
                <div class="p0_div"> <p1 class="p0">Vous souhaitez passer un moment hors du temps dans un lieu calme et majestueux, le Château de Moliens vous ouvre ses portes </p1></div>
                 <br><br><br><br><div id="p1"></div><p>Le château de Moliens dispose de <b>cinq chambres doubles</b> qui bénéficient des meilleures prestations. Toutes ont été rénovées récemment de façon
                    à vous proposer des équipements de qualité qui comblent vos envies.<br><br> Meublées avec goût dans un style romantique, les murs recouverts de tapisserie et les authentiques cheminées en pierre dans les chambres  
-                   de notre château en Picardie vous réservent un cadre idéal.<br><br> Toutes les chambres sont climatisées et équipées d’une literie neuve, du Wi-Fi gratuit et d'une salle de bain privative.
+                   de notre château vous réservent un cadre idéal.<br><br> Toutes les chambres sont climatisées et équipées d’une literie neuve, du Wi-Fi gratuit et d'une salle de bain privative.
                    </p>
                    
                 </div><!--accroche grid-->
@@ -970,6 +970,7 @@
   
  
  <script type="text/javascript" src="hebergement.js"></script>
+ <script type="text/javascript"  src="nav_background.js"></script>
 
 
 

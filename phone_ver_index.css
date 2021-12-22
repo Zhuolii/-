@@ -224,5 +224,26 @@ div.grid-item img{
     color: white;
     text-underline-offset: 25px;
 }
+#alert_div_button{
+        margin:0px 30px 50px 150px;
+        
+        width:700px;
+        height:100px;
+        
+        border-radius:150px;
+        border: solid white 7px;
+        background-color:rgba(0, 0, 0, 0.90);
+        letter-spacing:2px;
+}
+#alert_div2{
+        background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0)),
+        url('images/image_event.jpg');
+        color:white;
+        
+        display:block;
+        border:solid gray 5px;
+        height:700px"
+}
 
 }

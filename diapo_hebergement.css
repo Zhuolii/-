@@ -128,7 +128,7 @@ div.showSlide.grid_diapo{
 /* Fading animation */  
 #image_royale1 {
     background-image:
-    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), rgb(49, 49, 49)),
+   
     url('images/img1.jpg');
     width: 1040px;
     height: 827.19px;
@@ -141,7 +141,7 @@ div.showSlide.grid_diapo{
 }
 #image_royale2 {
     background-image:
-    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), rgb(49, 49, 49)),
+    
     url('images/img2.jpg');
     width: 1040px;
     height: 827.19px;
@@ -154,7 +154,7 @@ div.showSlide.grid_diapo{
 }
 #image_royale3 {
     background-image:
-    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), rgb(49, 49, 49)),
+   
     url('images/img3.jpg');
     width: 1040px;
     height: 827.19px;
@@ -167,7 +167,7 @@ div.showSlide.grid_diapo{
 }
 #image_royale4 {
     background-image:
-    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), rgb(49, 49, 49)),
+   
     url('images/img4.jpg');
     width: 1040px;
     height: 827.19px;
