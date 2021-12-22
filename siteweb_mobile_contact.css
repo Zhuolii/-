@@ -323,7 +323,7 @@ input:hover,textarea:hover,input:focus,textarea:focus{
     .grid--item h2{
         text-align: center;
         text-transform: uppercase;
-        font-weight: 100;
+        font-weight: bold;
         letter-spacing: 1px;
         font-size: 60px;
         font-family:  Helvetica, Arial, Lucida, sans-serif;
@@ -331,10 +331,16 @@ input:hover,textarea:hover,input:focus,textarea:focus{
     }
     .grid--item p{
         margin:0 1vw 0 1vw;
-        line-height: 8vw;
+        line-height: 13vw;
         font-size: 40px;
-        padding: 80px;
-    }
+     }   
+    .p1{
+            margin:0 1vw 0 1vw;
+            line-height: 13vw;
+            font-size: 40px;
+            padding: 80px;
+        }
+    
     /*Contact form CSS*/
     .row{
         display: grid;
