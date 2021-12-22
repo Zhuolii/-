@@ -162,7 +162,7 @@
         color: rgb(0, 0, 0);
         font-size: 40px;
         display: block;
-        width:1020px;
+        width:1024px;
         
         border-top: solid black 3px;
         border-left:solid black 3px;
@@ -245,7 +245,7 @@
     #nav__checkbox:checked ~ div li a{
         opacity: 1;
       
-        transition:all 0.7s ease;
+        transition:all 0.3s ease;
         display: block; 
            position: relative;
            right:0px;
@@ -271,8 +271,13 @@
 
         position:relative;
         right:-1100px;
-        transition:all 0.7s ease;
+        transition:all 0.3s ease;
         text-decoration: none;
+        font-family:  Georgia, 'Times New Roman', Times, serif;
+        -webkit-font-smoothing: antialiased;
+        font-weight: bold;
+        font-size:50px;
+        color: rgb(68, 68, 68);
     }
     ul.sidebarList{
         
