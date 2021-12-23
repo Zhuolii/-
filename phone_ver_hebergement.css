@@ -104,13 +104,15 @@
        align-items: center;
        text-align: center;
        margin: 0;
-    padding: 100px 0 100px 0;
+    
     background-color: rgb(230 209 198);
+    width: 998px;
+    height:393px;
        
       
     }
     #chambre_1, #chambre_2, #chambre_3{
-        border: ridge 21px #b38353;
+        border:ridge 21px #b38353;
     }
     #chambre_4{
         border: ridge 21px rgba(230, 132, 4, 0.815);
@@ -120,47 +122,52 @@
         border: ridge 21px rgb(189, 0, 189);
 
     }
+    #text_1,#text_2,#text_3{
+        border: none;
+        border-bottom: none;
+        border-top: none;
+    }
+    #text_4{
+        border:none;
+        border-bottom: none;
+        border-top: none;
+    }
+    #text_5{
+        border: none;
+        border-bottom: none;
+        border-top: none;
+    }
     .couronne_1{
  
         width: 90px;
         height: 90px;
-        position:relative;
-        right:4vw;
+        margin-bottom: 24vw;
+        
        }
-       .couronne_2{
-           
-           width: 90px;
-        height: 90px;
-        position:relative;
-        left: 5vw;
-       }
+       
        .fleur1{
-           width: 50px;
-           height: 50px;
-           position:relative;
-           right:4vw;
-           bottom: 8vw;
+        width: 50px;
+        height: 50px;
+        margin-right: 2vw;
+        margin-bottom: 28vw;
        }
        .fleur2{
-           width: 50px;
-           height: 50px;
-           position:relative;
-           left:4vw;
-           bottom: 8vw;
+        width: 50px;
+        height: 50px;
+        margin-left: 4vw;
+        margin-bottom: 28vw;
        }
        .fleur3{
         width: 50px;
-        height: 50px;
-        position:relative;
-        right:-1vw;
-        top: 8vw;
+    height: 50px;
+    margin-right: -5vw;
+    margin-top: 28vw;
        }
        .fleur4{
         width: 50px;
         height: 50px;
-        position:relative;
-        left:-1vw;
-        top: 8vw;
+        margin-left: -5vw;
+        margin-top: 28vw;
        }
     .texte_chambre{
         word-break: break-word;
@@ -171,8 +178,12 @@
     letter-spacing: 2px;
     color: rgb(58, 58, 58);
     margin-bottom: 0;
-    background-color: rgb(255, 238, 215);
+    background-color: rgb(230 209 198);
     }
+    fil{
+        color:  rgb(230 209 198);
+    }
+    
     .image_chambre{
         height:828px;
     }
@@ -193,12 +204,45 @@
         border-radius: 95px;
         border: none;
     }
-    .button_chambre_div{
+    .button_chambre_div1{
         display: flex;
         justify-content: center;
-        background-color: rgb(255, 238, 215);
-        border-bottom: solid rgb(58, 58, 58) 4px;
+        background-color: rgb(230 209 198);
+        border: ridge 21px #b38353;
+        border-top:none;
+        border-left:none ;
+        border-right: none;
+        
         padding: 50px 0 100px 0;
+        margin-bottom:100px;
+        
+       
+    }
+    .button_chambre_div2{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(230 209 198);
+        border: ridge 21px rgba(230, 132, 4, 0.815);
+        border-top:none;
+        border-left:none ;
+        border-right: none;
+        
+        padding: 50px 0 100px 0;
+        margin-bottom:100px;
+        
+       
+    }
+    .button_chambre_div3{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(230 209 198);
+        border: ridge 21px rgb(189, 0, 189);
+        border-top:none;
+        border-left:none ;
+        border-right: none;
+        
+        padding: 50px 0 100px 0;
+        margin-bottom:100px;
         
        
     }
