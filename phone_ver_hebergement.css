@@ -105,21 +105,21 @@
        text-align: center;
        margin: 0;
     
-    background-color: rgb(230 209 198);
+    background-color: rgb(247, 234, 225);
     width: 998px;
     height:393px;
        
       
     }
     #chambre_1, #chambre_2, #chambre_3{
-        border:ridge 21px #b38353;
+        border:ridge 21px silver;
     }
     #chambre_4{
-        border: ridge 21px rgba(230, 132, 4, 0.815);
+        border: ridge 21px goldenrod;
 
     }
     #chambre_5{
-        border: ridge 21px rgb(189, 0, 189);
+        border: ridge 21px rgb(255, 115, 0);
 
     }
     #text_1,#text_2,#text_3{
@@ -178,10 +178,10 @@
     letter-spacing: 2px;
     color: rgb(58, 58, 58);
     margin-bottom: 0;
-    background-color: rgb(230 209 198);
+    background-color: rgb(247, 234, 225);
     }
     fil{
-        color:  rgb(230 209 198);
+        color:  rgb(247, 234, 225);
     }
     
     .image_chambre{
@@ -200,15 +200,15 @@
         width:500px;
         height:180px;
         color: black;
-        background-color: rgb(216, 169, 103);
+        background-color: rgb(247, 234, 225);
         border-radius: 95px;
         border: none;
     }
     .button_chambre_div1{
         display: flex;
         justify-content: center;
-        background-color: rgb(230 209 198);
-        border: ridge 21px #b38353;
+        background-color: rgb(247, 234, 225);
+        border: ridge 21px silver;
         border-top:none;
         border-left:none ;
         border-right: none;
@@ -221,8 +221,8 @@
     .button_chambre_div2{
         display: flex;
         justify-content: center;
-        background-color: rgb(230 209 198);
-        border: ridge 21px rgba(230, 132, 4, 0.815);
+        background-color: rgb(247, 234, 225);
+        border: ridge 21px goldenrod;
         border-top:none;
         border-left:none ;
         border-right: none;
@@ -235,8 +235,8 @@
     .button_chambre_div3{
         display: flex;
         justify-content: center;
-        background-color: rgb(230 209 198);
-        border: ridge 21px rgb(189, 0, 189);
+        background-color: rgb(247, 234, 225);
+        border: ridge 21px rgb(255, 115, 0);
         border-top:none;
         border-left:none ;
         border-right: none;
