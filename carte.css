@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'leyton_personalbold';
+    src: url('leytonpersonal-bold-webfont.woff2') format('woff2'),
+         url('leytonpersonal-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#border{
+    width:311px;
+    height:197px;
+    border: ridge goldenrod 5px ;
+  
+}
+#cardsize{
+    border: solid white 1px;
+    width:311px;
+    height:197px;
+    border-top:solid goldenrod 1px;
+    border-left: solid goldenrod 1px;
+    
+    
+}
+#img_carte{
+    width: 80px;
+    height: auto;
+    margin-left: 115px;
+    margin-top: -30px;
+    position: relative;
+    z-index: -1;
+}
+#texte{
+    
+    z-index: 100;
+    background:-webkit-linear-gradient(rgb(247, 158, 56),rgb(255, 188, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-family:  'leyton_personalbold';
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    
+   
+}
+#grid_container{
+    display:grid ;
+    grid-template-columns: 1FR 1FR;
+    text-align: center;
+  
+}
+p{
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#item_1{
+ text-align: right;
+ 
+}
+#grid_1{
+   
+    padding-right: 10px;
+}
+#item_2{
+ text-align: left;
+ border-left: solid goldenrod 2px  ;
+ padding-left: 10px;
+}
+.grid_item{
+    margin-top: -10px;
+}
+#texte_2{
+    margin-top:-8px;
+}
+.color{
+    color:goldenrod ;
+}
+#title{
+    margin: 0px 0 5px 0;
+}
+
