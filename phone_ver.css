@@ -27,6 +27,9 @@
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       
     }
+    .headtitle a{
+        display: none;
+    }
     p {
         
         
@@ -113,6 +116,7 @@
     }*/
      /*Liste menu bloc*/
      /*Liste menu item*/
+     
    
     .sidebarList .current{
         text-decoration: solid black underline 3px;
@@ -133,6 +137,9 @@
      }
      p.headtitle{
          display: none;
+     }
+     .current{
+        background-color: rgb(255, 238, 215);
      }
      /*texte barre menu */
      div ul li a{

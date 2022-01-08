@@ -10,9 +10,9 @@
  <link rel="stylesheet" href="style.css"/>
 <!--common link-->
 <!--separate link-->
- <link rel="stylesheet" href="diapoindexnew.css">
- <link rel="stylesheet" href="siteweb_indexnew.css">
-<link rel="stylesheet" href="phone_ver_indexnew.css"> 
+ <link rel="stylesheet" href="diapoindex.css">
+ <link rel="stylesheet" href="siteweb_index.css">
+<link rel="stylesheet" href="phone_ver_index.css"> 
 <!--separate link-->
 
 </head>
@@ -33,7 +33,7 @@
      <ul class="sidebarList" style="padding-left: 0;"id="nav_background">
         <a href="index.html" class="imglink"><img class="imglogo" id="img_logo"src=".\image video/logochateau2.jpg"/></a> 
        
-        <h1 class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></h1>
+        <p class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></p>
         <li><a href="index.html"  id="index"style="margin-top:80px;"class="menu_link current top">ACCUEIL</a></li>
         <li><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
         <li><a href="mariage.html"id="mariage"class="menu_link">MARIAGE</a></li>
@@ -41,7 +41,6 @@
         <li><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>
         <li><a href="hebergements.html"id="hebergements"class=" menu_link">HÉBERGEMENTS</a></li>
         <li><a href="contact.html"id="contact"class="menu_link">CONTACT</a></li>
-        <li><a href="covid-19.html"id="contact"class="menu_link ">COVID-19</a></li>
        </ul>
        </div>
 
@@ -54,20 +53,17 @@
    
     
     
-  <div id="image_div">
-
-    
-   <div id="image_acceuil">
-  </div>
+  <div class="videoDiv">
+   <video id="video" autoplay muted loop class="video"><source src=".\image video/video.mp4" type=video/mp4 >
+  </video>
   </div>
  
     <div id="" class="">
         <p id="welcome1" class="video_text"><em>Bienvenue au Château de Moliens</em>  </p>
-        <p id="welcome2" class="video_text">OISE</p>
-        <p id="welcome3" class="video_text">Intérieurs aux décorations raffinées, le château de moliens et son parc de 2 hectares 
-            présente un endroit idéal pour passer un séjour ou organiser votre événement.</p>
-        <p id="welcome4" class="video_text"> 
-                  
+        <p id="welcome2" class="video_text"><em>OISE,60</em> </p>
+        <p id="welcome3" class="video_text">Intérieurs aux décorations raffinées, le Château de Moliens et son  </p>
+        <p id="welcome4" class="video_text"> parc de 2 hectares 
+            présente un endroit idéal pour organiser votre événement           
         </p>
         
     </div>
@@ -75,10 +71,10 @@
        id="alert_div">
           <button onclick="hideAlert()" ; id="alert_button_close">X</button>
         <p  id="alert_p">
-          Site en cours de rédaction </p>
+          Offre saison 2021: </p>
           <ul id="alert_ul">
-              <li class="alert_li" > </li>
-              <li class="alert_li"></li>
+              <li class="alert_li" >-15% sur tous les événements </li>
+              <li class="alert_li">-10% sur tous les événements entre novembre et février</li>
         
   
   
@@ -138,19 +134,8 @@
         <a class="right" onclick="nextSlide2(1)"onmouseover="clearTimer()" onmouseout="startTimer()"><button class="button-Diapo">❯</button></a> 
        
     </div> 
-    <div id="accroche">
-   <br><br><br>
-            <p class="adresse">17, RUE DE PICARDIE, 60220 MOLIENS</p> <br>
-    </div>
-    <div id="contact_grid">
-        <div class="grid_contact_item"> <a class="underline_link"href="tel:0631383831" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-            <p>33 (6) 31 38 38 31</p></a></div>
-        <div class="grid_contact_item"> <a class="underline_link"href="contact.html">
-            <p>NOUS CONTACTER</p></a></div>
-       
-    </div>
     <!-- Code diapo-->
-    
+    <div><img src=".\image video/chateau3.JPG"></div>
     <br><br><br><br>
     <h1>Services du château</h1>
     <br><br>
@@ -340,8 +325,8 @@
              <h1 id="welcome1"style="border-bottom:none;text-shadow: 5px 5px black;"><em>Château de Moliens</em> </h1>
              <p id="welcome2"style="text-shadow: 5px 5px black;">OISE,60 </p>
              <p id="welcome3"style="text-shadow: 5px 5px black;">
-                Intérieurs aux décorations raffinées, le château de moliens et son parc de 2 hectares 
-            présente un endroit idéal pour passer un séjour ou organiser votre événement.
+                Intérieurs aux décorations raffinées, le Château de Moliens et son parc de 2 hectares 
+                présente un endroit idéal pour organiser votre événement.
              </p>
              
             </div>
@@ -349,12 +334,9 @@
      <div class="grid-item" id="alert_div2">
         <div style="float: right;"><button onClick="hideAlert2()";id="alert_button" style="font-size:50px;width:70px;background-color:black;border:solid gray 2px;color:white;border-radius:35px;">X</button></div>
       <p style= "font-size:90px;display:block;color:white;" id="alert">
-        <ul style="list-style: none;font-size: 50px;letter-spacing: 2px;">
-           <!-- <li></li>
-            <li></li>-->
-            <li></li>
-            <p  id="alert_p">
-                Site en cours de rédaction </p>
+        -Offre saison 2021: <ul style="list-style: none;font-size: 50px;letter-spacing: 2px;">
+            <li>-15% sur tous les événements hehehehe</li>
+            <li>-10% sur tous les événements entre novembre et février</li>
       
 
 

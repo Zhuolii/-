@@ -251,15 +251,15 @@ button.leftButton{
 }
 .item2,.item6,.item3{
     border:ridge 7px #b38353;
-    background-color: #e6d1c6;
+    background-color: rgb(247, 234, 225);
 }
 .item7{
     border:ridge 7px rgba(230, 132, 4, 0.815);
-    background-color: #e6d1c6;
+    background-color: rgb(247, 234, 225);
 }
 .item10{
     border:ridge  7px rgb(231, 4, 231);
-    background-color: #e6d1c6;
+    background-color: rgb(247, 234, 225);
 }
 .button_chambre_div{
     display: flex;
@@ -288,7 +288,7 @@ spann {
 }
 space{
     width:15px;
-    color:#e6d1c6;
+    color:rgb(247, 234, 225);
 }
 
 .couronne_1{
