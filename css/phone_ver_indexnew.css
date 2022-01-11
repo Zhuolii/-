@@ -65,7 +65,7 @@
             url('image video/chateau3.JPG');
             
             width: 1023px;
-            height: 1023px;
+            height: 827.2px;
             background-size: cover;
            
            
@@ -251,12 +251,22 @@
     .letter_spacing{
             letter-spacing: 3px;
             font-size:90px;
-            color: rgb(58, 58, 58);
+            color: black;
             padding-bottom: 30px;
-            border-bottom: solid rgb(58, 58, 58) 4px;
+            border-bottom: solid black 4px;
             margin:40px 0 100px 0;
             justify-content: center;
             display: flex;
+        }
+        .underline_link {
+                color: black;
+                text-decoration-color: black;
+                text-underline-offset: 10px;
+                letter-spacing: 2px;
+        }
+
+        p{
+                color: black;
         }
     
     }

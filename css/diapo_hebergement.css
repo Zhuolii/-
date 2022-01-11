@@ -180,6 +180,8 @@ div.showSlide.grid_diapo{
 }
 
 
+
+
 } /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver *//* phone ver *//* phone ver */
 /*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver */
 @media (min-width: 1024px) 
@@ -284,8 +286,8 @@ div.showSlide.grid_diapo{
         background-image:
         linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
         url('images/img1.jpg');
-        width: 43vw;
-        height: 30.6vw;
+        width:100%;
+        height:32vw;
         background-size: cover;
         
         z-index: -1000;
@@ -295,8 +297,8 @@ div.showSlide.grid_diapo{
         background-image:
         linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
         url('images/img2.jpg');
-        width: 43vw;
-        height: 30.6vw;
+        width:100%;
+        height:32vw;
         
         z-index: -1000;
        
@@ -308,8 +310,8 @@ div.showSlide.grid_diapo{
         background-image:
         linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
         url('images/img3.jpg');
-        width: 43vw;
-        height: 30.6vw;
+        width:100%;
+        height:32vw;
         
         z-index: -1000;
        
@@ -321,8 +323,8 @@ div.showSlide.grid_diapo{
         background-image:
         linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
         url('images/img4.jpg');
-        width: 43vw;
-        height: 30.6vw;
+        width:100%;
+        height:32vw;
         
         
         z-index: -1000;
@@ -366,12 +368,16 @@ div.showSlide.grid_diapo{
     font-size:2vw;
     position: absolute;
     bottom: -105vw;
-    left: 7vw;
+   
     cursor:pointer;
 
 }
+#button-Diapo3{
+    right:45vw;
+
+}
 #button-Diapo4{
-    left:46vw;
+    right:7vw;
 } 
 /*diapo chambre 2*/
 /*diapo chambre 3*/
@@ -400,11 +406,11 @@ div.showSlide.grid_diapo{
     font-size:2vw;
     position: absolute;
     bottom: -179vw;
-    left: 7vw;
+    right:45vw;
     cursor:pointer;
 }
 #button-Diapo8{
-    left:46vw;
+    right:7vw;
 } 
 /*diapo chambre 4*/
 /*diapo chambre 5*/

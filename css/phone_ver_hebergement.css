@@ -32,37 +32,8 @@
         
         
     }
-    #reserver1{
-      
-    
-        padding:20px 20px 20px 20px;
-         
-        z-index: 2;
-        width: 600px;
-      
-        letter-spacing: 6px;
-        font-size: 40px;
-        background-color: rgb(36, 36, 36);
-        
-        border-radius:1.1em;
-        display: flex;
-        justify-content: center;
-        margin:240px 0 0 230px;
-       
-        text-decoration:none;
-        
-        
-        
-        
-}
-#reserver_text{
-    color: white;
-    text-decoration: none;
-    font-weight:0;
-}
-#reserver1:hover{
-            background-color: rgb(85, 85, 85);
-    }
+   
+
     
     #pp{
         font-size: 6vw; 
@@ -97,159 +68,7 @@
         size-adjust:initial;
         margin-left: 4vw;
     }
-    .titre_chambre {
-        font-size: 4em; 
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
-       margin: 0;
-    
-    background-color: rgb(247, 234, 225);
-    width: 998px;
-    height:393px;
-       
-      
-    }
-    #chambre_1, #chambre_2, #chambre_3{
-        border:ridge 21px silver;
-    }
-    #chambre_4{
-        border: ridge 21px goldenrod;
-
-    }
-    #chambre_5{
-        border: ridge 21px rgb(255, 115, 0);
-
-    }
-    #text_1,#text_2,#text_3{
-        border: none;
-        border-bottom: none;
-        border-top: none;
-    }
-    #text_4{
-        border:none;
-        border-bottom: none;
-        border-top: none;
-    }
-    #text_5{
-        border: none;
-        border-bottom: none;
-        border-top: none;
-    }
-    .couronne_1{
- 
-        width: 90px;
-        height: 90px;
-        margin-bottom: 24vw;
-        
-       }
-       
-       .fleur1{
-        width: 50px;
-        height: 50px;
-        margin-right: 2vw;
-        margin-bottom: 28vw;
-       }
-       .fleur2{
-        width: 50px;
-        height: 50px;
-        margin-left: 4vw;
-        margin-bottom: 28vw;
-       }
-       .fleur3{
-        width: 50px;
-    height: 50px;
-    margin-right: -5vw;
-    margin-top: 28vw;
-       }
-       .fleur4{
-        width: 50px;
-        height: 50px;
-        margin-left: -5vw;
-        margin-top: 28vw;
-       }
-    .texte_chambre{
-        word-break: break-word;
-    line-height: 90px;
-    padding:100px 40px 0px 40px;
-    margin-top:0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    letter-spacing: 2px;
-    color: rgb(58, 58, 58);
-    margin-bottom: 0;
-    background-color: rgb(247, 234, 225);
-    }
-    fil{
-        color:  rgb(247, 234, 225);
-    }
-    
-    .image_chambre{
-        height:828px;
-    }
-    .small_logos{
-        width: 100px;
-        height: 100px;
-    }
-    span{
-        font-size:80px;
-        color: green;
-    }
-    .chambre_button{
-         font-size:40px;
-        width:500px;
-        height:180px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(39, 39, 39);
-        border-radius: 95px;
-        border:none;
-    }
-    .chambre_button:hover{
-        background-color: gray;
-
-    }
-    .button_chambre_div1{
-        display: flex;
-        justify-content: center;
-        background-color: rgb(247, 234, 225);
-        border: ridge 21px silver;
-        border-top:none;
-        border-left:none ;
-        border-right: none;
-        
-        padding: 50px 0 100px 0;
-        margin-bottom:100px;
-        
-       
-    }
-    .button_chambre_div2{
-        display: flex;
-        justify-content: center;
-        background-color: rgb(247, 234, 225);
-        border: ridge 21px goldenrod;
-        border-top:none;
-        border-left:none ;
-        border-right: none;
-        
-        padding: 50px 0 100px 0;
-        margin-bottom:100px;
-        
-       
-    }
-    .button_chambre_div3{
-        display: flex;
-        justify-content: center;
-        background-color: rgb(247, 234, 225);
-        border: ridge 21px rgb(255, 115, 0);
-        border-top:none;
-        border-left:none ;
-        border-right: none;
-        
-        padding: 50px 0 100px 0;
-        margin-bottom:100px;
-        
-       
-    }
+   
    
     
     
@@ -279,7 +98,115 @@
         align-items: center;
         
     }
- 
+    .grid--item,.grid--item1{
+        margin:  70px;
+         
+         
+        
+     }
+     
+     .grid--item h2{
+         text-align: center;
+     }
+     .grid--item p{
+         margin:0 1vw 0 3vw;
+         line-height: 2.5em;
+     }
+     .chambre_button{
+        border-radius: 5px;
+        padding:1em;
+        background-color: black;
+        color:rgb(255, 255, 255) ;
+        border: solid black 0.15vw;
+        font-size:xx-large;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: background-color 0.5s ease;
+        transition: color 0.5s ease;
+        transition: font-size 0.5s ease;
+        transition: border 0.5s ease;
+        letter-spacing: 2px;
+     
+     }
+     .chambre_button:hover{
+         cursor: pointer;
+         background-color:white ;
+         color: black;
+         transition: 0.3s ease ;
+         font-size: xx-large;
+         border: solid rgb(0, 0, 0) 0.15vw;
+         
+     }
+     .chambre_button a{
+         text-decoration: none;
+     }
+     .buttonDiv{
+         height: 10vw;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+     }
+     button.leftButton{
+         background-color: rgb(255, 255, 255);
+     }
+     .item2,.item6,.item3{
+         
+         background-color: rgb(255, 255, 255);
+         margin-bottom:200px;
+     }
+     .item7{
+         
+         background-color: rgb(255, 255, 255);
+         margin-bottom:200px;
+     }
+     .item10{
+        
+         background-color: rgb(255, 255, 255);
+         margin-bottom:200px;
+         margin-bottom:70px;
+     }
+     .button_chambre_div{
+         display: flex;
+         justify-content: center;
+        
+         
+         padding:0;
+         
+        
+     }
+     .small_logos {
+         width: 30px;
+         height: 30px;
+         padding-right:20px;
+     }
+     spann {
+         font-size: 40px;
+         color: green;
+         margin-top:15px;
+     }
+     .chambre_info{
+         
+         margin:15px 0 15px 0;
+     }
+     .chambre_text{
+         height: auto;
+     }
+     #image_gradient2 {
+        background-image:
+        linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
+        url('images/img2.jpg');
+       
+       
+        
+        
+    }
+    .image_chambre{
+        height: 600px;
+        width: 900px;
+        
+        background-size: cover;
+    
+    }
     
  }
  

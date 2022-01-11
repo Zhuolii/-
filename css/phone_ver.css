@@ -1,13 +1,23 @@
 
-@media (max-width: 1023px)
+
+@media  (max-width:1023px)
+
 {
+
+    div ul li a{
+        
+      
+       
+       
+        padding: 40px 100px 40px 100px;
+   }
     
     
     .siteWeb{
         display: none;
     }
     div.siteMobile {
-        width: 1040px;
+        width: 1023px;
         height: auto;
         display: block;
     } 
@@ -165,7 +175,7 @@
         
         
         background-color:rgb(255, 255, 255);
-        padding: 80px 100px 80px 100px;
+       /* padding: 80px 100px 80px 100px;*/
         color: rgb(0, 0, 0);
         font-size: 40px;
         display: block;
@@ -367,7 +377,7 @@
     margin: 0 40px 0 70px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 2px;
-    color: rgb(58, 58, 58);
+   
 }
 .grid-item h1{
     display: flex;
@@ -497,5 +507,6 @@
  
 
 }
+
 
 

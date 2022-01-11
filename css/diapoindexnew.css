@@ -144,41 +144,41 @@ div.showSlide.grid_diapo{
     background-color: #717171;  
 }  
 /* Fading animation */  
-.fade {  
-    animation: fadeIn ease 1s;
-    -webkit-animation: fadeIn ease 1s;
-    -moz-animation: fadeIn ease 1s;
-    -o-animation: fadeIn ease 1s;
-    -ms-animation: fadeIn ease 1s;
+/*.fade {  
+    animation: fadeIn ease 0.5s;
+    -webkit-animation: fadeIn ease  0.5s;
+    -moz-animation: fadeIn ease  0.5s;
+    -o-animation: fadeIn ease  0.5s;
+    -ms-animation: fadeIn ease  0.5s;
   }
   @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {opacity:1;}
+    100% {opacity:0;}
   }
   
   @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {opacity:1;}
+    100% {opacity:0;}
   }
   
   @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {opacity:1;}
+    100% {opacity:0;}
   }
   
   @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {opacity:1;}
+    100% {opacity:0;}
   }
   
   @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  } 
-#image_gradient1 {
+    0% {opacity:1;}
+    100% {opacity:0;}
+  } */
+#chateau1 {
     background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img1.jpg');
+   
+    url('image_chateau/chateau1.JPG');
     width: 1023px;
     height: 827.19px;
     background-size: cover;
@@ -186,10 +186,10 @@ div.showSlide.grid_diapo{
     z-index: -1000;
     
 }
-#image_gradient2 {
+#chateau2 {
     background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img2.jpg');
+   
+    url('image_chateau/chateau2.JPG');
     width: 1023px;
     height: 827.19px;
     display: flex;
@@ -199,10 +199,10 @@ div.showSlide.grid_diapo{
     
     
 }
-#image_gradient3 {
+#chateau3 {
     background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img3.jpg');
+   
+    url('image_chateau/chateau3.JPG');
     width: 1023px;
     height: 827.19px;
     display: flex;
@@ -212,23 +212,10 @@ div.showSlide.grid_diapo{
     
     
 }
-#image_gradient4 {
+#jardin1 {
     background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img4.jpg');
-    width: 1023px;
-    height: 827.19px;
-    
-    display: flex;
-    z-index: -1000;
-    background-size: cover;
-    
-    
-}
-#image_royale1 {
-    background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img1.jpg');
+   
+    url('image_chateau/jardin1.JPG');
     width: 1023px;
     height: 827.19px;
     background-size: cover;
@@ -236,45 +223,34 @@ div.showSlide.grid_diapo{
     z-index: -1000;
     
 }
-#image_royale2 {
+#jardin2 {
     background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img2.jpg');
+   
+    url('image_chateau/jardin2.JPG');
     width: 1023px;
     height: 827.19px;
     display: flex;
-    z-index: -1;
+    z-index: -1000;
    
     background-size: cover;
     
     
 }
-#image_royale3 {
+#jardin3 {
     background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img3.jpg');
+   
+    url('image_chateau/jardin3.JPG');
     width: 1023px;
     height: 827.19px;
     display: flex;
-    z-index: -1;
+    z-index: -1000;
    
     background-size: cover;
     
     
 }
-#image_royale4 {
-    background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img4.jpg');
-    width: 1023px;
-    height: 827.19px;
-    
-    display: flex;
-    z-index: -1;
-    background-size: cover;
-    
-    
-}
+
+
 .plus1{
     z-index: 2;
     width: 300px;
@@ -395,23 +371,23 @@ div.showSlide.grid_diapo{
         0% {opacity:0;}
         100% {opacity:1;}
       } 
-    #image_gradient1 {
+    #chateau1 {
         background-image:
-        linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-        url('images/img1.jpg');
+      
+        url('image_chateau/chateau1.JPG');
         width: 50vw;
-        height: 30vw;
+        height: 35vw;
         background-size: cover;
         
         z-index: -1000;
         
     }
-    #image_gradient2 {
+    #chateau2 {
         background-image:
-        linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-        url('images/img2.jpg');
+       
+        url('image_chateau/chateau2.JPG');
         width: 50vw;
-        height: 30vw;
+        height: 35vw;
         
         z-index: -1000;
        
@@ -419,12 +395,12 @@ div.showSlide.grid_diapo{
         
         
     }
-    #image_gradient3 {
+    #chateau3 {
         background-image:
-        linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-        url('images/img3.jpg');
+       
+        url('image_chateau/chateau3.JPG');
         width: 50vw;
-        height: 30vw;
+        height: 35vw;
         
         z-index: -1000;
        
@@ -432,19 +408,44 @@ div.showSlide.grid_diapo{
         
         
     }
-    #image_gradient4 {
+    #jardin1 {
         background-image:
-        linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-        url('images/img4.jpg');
+      
+        url('image_chateau/jardin1.JPG');
         width: 50vw;
-        height: 30vw;
-        
+        height: 35vw;
+        background-size: cover;
         
         z-index: -1000;
+        
+    }
+    #jardin2 {
+        background-image:
+       
+        url('image_chateau/jardin2.JPG');
+        width: 50vw;
+        height: 35vw;
+        
+        z-index: -1000;
+       
         background-size: cover;
         
         
     }
+    #jardin3 {
+        background-image:
+       
+        url('image_chateau/jardin3.JPG');
+        width: 50vw;
+        height: 35vw;
+        
+        z-index: -1000;
+       
+        background-size: cover;
+        
+        
+    }
+    
     #image_grid_container{
         display: flex;
         text-align: center;

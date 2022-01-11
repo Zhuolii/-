@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+   
     <!--common link-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,11 +10,12 @@
 <link rel="stylesheet" href="./css/phone_ver.css"/>
  <link rel="stylesheet" href="./css/style.css"/>
 <!--common link-->
-<!--separate link-->
+ <!--separate link-->
  <link rel="stylesheet" href="./css/diapoindexnew.css">
  <link rel="stylesheet" href="./css/siteweb_indexnew.css">
 <link rel="stylesheet" href="./css/phone_ver_indexnew.css"> 
 <!--separate link-->
+
 <title>Château de Moliens réserver adresse téléphone</title>
 </head>
 <body onload="startTimer()">
@@ -94,10 +96,10 @@
     <br><br>
       <!-- Code diapo-->
       <div class="slidercontainer">  
-        <div class="showSlide2 fade grid_diapo" >  
+        <div class="showSlide2 grid_diapo" >  
             <div  class="grid-item" id="image_grid_container"onmouseover="clearTimer()" onmouseout="startTimer()">
                  
-                 <div id="image_gradient1" class="imageIndex" >
+                 <div id="chateau1" class="imageIndex" >
                    
                 
                  
@@ -105,34 +107,55 @@
                  </div>
             </div>
         </div>  
-        <div class="showSlide2 fade grid_diapo">  
+        <div class="showSlide2 grid_diapo">  
             <div id="image_grid_container" class="grid-item"onmouseover="clearTimer()" onmouseout="startTimer()">
          
-                <div id="image_gradient2" class="imageIndex">
+                <div id="chateau2" class="imageIndex">
         
                  
                 </div>
          </div>  
         </div>  
   
-        <div class="showSlide2 fade grid_diapo">  
+        <div class="showSlide2 grid_diapo">  
             <div id="image_grid_container" class="grid-item"onmouseover="clearTimer()" onmouseout="startTimer()">
          
-                <div id="image_gradient3" class="imageIndex">
+                <div id="chateau3" class="imageIndex">
                 
                  
                 </div>
          </div> 
         </div>  
-        <div class="showSlide2 fade grid_diapo">  
+        <div class="showSlide2 grid_diapo" >  
+            <div  class="grid-item" id="image_grid_container"onmouseover="clearTimer()" onmouseout="startTimer()">
+                 
+                 <div id="jardin1" class="imageIndex" >
+                   
+                
+                 
+                   
+                 </div>
+            </div>
+        </div>  
+        <div class="showSlide2 grid_diapo">  
             <div id="image_grid_container" class="grid-item"onmouseover="clearTimer()" onmouseout="startTimer()">
          
-                <div id="image_gradient4" class="imageIndex">
+                <div id="jardin2" class="imageIndex">
+        
                  
+                </div>
+         </div>  
+        </div>  
+  
+        <div class="showSlide2 grid_diapo">  
+            <div id="image_grid_container" class="grid-item"onmouseover="clearTimer()" onmouseout="startTimer()">
+         
+                <div id="jardin3" class="imageIndex">
+                
                  
                 </div>
          </div> 
-        </div>  
+        </div> 
         <!-- Navigation arrows -->  
         <a class="left" onclick="nextSlide2(-1)" onmouseover="clearTimer()" onmouseout="startTimer()"><button  class="button-Diapo">❮</button></a> 
         <a class="right" onclick="nextSlide2(1)"onmouseover="clearTimer()" onmouseout="startTimer()"><button class="button-Diapo">❯</button></a> 
@@ -346,6 +369,22 @@
              
             </div>
      </div>
+
+
+     <div id="accroche_grid" class="grid-item">
+        <br><br>
+            <p id="p1"class="adresse"style="justify-content:center; display flex;">17, RUE DE PICARDIE,60220  </p> <br>
+            <p id="p1"class="adresse"style="justify-content:center; display flex;"> MOLIENS</p>
+            <br>
+            <br>
+            <div > <a class="underline_link"href="tel:0631383831" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+                <p>33 (6) 31 38 38 31</p></a></div> <br><br>
+            <div > <a class="underline_link"href="contact.html">
+                <p>NOUS CONTACTER</p></a></div>
+            <br><br><br>
+    </div>
+
+
      <div class="grid-item" id="alert_div2">
         <div style="float: right;"><button onClick="hideAlert2()";id="alert_button" style="font-size:50px;width:70px;background-color:black;border:solid gray 2px;color:white;border-radius:35px;">X</button></div>
       <p style= "font-size:90px;display:block;color:white;" id="alert">
@@ -371,15 +410,7 @@
         
         
             
-        <div id="accroche_grid" class="grid-item">
-            <br><br>
-                <p id="p1"class="adresse"style="justify-content:center; display flex;">17, RUE DE PICARDIE</p> <br>
-                <p id="p1"class="adresse"style="justify-content:center; display flex;">60220 MOLIENS </p>
-                <br>
-                <br>
-                <p id="p1"class="adresse"style="justify-content:center; display flex;">33 (1) 88 77 66 55</p>
-                <br><br><br>
-        </div>
+        
         
         <div class="grid-item">
             <br>
@@ -399,7 +430,7 @@
             <div class="showSlide fade grid_diapo">  
                 <div  class="grid-item" id="image_grid_container">
                      
-                     <div id="image_gradient1" class="imageIndex">
+                     <div id="chateau1" class="imageIndex">
                        
                     
                      
@@ -410,7 +441,7 @@
             <div class="showSlide fade grid_diapo">  
                 <div id="image_grid_container" class="grid-item">
              
-                    <div id="image_gradient2" class="imageIndex">
+                    <div id="chateau2" class="imageIndex">
             
                      
                     </div>
@@ -420,7 +451,7 @@
             <div class="showSlide fade grid_diapo">  
                 <div id="image_grid_container" class="grid-item">
              
-                    <div id="image_gradient3" class="imageIndex">
+                    <div id="chateau3" class="imageIndex">
                     
                      
                     </div>
@@ -429,12 +460,30 @@
             <div class="showSlide fade grid_diapo">  
                 <div id="image_grid_container" class="grid-item">
              
-                    <div id="image_gradient4" class="imageIndex">
+                    <div id="jardin1" class="imageIndex">
                      
                      
                     </div>
              </div> 
-            </div>  
+            </div>
+            <div class="showSlide fade grid_diapo">  
+                <div id="image_grid_container" class="grid-item">
+             
+                    <div id="jardin2" class="imageIndex">
+                    
+                     
+                    </div>
+             </div> 
+            </div> 
+            <div class="showSlide fade grid_diapo">  
+                <div id="image_grid_container" class="grid-item">
+             
+                    <div id="jardin3" class="imageIndex">
+                    
+                     
+                    </div>
+             </div> 
+            </div>   
             <!-- Navigation arrows -->  
              <a class="left"style="bottom:-2300px" onclick="nextSlide(-1)">❮</a>  
             <a class="right" style="bottom:-2300px" onclick="nextSlide(1)">❯</a> 

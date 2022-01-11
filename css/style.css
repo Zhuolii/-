@@ -5,12 +5,15 @@
      body{
          margin:0;
          
-            background-color: rgb(250, 249, 249);
+            background-color: rgb(255, 255, 255);
             overflow-x: hidden;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         
      }
      .siteMobile{
+         display: none;
+     }
+     #navTitle{
          display: none;
      }
  #nav__checkbox{
