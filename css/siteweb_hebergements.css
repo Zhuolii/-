@@ -286,8 +286,41 @@ spann {
 .chambre_text{
     height: auto;
 }
-
-
+#image_royale{
+    background-image: url('royale/img_1.JPG');
+    width: 100%;
+    height: 32vw;
+    background-size: cover;
+    z-index: -1000;
+}
+#image_alexandra{
+    background-image: url('alexandra/img_1.JPG');
+    width: 100%;
+    height: 32vw;
+    background-size: cover;
+    z-index: -1000;
+}
+#image_clemence{
+    background-image: url('clemence/img_1.JPG');
+    width: 100%;
+    height: 32vw;
+    background-size: cover;
+    z-index: -1000;
+}
+#image_elise{
+    background-image: url('elise/img_1.JPG');
+    width: 100%;
+    height: 32vw;
+    background-size: cover;
+    z-index: -1000;
+}
+#image_olympe{
+    background-image: url('olympe/img_1.JPG');
+    width: 100%;
+    height: 32vw;
+    background-size: cover;
+    z-index: -1000;
+}
 
 
 

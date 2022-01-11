@@ -18,9 +18,9 @@ body {
 #image_gradient1 {
     background-image:
    
-    url('images/img1.jpg');
+    url('royale/img_1.JPG');
     width: 82vw;
-    height: 54.6vw;
+    height: 61.6vw;
     background-size: cover;
     
     z-index: -1000;
@@ -29,9 +29,9 @@ body {
 #image_gradient2 {
     background-image:
    
-    url('images/img2.jpg');
+    url('royale/img_2.JPG');
     width: 82vw;
-    height: 54.6vw;
+    height: 61.6vw;
     
     z-index: -1000;
    
@@ -42,9 +42,9 @@ body {
 #image_gradient3 {
     background-image:
     
-    url('images/img3.jpg');
+    url('royale/img_3.JPG');
     width: 82vw;
-    height: 54.6vw;
+    height: 61.6vw;
     
     z-index: -1000;
    
@@ -55,9 +55,9 @@ body {
 #image_gradient4 {
     background-image:
     
-    url('images/img4.jpg');
+    url('royale/img_3.JPG');
     width: 82vw;
-    height: 54.6vw;
+    height: 61.6vw;
     
     
     z-index: -1000;
@@ -109,7 +109,7 @@ margin: 10px;
     #image_gradient1 {
         background-image:
     
-        url('chateau/chambre_royale1.JPG');
+        url('royale/img_1.JPG');
         width: 50vw;
         height: 40vw;
         background-size: cover;
@@ -120,7 +120,7 @@ margin: 10px;
     #image_gradient2 {
         background-image:
      
-        url('images/img2.jpg');
+        url('royale/img_2.JPG');
         width: 50vw;
         height: 40vw;
         z-index: -1000;
@@ -132,7 +132,7 @@ margin: 10px;
     #image_gradient3 {
         background-image:
       
-        url('images/img3.jpg');
+        url('royale/img_3.JPG');
         width: 50vw;
         height: 40vw;
         
@@ -145,7 +145,7 @@ margin: 10px;
     #image_gradient4 {
         background-image:
    
-        url('images/img4.jpg');
+        url('royale/img_3.JPG');
         width: 50vw;
         height: 40vw;
         

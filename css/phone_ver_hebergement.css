@@ -191,15 +191,12 @@
      .chambre_text{
          height: auto;
      }
-     #image_gradient2 {
-        background-image:
-        linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-        url('images/img2.jpg');
+     
        
        
         
         
-    }
+    
     .image_chambre{
         height: 600px;
         width: 900px;
@@ -207,6 +204,43 @@
         background-size: cover;
     
     }
+    #image_royale{
+        background-image: url('royale/img_1.JPG');
+        height: 675px;
+        width: 900px;
+        
+        background-size: cover;
+       
+    }
+    #image_alexandra{
+        background-image: url('alexandra/img_1.JPG');
+        height: 675px;
+        width: 900px;
+        
+        background-size: cover;
+    }
+    #image_clemence{
+        background-image: url('clemence/img_1.JPG');
+        height: 675px;
+        width: 900px;
+        
+        background-size: cover;
+    }
+    #image_elise{
+        background-image: url('elise/img_1.JPG');
+        height: 675px;
+        width: 900px;
+        
+        background-size: cover;
+    }
+    #image_olympe{
+        background-image: url('olympe/img_1.JPG');
+        height: 675px;
+        width: 900px;
+        
+        background-size: cover;
+    }
+
     
  }
  

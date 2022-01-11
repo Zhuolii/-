@@ -10,18 +10,17 @@ body {
     
      
     margin:auto; 
-    position: relative;
-    top:150px;
-    margin-bottom: 200px;
+    
+    margin-bottom: 100px;
 }  
 
 
 #image_gradient1 {
     background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img1.jpg');
-    width: 43vw;
-    height: 30.6vw;
+   
+    url('clemence/img_1.JPG');
+    width: 82vw;
+    height: 61.6vw;
     background-size: cover;
     
     z-index: -1000;
@@ -29,10 +28,10 @@ body {
 }
 #image_gradient2 {
     background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img2.jpg');
-    width: 43vw;
-    height: 30.6vw;
+   
+    url('clemence/img_2.JPG');
+    width: 82vw;
+    height:61.6vw;
     
     z-index: -1000;
    
@@ -42,10 +41,10 @@ body {
 }
 #image_gradient3 {
     background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img3.jpg');
-    width: 43vw;
-    height: 30.6vw;
+    
+    url('clemence/img_3.JPG');
+    width: 82vw;
+    height: 61.6vw;
     
     z-index: -1000;
    
@@ -55,10 +54,10 @@ body {
 }
 #image_gradient4 {
     background-image:
-    linear-gradient(to bottom, rgba(255, 254, 254, 0.1), rgb(49, 49, 49, 0)),
-    url('images/img4.jpg');
-    width: 43vw;
-    height: 30.6vw;
+    
+    url('clemence/img_3.JPG');
+    width: 82vw;
+    height: 61.6vw;
     
     
     z-index: -1000;
@@ -74,27 +73,20 @@ body {
 }
 
 
-/* siteweb css*/
+
 /*diapo chambre 1*/
 
-#button-Diapo1,#button-Diapo2{
-width: 3vw;  
-height: 3vw;
+#button-Diapo1_1,#button-Diapo2_1{
+width: 8vw;  
+height: 8vw;
 background-color: rgba(128, 128, 128, 0.479);
 border:none;
 font-size:2vw;
-position: relative;
-top:-15vw;
-left: 10vw;
+border-radius: 10px;
+display:inline;
+margin: 10px;
 
 }
-#button-Diapo2{
-left:46vw;
-} 
-/*diapo chambre 1*/
-
-
-
 }
 
 
@@ -110,14 +102,14 @@ left:46vw;
         margin:auto; 
         position: relative;
         top:220px;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }  
     
     
     #image_gradient1 {
         background-image:
     
-        url('chateau/chambre_royale1.JPG');
+        url('clemence/img_1.JPG');
         width: 50vw;
         height: 40vw;
         background-size: cover;
@@ -128,7 +120,7 @@ left:46vw;
     #image_gradient2 {
         background-image:
      
-        url('images/img2.jpg');
+        url('clemence/img_2.JPG');
         width: 50vw;
         height: 40vw;
         z-index: -1000;
@@ -140,7 +132,7 @@ left:46vw;
     #image_gradient3 {
         background-image:
       
-        url('images/img3.jpg');
+        url('clemence/img_3.JPG');
         width: 50vw;
         height: 40vw;
         
@@ -153,7 +145,7 @@ left:46vw;
     #image_gradient4 {
         background-image:
    
-        url('images/img4.jpg');
+        url('clemence/img_3.JPG');
         width: 50vw;
         height: 40vw;
         
@@ -169,7 +161,7 @@ left:46vw;
         justify-content: center;
         align-items: center;
     }
-}
+
 
 /* siteweb css*/
 /*diapo chambre 1*/
@@ -183,11 +175,13 @@ left:46vw;
     position: relative;
     top:-20vw;
     left: 15vw;
+    cursor: pointer;
 
 }
 #button-Diapo2{
     left:78vw;
 } 
+
 /*diapo chambre 1*/
 
 
@@ -195,3 +189,4 @@ left:46vw;
 
 /* siteweb css*/
 /*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver */
+}
