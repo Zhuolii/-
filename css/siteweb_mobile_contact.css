@@ -35,7 +35,7 @@ body{
     margin-top: 5vw;
     width: 100vw;
     height: 40vw;
-    background-image: url(./image\ video/image_heber.JPG);
+    background-image: url(./image\ video/chateau1.JPG);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -227,8 +227,9 @@ input:hover,textarea:hover,input:focus,textarea:focus{
 }
 /*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*/
 
-}@media (min-width: 1024px)
-{@media (max-width: 1039px){
+}
+@media (min-width: 1024px)
+{
 
 body{
     background-color: rgb(255, 255, 255);
@@ -264,7 +265,7 @@ body{
     margin-top: 5vw;
     width: 100vw;
     height: 40vw;
-    background-image: url(./image\ video/image_heber.JPG);
+    background-image: url(./image\ video/chateau1.JPG);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -455,7 +456,7 @@ input:hover,textarea:hover,input:focus,textarea:focus{
 }
 
 
-}}
+}
 /*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*/
 
 /*mobile*/
@@ -488,7 +489,7 @@ input:hover,textarea:hover,input:focus,textarea:focus{
         margin-top: 5vw;
         width: 1038px;
         height: 1038px;
-        background-image: url(./image\ video/image_heber.JPG);
+        background-image: url(./image\ video/chateau1.JPG);
         background-size: cover;
         display: flex;
         justify-content: center;

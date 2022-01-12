@@ -20,35 +20,33 @@
 </head>
 <body onload="startTimer()">
     <!--Barre de navigation-->
-    
-     <nav class="nav">
+    <nav class="nav">
         <a href="index.html"><h1 id="navTitle"style="border-bottom:none;">CHÂTEAU DE MOLIENS</h1></a>
-        
-        <input type="checkbox" id="nav__checkbox" class="nav__checkbox" onclick="toggle_background()">
-        <label id="label_div" for="nav__checkbox" class="nav__toggle">
-            <svg class="menu nav_button" fill="#000000" xmlns="https://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="80px" height="80px"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"/></svg>
-            <svg class="close nav_button"fill="#000000" xmlns="https://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="80px" height="80px"><path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z"/></svg>
+        <input type="checkbox" id="nav__checkbox" class="nav__checkbox"onclick="toggle_background()">
+        <label for="nav__checkbox" class="nav__toggle">
+            <svg class="menu" fill="#000000" xmlns="https://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="80px" height="80px"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"/></svg>
+            <svg class="close"fill="#000000" xmlns="https://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="80px" height="80px"><path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z"/></svg>
         </label>
-    
+    <div class="sidebar">
         <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
-       <div class="sidebar">
-     <ul class="sidebarList" style="padding-left: 0;"id="nav_background">
-        <a href="index.html" class="imglink"><img class="imglogo" id="img_logo"src=".\image video/logochateau2.jpg"/></a> 
        
-        <h1 class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></h1>
-        <li><a href="index.html"  id="index"style="margin-top:80px;"class="menu_link current top">ACCUEIL</a></li>
-        <li><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
-        <li><a href="mariage.html"id="mariage"class="menu_link">MARIAGE</a></li>
-        <li><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
-        <li><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>
-        <li><a href="hebergements.html"id="hebergements"class=" menu_link">HÉBERGEMENTS</a></li>
-        <li><a href="contact.html"id="contact"class="menu_link">CONTACT</a></li>
-        <li><a href="covid-19.html"id="contact"class="menu_link ">COVID-19</a></li>
+
+        <ul class="sidebarList" style="padding-left: 0;"id="nav_background">
+       <a href="index.html" class="imglink"><img class="imglogo"src=".\image video/logochateau.jpg"/></a> 
+       <h1 class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></h1>
+       <li><a href="index.html"  id="index"class="current menu_link">ACCUEIL</a></li>
+       <!--<li><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
+       <li><a href="mariage.html"id="mariage"class="menu_link">MARIAGE</a></li>
+       <li><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>-->
+       <li><a href="hebergements.html"id="hebergements"class="menu_link">HÉBERGEMENTS</a></li>
+       <li><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>
+       <li><a href="contact.html"id="contact"class="menu_link">CONTACT</a></li>
+       <li><a href="covid-19.html"id="contact"class="menu_link">COVID-19</a></li>
+       
        </ul>
        </div>
 
     </nav>
-    <div  ></div>
 
    <!--Barre de navigation-->
  <!--Code site web-->
@@ -66,15 +64,17 @@
     <div id="" class="">
         <p id="welcome1" class="video_text"><em>Bienvenue au Château de Moliens</em>  </p>
         <p id="welcome2" class="video_text">OISE</p>
-        <p id="welcome3" class="video_text">Intérieurs aux décorations raffinées, le château de moliens et son parc de 2 hectares 
-            présente un endroit idéal pour passer un séjour ou organiser votre événement.</p>
+       <!-- <p id="welcome3" class="video_text">Intérieurs aux décorations raffinées, le château de moliens et son parc de 2 hectares 
+            présente un endroit idéal pour passer un séjour ou organiser votre événement.</p>-->
         <p id="welcome4" class="video_text"> 
                   
         </p>
         
     </div>
-    <div class="grid-item" 
+    <!--<div class="grid-item" 
        id="alert_div">
+
+       
           <button onclick="hideAlert()" ; id="alert_button_close">X</button>
         <p  id="alert_p">
           Site en cours de rédaction </p>
@@ -88,7 +88,9 @@
           <button class="découvrir" id="alert_button"><a id="alert_button_text" href="covid-19.html">Précautions COVID-19 ❯❯</a></button>
             
             
-    </div>  
+    </div>  -->
+
+    <button class="découvrir" id="alert_button"><a id="alert_button_text" href="covid-19.html">Précautions COVID-19 ❯❯</a></button>
       
 <article1>
     <br><br>
@@ -170,7 +172,12 @@
             <p>33 (6) 31 38 38 31</p></a></div>
         <div class="grid_contact_item"> <a class="underline_link"href="contact.html">
             <p>NOUS CONTACTER</p></a></div>
+           
        
+    </div>
+    <div id="texte_accroche">
+        <p>Intérieurs aux décorations raffinées, le château de moliens et son parc de 2 hectares 
+            présente un endroit idéal pour passer un séjour ou organiser votre événement.</p>
     </div>
     <!-- Code diapo-->
     
@@ -179,6 +186,8 @@
     <br><br>
 </article1>
 <article2 class="grid-container" >
+
+                                           <!--        Ne pas effacer                                          -->
    <!-- <div >
     <section1 class="container">
         <img src=".\image video/chateau3.JPG">
@@ -191,7 +200,7 @@
         
     </section1>
     </div>-->
-    <div class="grid--item item1"> <img src=".\image video/chateau3.JPG"></div>
+    <!--<div class="grid--item item1"> <img src=".\image video/chateau3.JPG"></div>
     <div class="grid--item item2">
         <h2>MARIAGE</h2>
         <br>
@@ -213,18 +222,11 @@
     
     
     </div>
-    <div class="grid--item item4"><img src=".\image video/chateau3.JPG"></div>
-    <div class="grid--item item5"><img src=".\image video/chateau3.JPG"></div>
-    <div class="grid--item item6">   <h2>SÉMINAIRES</h2>
-        <br>
-        <p>PAGE EN COURS DE RÉDACTION</p>
+    <div class="grid--item item4"><img src=".\image video/chateau3.JPG"></div>-->
 
-        <div class="buttonDiv">
-        <a href="seminaires.html"><button >En savoir plus ❯❯</button></a>
-        </div>
+                                                 <!--        Ne pas effacer                                          -->
+
     
-    
-    </div>
     <div class="grid--item item7">   <h2>HÉBERGEMENTS</h2>
         <br>
         <p>PAGE EN COURS DE RÉDACTION</p>
@@ -236,7 +238,21 @@
     
     </div>
     <div class="grid--item item8"><img src=".\image video/chateau3.JPG"></div>
-    <div class="grid--item item9"><img src=".\image video/chateau3.JPG"></div>
+    <div class="grid--item item5"><img src=".\image video/chateau3.JPG"></div>
+    <div class="grid--item item6">   <h2>SÉMINAIRES</h2>
+        <br>
+        <p>PAGE EN COURS DE RÉDACTION</p>
+
+        <div class="buttonDiv">
+        <a href="seminaires.html"><button >En savoir plus ❯❯</button></a>
+        </div>
+    
+    
+    </div>
+
+                                               <!--        Ne pas effacer                                          -->
+
+    <!--<div class="grid--item item9"><img src=".\image video/chateau3.JPG"></div>
     <div class="grid--item item10">   <h2>LE CHÂTEAU</h2>
         <br>
         <p>PAGE EN COURS DE RÉDACTION</p>
@@ -246,7 +262,8 @@
         </div>
     
     
-    </div>
+    </div>-->
+                                              <!--        Ne pas effacer                                          -->
     
 
 </article2>         
@@ -309,8 +326,8 @@
                
 
                </li>
-               <a href="mariage.html"><li>Mariage ❯❯</li></a><br>
-               <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br>
+             <!-- <a href="mariage.html"><li>Mariage ❯❯</li></a><br>
+               <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br>--> 
                <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br>
                <a href="hebergements.html"><li>Hébergements ❯❯</li></a><br>
                
@@ -637,8 +654,8 @@
                
 
                </li>
-               <a href="mariage.html"><li>Mariage ❯❯</li></a><br><br><br>
-               <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br><br><br>
+               <!--<a href="mariage.html"><li>Mariage ❯❯</li></a><br><br><br>
+               <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br><br><br>-->
                <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br><br><br>
                <a href="hebergements.html"><li>Hébergements ❯❯</li></a><br>
                
