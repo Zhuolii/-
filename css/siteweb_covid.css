@@ -60,6 +60,11 @@ p{
     letter-spacing: 1px;
     line-height: 2.4em;
 }
+li{
+    font-size:1.3em;
+    letter-spacing: 1px;
+    line-height: 2.4em;
+}
 #texte{
     margin-left: 10%;
     margin-right: 10%;

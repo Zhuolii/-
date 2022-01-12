@@ -52,6 +52,11 @@
         letter-spacing: 1px;
         line-height: 5em;
     }
+    li{
+        font-size:1.3em;
+        letter-spacing: 1px;
+        line-height: 5em;
+    }
     #texte{
         margin-left: 10%;
         margin-right: 10%;
