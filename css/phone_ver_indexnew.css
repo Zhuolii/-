@@ -3,7 +3,7 @@
             display: hidden;
     }        
     div.siteMobile{
-        width: 1023px;
+        width: 1040px;
         height: auto;
         
     }
@@ -24,7 +24,7 @@
     }
     #image_grid_container{
         display: grid;
-        grid-template-rows: 341px 341px 341px;
+      
         margin-top: 10em;
         
         
@@ -211,14 +211,15 @@
     }
     
     #accroche_grid h5,p{
-        display: flex;
+       
         justify-content: center;
         align-items: center;
-        font-size: 65px;
+        font-size:2em;
+        text-align: center;
     }
     .grid-item{
-        margin:150px 0 150px 0;
-        width: 1023px;
+        
+        width: 1040px;
     }
     .grid-item a{
         color: white;
@@ -261,12 +262,24 @@
         .underline_link {
                 color: black;
                 text-decoration-color: black;
-                text-underline-offset: 10px;
+                margin:40px;
                 letter-spacing: 2px;
         }
 
         p{
                 color: black;
+        }
+
+        #adresse{
+                text-align: center;
+                letter-spacing: 2px;
+                margin: 0;
+        }
+        h2{
+                text-transform: uppercase;
+                font-weight:normal;
+                text-align: center;
+                font-size:3em;
         }
     
     }

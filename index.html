@@ -13,7 +13,7 @@
  <!--separate link-->
  <link rel="stylesheet" href="./css/diapoindexnew.css">
  <link rel="stylesheet" href="./css/siteweb_indexnew.css">
-<link rel="stylesheet" href="./css/phone_ver_indexnew.css"> 
+ <link rel="stylesheet" href="./css/phone_ver_indexnew.css"> 
 <!--separate link-->
 
 <title>Château de Moliens réserver adresse téléphone</title>
@@ -37,9 +37,9 @@
        <li><a href="index.html"  id="index"class="current menu_link">ACCUEIL</a></li>
        <!--<li><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
        <li><a href="mariage.html"id="mariage"class="menu_link">MARIAGE</a></li>
-       <li><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>-->
+       <li><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
+       <li><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>-->
        <li><a href="hebergements.html"id="hebergements"class="menu_link">HÉBERGEMENTS</a></li>
-       <li><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>
        <li><a href="contact.html"id="contact"class="menu_link">CONTACT</a></li>
        <li><a href="covid-19.html"id="contact"class="menu_link">COVID-19</a></li>
        
@@ -327,10 +327,9 @@
 
                </li>
              <!-- <a href="mariage.html"><li>Mariage ❯❯</li></a><br>
-               <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br>--> 
-               <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br>
+               <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br>
+               <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br> --> 
                <a href="hebergements.html"><li>Hébergements ❯❯</li></a><br>
-               
            </div>
  
       
@@ -373,41 +372,49 @@
    <div class="grid-container" >
      
      <div id="image_grid_container" class="grid-item">
+
+
          
             <div id="image_gradient_index" class="imageIndex">
           
              <h1 id="welcome1"style="border-bottom:none;text-shadow: 5px 5px black;"><em>Bienvenue au </em> </h1>
              <h1 id="welcome1"style="border-bottom:none;text-shadow: 5px 5px black;"><em>Château de Moliens</em> </h1>
              <p id="welcome2"style="text-shadow: 5px 5px black;">OISE,60 </p>
-             <p id="welcome3"style="text-shadow: 5px 5px black;">
+            <!-- <p id="welcome3"style="text-shadow: 5px 5px black;">
                 Intérieurs aux décorations raffinées, le château de moliens et son parc de 2 hectares 
             présente un endroit idéal pour passer un séjour ou organiser votre événement.
-             </p>
+             </p>-->
              
             </div>
+
+            
+        
      </div>
+     <button class="découvrir" id="alert_div_button"><a style="text-decoration:none;font-size:40px;color:white;" href="covid-19.html" >Précautions COVID-19 ❯❯</a></button>
+
+     
 
 
      <div id="accroche_grid" class="grid-item">
         <br><br>
-            <p id="p1"class="adresse"style="justify-content:center; display flex;">17, RUE DE PICARDIE,60220  </p> <br>
-            <p id="p1"class="adresse"style="justify-content:center; display flex;"> MOLIENS</p>
-            <br>
-            <br>
-            <div > <a class="underline_link"href="tel:0631383831" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-                <p>33 (6) 31 38 38 31</p></a></div> <br><br>
+            <p id="adresse">17, RUE DE PICARDIE  <br>
+             60220 MOLIENS</p>
+            
+            <div ><a class="underline_link"href="tel:0631383831" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+                <p>33 (6) 31 38 38 31</p></a></div> 
             <div > <a class="underline_link"href="contact.html">
                 <p>NOUS CONTACTER</p></a></div>
+             
             <br><br><br>
     </div>
 
 
-     <div class="grid-item" id="alert_div2">
+    <!-- <div class="grid-item" id="alert_div2">
         <div style="float: right;"><button onClick="hideAlert2()";id="alert_button" style="font-size:50px;width:70px;background-color:black;border:solid gray 2px;color:white;border-radius:35px;">X</button></div>
       <p style= "font-size:90px;display:block;color:white;" id="alert">
         <ul style="list-style: none;font-size: 50px;letter-spacing: 2px;">
-           <!-- <li></li>
-            <li></li>-->
+           <li></li>
+            <li></li>
             <li></li>
             <p  id="alert_p">
                 Site en cours de rédaction </p>
@@ -423,90 +430,104 @@
         
 
 
- </div>
-        
+ </div>-->
+ <h2>Découvrez le château de moliens</h2>
+
+
+ <!-- Code diapo-->
+ <div class="slidercontainer">  
+    <div class="showSlide fade grid_diapo">  
+        <div  class="grid-item" id="image_grid_container">
+           
+     
+     
+             <div id="chateau1" class="imageIndex">
+                <a class="left" onclick="nextSlide(-1)"><button class="button_diapo">❮</button></a>  
+                <a class="right"  onclick="nextSlide(1)"><button class="button_diapo">❯</button></a>   
+               
+        </div>
+             
+               
+             </div>
+    </div>  
+    <div class="showSlide fade grid_diapo">  
+        <div id="image_grid_container" class="grid-item">
+     
+            <div id="chateau2" class="imageIndex">
+                <a class="left" onclick="nextSlide(-1)"><button class="button_diapo">❮</button></a>  
+                <a class="right"  onclick="nextSlide(1)"><button class="button_diapo">❯</button></a>   
+    
+             
+            </div>
+     </div>  
+    </div>  
+
+    <div class="showSlide fade grid_diapo">  
+        <div id="image_grid_container" class="grid-item">
+     
+            <div id="chateau3" class="imageIndex">
+                <a class="left" onclick="nextSlide(-1)"><button class="button_diapo">❮</button></a>  
+                <a class="right"  onclick="nextSlide(1)"><button class="button_diapo">❯</button></a>   
+             
+            </div>
+     </div> 
+    </div>  
+    <div class="showSlide fade grid_diapo">  
+        <div id="image_grid_container" class="grid-item">
+     
+            <div id="jardin1" class="imageIndex">
+                <a class="left" onclick="nextSlide(-1)"><button class="button_diapo">❮</button></a>  
+                <a class="right"  onclick="nextSlide(1)"><button class="button_diapo">❯</button></a>   
+             
+            </div>
+     </div> 
+    </div>
+    <div class="showSlide fade grid_diapo">  
+        <div id="image_grid_container" class="grid-item">
+     
+            <div id="jardin2" class="imageIndex">
+                <a class="left" onclick="nextSlide(-1)"><button class="button_diapo">❮</button></a>  
+                <a class="right"  onclick="nextSlide(1)"><button class="button_diapo">❯</button></a>   
+             
+            </div>
+     </div> 
+    </div> 
+    <div class="showSlide fade grid_diapo">  
+        <div id="image_grid_container" class="grid-item">
+     
+            <div id="jardin3" class="imageIndex">
+                <a class="left" onclick="nextSlide(-1)"><button class="button_diapo">❮</button></a>  
+                <a class="right"  onclick="nextSlide(1)"><button class="button_diapo">❯</button></a>   
+             
+            </div>
+     </div> 
+    </div> 
+   
+    
+   
+</div> 
+<!-- Code diapo-->
+
+<!-- <p> Intérieurs aux décorations raffinées, le château de moliens et son parc de 2 hectares 
+    présente un endroit idéal pour passer un séjour ou organiser votre événement.</p>-->
         
             
         
         
-        <div class="grid-item">
+      <!--<div class="grid-item">
             <br>
                 <p1 class="letter_spacing">LE CHÂTEAU</p1>
                 <br><br>
-                <p style="line-height:90px;letter-spacing: 2px;"> <!--Situé à environ 1heure 30 de Paris, 30 minutes de Beauvais,
+                <p style="line-height:90px;letter-spacing: 2px;"> Situé à environ 1heure 30 de Paris, 30 minutes de Beauvais,
                 ce lieu prestigieux vous propose la location de ses salles ainsi que de son parc 
-                soigneusement entretenu pour organiser : mariage, séminaires professsionnels ou récéptions privées.-->PAGE EN COURS DE RÉDACTION</p>
+                soigneusement entretenu pour organiser : mariage, séminaires professsionnels ou récéptions privées.PAGE EN COURS DE RÉDACTION</p>
                 
                  <button class="découvrir"style="margin-top:100px;"><a style="text-decoration:none;"href="mariage.html">DÉCOUVRIR ❯❯</a></button>
                 <br> 
                 <br>
                 
-        </div>
-        <!-- Code diapo-->
-        <div class="slidercontainer">  
-            <div class="showSlide fade grid_diapo">  
-                <div  class="grid-item" id="image_grid_container">
-                     
-                     <div id="chateau1" class="imageIndex">
-                       
-                    
-                     
-                       
-                     </div>
-                </div>
-            </div>  
-            <div class="showSlide fade grid_diapo">  
-                <div id="image_grid_container" class="grid-item">
-             
-                    <div id="chateau2" class="imageIndex">
-            
-                     
-                    </div>
-             </div>  
-            </div>  
-      
-            <div class="showSlide fade grid_diapo">  
-                <div id="image_grid_container" class="grid-item">
-             
-                    <div id="chateau3" class="imageIndex">
-                    
-                     
-                    </div>
-             </div> 
-            </div>  
-            <div class="showSlide fade grid_diapo">  
-                <div id="image_grid_container" class="grid-item">
-             
-                    <div id="jardin1" class="imageIndex">
-                     
-                     
-                    </div>
-             </div> 
-            </div>
-            <div class="showSlide fade grid_diapo">  
-                <div id="image_grid_container" class="grid-item">
-             
-                    <div id="jardin2" class="imageIndex">
-                    
-                     
-                    </div>
-             </div> 
-            </div> 
-            <div class="showSlide fade grid_diapo">  
-                <div id="image_grid_container" class="grid-item">
-             
-                    <div id="jardin3" class="imageIndex">
-                    
-                     
-                    </div>
-             </div> 
-            </div>   
-            <!-- Navigation arrows -->  
-             <a class="left"style="bottom:-2300px" onclick="nextSlide(-1)">❮</a>  
-            <a class="right" style="bottom:-2300px" onclick="nextSlide(1)">❯</a> 
-           
-        </div> 
-        <!-- Code diapo-->
+        </div>-->  
+        
         
 
         <!--
@@ -606,7 +627,7 @@
         </div>
                 
       
- <!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container-->
+<!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container-->
   
 <div id="footer_grid" class="grid--item">
           
@@ -654,9 +675,9 @@
                
 
                </li>
-               <!--<a href="mariage.html"><li>Mariage ❯❯</li></a><br><br><br>
-               <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br><br><br>-->
-               <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br><br><br>
+             <!-- <a href="mariage.html"><li>Mariage ❯❯</li></a><br><br><br>
+               <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br><br><br>
+               <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br><br><br>--> 
                <a href="hebergements.html"><li>Hébergements ❯❯</li></a><br>
                
            </div>

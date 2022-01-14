@@ -47,20 +47,15 @@
         text-underline-offset: 10px;
         letter-spacing: 1px;
     }
-    p{
-        font-size:1.3em;
-        letter-spacing: 1px;
-        line-height: 5em;
-    }
-    li{
-        font-size:1.3em;
-        letter-spacing: 1px;
-        line-height: 5em;
-    }
+   
+    
     #texte{
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 15%;
+        font-size:1.3em;
+        letter-spacing: 1px;
+        line-height: 5em;
     }
    
     

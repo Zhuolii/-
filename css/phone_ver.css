@@ -375,18 +375,18 @@
 }
 .grid-item p{
     
-    word-break:break-word;
+    
     line-height: 90px;
-    margin: 0 40px 0 70px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    letter-spacing: 2px;
+    margin: 80px 40px 80px 40px;
+    
+    letter-spacing: 2.5px;
    
 }
 .grid-item h1{
     display: flex;
     justify-content: center;
     font-size: 70px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
     letter-spacing: 3px;
     border-bottom: solid white 8px;
     padding-bottom: 20px;
