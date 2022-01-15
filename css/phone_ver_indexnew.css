@@ -47,10 +47,10 @@
     }
     #image_gradient_index {
             background-image:
-            linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0)),
-            url('image video/chateau1.1.jpg');
+            
+            url('image video/chateau1.png');
             width: 1023px;
-            height: 1023px;
+            height: 767px;
             
            
            

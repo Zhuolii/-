@@ -95,10 +95,10 @@
 #image_acceuil  {
     background-image:
     
-    url('./image video/chateau1.JPG');
+    url('./image video/chateau1.png');
     width: 100vw;
     height: 42vw;
-    filter: brightness(2);
+    filter: brightness(1.3);
     
    
    
