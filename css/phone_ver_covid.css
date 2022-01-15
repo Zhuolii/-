@@ -14,9 +14,9 @@
         margin-top: 10em;
         background-image:
             
-            url(./image\ video/chateau1.JPG);
+            url('./image\ video/chateau1.png');
             width: 100%;
-            height:  1023px;
+            height:  767px;
             background-size: cover;
          
          justify-content: center;
