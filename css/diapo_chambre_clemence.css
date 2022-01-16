@@ -55,7 +55,46 @@ body {
 #image_gradient4 {
     background-image:
     
-    url('clemence/img_3.JPG');
+    url('clemence/img_4.JPG');
+    width: 82vw;
+    height: 61.6vw;
+    
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+}
+#image_gradient5 {
+    background-image:
+    
+    url('clemence/img_5.JPG');
+    width: 82vw;
+    height: 61.6vw;
+    
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+}
+#image_gradient6 {
+    background-image:
+    
+    url('clemence/img_6.JPG');
+    width: 82vw;
+    height: 61.6vw;
+    
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+}
+#image_gradient7 {
+    background-image:
+    
+    url('clemence/img_7.JPG');
     width: 82vw;
     height: 61.6vw;
     
@@ -145,7 +184,7 @@ margin: 10px;
     #image_gradient4 {
         background-image:
    
-        url('clemence/img_3.JPG');
+        url('clemence/img_4.JPG');
         width: 50vw;
         height: 40vw;
         
@@ -155,6 +194,33 @@ margin: 10px;
         
         
     }
+    #image_gradient5 {
+        background-image:
+   
+        url('clemence/img_5.JPG');
+        width: 50vw;
+        height: 40vw;
+        
+        
+        z-index: -1000;
+        background-size: cover;
+        
+        
+    }
+    #image_gradient6 {
+        background-image:
+   
+        url('clemence/img_6.JPG');
+        width: 50vw;
+        height: 40vw;
+        
+        
+        z-index: -1000;
+        background-size: cover;
+        
+        
+    }
+    
     #image_grid_container{
         display: flex;
         text-align: center;

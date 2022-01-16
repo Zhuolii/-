@@ -42,7 +42,7 @@ body {
 #image_gradient3 {
     background-image:
     
-    url('alexandra/img_1.JPG');
+    url('alexandra/img_3.JPG');
     width: 82vw;
     height: 61.6vw;
     
@@ -55,7 +55,46 @@ body {
 #image_gradient4 {
     background-image:
     
-    url('alexandra/img_2.JPG');
+    url('alexandra/img_4.JPG');
+    width: 82vw;
+    height:61.6vw;
+    
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+}
+#image_gradient5 {
+    background-image:
+    
+    url('alexandra/img_5.JPG');
+    width: 82vw;
+    height:61.6vw;
+    
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+}
+#image_gradient6 {
+    background-image:
+    
+    url('alexandra/img_6.JPG');
+    width: 82vw;
+    height:61.6vw;
+    
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+}
+#image_gradient7 {
+    background-image:
+    
+    url('alexandra/img_7.JPG');
     width: 82vw;
     height:61.6vw;
     
@@ -151,6 +190,48 @@ margin: 10px;
         background-image:
    
         url('alexandra/img_2.JPG');
+        width: 50vw;
+        height: 40vw;
+        
+        z-index: -1000;
+        
+     
+        background-size: cover;
+        
+        
+    }
+    #image_gradient5 {
+        background-image:
+   
+        url('alexandra/img_5.JPG');
+        width: 50vw;
+        height: 40vw;
+        
+        z-index: -1000;
+        
+     
+        background-size: cover;
+        
+        
+    }
+    #image_gradient6 {
+        background-image:
+   
+        url('alexandra/img_6.JPG');
+        width: 50vw;
+        height: 40vw;
+        
+        z-index: -1000;
+        
+     
+        background-size: cover;
+        
+        
+    }
+    #image_gradient7 {
+        background-image:
+   
+        url('alexandra/img_7.JPG');
         width: 50vw;
         height: 40vw;
         

@@ -42,7 +42,7 @@ body {
 #image_gradient3 {
     background-image:
     
-    url('elise/img_1.JPG');
+    url('elise/img_3.JPG');
     width: 82vw;
     height: 61.6vw;
     
@@ -55,7 +55,33 @@ body {
 #image_gradient4 {
     background-image:
     
-    url('elise/img_2.JPG');
+    url('elise/img_4.JPG');
+    width: 82vw;
+    height: 61.6vw;
+    
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+}
+#image_gradient5 {
+    background-image:
+    
+    url('elise/img_5.JPG');
+    width: 82vw;
+    height: 61.6vw;
+    
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+}
+#image_gradient6 {
+    background-image:
+    
+    url('elise/img_6.JPG');
     width: 82vw;
     height: 61.6vw;
     
@@ -132,7 +158,7 @@ margin: 10px;
     #image_gradient3 {
         background-image:
       
-        url('elise/img_1.JPG');
+        url('elise/img_3.JPG');
         width: 50vw;
         height: 40vw;
         
@@ -145,7 +171,33 @@ margin: 10px;
     #image_gradient4 {
         background-image:
    
-        url('elise/img_2.JPG');
+        url('elise/img_4.JPG');
+        width: 50vw;
+        height: 40vw;
+        
+        
+        z-index: -1000;
+        background-size: cover;
+        
+        
+    }
+    #image_gradient5 {
+        background-image:
+   
+        url('elise/img_5.JPG');
+        width: 50vw;
+        height: 40vw;
+        
+        
+        z-index: -1000;
+        background-size: cover;
+        
+        
+    }
+    #image_gradient6 {
+        background-image:
+   
+        url('elise/img_6.JPG');
         width: 50vw;
         height: 40vw;
         
