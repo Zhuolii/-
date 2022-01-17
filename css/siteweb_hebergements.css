@@ -286,6 +286,10 @@ spann {
     color: green;
     margin-top:15px;
 }
+.no_decoration{
+    color: black;
+    text-decoration: none;
+}
 .chambre_info{
     
     margin:15px 0 15px 0;
