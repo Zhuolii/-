@@ -421,6 +421,8 @@ input:hover,textarea:hover,input:focus,textarea:focus{
 /*map CSS*/
 #map{
     margin:40px;
+    width: 40vw;
+    height: 40vw;
 }
 /*map CSS*/
 
