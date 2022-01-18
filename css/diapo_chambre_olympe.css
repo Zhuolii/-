@@ -18,7 +18,7 @@ body {
 #image_gradient1 {
     background-image:
    
-    url('olympe/img_1.JPG');
+    url('olympe/img_1.jpg');
     width: 82vw;
     height: 61.6vw;
     background-size: cover;
@@ -29,7 +29,7 @@ body {
 #image_gradient2 {
     background-image:
    
-    url('olympe/img_2.JPG');
+    url('olympe/img_2.jpg');
     width: 82vw;
     height: 61.6vw;
     
@@ -42,7 +42,7 @@ body {
 #image_gradient3 {
     background-image:
     
-    url('olympe/img_3.JPG');
+    url('olympe/img_3.jpg');
     width: 82vw;
     height: 61.6vw;
     
@@ -55,7 +55,7 @@ body {
 #image_gradient4 {
     background-image:
     
-    url('olympe/img_4.JPG');
+    url('olympe/img_4.jpg');
     width: 82vw;
     height: 61.6vw;
     
@@ -68,7 +68,7 @@ body {
 #image_gradient5 {
     background-image:
     
-    url('olympe/img_5.JPG');
+    url('olympe/img_5.jpg');
     width: 82vw;
     height: 61.6vw;
     
@@ -81,7 +81,7 @@ body {
 #image_gradient6 {
     background-image:
     
-    url('olympe/img_6.JPG');
+    url('olympe/img_6.jpg');
     width: 82vw;
     height: 61.6vw;
     
@@ -94,7 +94,7 @@ body {
 #image_gradient7 {
     background-image:
     
-    url('olympe/img_7.JPG');
+    url('olympe/img_7.jpg');
     width: 82vw;
     height: 61.6vw;
     
@@ -148,7 +148,7 @@ margin: 10px;
     #image_gradient1 {
         background-image:
     
-        url('olympe/img_1.JPG');
+        url('olympe/img_1.jpg');
         width: 50vw;
         height: 40vw;
         background-size: cover;
@@ -159,7 +159,7 @@ margin: 10px;
     #image_gradient2 {
         background-image:
      
-        url('olympe/img_2.JPG');
+        url('olympe/img_2.jpg');
         width: 50vw;
         height: 40vw;
         z-index: -1000;
@@ -171,7 +171,7 @@ margin: 10px;
     #image_gradient3 {
         background-image:
       
-        url('olympe/img_3.JPG');
+        url('olympe/img_3.jpg');
         width: 50vw;
         height: 40vw;
         
@@ -184,7 +184,7 @@ margin: 10px;
     #image_gradient4 {
         background-image:
    
-        url('olympe/img_4.JPG');
+        url('olympe/img_4.jpg');
         width: 50vw;
         height: 40vw;
         
@@ -197,7 +197,7 @@ margin: 10px;
     #image_gradient5 {
         background-image:
    
-        url('olympe/img_5.JPG');
+        url('olympe/img_5.jpg');
         width: 50vw;
         height: 40vw;
         
@@ -210,7 +210,7 @@ margin: 10px;
     #image_gradient6 {
         background-image:
    
-        url('olympe/img_6.JPG');
+        url('olympe/img_6.jpg');
         width: 50vw;
         height: 40vw;
         
@@ -223,7 +223,7 @@ margin: 10px;
     #image_gradient7 {
         background-image:
    
-        url('olympe/img_7.JPG');
+        url('olympe/img_7.jpg');
         width: 50vw;
         height: 40vw;
         
