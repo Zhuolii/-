@@ -1,74 +1,22 @@
 
-<?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.chateaudemoliens.com/sitemap.xml">
-
-   <url>
-
-      <loc>http://www.chateaudemoliens.com/index.html</loc>
-
-      <lastmod>2022-01-27</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.chateaudemoliens.com/hebergements.html</loc>
-
-      <lastmod>2022-01-27</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-   </url>
-
-   <url>
-
-     <loc>http://www.chateaudemoliens.com/contact.html</loc>
-
-      <lastmod>2022-01-27</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-   </url>
-
-   <url>
-
-     <loc>http://www.chateaudemoliens.com/contact.html</loc>
-
-      <lastmod>2022-01-27</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-   </url>
-    <url>
-
-     <loc>http://www.chateaudemoliens.com/covid-19.html</loc>
-
-      <lastmod>2022-01-27</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-   </url>
-    <url>
-
-     <loc>http://www.chateaudemoliens.com/mentions.html</loc>
-
-      <lastmod>2022-01-27</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-   </url>
-    <url>
-
-     <loc>http://www.chateaudemoliens.com/politique.html</loc>
-
-      <lastmod>2022-01-27</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-   </url>
-</urlset>
+<sitemapindex xmlns="http://www.chateaudemoliens.com/sitemap.xml">
+<!--  This is the parent sitemap linking to additional sitemaps for products, collections and pages as shown below. The sitemap can not be edited manually, but is kept up to date in real time.  -->
+<sitemap>
+<loc>http://www.chateaudemoliens.com/index.html</loc>
+</sitemap>
+<sitemap>
+<loc>http://www.chateaudemoliens.com/hebergements.html</loc>
+</sitemap>
+<sitemap>
+<loc>http://www.chateaudemoliens.com/contact.html</loc>
+</sitemap>
+<sitemap>
+<loc>http://www.chateaudemoliens.com/covid-19.html</loc>
+</sitemap>
+<sitemap>
+<loc>http://www.chateaudemoliens.com/mentions.html</loc>
+</sitemap>
+<sitemap>
+<loc>http://www.chateaudemoliens.com/politique.html</loc>
+</sitemap>
+</sitemapindex>
