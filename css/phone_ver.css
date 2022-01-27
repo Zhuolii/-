@@ -311,7 +311,7 @@
     
     .nav_background{
         position: relative;
-        top:80px;
+        top:43px;
         width: 1040px;
         height: 1900px;
         background-color: rgba(0, 0, 0, 0.596);
@@ -505,6 +505,14 @@
   }
 
   /*alarm animation */
+  #ouverture{
+    position:relative;
+    left:25vw;
+    width: 500px;
+    text-transform: uppercase;
+    margin: 0;
+    color: green;
+}
  
   
  
