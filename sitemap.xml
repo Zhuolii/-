@@ -1,22 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex>
-<!--  This is the parent sitemap linking to additional sitemaps for products, collections and pages as shown below. The sitemap can not be edited manually, but is kept up to date in real time.  -->
-<sitemap>
-<loc>http://www.chateaudemoliens.com/index.html</loc>
-</sitemap>
-<sitemap>
-<loc>http://www.chateaudemoliens.com/hebergements.html</loc>
-</sitemap>
-<sitemap>
-<loc>http://www.chateaudemoliens.com/contact.html</loc>
-</sitemap>
-<sitemap>
-<loc>http://www.chateaudemoliens.com/covid-19.html</loc>
-</sitemap>
-<sitemap>
-<loc>http://www.chateaudemoliens.com/mentions.html</loc>
-</sitemap>
-<sitemap>
-<loc>http://www.chateaudemoliens.com/politique.html</loc>
-</sitemap>
-</sitemapindex>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.chateaudemoliens.com/</loc>
+  <lastmod>2022-01-27T20:15:14+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/index.html</loc>
+  <lastmod>2022-01-27T20:15:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/contact.html</loc>
+  <lastmod>2022-01-27T20:15:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/hebergements.html</loc>
+  <lastmod>2022-01-27T20:15:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/covid-19.html</loc>
+  <lastmod>2022-01-27T20:15:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/mentions.html</loc>
+  <lastmod>2022-01-27T20:15:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/politique.html</loc>
+  <lastmod>2022-01-27T20:15:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/chambre_elise.html</loc>
+  <lastmod>2022-01-27T20:15:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/chambre_clemence.html</loc>
+  <lastmod>2022-01-27T20:15:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/chambre_olympe.html</loc>
+  <lastmod>2022-01-27T20:15:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/chambre_alexandra.html</loc>
+  <lastmod>2022-01-27T20:15:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/chambre_royale.html</loc>
+  <lastmod>2022-01-27T20:15:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/preconisation_covid_19.pdf</loc>
+  <lastmod>2022-01-27T20:15:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/politique.pdf</loc>
+  <lastmod>2022-01-27T20:15:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
