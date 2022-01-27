@@ -265,6 +265,13 @@ button.leftButton{
     font-size: 1.2em;
     line-height: 1.5em;
 }
+#ouverture{
+    position:absolute;
+    left:10vw;
+    top:-0.5vw;
+    text-transform: uppercase;
+    color: green;
+}
 
 
 
