@@ -40,12 +40,14 @@
         text-decoration:underline black 2px;
         text-underline-offset: 10px;
         letter-spacing: 2px;
+        font-size: 3em;
     }
     h3{
         
         text-decoration:underline black 2px;
         text-underline-offset: 10px;
         letter-spacing: 1px;
+        font-size: 2.5em;
     }
    
     
@@ -56,6 +58,9 @@
         font-size:1.3em;
         letter-spacing: 1px;
         line-height: 5em;
+    }
+    p{
+        font-size: 2.5em;
     }
    
     
