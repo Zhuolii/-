@@ -323,8 +323,8 @@ h1.headtitle a{
             height: 4vw;
             float: left;
         }
-    link.pageLogo{
-        border-radius: 5px;
+ #pageLogo{
+        border-radius: 16px;
     }
     /*image properties*/
     /* video properties */
