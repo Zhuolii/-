@@ -556,15 +556,15 @@ input:hover,textarea:hover,input:focus,textarea:focus{
         font-family:  Helvetica, Arial, Lucida, sans-serif;
         
     }
-    .grid--item p{
+    article1 .grid--item p{
         margin:0 1vw 0 1vw;
-        line-height: 13vw;
-        font-size: 40px;
+        line-height: 4em;
+        font-size: 50px;
+        padding: 80px;
+       
      }   
-    .p1{
-            margin:0 1vw 0 1vw;
-            line-height: 13vw;
-            font-size: 40px;
+    p#p1{
+        text-align: left; 
             padding: 80px;
         }
     
@@ -601,7 +601,7 @@ input:hover,textarea:hover,input:focus,textarea:focus{
     }
     .half, #objet{
         width:90%;
-        height:8vw;
+        height:3em;
     }
     #objet{
         margin-bottom: 2em;
