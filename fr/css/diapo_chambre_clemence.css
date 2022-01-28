@@ -19,8 +19,8 @@ body {
     background-image:
    
     url('clemence/img_1.jpg');
-    width: 82vw;
-    height: 61.6vw;
+    width: 51em;
+    height: 38em;
     background-size: cover;
     
     z-index: -1000;
@@ -30,8 +30,8 @@ body {
     background-image:
    
     url('clemence/img_2.jpg');
-    width: 82vw;
-    height:61.6vw;
+    width: 51em;
+    height: 38em;
     
     z-index: -1000;
    
@@ -43,8 +43,8 @@ body {
     background-image:
     
     url('clemence/img_3.jpg');
-    width: 82vw;
-    height: 61.6vw;
+    width: 51em;
+    height: 38em;
     
     z-index: -1000;
    
@@ -56,8 +56,8 @@ body {
     background-image:
     
     url('clemence/img_4.jpg');
-    width: 82vw;
-    height: 61.6vw;
+    width: 51em;
+    height: 38em;
     
     
     z-index: -1000;
@@ -69,8 +69,8 @@ body {
     background-image:
     
     url('clemence/img_5.jpg');
-    width: 82vw;
-    height: 61.6vw;
+    width: 51em;
+    height: 38em;
     
     
     z-index: -1000;
@@ -82,8 +82,8 @@ body {
     background-image:
     
     url('clemence/img_6.jpg');
-    width: 82vw;
-    height: 61.6vw;
+    width: 51em;
+    height: 38em;
     
     
     z-index: -1000;
@@ -95,8 +95,8 @@ body {
     background-image:
     
     url('clemence/img_7.jpg');
-    width: 82vw;
-    height: 61.6vw;
+    width: 51em;
+    height: 38em;
     
     
     z-index: -1000;
@@ -149,8 +149,8 @@ margin: 10px;
         background-image:
     
         url('clemence/img_1.jpg');
-        width: 50vw;
-        height: 40vw;
+        width: 51em;
+        height: 38em;
         background-size: cover;
         
         z-index: -1000;
@@ -160,8 +160,8 @@ margin: 10px;
         background-image:
      
         url('clemence/img_2.jpg');
-        width: 50vw;
-        height: 40vw;
+        width: 51em;
+        height: 38em;
         z-index: -1000;
        
         background-size: cover;
@@ -172,8 +172,8 @@ margin: 10px;
         background-image:
       
         url('clemence/img_3.jpg');
-        width: 50vw;
-        height: 40vw;
+        width: 51em;
+        height: 38em;
         
         z-index: -1000;
        
@@ -185,8 +185,8 @@ margin: 10px;
         background-image:
    
         url('clemence/img_4.jpg');
-        width: 50vw;
-        height: 40vw;
+        width: 51em;
+    height: 38em;
         
         
         z-index: -1000;
@@ -198,8 +198,8 @@ margin: 10px;
         background-image:
    
         url('clemence/img_5.jpg');
-        width: 50vw;
-        height: 40vw;
+        width: 51em;
+        height: 38em;
         
         
         z-index: -1000;
@@ -211,8 +211,8 @@ margin: 10px;
         background-image:
    
         url('clemence/img_6.jpg');
-        width: 50vw;
-        height: 40vw;
+        width: 51em;
+        height: 38em;
         
         
         z-index: -1000;
