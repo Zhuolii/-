@@ -1,0 +1,79 @@
+@media (min-width: 1023px)
+{
+
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x:hidden;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    
+}
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    margin: 270px 0 100px 0;
+}
+.heading_2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    margin: 0px 20% 50px 20%;
+    padding-bottom: 20px;
+    border-bottom: solid black 1.5px;
+}
+#grid_container_1{
+    display: grid;
+    grid-template-columns: 1fr 19fr 1fr 19fr ;
+    margin: 0 16% 50px 19%;
+    
+}
+.grid_item{
+    padding: 20px;
+    border-top: solid black 1.5px;
+    
+
+}
+.grid_image{
+    padding: 20px 0 20px 20px;
+}
+.pair{
+    margin-right:70px;
+}
+.small_logos{
+    width: 25px;
+    height: 25px;
+    margin-bottom:-20px;
+}
+.small_logos2{
+    width: 25px;
+    height: 25px;
+    
+}
+.texte_grid{
+    font-family:Neue Helvetica,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    line-height:30px;
+}
+.heading_grid{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.texte_tarifs{
+    margin: 0px 20% 50px 20%;
+}
+span{
+    color:green;
+    font-size:xx-large;
+}
+
+/*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*/
+
+}
+
+/*mobile*/
+@media (max-width: 1023px){
+   
+    
+}
