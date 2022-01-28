@@ -22,6 +22,11 @@
  label svg{
      display: none;
  }
+ #translate1{
+     position: absolute;
+     right:4vw;
+ }
+
 h1.headtitle a{
     display: flex;
     flex-direction: row;
@@ -58,7 +63,7 @@ h1.headtitle a{
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     position:fixed;
-    right:3vw;
+    right:7vw;
     top:0.5vw;
     letter-spacing: 2px;
     transition: width 2s ease;
@@ -199,7 +204,7 @@ h1.headtitle a{
     
     }
     nav.nav{
-        height:70px;
+        height:90px;
         position: fixed;
         background-color: white;
         width: 100%;
@@ -454,6 +459,7 @@ h1.headtitle a{
         top:-0.5vw;
         text-transform: uppercase;
         color: green;
+        font-size: 18px;
     }
         
     

@@ -17,14 +17,12 @@
 
 
 #img_div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255) ;
+    position: relative;
+    top: 100px;
 }
 #img_hebergement_background{
     
-    margin-top: 5vw;
+    
     width: 100vw;
     height: 40vw;
     background-image: url(./image\ video/chateau1.jpg);
@@ -43,29 +41,31 @@
     text-align: center;
     justify-content: center;
 }
-h2{
+.siteWeb h2{
     text-align:center;
     text-decoration:underline black 2px;
     text-underline-offset: 10px;
     letter-spacing: 2px;
+    line-height: 50px;
 }
-h3{
+.siteWeb h3{
     
     text-decoration:underline black 2px;
     text-underline-offset: 10px;
     letter-spacing: 1px;
 }
-p{
+.siteWeb p{
     font-size:1.3em;
     letter-spacing: 1px;
     line-height: 2.4em;
 }
-li{
+.siteWeb li{
     font-size:1.3em;
     letter-spacing: 1px;
     line-height: 2.4em;
 }
 #texte{
+    margin-top: 20%;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 15%;

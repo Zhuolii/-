@@ -256,13 +256,11 @@ body{
 
 
 #img_div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.856) ;
+    position: relative;
+    top: 100px;
 }
 #img_hebergement_background{
-    margin-top: 5vw;
+   
     width: 100vw;
     height: 40vw;
     background-image: url(./image\ video/chateau1.jpg);
@@ -271,7 +269,6 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 2vw;
-   
     color: white;
     letter-spacing: 0.5vw;
     
@@ -312,7 +309,7 @@ article1 div img{
 .grid-container2{
     display:grid;
     grid-template-columns: 0.5fr 0.5fr;
-    margin:3vw 2vw 2vw 3vw;
+    margin:10vw 2vw 2vw 3vw;
     grid-gap: 1vw;
 }
 .grid--item{

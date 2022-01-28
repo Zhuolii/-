@@ -468,6 +468,10 @@
     font-size: 60px;
     
 }
+#img_logo_footer{
+    height: 120em;
+    border-radius: 60em;
+}
 /*footer */
 /*general properties*/
 
@@ -515,6 +519,14 @@
     margin: 0;
     color: green;
     font-size: 2.5em;
+}
+#translate1{
+    position: absolute;
+    right: 8em;
+    top: 3.5em;
+}
+#translate_img{
+    height: 4.5em;
 }
  
   

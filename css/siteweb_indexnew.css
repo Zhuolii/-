@@ -93,25 +93,17 @@
 
 
 #image_acceuil  {
-    background-image:
-    
-    url('./image video/chateau1.jpg');
+    background-image: url('./image video/chateau1.jpg');
     width: 100vw;
     height: 42vw;
-   
-    
-   
-   
     background-size: cover;
-    
-    
-    
+    align-items: center;
+    justify-content: center;
+    display: flex;   
 }
 #welcome1{
-    position: absolute;
-    top:10vw;
-    left: 30vw;
-    z-index:2;
+   
+   
     font-size:3em;
     color:white;
     text-shadow: 3px 3px 2px black;
