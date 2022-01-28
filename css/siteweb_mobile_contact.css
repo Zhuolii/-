@@ -25,6 +25,7 @@ body{
 
 
 
+
 #img_div{
     display: flex;
     justify-content: center;
@@ -467,6 +468,16 @@ input:hover,textarea:hover,input:focus,textarea:focus{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: #000000;
         
+    }
+    #heading_text {
+        word-break: break-word;
+        line-height: 90px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 2px;
+        font-size: 70px;
+        text-shadow: 5px 5px black;
+        color: white;
+        text-align: center;
     }
     
    
