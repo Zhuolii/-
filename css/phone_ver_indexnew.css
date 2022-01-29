@@ -12,17 +12,22 @@
             width: 350px;
             
             margin-left: 350px;
-            margin-top: 300px;
+            margin-bottom: 300px;
             font-size: 30px;
-            border: solid white 2px;
-            background-color: rgb(37, 37, 37);
+            border: solid brown 5px;
+            background-color: brown;
             color: white;
             font-weight: bold;
             border-radius: 60px;
             
     
     }
+    button.découvrir:hover{
+        color: brown;
+        background-color: white;
+    }
     #image_grid_container{
+        margin-top: 10em;
         display: grid;
         display: flex;
     text-align: center;
@@ -106,7 +111,7 @@
     #image_background4 {
             background-image:
             linear-gradient(to bottom, rgba(0, 0, 0, 0.03), rgba(255, 255, 255, 0)),
-            url('image video/chateau3.JPG');
+            url('image video/chateau3.jpg');
             width: 1023px;
             height: 827.2px;
             background-size: cover;
@@ -116,6 +121,20 @@
             
             
     }
+    #image_background5 {
+        background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.03), rgba(255, 255, 255, 0)),
+        url('royale/img_2.jpg');
+        width: 65em;
+        height: 48em;
+        background-size: cover;
+        
+       
+       
+        
+        
+        
+}
     img.imageIndex{
             width: 1023px;
             z-index: -1000;
@@ -233,16 +252,30 @@
         color:white;
     }
     #alert_div_button{
-            margin:0px 30px 50px 150px;
+            margin:20px 30px 50px 150px;
             
             width:700px;
             height:100px;
-            
+            color: white;
             border-radius:150px;
-            border: solid white 7px;
-            background-color:rgba(0, 0, 0, 0.90);
+            border: solid brown 5px;
+            background-color:brown;
             letter-spacing:2px;
     }
+    #alert_div_button:hover{
+       
+        color: brown;
+        
+        background-color:white;
+ 
+}
+.buttonlink{
+        color: white;
+        text-decoration: none;
+}
+.buttonlink:hover{
+        color:brown;
+}
     #alert_div2{
             background-image:
         linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0)),
@@ -284,6 +317,13 @@
                 font-weight:normal;
                 text-align: center;
                 font-size:3em;
+        }
+        .align-left{
+                text-align: left;
+                padding: 1em;
+                line-height: 1.5em;
+                margin: 80px 40px 80px 40px;
+                letter-spacing: 2.5px;
         }
         
     

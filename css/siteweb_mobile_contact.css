@@ -494,9 +494,10 @@ input:hover,textarea:hover,input:focus,textarea:focus{
         align-items: center;
         background-color: rgba(255, 255, 255, 0.856) ;
         width: 100%;
+        margin-top: 10em;
     }
     #img_hebergement_background{
-        margin-top: 16vw;
+      
         width: 100%;
         height:  767px;
         background-image: url('./image\ video/chateau1.jpg');
@@ -569,9 +570,10 @@ input:hover,textarea:hover,input:focus,textarea:focus{
     }
     article1 .grid--item p{
         margin:0 1vw 0 1vw;
-        line-height: 4em;
+        line-height: 3em;
         font-size: 50px;
         padding: 80px;
+        letter-spacing: 2px;
        
      }   
     p#p1{
