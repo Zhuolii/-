@@ -116,16 +116,16 @@ body {
 /*diapo chambre 1*/
 
 #button-Diapo1_1,#button-Diapo2_1{
-width: 8vw;  
-height: 8vw;
-background-color: rgba(128, 128, 128, 0.479);
-border:none;
-font-size:2vw;
-border-radius: 10px;
-display:inline;
-margin: 10px;
-
-}
+    width: 1.5em;  
+    height: 2em;
+    background-color: rgba(128, 128, 128, 0.479);
+    border:none;
+    font-size:3em;
+    border-radius: 10px;
+    display:inline;
+    margin: 10px;
+    
+    }
 }
 
 
