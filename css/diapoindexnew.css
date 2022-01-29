@@ -196,10 +196,8 @@ div.showSlide.grid_diapo{
     background-image:
    
     url('image_chateau/chateau2.JPG');
-    width: 1040px;
-    height: 827.19px;
-    
-   
+    width: 51em;
+    height: 38em;
     background-size: cover;
     
     
@@ -208,10 +206,8 @@ div.showSlide.grid_diapo{
     background-image:
    
     url('image_chateau/chateau3.jpg');
-    width: 1040px;
-    height: 827.19px;
-   
-   
+    width: 51em;
+    height: 38em;
     background-size: cover;
     
     
@@ -220,8 +216,8 @@ div.showSlide.grid_diapo{
     background-image:
    
     url('image_chateau/jardin1.JPG');
-    width: 1040px;
-    height: 827.19px;
+    width: 51em;
+    height: 38em;
     background-size: cover;
    
     
@@ -230,10 +226,8 @@ div.showSlide.grid_diapo{
     background-image:
    
     url('image_chateau/jardin2.jpg');
-    width: 1040px;
-    height: 827.19px;
-    
-   
+    width: 51em;
+    height: 38em;
     background-size: cover;
     
     
@@ -242,12 +236,9 @@ div.showSlide.grid_diapo{
     background-image:
    
     url('image_chateau/jardin3.JPG');
-    width: 1040px;
-    height: 827.19px;
- 
-   
+    width: 51em;
+    height: 38em;
     background-size: cover;
-    
     
 }
 
@@ -376,23 +367,18 @@ div.showSlide.grid_diapo{
         background-image:
       
         url('image video/chateau1.jpg');
-        width: 50vw;
-        height: 35vw;
-        background-size: cover;
-        
-        z-index: -1000;
+        width: 51em;
+    height: 38em;
+    background-size: cover;
         
     }
     #chateau2 {
         background-image:
        
         url('image_chateau/chateau2.JPG');
-        width: 50vw;
-        height: 35vw;
-        
-        z-index: -1000;
-       
-        background-size: cover;
+        width: 51em;
+    height: 38em;
+    background-size: cover;
         
         
     }
@@ -400,12 +386,9 @@ div.showSlide.grid_diapo{
         background-image:
        
         url('image_chateau/chateau3.jpg');
-        width: 50vw;
-        height: 35vw;
-        
-        z-index: -1000;
-       
-        background-size: cover;
+        width: 51em;
+    height: 38em;
+    background-size: cover;
         
         
     }
@@ -413,22 +396,17 @@ div.showSlide.grid_diapo{
         background-image:
       
         url('image_chateau/jardin1.JPG');
-        width: 50vw;
-        height: 35vw;
-        background-size: cover;
-        
-        z-index: -1000;
+        width: 51em;
+    height: 38em;
+    background-size: cover;
         
     }
     #jardin2 {
         background-image:
        
         url('image_chateau/jardin2.jpg');
-        width: 50vw;
-        height: 35vw;
-        
-        z-index: -1000;
-       
+        width: 51em;
+        height: 38em;
         background-size: cover;
         
         
@@ -437,12 +415,9 @@ div.showSlide.grid_diapo{
         background-image:
        
         url('image_chateau/jardin3.JPG');
-        width: 50vw;
-        height: 35vw;
-        
-        z-index: -1000;
-       
-        background-size: cover;
+        width: 51em;
+    height: 38em;
+    background-size: cover;
         
         
     }
