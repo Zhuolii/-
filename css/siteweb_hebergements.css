@@ -101,7 +101,7 @@ body{
 #img_hebergement_background{
    
     width: 100vw;
-    height: 40vw;
+    height: 37vw;
     background-image: url(./clemence/img_1.jpg);
     background-size: cover;
     display: flex;
@@ -204,6 +204,8 @@ article1 div img{
 
 .grid--item h2{
     text-align: center;
+    letter-spacing: 2px;
+    font-weight: 100;
 }
 .grid--item p{
     margin:0 1vw 0 3vw;

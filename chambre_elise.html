@@ -27,34 +27,36 @@
 <body>
     
     <!--Barre de navigation-->
-    <nav class="nav">  
-        <a href="index.html"><h1 id="navTitle"style="border-bottom:none;">CHÂTEAU DE MOLIENS</h1></a>
-        <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
-        <label id="label_div" for="nav__checkbox" class="nav__toggle">
-            <svg class="menu nav_button" fill="#000000" xmlns="https://www.w3.org/2000/svg"  viewBox="0 0 24 24" ><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"/></svg>
-            <svg class="close nav_button"fill="#000000" xmlns="https://www.w3.org/2000/svg"  viewBox="0 0 50 50" ><path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z"/></svg>
-        </label>
-    <div class="sidebar">
-        <a href="contact.html" ><button class="reserver_button">Réserver >></button></a> 
-       
-      <ul class="sidebarList" style="padding-left: 0;">
-        <a href="index.html" class="imglink"><img class="imglogo" id="img_logo"src=".\image video/logochateau.jpg"/></a> 
-       
-        <h1 class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></h1>
-        <li><a href="index.html"  id="index"style="margin-top:80px;"class="menu_link">ACCUEIL</a></li>
-       <!-- <li><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
-        <li><a href="mariage.html"id="mariage"class="menu_link">MARIAGE</a></li>
-        <li><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
-        <li><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>-->
-        <li><a href="hebergements.html"id="hebergements"class=" menu_link current">HÉBERGEMENTS</a></li>
-        <li><a href="contact.html"id="contact"class="menu_link  top">CONTACT</a></li>
-        <li><a href="covid-19.html"id="contact"class="menu_link ">COVID-19</a></li>
-       </ul>
-       </div>
-
-    </nav>
-
-   <!--Barre de navigation-->
+    <nav class="nav">
+      <a href="index.html"><h1 id="navTitle"style="border-bottom:none;">CHÂTEAU DE MOLIENS</h1></a>
+      <input type="checkbox" id="nav__checkbox" class="nav__checkbox"onclick="toggle_background()">
+      <label for="nav__checkbox" class="nav__toggle">
+          <svg class="menu" fill="#000000" xmlns="https://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="80px" height="80px"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"/></svg>
+          <svg class="close"fill="#000000" xmlns="https://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="80px" height="80px"><path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z"/></svg>
+      </label>
+  <div class="sidebar">
+      <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
+      <p id="ouverture">Ouverture le 1 mars 2022</p>
+     
+  
+      <ul class="sidebarList" style="padding-left: 0;"id="nav_background">
+     <a href="index.html" class="imglink"><img class="imglogo"src=".\image video/logochateau.jpg"/></a> 
+     <h1 class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></h1>
+     <li><a href="index.html"  id="index"class="menu_link">ACCUEIL</a></li>
+     <!--<li><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
+     <li><a href="mariage.html"id="mariage"class="menu_link">MARIAGE</a></li>
+     <li><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
+     <li><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>-->
+     <li><a href="hebergements.html"id="hebergements"class="current menu_link">HÉBERGEMENTS</a></li>
+     <li><a href="contact.html"id="contact"class="menu_link">CONTACT</a></li>
+     <li><a href="covid-19.html"id="contact"class="menu_link">COVID-19</a></li>
+     
+     </ul>
+     </div>
+  
+  </nav>
+  
+  <!--Barre de navigation-->
  <!--Code site web-->
  <div class="siteWeb">
   <div id="title_div">
@@ -63,54 +65,87 @@
 
   </div>
     
-  <!-- Code diapo -->
-               <div class="slidercontainer">  
-                <div class="showSlide21  "style="display: block;">  
-                    <div  class="grid-item" id="image_grid_container">
-                         
-                        
-                      <div id="image_gradient1" class="imageIndex">
-                        
-                         
-                           
-                         </div>
-                    </div>
-                </div>  
-                <div class="showSlide21  "style="display: none;">  
-                    <div id="image_grid_container" class="grid-item">
+  
+              <!-- Code diapo 1-->
+       <div class="slidercontainer">  
+        <div id="display1_1" class="slide1_1  "style="display: block;" >  
+            <div  class="grid-item" id="image_grid_container">
                  
-                        <div id="image_gradient2" class="imageIndex">
                 
-                         
-                        </div>
-                 </div>  
-                </div>  
-          
-                <div class="showSlide21  "style="display: none;">  
-                    <div id="image_grid_container" class="grid-item">
+              <div id="diapo1_1" class="imageIndex">
+                
                  
-                        <div id="image_gradient3" class="imageIndex">
-                        
-                         
-                        </div>
-                 </div> 
-                </div>  
-                <div class="showSlide21  "style="display: none;">  
-                    <div id="image_grid_container" class="grid-item">
+                   
+                 </div>
+            </div>
+        </div>  
+        <div id="display1_2" class="slide1_1 "style="display: none;">  
+            <div id="image_grid_container" class="grid-item">
+         
+                <div id="diapo1_2" class="imageIndex">
+        
                  
-                        <div id="image_gradient4" class="imageIndex">
-                         
-                         
-                        </div>
-                 </div> 
                 </div>
-               
+         </div>  
+        </div>  
+  
+        <div id="display1_3" class="slide1_1  "style="display: none;">  
+            <div id="image_grid_container" class="grid-item">
+         
+                <div id="diapo1_3" class="imageIndex">
+                
                  
-                <a id="left1" onclick="nextSlide21(-1)" ><button id="button-Diapo1">❮</button></a> 
-                <a id="right1" onclick="nextSlide21(1)"><button id="button-Diapo2">❯</button></a> 
+                </div>
+         </div> 
+        </div>  
+        <div id="display1_4" class="slide1_1  "style="display: none;">  
+            <div id="image_grid_container" class="grid-item">
+         
+                <div id="diapo1_4" class="imageIndex">
+                 
+                 
+                </div>
+         </div> 
+        </div>
+      <!-- <div id="display1_5" class="slide1_1  "style="display: none;">  
+          <div id="image_grid_container" class="grid-item">
+       
+              <div id="diapo1_5" class="imageIndex">
                
-            </div> 
+               
+              </div>
+       </div> 
+      </div>
+      <div  id="display1_6" class="slide1_1  "style="display: none;">  
+        <div id="image_grid_container" class="grid-item">
+     
+            <div id="diapo1_6" class="imageIndex">
+             
+             
+            </div>
+     </div> 
+    </div>-->
+    
+         
+        <a id="left1" onclick="nextSlide1_1(-1)" ><button class="button-Diapo1">❮</button></a> 
+        <a id="right1" onclick="nextSlide1_1(1)"><button class="button-Diapo2">❯</button></a> 
+       
+    </div>
+   <!-- Code diapo 1-->
+   
 
+       <!-- Code diapo small img 1-->
+   <div id="img_container">
+    <img onclick="displayself1_1()"id="small_img_1_1" class="small_img_1" style="opacity:1 ;" src="./css/elise/img_1.jpg" >
+      <img onclick="displayself1_2()"id="small_img_1_2" class="small_img_1" style="opacity:0.5 ;" src="./css/elise/img_2.jpg">
+      <img onclick="displayself1_3()"id="small_img_1_3" class="small_img_1" style="opacity:0.5; " src="./css/elise/img_3.jpg" >
+     <img onclick="displayself1_4()"id="small_img_1_4" class="small_img_1" style="opacity:0.5; " src="./css/elise/img_4.jpg" >
+     <!--<img onclick="displayself1_5()"id="small_img_1_5" class="small_img_1" style="opacity:0.5;" src="./css/royale/img_5.jpg" >
+       <img onclick="displayself1_6()"id="small_img_1_6" class="small_img_1" style="opacity:0.5; " src="./css/royale/img_6.jpg" >-->
+
+    </div> 
+       <!-- Code diapo small img 1-->
+       <div class="buttondiv"> <a href="https://www.chambres-hotes.fr/chambres-hotes_chateau-de-moliens_moliens_73492.htm"><button class="chambre_button" id="button2">Réserver</button></a></div>
             <h1 class="heading">détails</h1>
 
             <div id="grid_container_1">
@@ -190,7 +225,7 @@
             
           
   
- 
+            <div class="buttondiv"> <a href="https://www.chambres-hotes.fr/chambres-hotes_chateau-de-moliens_moliens_73492.htm"><button class="chambre_button" id="button2">Réserver</button></a></div>
 
 
   
@@ -292,69 +327,105 @@
 
   </div>
     
-  <!-- Code diapo -->
-               <div class="slidercontainer">  
-                <div class="showSlide22  "style="display: block;">  
-              
-                    <div  class="grid-item" id="image_grid_container">
-                             <a id="left2" onclick="nextSlide22(-1)" ><button id="button-Diapo1_1">❮</button></a> 
+ 
+           <!-- Code diapo 5-->
+      <div class="slidercontainer">  
+        <div style="display: block;" id="display5_1" class="slide5_1 "> 
+            <div  class="grid-item" id="image_grid_container">
                   
-                        
-                      <div id="image_gradient1" class="imageIndex">
-                        
-                       
-                           
-                         </div>
-                         <a id="right2" onclick="nextSlide22(1)"><button id="button-Diapo2_1">❯</button></a> 
-                    </div>
-                </div>  
-                <div class="showSlide22  "style="display: none;">  
-                    <div id="image_grid_container" class="grid-item">
-
-                      <a id="left2" onclick="nextSlide22(-1)" ><button id="button-Diapo1_1">❮</button></a> 
-                 
-                        <div id="image_gradient2" class="imageIndex">
+        <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
+       
                 
-                         
-                        </div>
-                        <a id="right2" onclick="nextSlide22(1)"><button id="button-Diapo2_1">❯</button></a> 
-                 </div>  
-                </div>  
+              <div id="diapo5_1" class="imageIndex">   </div>
+                 <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
+                 
+                   
+              
+            </div>
+        </div>  
+        <div id="display5_2" class="slide5_1 "style="display: none;">  
+            <div id="image_grid_container" class="grid-item">
           
-                <div class="showSlide22  "style="display: none;">  
-                    <div id="image_grid_container" class="grid-item">
-                      <a id="left2" onclick="nextSlide22(-1)" ><button id="button-Diapo1_1">❮</button></a> 
+        <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
+        
+                <div id="diapo5_2" class="imageIndex"></div>
+        <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
                  
-                        <div id="image_gradient3" class="imageIndex">
-                        
-                         
-                        </div>
-                        <a id="right2" onclick="nextSlide22(1)"><button id="button-Diapo2_1">❯</button></a> 
-                 </div> 
-                </div>  
-                <div class="showSlide22  "style="display: none;">  
-                    <div id="image_grid_container" class="grid-item">
-                      <a id="left2" onclick="nextSlide22(-1)" ><button id="button-Diapo1_1">❮</button></a>
-                        <div id="image_gradient4" class="imageIndex">
-                         
-                         
-                        </div>
-                        <a id="right2" onclick="nextSlide22(1)"><button id="button-Diapo2_1">❯</button></a> 
-                 </div> 
-                </div>
-               
+                
+         </div>  
+        </div>  
+  
+        <div id="display5_3" class="slide5_1  "style="display: none;">  
+            <div id="image_grid_container" class="grid-item">
+          
+        <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
+        
+                <div id="diapo5_3" class="imageIndex"> </div>
+                <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
                  
-               <!-- <a id="left2" onclick="nextSlide22(-1)" ><button id="button-Diapo1_1">❮</button></a> 
-                <a id="right2" onclick="nextSlide22(1)"><button id="button-Diapo2_1">❯</button></a> -->
                
-            </div> 
+         </div> 
+        </div>  
+        <div id="display5_4" class="slide5_1  "style="display: none;">  
+            <div id="image_grid_container" class="grid-item">
+          
+        <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
+        
+                <div id="diapo5_4" class="imageIndex"></div>
+                 <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
+                 
+                
+         </div> 
+        </div>
+      <!-- <div id="display5_5" class="slide5_1  "style="display: none;">  
+          <div id="image_grid_container" class="grid-item">
+        
+            <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
+           
+              <div id="diapo5_5" class="imageIndex">    </div>
+                <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
+               
+          
+       </div> 
+      </div>
+      <div  id="display5_6" class="slide5_1  "style="display: none;">  
+        <div id="image_grid_container" class="grid-item">
+      
+          <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
+         
+            <div id="diapo5_6" class="imageIndex">   </div>
+              <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
+             
+         
+     </div> 
+    </div>--> 
+    
+         
+       
+       
+    </div>
+   <!-- Code diapo 5-->
+   
+
+       <!-- Code diapo small img 5-->
+   <div id="img_container">
+    <img onclick="displayself5_1()"id="small_img_5_1" class="small_img_5" style="opacity:1 ;" src="./css/elise/img_1.jpg" >
+      <img onclick="displayself5_2()"id="small_img_5_2" class="small_img_5" style="opacity:0.5 ;" src="./css/elise/img_2.jpg">
+      <img onclick="displayself5_3()"id="small_img_5_3" class="small_img_5" style="opacity:0.5; " src="./css/elise/img_3.jpg" >
+     <img onclick="displayself5_4()"id="small_img_5_4" class="small_img_5" style="opacity:0.5; " src="./css/elise/img_4.jpg" >
+    <!-- <img onclick="displayself5_5()"id="small_img_5_5" class="small_img_5" style="opacity:0.5;" src="./css/royale/img_5.jpg" >
+       <img onclick="displayself5_6()"id="small_img_5_6" class="small_img_5" style="opacity:0.5; " src="./css/royale/img_6.jpg" >-->
+
+    </div> 
+       <!-- Code diapo small img 5-->
+       <div class="buttondiv"> <a href="https://www.chambres-hotes.fr/chambres-hotes_chateau-de-moliens_moliens_73492.htm"><button class="chambre_button" id="button2">Réserver</button></a></div>
             <h1 class="heading">détails</h1>
 
             <div id="grid_container_1">
-              <div class="grid_item grid_image"><img src=".\image video/lit.png" class="small_logos" alt="icone de lit"/></div>
+                <div class="grid_item pair">
+<h3 class="heading_grid"><img src=".\image video/lit2.png" class="small_logos" alt="icone de lit"/>chambre - 13.5 m²</h3>
 
-
-              <div class="grid_item pair"><h3 class="heading_grid">chambre - 13.5 m²</h3>
+            
                 <p class="texte_grid">
                     Lit 2 places 150 x 210 <br>
                     Armoire 2 portes<br>
@@ -371,9 +442,9 @@
 
              
 
-              <div class="grid_item grid_image"><img src=".\image video/baignoire.png" class="small_logos" alt="icone de baignoire"/></div>
+             
 
-              <div class="grid_item pair"><h3 class="heading_grid">salle de bain </h3>
+              <div class="grid_item pair"><h3 class="heading_grid"><img src=".\image video/baignoire2.png" class="small_logos" alt="icone de baignoire"/>salle de bain </h3>
                 <p class="texte_grid">
                   Située dans la tour <br>
                     Douche italienne<br>
@@ -382,13 +453,13 @@
                     Sèche serviette<br>
                    
                 </p></div>
-                <div class="grid_item grid_image"><img src=".\image video/personne.png" class="small_logos" alt="icone de personne"/></div>
-                <div class="grid_item pair"><h3 class="heading_grid">capacité</h3>
+                
+                <div class="grid_item pair"><h3 class="heading_grid"><img src=".\image video/personne2.png" class="small_logos" alt="icone de personne"/>capacité</h3>
                 <p class="texte_grid">Jusqu'à 2 personnes</p></div>
 
-              <div class="grid_item grid_image"><img src=".\image video/info.png" class="small_logos" alt="icone de info"/></div>
+           
 
-              <div class="grid_item pair"><h3 class="heading_grid">services</h3>
+              <div class="grid_item pair"><h3 class="heading_grid"><img src=".\image video/info2.png" class="small_logos" alt="icone de info"/>services</h3>
                 <p class="texte_grid">
                   Wifi gratuit <br>
                   Petit déjeuner <br>
@@ -400,26 +471,18 @@
 
                
               
-              <div class="grid_item grid_image"><img src=".\image video/icone_billet.png" class="small_logos" alt="icone de billet"/></div>
+              
 
-              <div class="grid_item pair"><h3 class="heading_grid">tarifs</h3>
+              <div class="grid_item pair"><h3 class="heading_grid"><img src=".\image video/icone_billet2.png" class="small_logos" alt="icone de billet"/>tarifs</h3>
                 <p><img src=".\image video/personne.png" class="small_logos2" alt="icone de personne"/> x 1 = <span>105€</span> par nuit</p>
                 <p><img src=".\image video/personne.png" class="small_logos2" alt="icone de personne"/> x 2 = <span>120€</span> par nuit</p>
-                
-              </div> 
-                <div class="grid_item grid_image_2">
-                  <img src=".\image video/call.png" class="small_logos_2" alt="icone de téléphone"/><br><br><br>
-                <img src=".\image video/mail.png" class="small_logos_3" alt="icone de personne"/><br><br><br>
-                <a class="link" href="tel:0631383831" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-                <img src=".\image video/call.png" class="small_logos_3" alt="icone de personne"/></a>
-                </div>
-                
-
-              <div class="grid_item pair"><h3 class="heading_grid">contact</h3><br>
+            </div>  <div class="grid_item pair">
+<h3 class="heading_grid"> <img src=".\image video/call2.png" class="small_logos_3" alt="icone de telephone"/>contact</h3>
+              <br>
                 <a class="link"href="mailto: chateaudemoliens@outlook.fr">
-                <p> chateaudemoliens@outlook.fr</p></a><br>
+                <p> <img src=".\image video/mail.png" class="small_logos_3" alt="icone de personne"/>chateaudemoliens@outlook.fr</p></a><br>
                 <a class="link" href="tel:0631383831" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-                  <p> 06 31 38 38 31</p></a>
+                  <p>  <img src=".\image video/call.png" class="small_logos_2" alt="icone de téléphone"/>06 31 38 38 31</p></a>
               
               </div>
 
@@ -428,7 +491,7 @@
               
             </div>
      
-   
+            <div class="buttondiv"> <a href="https://www.chambres-hotes.fr/chambres-hotes_chateau-de-moliens_moliens_73492.htm"><button class="chambre_button" id="button2">Réserver</button></a></div>
 
 <!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container-->
   
@@ -524,8 +587,8 @@
 <!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile-->
   
  
- <script type="text/javascript" src="./js/hebergement.js"></script>
-
+ <script type="text/javascript" src="./js/elise.js"></script>
+ <script type="text/javascript" src="./js/nav_background.js"></script>
 
 
 

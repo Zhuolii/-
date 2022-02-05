@@ -75,6 +75,7 @@ function displayNumber(){
             slides[slide_index2 - 1].style.display = "block";  
         }  
         /*diapo chambre 1 */
+        
         /*diapo chambre 2 */
         var slide_index2 = 1;  
         displaySlides22(slide_index2);  

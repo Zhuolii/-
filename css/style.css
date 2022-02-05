@@ -13,6 +13,18 @@
      .siteMobile{
          display: none;
      }
+     .margin_top_heading{
+        margin-top: 5em;
+        margin: 5em auto 3em auto;
+    text-align: center;
+    text-decoration: underline brown 2px;
+    text-underline-offset: 10px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: brown;
+    font-size: 2em;
+
+     }
      #navTitle{
          display: none;
      }
@@ -57,9 +69,9 @@ h1.headtitle a{
         height: 2vw;
     width: 10vw;
     border-radius: 2.5vw;
-    background-color: rgb(44, 44, 44);
+    background-color: brown;
     color: rgb(255, 255, 255);
-    border: solid rgb(44, 44, 44) 0.3vw;
+    border: solid brown 0.15vw;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     position:fixed;
@@ -74,6 +86,8 @@ h1.headtitle a{
         cursor: pointer;
         letter-spacing: 3px;
         width: 15vw;
+        background-color: white;
+        color: brown;
        
     }
     

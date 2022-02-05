@@ -24,7 +24,7 @@
     
     
     width: 100vw;
-    height: 40vw;
+    height: 37vw;
     background-image: url(./image\ video/chateau1.jpg);
     background-size: cover;
     display: flex;
@@ -65,7 +65,7 @@
     line-height: 2.4em;
 }
 #texte{
-    margin-top: 20%;
+    
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 15%;

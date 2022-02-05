@@ -59,7 +59,8 @@
        word-break: break-word;
        line-height: 90px;
     letter-spacing: 2px;
-    color: rgb(58, 58, 58);
+    color: black;
+    font-style: italic;
     }
     #p1{
         font-family:Georgia, 'Times New Roman', Times, cursive;
@@ -110,12 +111,15 @@
      
      .grid--item h2{
          text-align: center;
-         font-size: 3em;
+         font-size: 4em;
+         letter-spacing: 6px;
+    font-weight: 100;
+    word-spacing: 0.5em;
      }
      .grid-container .grid--item p{
          margin:0 1vw 0 3vw;
          line-height: 2.5em;
-         font-size: 2.5em;
+         font-size: 3em;
      }
      .chambre_button{
         border-radius: 5px;

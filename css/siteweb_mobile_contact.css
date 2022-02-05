@@ -33,7 +33,7 @@ body{
     background-color: rgba(255, 255, 255, 0.856) ;
 }
 #img_hebergement_background{
-    margin-top: 5vw;
+    
     width: 100vw;
     height: 40vw;
     background-image: url(./image\ video/chateau1.png);
@@ -263,7 +263,7 @@ body{
 #img_hebergement_background{
    
     width: 100vw;
-    height: 40vw;
+    height: 37vw;
     background-image: url(./image\ video/chateau1.jpg);
     background-size: cover;
     display: flex;

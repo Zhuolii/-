@@ -13,7 +13,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     font-weight: 100;
-    margin: 270px 0 100px 0;
+    margin: 2em 0 2em 0;
 }
 .heading_2{
     text-transform: uppercase;
@@ -44,18 +44,18 @@ body{
 .small_logos{
     width: 25px;
     height: 25px;
-    margin-bottom:-20px;
+  
 }
 .small_logos2{
     width: 25px;
     height: 25px;
-    margin-bottom:0px;
+   
     
 }
 .small_logos3{
     width: 25px;
     height: 25px;
-    margin-bottom:-5px;
+   
     
 }
 .texte_grid{
@@ -78,10 +78,34 @@ span{
     color: black;
     text-underline-offset: 1em;
 }
-/*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*/
 
+.chambre_button {
+    border-radius: 1.5em;
+    padding: 10px;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    border: solid brown 0.15vw;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0.5em 1em 0.5em 1em;
+}
+.chambre_button:hover{
+    background-color: white;
+    color: brown;
+}
+.buttondiv {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4em;
 }
 
+
+}
+/*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*/
 /*mobile*/
 @media (max-width: 1023px){
     body{
@@ -110,38 +134,47 @@ span{
     }
     #grid_container_1{
         display: grid;
-        grid-template-columns: 3fr 18fr ;
-        margin: 0 30px 50px 30px;
+        grid-template-columns: 1fr ;
+        margin: 0 0 50px 0;
         
     }
     .grid_item{
-        padding: 80px 40px 100px 40px;
+       
         border-top: solid black 3px;
         
     
     }
+    .grid_item p{
+        padding: 80px 40px 100px 40px;
+        margin-left: 2em;
+    }
     .grid_image{
         padding: 60px 0 20px 20px;
     }
-    .pair{
-        
-    }
+    
     .small_logos{
         width: 75px;
         height: 75px;
-        margin-bottom:-5em;
+        position: relative;
+    top: 0.2em;
+    RIGHT: 1em;
+       
     }
     .small_logos_2{
         width: 75px;
         height: 75px;
-        margin-bottom:-6em;
+        position: relative;
+        top: 0.2em;
+        RIGHT: 1em;
         
         
     }
     .small_logos_3{
         width: 50px;
         height: 50px;
-        margin: 0 0 -6.5em 5em;
+        position: relative;
+        top: 0.2em;
+        RIGHT: 1em;
         
         
     }
@@ -163,13 +196,16 @@ span{
     }
     span{
         color:green;
-        font-size:xx-large;
+        font-size:1.5em;
     }
     #title_1 {
+        
+        margin-top: 4em;
         text-align: center;
         font-weight: 100;
-        margin: 250px 70px 70px 70px;
-        font-size:80px;
+  
+        font-size:70px;
+        letter-spacing: 3px;
     }
     #title_2 {
         text-align: center;
@@ -181,6 +217,28 @@ span{
     .link{
         color: black;
         text-underline-offset: 2em;
+    }
+    .chambre_button {
+        border-radius: 1.5em;
+        padding: 0.5em 2em 0.5em 2em;
+        background-color: brown;
+        color: rgb(255, 255, 255);
+        border: solid brown 0.15vw;
+        font-size: 4em;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 1em;
+        letter-spacing: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .chambre_button:hover{
+        background-color: white;
+        color: brown;
+    }
+    .buttondiv {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 4em;
     }
     
 }

@@ -1,0 +1,174 @@
+@media (min-width: 1024px)
+{
+
+
+#img_logo{
+    
+    margin-left: -0.2vw;
+    margin-top: -0.5vw;
+    border-radius: 2vw;
+    width: 4vw;
+    height: 4vw;
+    float: left;
+}
+
+
+
+
+
+#img_div{
+    position: relative;
+    top: 100px;
+}
+#img_hebergement_background{
+    
+    
+    width: 100vw;
+    height: 40vw;
+    background-image: url(./image\ video/chateau1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color: white;
+    letter-spacing: 0.5vw;
+    
+}
+
+
+#img_h1{
+    text-align: center;
+    justify-content: center;
+}
+.siteWeb h2{
+    margin: 5em auto 3em auto;
+    text-align:center;
+    text-decoration:underline brown 2px;
+    text-underline-offset: 10px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: brown;
+    font-size: 2em;
+}
+.siteWeb h3{
+    
+    margin: 5em auto 1em auto;
+    text-align:center;
+    text-decoration:underline brown 2px;
+    text-underline-offset: 10px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: brown;
+    font-size: 1.5em;
+}
+.siteWeb p{
+    font-size:1.2em;
+    letter-spacing: 1px;
+    line-height: 2.4em;
+}
+.siteWeb li{
+    font-size:1.3em;
+    letter-spacing: 1px;
+    line-height: 2.4em;
+}
+.texte{
+    margin: 3% 10% 3% 10%;
+}
+.chambre_button {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    border: solid brown 0.15vw;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.5s ease;
+    letter-spacing: 2px;
+    transition: color 0.5s ease;
+    transition: font-size 0.5s ease;
+    transition: border 0.5s ease;
+
+}
+.chambre_button:hover{
+    cursor: pointer;
+    background-color:white ;
+    color: brown;
+    transition: 0.3s ease ;
+    font-size: medium;
+    
+    
+}
+.chambre_button2 {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    border: solid brown 0.15vw;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.5s ease;
+    letter-spacing: 2px;
+    transition: color 0.5s ease;
+    transition: font-size 0.5s ease;
+    transition: border 0.5s ease;
+
+}
+.chambre_button2:hover{
+    cursor: pointer;
+    background-color:white ;
+    color: brown;
+    transition: 0.3s ease ;
+    
+    
+    
+}
+.alignbtn{
+    display: flex;
+    justify-content: space-around;
+    margin:5%;
+}
+#buttondiv{
+    display: flex;
+    justify-content: space-around;
+}
+.chambre_button{
+    margin-top: 3em;
+}
+#grid_container{
+    margin: 5% 10% 5% 10%;
+    width: 80%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+#rows_container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+.grid_row{
+    text-align: center;
+    padding: 0.2em;
+    font-size: 1.2em;
+   
+    width: auto;
+    height: auto;
+}
+.row1{
+    text-decoration: underline solid brown;
+    text-underline-offset: 0.5em;
+    color: brown;
+}
+#button3{
+    margin : -15px  -10px  -10px  -10px;
+    position: relative;
+    top: -5px;
+}
+#button4{
+    margin :0;
+    position: relative;
+    top: -5px;
+}
+}

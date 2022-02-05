@@ -5,115 +5,19 @@ body {
     background: rgb(255, 255, 255);  
 }  
 
-.slidercontainer { 
-    height: auto;
-    
-     
-    margin:auto; 
-    
-    margin-bottom: 100px;
-}  
 
 
-#image_gradient1 {
-    background-image:
-   
-    url('olympe/img_1.jpg');
-    width: 51em;
-    height: 38em;
-    background-size: cover;
-    
-    z-index: -1000;
-    
-}
-#image_gradient2 {
-    background-image:
-   
-    url('olympe/img_2.jpg');
-    width: 51em;
-    height: 38em;
-    
-    z-index: -1000;
-   
-    background-size: cover;
-    
-    
-}
-#image_gradient3 {
-    background-image:
-    
-    url('olympe/img_3.jpg');
-    width: 51em;
-    height: 38em;
-    
-    z-index: -1000;
-   
-    background-size: cover;
-    
-    
-}
-#image_gradient4 {
-    background-image:
-    
-    url('olympe/img_4.jpg');
-    width: 51em;
-    height: 38em;
-    
-    
-    z-index: -1000;
-    background-size: cover;
-    
-    
-}
-#image_gradient5 {
-    background-image:
-    
-    url('olympe/img_5.jpg');
-    width: 51em;
-    height: 38em;
-    
-    
-    z-index: -1000;
-    background-size: cover;
-    
-    
-}
-#image_gradient6 {
-    background-image:
-    
-    url('olympe/img_6.jpg');
-    width: 51em;
-    height: 38em;
-    
-    
-    z-index: -1000;
-    background-size: cover;
-    
-    
-}
-#image_gradient7 {
-    background-image:
-    
-    url('olympe/img_7.jpg');
-    width: 51em;
-    height: 38em;
-    
-    
-    z-index: -1000;
-    background-size: cover;
-    
-    
-}
+
 #image_grid_container{
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
-
-
-
 /*diapo chambre 1*/
+
+
+
 
 #button-Diapo1_1,#button-Diapo2_1{
     width: 1.5em;  
@@ -126,142 +30,258 @@ body {
     margin: 10px;
     
     }
-}
 
+.imageIndex{
+    width: 51em;
+    height: 38em;
+    background-size: cover;
+    z-index: -1000;
+}
+#img_container{
+    text-align: center;
+    margin-top: 1em;
+  }
+  .slidercontainer { 
+      height: auto;
+   
+      
+  }  
+  
+  /*diapo 5*/
+  .small_img_5{
+      width: 25%;
+   
+      
+      
+  }
+  .small_img_5:hover{
+      cursor: pointer;
+      
+      
+  }
+ 
+  
+  
+  
+  #diapo5_1 {
+      background-image:
+  
+      url('olympe/img_1.jpg');
+      
+      filter: brightness(1.3);
+      
+  }
+  #diapo5_2 {
+      background-image:
+   
+      url('olympe/img_2.jpg');
+     
+      
+      
+  }
+  #diapo5_3 {
+      background-image:
+    
+      url('olympe/img_3.jpg');
+     
+      
+      
+  }
+  #diapo5_4 {
+      background-image:
+ 
+      url('olympe/img_4.jpg');
+     
+      
+      
+  }
+  #diapo5_5 {
+      background-image:
+ 
+      url('olympe/img_5.jpg');
+     
+      
+      
+  }
+  #diapo5_6 {
+      background-image:
+ 
+      url('olympe/img_6.jpg');
+     
+      
+      
+  } 
+  #diapo5_7 {
+    background-image:
+
+    url('olympe/img_7.jpg');
+   
+    
+    
+} 
+  /*diapo 5*/
+  /*button diapo all*/
+  
+  .button-Diapo1,.button-Diapo2{
+    width: 1.5em;
+    height: 2em;
+    background-color: rgba(128, 128, 128, 0.479);
+    border: none;
+    font-size: 3em;
+    border-radius: 10px;
+    display: inline;
+    margin: 10px;
+  
+  }
+  .button-Diapo2{
+    left: 78vw;
+  } 
+  
+  /*button diapo all*/
+
+}
 
  /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver *//* phone ver *//* phone ver */
 /*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver */
 @media (min-width: 1024px) 
 {
     
-    .slidercontainer { 
-        height: auto;
-        
-         
-        margin:auto; 
-        position: relative;
-        top:220px;
-        margin-bottom: 100px;
-    }  
-    
-    
-    #image_gradient1 {
-        background-image:
-    
-        url('olympe/img_1.jpg');
-        width: 51em;
-        height: 38em;
-        background-size: cover;
-        
-        z-index: -1000;
-        
-    }
-    #image_gradient2 {
-        background-image:
-     
-        url('olympe/img_2.jpg');
-        width: 51em;
-        height: 38em;
-        z-index: -1000;
-       
-        background-size: cover;
-        
-        
-    }
-    #image_gradient3 {
-        background-image:
-      
-        url('olympe/img_3.jpg');
-        width: 51em;
-        height: 38em;
-        
-        z-index: -1000;
-       
-        background-size: cover;
-        
-        
-    }
-    #image_gradient4 {
-        background-image:
-   
-        url('olympe/img_4.jpg');
-        width: 51em;
-        height: 38em;
-        
-        
-        z-index: -1000;
-        background-size: cover;
-        
-        
-    }
-    #image_gradient5 {
-        background-image:
-   
-        url('olympe/img_5.jpg');
-        width: 51em;
-        height: 38em;
-        
-        
-        z-index: -1000;
-        background-size: cover;
-        
-        
-    }
-    #image_gradient6 {
-        background-image:
-   
-        url('olympe/img_6.jpg');
-        width: 51em;
-        height: 38em;
-        
-        
-        z-index: -1000;
-        background-size: cover;
-        
-        
-    }
-    #image_gradient7 {
-        background-image:
-   
-        url('olympe/img_7.jpg');
-        width: 51em;
-        height: 38em;
-        
-        
-        z-index: -1000;
-        background-size: cover;
-        
-        
-    }
     #image_grid_container{
-        display: flex;
+       display: flex;
         text-align: center;
         justify-content: center;
         align-items: center;
+        position: relative;
+        top: 10em;
     }
-
-
 /* siteweb css*/
 /*diapo chambre 1*/
 
-#button-Diapo1,#button-Diapo2{
+
+
+/*diapo chambre 1*/
+/*diapo 1*/
+.button-Diapo1,.button-Diapo2{
     width: 3vw;  
     height: 3vw;
     background-color: rgba(128, 128, 128, 0.479);
     border:none;
     font-size:2vw;
     position: relative;
-    top:-20vw;
-    left: 15vw;
+    top:-4em;
+    left: 6em;
     cursor: pointer;
 
 }
-#button-Diapo2{
-    left:78vw;
+.button-Diapo2{
+    left:40em;
 } 
+#img_container{
+    text-align: center;
+    margin-top: 9em;
+  }
+.small_img_1{
+    width: 7%;
+    height:5% ;
+    
+    
+}
+.small_img_1:hover{
+    cursor: pointer;
+    
+    
+}
 
-/*diapo chambre 1*/
 
+
+
+#diapo1_1 {
+    background-image:
+
+    url('olympe/img_1.jpg');
+    width: 38em;
+    height: 28em;
+    background-size: cover;
+    
+    z-index: -1000;
+    filter: brightness(1.3);
+    
+}
+#diapo1_2 {
+    background-image:
+ 
+    url('olympe/img_2.jpg');
+    width: 38em;
+    height: 28em;
+    z-index: -1000;
+   
+    background-size: cover;
+    
+    
+}
+#diapo1_3 {
+    background-image:
+  
+    url('olympe/img_3.jpg');
+    width: 38em;
+    height: 28em;
+    
+    z-index: -1000;
+   
+    background-size: cover;
+    
+    
+}
+#diapo1_4 {
+    background-image:
+
+    url('olympe/img_4.jpg');
+    width: 38em;
+    height: 28em;
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+}
+#diapo1_5 {
+    background-image:
+
+    url('olympe/img_5.jpg');
+    width: 38em;
+    height: 28em;
+    
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+}
+#diapo1_6 {
+    background-image:
+
+    url('olympe/img_6.jpg');
+    width: 38em;
+    height: 28em;
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+} 
+#diapo1_7 {
+    background-image:
+
+    url('olympe/img_7.jpg');
+    width: 38em;
+    height: 28em;
+    
+    z-index: -1000;
+    background-size: cover;
+    
+    
+} 
+/*diapo 1*/
 
 
 

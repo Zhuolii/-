@@ -224,10 +224,7 @@
     button.buttonPlus:hover{
             background-color: rgb(85, 85, 85);
     }
-    div.sidebar{
-            top: 0;
-            left: 0;
-    }
+    
         
     div.grid-item img{
             width:1023px;

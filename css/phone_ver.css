@@ -3,6 +3,25 @@
 @media  (max-width:1023px)
 
 {
+    h3 {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 100;
+        margin: 100px 0 100px 0;
+        letter-spacing: 7px;
+        font-size: 2.7em;
+        padding: 1em;
+        color: white;
+        background: brown;
+        text-decoration: underline none;
+    }
+    #index{
+        margin-top: 1.4em;
+    }
+    nav{
+        position: relative;
+    z-index: 100000;
+    }
 
     div ul li a{
         
@@ -17,7 +36,7 @@
         display: none;
     }
     div.siteMobile {
-        width: 1023px;
+        width: 100%;
         height: auto;
         display: block;
     } 
@@ -135,9 +154,7 @@
         font-weight: bold;
         
     }
-    #index{
-        margin-top: 80px;
-    }
+    
         
     
     
@@ -184,9 +201,8 @@
         display: block;
         width:1040px;
         
-        border-top: solid black 3px;
-        border-left:solid black 3px;
-        border-right: solid black 3px;
+        border: solid black 3px;
+        
         margin-right: 0;
         
         
@@ -269,6 +285,7 @@
         display: block; 
            position: relative;
            right:0px;
+           
           font-family:  Georgia, 'Times New Roman', Times, serif;
           -webkit-font-smoothing: antialiased;
           font-weight: bold;
@@ -291,6 +308,7 @@
 
         position:relative;
         right:-1100px;
+        top: -0.7em;
         transition:all 0.3s ease;
         text-decoration: none;
         font-family:  Georgia, 'Times New Roman', Times, serif;
@@ -313,7 +331,7 @@
         position: relative;
         top:43px;
         width: 1040px;
-        height: 1900px;
+        height: 3000px;
         background-color: rgba(0, 0, 0, 0.596);
     }
     

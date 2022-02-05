@@ -1,5 +1,16 @@
 @media (min-width: 1024px)
 {
+    .siteWeb p{
+        letter-spacing: 0.8px;
+    line-height: 1.7em;
+    font-size: 1em;
+    font-style: normal;
+  
+    margin:5% 10% 5% 10% ;
+    }
+    .center{
+        text-align: center;
+    }
 
 
 #img_logo{
@@ -27,40 +38,34 @@
        
         
 }
-#alert_button_close{
-    font-size:2vw;
-        width:4vw;
-        display: flex;
-        justify-content: center;
-        background-color:black;
-        border:solid gray 0.1vw;
-        color:white;
-        border-radius:3.5vw;
-        position: relative;
-        left: 90vw;
-}
+
 #alert_button{
     display: flex;
     justify-content: center;
     position: relative;
     left: 25vw;
-    top:9vw;
+
     width:50vw;
     height:2.5vw; 
     border-radius:15vw;
-    border: solid white 0.1vw;
-    background-color:black;
+    border: solid brown 0.15vw;
+    background-color:brown;
     letter-spacing :0.1VW;
+    transition: 0.5s;
     
 }
-#alert_button_close:hover{
-    cursor:pointer;
+#alert_button:hover{
+    background-color:white;
+    color: brown;
 }
 #alert_button_text{
     text-decoration:none;
     font-size:1.3vw;
     color: white;
    
+}
+#alert_button_text:hover{
+    color: brown;
 }
 #alert_p{
     font-size:2vw;
@@ -72,6 +77,7 @@
     margin-bottom: -1.2vw;
   
 }
+
 #alert_ul{
     list-style: none;
     font-size: 1.5vw;
@@ -95,7 +101,7 @@
 #image_acceuil  {
     background-image: url('./image video/chateau1.jpg');
     width: 100vw;
-    height: 42vw;
+    height: 37vw;
     background-size: cover;
     align-items: center;
     justify-content: center;
