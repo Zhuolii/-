@@ -342,7 +342,7 @@
          document.getElementById("small_img_5_5").style.opacity = 0.5;
          document.getElementById("small_img_5_6").style.opacity = 0.5;
          document.getElementById("small_img_5_7").style.opacity = 0.5;
-         slide_index1 = 2;
+         slide_index5 = 2;
      }
      function displayself5_3(){
          
