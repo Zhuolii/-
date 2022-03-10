@@ -1,108 +1,253 @@
-@media (min-width: 1023px)
+@media only screen and (min-width: 2000px){
+div#footer_grid p {
+    font-size: 1.5vw;
+}
+    #title_div{
+        margin-top: 5em;
+    }
+    #title_div h3{
+        text-align: center;
+        position: relative;
+        top:120px;
+        font-weight: 100;
+        font-size: 3em;
+    }
+    #title_div h1{
+        text-align: center;
+        position: relative;
+        top:135px;
+        font-weight: 100;
+        letter-spacing: 3px;
+        font-size: 4em;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        overflow-x:hidden;
+       
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #000000;
+        
+    }
+    text{
+        font-size: 2em;
+    }
+    .heading{
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 100;
+        margin: 2em 0 2em 0;
+    }
+    .heading_2{
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 100;
+        margin: 0px 20% 50px 20%;
+        padding-bottom: 20px;
+        border-bottom: solid black 1.5px;
+    }
+    #grid_container_1{
+        display: grid;
+        grid-template-columns: 1fr 19fr 1fr 19fr ;
+        margin: 0 10% 50px 13%;
+        
+    }
+    .grid_item{
+        padding: 20px;
+        border-top: solid black 1.5px;
+        
+    
+    }
+    .grid_image{
+        padding: 20px 0 20px 20px;
+    }
+    .pair{
+        margin-right:70px;
+    }
+    .small_logos{
+        width: 50px;
+        height: 50px;
+      
+    }
+    .small_logos2{
+        width: 50px;
+        height: 50px;
+       
+        
+    }
+    .small_logos3{
+        width: 25px;
+        height: 25px;
+       
+        
+    }
+    .texte_grid{
+        font-family:Neue Helvetica,Helvetica,sans-serif;
+        letter-spacing: 2px;
+        line-height: 2em;
+        font-size: 2em;
+    }
+    .heading_grid{
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 2.5em;
+    }
+    .texte_tarifs{
+        margin: 0px 20% 50px 20%;
+    }
+    span{
+        color:green;
+        font-size:xx-large;
+    }
+    .link{
+        color: black;
+        text-underline-offset: 1em;
+    }
+    
+    .chambre_button {
+        border-radius: 1.5em;
+        padding: 10px;
+        background-color: brown;
+        color: rgb(255, 255, 255);
+        border: solid brown 0.15vw;
+        font-size: 1.5em;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 1em;
+        letter-spacing: 2px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        padding: 0.5em 1em 0.5em 1em;
+    }
+    .chambre_button:hover{
+        background-color: white;
+        color: brown;
+    }
+    .buttondiv {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 4em;
+    }
+    
+    
+    }
+ 
+    
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1999px){
+        
+        
+
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1999px)
 {
 
-body{
-    background-color: rgb(255, 255, 255);
-    overflow-x:hidden;
-   
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #000000;
+    body{
+        background-color: rgb(255, 255, 255);
+        overflow-x:hidden;
+       
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #000000;
+        
+    }
+    #title_div h3{
+        text-align: center;position: relative;top:120px;font-weight: 100;
+    }
+    #title_div h1{
+        text-align: center;position: relative;top:135px;font-weight: 100;letter-spacing: 3px;
+    }
     
-}
-.heading{
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 100;
-    margin: 2em 0 2em 0;
-}
-.heading_2{
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 100;
-    margin: 0px 20% 50px 20%;
-    padding-bottom: 20px;
-    border-bottom: solid black 1.5px;
-}
-#grid_container_1{
-    display: grid;
-    grid-template-columns: 1fr 19fr 1fr 19fr ;
-    margin: 0 10% 50px 13%;
+    .heading{
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 100;
+        margin: 2em 0 2em 0;
+    }
+    .heading_2{
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 100;
+        margin: 0px 20% 50px 20%;
+        padding-bottom: 20px;
+        border-bottom: solid black 1.5px;
+    }
+    #grid_container_1{
+        display: grid;
+        grid-template-columns: 1fr 19fr 1fr 19fr ;
+        margin: 0 10% 50px 13%;
+        
+    }
+    .grid_item{
+        padding: 20px;
+        border-top: solid black 1.5px;
+        
     
-}
-.grid_item{
-    padding: 20px;
-    border-top: solid black 1.5px;
+    }
+    .grid_image{
+        padding: 20px 0 20px 20px;
+    }
+    .pair{
+        margin-right:70px;
+    }
+    .small_logos{
+        width: 25px;
+        height: 25px;
+      
+    }
+    .small_logos2{
+        width: 25px;
+        height: 25px;
+       
+        
+    }
+    .small_logos3{
+        width: 25px;
+        height: 25px;
+       
+        
+    }
+    .texte_grid{
+        font-family:Neue Helvetica,Helvetica,sans-serif;
+        letter-spacing: 2px;
+        line-height:30px;
+    }
+    .heading_grid{
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .texte_tarifs{
+        margin: 0px 20% 50px 20%;
+    }
+    span{
+        color:green;
+        font-size:xx-large;
+    }
+    .link{
+        color: black;
+        text-underline-offset: 1em;
+    }
     
-
-}
-.grid_image{
-    padding: 20px 0 20px 20px;
-}
-.pair{
-    margin-right:70px;
-}
-.small_logos{
-    width: 25px;
-    height: 25px;
-  
-}
-.small_logos2{
-    width: 25px;
-    height: 25px;
-   
+    .chambre_button {
+        border-radius: 1.5em;
+        padding: 10px;
+        background-color: brown;
+        color: rgb(255, 255, 255);
+        border: solid brown 0.15vw;
+        font-size: 1.5em;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 1em;
+        letter-spacing: 2px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        padding: 0.5em 1em 0.5em 1em;
+    }
+    .chambre_button:hover{
+        background-color: white;
+        color: brown;
+    }
+    .buttondiv {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 4em;
+    }
     
-}
-.small_logos3{
-    width: 25px;
-    height: 25px;
-   
-    
-}
-.texte_grid{
-    font-family:Neue Helvetica,Helvetica,sans-serif;
-    letter-spacing: 2px;
-    line-height:30px;
-}
-.heading_grid{
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-.texte_tarifs{
-    margin: 0px 20% 50px 20%;
-}
-span{
-    color:green;
-    font-size:xx-large;
-}
-.link{
-    color: black;
-    text-underline-offset: 1em;
-}
-
-.chambre_button {
-    border-radius: 1.5em;
-    padding: 10px;
-    background-color: brown;
-    color: rgb(255, 255, 255);
-    border: solid brown 0.15vw;
-    font-size: 1.5em;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 1em;
-    letter-spacing: 2px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    padding: 0.5em 1em 0.5em 1em;
-}
-.chambre_button:hover{
-    background-color: white;
-    color: brown;
-}
-.buttondiv {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 4em;
-}
-
 
 }
 /*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*/

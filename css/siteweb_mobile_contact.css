@@ -1,235 +1,480 @@
-@media (min-width: 1440px)
-{
-
-body{
-    background-color: rgb(255, 255, 255);
-    overflow-x:hidden;
-   
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #000000;
-    
-}
-#img_logo{
-    
-    margin-left: -0.2vw;
-    margin-top: -0.5vw;
-    border-radius: 2vw;
-    width: 4vw;
-    height: 4vw;
-    float: left;
-}
-
-
-
-
-
-
-
-
-#img_div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.856) ;
-}
-#img_hebergement_background{
-    
-    width: 100vw;
-    height: 40vw;
-    background-image: url(./image\ video/chateau1.png);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2vw;
-   
-    color: white;
-    letter-spacing: 0.5vw;
-    
-}
-
-
-
-
-
-article1{
-    width: auto;
-    height: auto;
-    
-   
-}
-article1 h1{
-    text-align: center;
-    text-transform: uppercase;
-}
-article1 div{
-    text-align: center;
-}
-article1 div img{
-    width:45%;
-    height:45%;
-    
-}
-
- #img_01{
-     width: 90%;
-     height:80%;
-     size-adjust:initial;
-     margin-left: 4vw;
- }
- 
-
-
-
-.grid-container2{
-    display:grid;
-    grid-template-columns: 0.5fr 0.5fr;
-    margin:3vw 2vw 2vw 3vw;
-    grid-gap: 1vw;
-}
-.grid--item{
-   margin:  3vw 0 3vw 0;
-   border: solid rgb(143, 143, 143) 1.5px;
-   width:46vw;
-   height:auto;
-  
+@media only screen and (min-width: 2000px){
+    body{
+        background-color: rgb(255, 255, 255);
+        overflow-x:hidden;
+       
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #000000;
+        
+    }
+    #img_logo{
+        
+        margin-left: -0.2vw;
+        margin-top: -0.5vw;
+        border-radius: 2vw;
+        width: 4vw;
+        height: 4vw;
+        float: left;
+    }
     
     
-   
-}
-.grid--item img{
-  
-}
-.grid--item h2{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 100;
-    letter-spacing: 1px;
-    font-size: xx-large;
-    font-family:  Helvetica, Arial, Lucida, sans-serif;
     
-}
-.grid--item p{
-    margin:0 1vw 0 1vw;
-    line-height: 2vw;
-    font-size: large;
-}
-/*Contact form CSS*/
-.row{
-    display: grid;
-    grid-template-rows: 0.5fr 0.5fr  1fr;
-}
-.row-items{
-    padding: 0 0 0 1em;
-    font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
-    font-size: 16px;
-    width:22vw;
-}
-.column{
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
-    margin:0 0 1em 0;
-    width:46vw;
-}
-textarea{
-    width:42vw;
-}
-label,input,textarea{
-    text-align: left;
-    display:flex;
-}
-input,textarea{
-    border:solid rgb(119, 119, 119) 1px;
     
-}
-input:hover,textarea:hover,input:focus,textarea:focus{
-    border:solid rgb(248, 158, 56) 1px !important;
-}
-.half {
-    width:20vw;
-    height:3em;
-}
-#objet{
-    margin-bottom: 2em;
-    width:40vw;
-    height:3em;
-}
-#envoyer{
-    margin: 2em 0 2em 1em;
-   
-    width:90%;
-    height:3em;
-        border-radius: 2px;
-        background-color: rgb(248, 158, 56);
+    
+    
+    
+    #img_div{
+        position: relative;
+        top: 100px;
+    }
+    #img_hebergement_background{
+       
+        width: 100vw;
+        height: 37vw;
+        background-image: url(./image\ video/chateau1.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vw;
+        color: white;
+        letter-spacing: 0.5vw;
+        
+    }
+    
+    
+    
+    
+    article1{
+        width: auto;
+        height: auto;
+        
+       
+    }
+    article1 h1{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    article1 div{
+        text-align: center;
+    }
+    article1 div img{
+        width:45%;
+        height:45%;
+        
+    }
+    
+     #img_01{
+         width: 90%;
+         height:80%;
+         size-adjust:initial;
+         margin-left: 4vw;
+     }
+     
+    
+    
+    
+    .grid-container2{
+        display:grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        margin:10vw 2vw 2vw 3vw;
+        grid-gap: 1vw;
+    }
+    .grid--item{
+       margin:  3vw 0 3vw 0;
+       border: solid rgb(143, 143, 143) 1.5px;
+       width:46vw;
+       height:auto;
+      
+        
+        
+       
+    }
+    .grid--item img{
+      
+    }
+    .grid--item h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-size: 3em;
+        font-family:  Helvetica, Arial, Lucida, sans-serif;
+        
+    }
+    .grid--item p{
+        margin:0 1vw 0 1vw;
+        line-height: 2vw;
+        font-size: 2em;
+    }
+    /*Contact form CSS*/
+    .row{
+        display: grid;
+        grid-template-rows: 0.5fr 0.5fr  1fr;
+    }
+    .row-items{
+        padding: 0 0 0 1em;
+        font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
+        font-size: 2em;
+        width:22vw;
+    }
+    .column{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        margin:0 0 1em 0;
+        width:46vw;
+    }
+    textarea{
+        width:42vw;
+    }
+    label,input,textarea{
+        text-align: left;
+        display:flex;
+    }
+    input,textarea{
+        border:solid rgb(119, 119, 119) 1px;
+        
+    }
+    input:hover,textarea:hover,input:focus,textarea:focus{
+        border:solid rgb(248, 158, 56) 1px !important;
+    }
+    .half {
+        width:20vw;
+        height:2em;
+        font-size: 1em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    input::placeholder {
+        color: gray;
+        font-size: 1em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      textarea#message::placeholder {
+        color: gray;
+        font-size: 1em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      textarea#message{
+          font-size: 1.5em;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+    #objet{
+        margin-bottom: 2em;
+        width:40vw;
+        height:3em;
+    }
+    #envoyer{
+        margin: 2em 0 2em 1em;
+       
+        width:90%;
+        height:3em;
+            border-radius: 2px;
+            background-color: rgb(248, 158, 56);
+            color: rgb(255, 255, 255);
+            border: solid rgb(248, 158, 56) 1px;
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            
+            letter-spacing: 2px;
+            transition: width 2s ease;
+            transition: letter-spacing 1s ease;
+            transition: all 0.5s ease;
+            padding-left: 25%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+    }
+    input#envoyer[value="ENVOYER MON MESSAGE"] {
+         
+         font-size: 2em;
+         
+        }​
+    #envoyer:hover{
+        background-color: rgb(196, 104, 0);
         color: rgb(255, 255, 255);
-        border: solid rgb(248, 158, 56) 1px;
+        cursor: pointer;
+    }
+    .item1{
+        background-color: rgba(77, 1, 1, 0.815);
+        color: white;
+    }
+    .item2{
+        background-color: #b38353;
+        color: white;
+    }
+    
+    /*Contact form CSS*/
+    
+    
+    /*map CSS*/
+    #map{
+        margin:40px;
+        width: 40vw;
+        height: 40vw;
+    }
+    /*map CSS*/
+    
+    
+    
+    .div_message{
+        margin-top: 10vw;
+        text-align: center;
+        align-items: center;
+        width:100%;
+        height:500px;
+        
+    }
+    #retour{
+        margin: 2em 0 2em 1em;
+        width: 90%;
+        height: 3em;
+        border-radius: 2px;
+        background-color: brown;
+        color: white;
+        border: solid brown 1px;
         font-size: larger;
         font-family: 'Times New Roman', Times, serif;
-        
         letter-spacing: 2px;
         transition: width 2s ease;
         transition: letter-spacing 1s ease;
         transition: all 0.5s ease;
-        padding-left:25%
-   
-}
-#envoyer:hover{
-    background-color: rgb(196, 104, 0);
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-}
-.item1{
-    background-color: rgba(77, 1, 1, 0.815);
-    color: white;
-}
-.item2{
-    background-color: #b38353;
-    color: white;
-}
-
-/*Contact form CSS*/
-
-
-/*map CSS*/
-#map{
-    margin:40px;
-}
-/*map CSS*/
-
-
-
-.div_message{
-    margin-top: 10vw;
-    text-align: center;
-    align-items: center;
-    width:100%;
-    height:500px;
+    }
+    #retour:hover{
+        background-color: rgb(255, 255, 255);
+        color: brown;
+        cursor: pointer;
+    }
+    /*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*/
     
 }
-#retour{
-    margin: 2em 0 2em 1em;
-    width: 90%;
-    height: 3em;
-    border-radius: 2px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(248, 158, 56);
-    border: solid rgb(248, 158, 56) 1px;
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 2px;
-    transition: width 2s ease;
-    transition: letter-spacing 1s ease;
-    transition: all 0.5s ease;
-}
-#retour:hover{
-    background-color: rgb(248, 158, 56);
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-}
+@media (min-device-width: 1440px) and (max-device-width: 1999px)
+{
+
+    body{
+        background-color: rgb(255, 255, 255);
+        overflow-x:hidden;
+       
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #000000;
+        
+    }
+    #img_logo{
+        
+        margin-left: -0.2vw;
+        margin-top: -0.5vw;
+        border-radius: 2vw;
+        width: 4vw;
+        height: 4vw;
+        float: left;
+    }
+    
+    
+    
+    
+    
+    
+    
+    #img_div{
+        position: relative;
+        top: 100px;
+    }
+    #img_hebergement_background{
+       
+        width: 100vw;
+        height: 37vw;
+        background-image: url(./image\ video/chateau1.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vw;
+        color: white;
+        letter-spacing: 0.5vw;
+        
+    }
+    
+    
+    
+    
+    article1{
+        width: auto;
+        height: auto;
+        
+       
+    }
+    article1 h1{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    article1 div{
+        text-align: center;
+    }
+    article1 div img{
+        width:45%;
+        height:45%;
+        
+    }
+    
+     #img_01{
+         width: 90%;
+         height:80%;
+         size-adjust:initial;
+         margin-left: 4vw;
+     }
+     
+    
+    
+    
+    .grid-container2{
+        display:grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        margin:10vw 2vw 2vw 3vw;
+        grid-gap: 1vw;
+    }
+    .grid--item{
+       margin:  3vw 0 3vw 0;
+       border: solid rgb(143, 143, 143) 1.5px;
+       width:46vw;
+       height:auto;
+      
+        
+        
+       
+    }
+    .grid--item img{
+      
+    }
+    .grid--item h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-size: xx-large;
+        font-family:  Helvetica, Arial, Lucida, sans-serif;
+        
+    }
+    .grid--item p{
+        margin:0 1vw 0 1vw;
+        line-height: 2vw;
+        font-size: large;
+    }
+    /*Contact form CSS*/
+    .row{
+        display: grid;
+        grid-template-rows: 0.5fr 0.5fr  1fr;
+    }
+    .row-items{
+        padding: 0 0 0 1em;
+        font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
+        font-size: 16px;
+        width:22vw;
+    }
+    .column{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        margin:0 0 1em 0;
+        width:46vw;
+    }
+    textarea{
+        width:42vw;
+    }
+    label,input,textarea{
+        text-align: left;
+        display:flex;
+    }
+    input,textarea{
+        border:solid rgb(119, 119, 119) 1px;
+        
+    }
+    input:hover,textarea:hover,input:focus,textarea:focus{
+        border:solid rgb(248, 158, 56) 1px !important;
+    }
+    .half {
+        width:20vw;
+        height:3em;
+    }
+    #objet{
+        margin-bottom: 2em;
+        width:40vw;
+        height:3em;
+    }
+    #envoyer{
+        margin: 2em 0 2em 1em;
+       
+        width:90%;
+        height:3em;
+            border-radius: 2px;
+            background-color: rgb(248, 158, 56);
+            color: rgb(255, 255, 255);
+            border: solid rgb(248, 158, 56) 1px;
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            
+            letter-spacing: 2px;
+            transition: width 2s ease;
+            transition: letter-spacing 1s ease;
+            transition: all 0.5s ease;
+            padding-left:25%
+       
+    }
+    #envoyer:hover{
+        background-color: rgb(196, 104, 0);
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    .item1{
+        background-color: rgba(77, 1, 1, 0.815);
+        color: white;
+    }
+    .item2{
+        background-color: #b38353;
+        color: white;
+    }
+    
+    /*Contact form CSS*/
+    
+    
+    /*map CSS*/
+    #map{
+        margin:40px;
+        width: 40vw;
+        height: 40vw;
+    }
+    /*map CSS*/
+    
+    
+    
+    .div_message{
+        margin-top: 10vw;
+        text-align: center;
+        align-items: center;
+        width:100%;
+        height:500px;
+        
+    }
+    #retour{
+        margin: 2em 0 2em 1em;
+        width: 90%;
+        height: 3em;
+        border-radius: 2px;
+        background-color: brown;
+        color: white;
+        border: solid brown 1px;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        transition: width 2s ease;
+        transition: letter-spacing 1s ease;
+        transition: all 0.5s ease;
+    }
+    #retour:hover{
+        background-color: rgb(255, 255, 255);
+        color: brown;
+        cursor: pointer;
+    }
 /*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*//*Separation*/
 
 }
-@media (min-width: 1024px)
+@media (min-device-width: 1024px) and (max-device-width: 1439px)
 {
 
 body{
