@@ -298,7 +298,7 @@
 
     .service_column_container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
         height: auto;
         margin: 1em;
     }

@@ -324,7 +324,7 @@
 
     #service_row_container {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
         margin-left: 1em;
         grid-gap: 2em;
 
