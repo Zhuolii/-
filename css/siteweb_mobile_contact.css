@@ -253,7 +253,7 @@
         background-color: rgb(255, 255, 255);
         overflow-x:hidden;
        
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: "Prata",Helvetica,Arial,Verdana,sans-serif;
         color: #000000;
         
     }
@@ -724,7 +724,24 @@ input:hover,textarea:hover,input:focus,textarea:focus{
         color: white;
         text-align: center;
     }
+    .telephoner {
+       
+        
+    }
+    #phone {
+        width: 5em;
+        height: 5em;
+        position: fixed;
+        right: 1em;
+        bottom: 7em;
+        z-index: 2;
+        border-radius: 6em;
+        border: solid rgb(224, 156,79);
+        padding: 2em;
+        background-color: rgb(12, 0, 58);
+    }
     
+   
    
     
     
@@ -917,8 +934,8 @@ input:hover,textarea:hover,input:focus,textarea:focus{
         cursor: pointer;
     }
     .item1{
-        background-color: rgba(77, 1, 1, 0.815);
-        color: white;
+        background-color: white;
+        color: black;
     }
     .item2{
         background-color: #b38353;
@@ -930,6 +947,9 @@ input:hover,textarea:hover,input:focus,textarea:focus{
     margin:40px;
     width:900px;
     height:900px;
+}
+textarea {
+    font-size: 1.3em;
 }
 /*map CSS*/
     

@@ -281,7 +281,7 @@
             
             display:block;
             border:solid gray 5px;
-            height:700px"
+            height:700px;
     }
     .letter_spacing{
             letter-spacing: 3px;

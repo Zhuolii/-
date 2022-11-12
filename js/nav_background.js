@@ -1,8 +1,8 @@
 
 
 function toggle_background(){
-  var background = document.getElementById("nav_background")
+  var background = document.getElementById("black_bg")
 
-  background.classList.toggle("nav_background");
-  background.classList.toggle("sidebarList");
+  background.classList.toggle("black_bg");
+  background.classList.toggle("no_bg");
 }

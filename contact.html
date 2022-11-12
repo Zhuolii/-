@@ -17,6 +17,12 @@
 
   <link rel="stylesheet" href="./css/phone_ver.css" />
   <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css?family=Prata%7COpen%20Sans%3A400%2C600%7CLato%3A300%2C400%7CPlayfair%20Display%3A400%2C700%7CPrata%3A400%7CMontserrat%3A700%7CLato%3A700%7CLibre%20Baskerville%3Aregular%2Citalic%2C700&amp;display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Prata%7COpen%20Sans%3A400%2C600%7CLato%3A300%2C400%7CPlayfair%20Display%3A400%2C700%7CPrata%3A400%7CMontserrat%3A700%7CLato%3A700%7CLibre%20Baskerville%3Aregular%2Citalic%2C700&amp;display=swap"
+    media="all" onload="this.media='all'">
+
   <!--common link-->
   <!--separate link-->
   <link rel="stylesheet" href="./css/diapo_contact.css">
@@ -47,23 +53,31 @@
       </svg>
     </label>
     <div class="sidebar">
-      <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
-      <!--<p id="ouverture">Ouverture le 1 mars 2022</p>-->
+      <div class="no_bg" id="black_bg"> <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
+      
+        <!--<p id="ouverture">Ouverture le 1 mars 2022</p>-->
 
 
-      <ul class="sidebarList" style="padding-left: 0;" id="nav_background">
-        <a href="index.html" class="imglink"><img class="imglogo" src=".\image video/logochateau.jpg" /></a>
-        <h1 class="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></h1>
-        <li><a href="index.html" id="index" class="menu_link">ACCUEIL</a></li>
-        <!--<li><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
-   <li><a href="mariage.html"id="mariage"class="menu_link">MARIAGE</a></li>
-   <li><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
-   <li><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>-->
-        <li><a href="hebergements.html" id="hebergements" class="menu_link">HÉBERGEMENTS</a></li>
-        <li><a href="contact.html" id="contact" class="menu_link current">CONTACT</a></li>
-        <li><a href="covid-19.html" id="contact" class="menu_link">COVID-19</a></li>
+        <ul class="nav_background" style="padding-left: 0;" id="nav_background">
+          <a href="index.html" class="imglink"><img class="imglogo" src=".\image video/logochateau.jpg" /></a>
+          <h1 class="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></h1>
+          <li class="sidebar_item"><a href="index.html" id="index" class="menu_link">ACCUEIL</a></li>
+          <li class="sidebar_item"><a href="mariage.html" id="mariage" class="menu_link">MARIAGE</a></li>
+          <!--<li class="sidebar_item"><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
+   <li class="sidebar_item"><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
+   <li class="sidebar_item"><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>-->
+          <li class="sidebar_item"><a href="hebergements.html" id="hebergements" class=" menu_link">HÉBERGEMENT</a>
+          </li>
 
-      </ul>
+          <li class="sidebar_item"><a href="contact.html" id="contact" class="menu_link current">CONTACT</a></li>
+          <li class="sidebar_item"><a href="covid-19.html" id="contact" class="menu_link">COVID-19</a></li>
+          <li class="sidebar_item"> <a href="tel:0644221786"
+            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+            <img id="phone2"class="telephoner"src="css/icones/icons8-téléphone-50-removebg-preview.png"></a></li>
+          
+
+        </ul>
+      </div>
     </div>
 
   </nav>
@@ -82,7 +96,7 @@
 
       </div>
     </div> -->
-    <h2 class="margin_top_heading" style="text-decoration: underline brown;">CONTACTEZ LE CHÂTEAU DE MOLIENS</h2>
+    <h2 class="margin_top_heading" >CONTACTER LE CHÂTEAU DE MOLIENS</h2>
 
 
     <article1 class="grid-container2">
@@ -171,7 +185,7 @@
 
 
 
-   <!--footer grid-->
+    <!--footer grid-->
     <!--footer grid-->
     <!--footer grid-->
     <!--footer grid-->
@@ -214,11 +228,13 @@
             <p class="footer_heading">Réserver </p>
             <a href="tel:0631383831"
               onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-              <p><img src=".\image video/call.png " style="width:2vwpx;height:2vw;"> 06 31 38 38 31<img src=".\image video/drapeau_fr.png " style="margin-left:1vw;width:2vw;height:1vw;"></p>
+              <p><img src=".\image video/call.png " style="width:2vwpx;height:2vw;"> 06 31 38 38 31<img
+                  src=".\image video/drapeau_fr.png " style="margin-left:1vw;width:2vw;height:1vw;"></p>
             </a>
             <a href="tel:0644221786"
               onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-              <p><img src=".\image video/call.png " style="width:2vwpx;height:2vw;"> 06 44 22 17 86<img src=".\image video/drapeau_en.png " style="margin-left:1vw;width:2vw;height:1vw;"></p>
+              <p><img src=".\image video/call.png " style="width:2vwpx;height:2vw;"> 06 44 22 17 86<img
+                  src=".\image video/drapeau_en.png " style="margin-left:1vw;width:2vw;height:1vw;"></p>
             </a>
             <a href="mailto: chateaudemoliens@outlook.fr">
               <p> <img src=".\image video/mail.png "
@@ -242,7 +258,9 @@
                <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br>
                <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br>-->
           <a href="hebergements.html">
-            <li><p>Hébergements ❯❯</p></li>
+            <li>
+              <p>Hébergements ❯❯</p>
+            </li>
           </a><br>
 
         </div>
@@ -256,20 +274,30 @@
             <p class="footer_heading">Liens utiles</p>
 
             <a href="contact.html">
-              <li><p>Contact ❯❯</p></li>
+              <li>
+                <p>Contact ❯❯</p>
+              </li>
             </a><br>
 
             <a href="covid-19.html">
-              <li><p>Infos sur COVID-19 ❯❯</p></li>
+              <li>
+                <p>Infos sur COVID-19 ❯❯</p>
+              </li>
             </a><br>
             <a href="mentions.html">
-              <li><p>Mentions légales ❯❯</p></li>
+              <li>
+                <p>Mentions légales ❯❯</p>
+              </li>
             </a><br>
             <a href="politique.html">
-              <li><p>Politique de confidentalité ❯❯</p></li>
+              <li>
+                <p>Politique de confidentalité ❯❯</p>
+              </li>
             </a>
             <a href="https://icones8.fr/">
-              <li><p>Icones </p></li>
+              <li>
+                <p>Icones </p>
+              </li>
             </a>
 
           </ul>
@@ -318,7 +346,10 @@
 
       </div>
     </div>
-
+    <a href="tel:0644221786"
+    onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+    <img id="phone"class="telephoner"src="css/icones/icons8-téléphone-50-removebg-preview.png"></a>
+   
 
     <article1 class="grid-container2">
 
@@ -402,7 +433,7 @@
     </article1>
 
 
-<!--Footer_grid_container-->
+    <!--Footer_grid_container-->
     <!--Footer_grid_container-->
     <!--Footer_grid_container-->
     <!--Footer_grid_container-->
@@ -417,7 +448,7 @@
 
       <div id="grid_footer">
         <div class="grid_footer_item">
-          <img id="img_logo_footer" src=".\image video/logochateau.jpg">
+          <img id="img_logo_footer" src=".\image video/logochateau1.jpg">
 
 
         </div>
@@ -448,14 +479,16 @@
             <p class="footer_heading">Réserver </p><br><br> <br>
             <a href="tel:0631383831"
               onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-              <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 31 38 38 31 <img src=".\image video/drapeau_fr.png " style="margin-left:10px;width:100px;height:50px;">
+              <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 31 38 38 31
+                <img src=".\image video/drapeau_fr.png " style="margin-left:10px;width:100px;height:50px;">
               </p>
             </a><br> <br>
             <a href="tel:0644221786"
-            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-            <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 44 22 17 86 <img src=".\image video/drapeau_en.png " style="margin-left:10px;width:100px;height:50px;">
-            </p>
-          </a><br> <br>
+              onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+              <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 44 22 17 86
+                <img src=".\image video/drapeau_en.png " style="margin-left:10px;width:100px;height:50px;">
+              </p>
+            </a><br> <br>
             <a href="mailto: chateaudemoliens@outlook.fr">
               <p class="footer_p"> <img src=".\image video/mail.png "
                   style="width:100px;height:100px;">chateaudemoliens@outlook.fr</p>

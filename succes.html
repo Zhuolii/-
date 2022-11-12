@@ -40,22 +40,31 @@
       </svg>
     </label>
     <div class="sidebar">
-      <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
+      <div class="no_bg" id="black_bg"> <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
+      
+        <!--<p id="ouverture">Ouverture le 1 mars 2022</p>-->
 
 
-      <ul class="sidebarList" style="padding-left: 0;" id="nav_background">
-        <a href="index.html" class="imglink"><img class="imglogo" src=".\image video/logochateau.jpg" /></a>
-        <h1 class="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></h1>
-        <li><a href="index.html" id="index" class="top" class="menu_link">ACCUEIL</a></li>
-        <!--<li><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
-     <li><a href="mariage.html"id="mariage"class="menu_link">MARIAGE</a></li>
-     <li><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
-     <li><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>-->
-        <li><a href="hebergements.html" id="hebergements" class="menu_link">HÉBERGEMENTS</a></li>
-        <li><a href="contact.html" id="contact" class="menu_link">CONTACT</a></li>
-        <li><a href="covid-19.html" id="contact" class="menu_link">COVID-19</a></li>
+        <ul class="nav_background" style="padding-left: 0;" id="nav_background">
+          <a href="index.html" class="imglink"><img class="imglogo" src=".\image video/logochateau.jpg" /></a>
+          <h1 class="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></h1>
+          <li class="sidebar_item"><a href="index.html" id="index" class="menu_link">ACCUEIL</a></li>
+          <li class="sidebar_item"><a href="mariage.html" id="mariage" class="menu_link">MARIAGE</a></li>
+          <!--<li class="sidebar_item"><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
+   <li class="sidebar_item"><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
+   <li class="sidebar_item"><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>-->
+          <li class="sidebar_item"><a href="hebergements.html" id="hebergements" class=" menu_link">HÉBERGEMENT</a>
+          </li>
 
-      </ul>
+          <li class="sidebar_item"><a href="contact.html" id="contact" class="menu_link current">CONTACT</a></li>
+          <li class="sidebar_item"><a href="covid-19.html" id="contact" class="menu_link">COVID-19</a></li>
+          <li class="sidebar_item"> <a href="tel:0644221786"
+            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+            <img id="phone2"class="telephoner"src="css/icones/icons8-téléphone-50-removebg-preview.png"></a></li>
+          
+
+        </ul>
+      </div>
     </div>
 
   </nav>

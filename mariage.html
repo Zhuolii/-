@@ -1,1175 +1,957 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!--common link-->
-    <title>Château de Moliens</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="keywords" content="Château de Moliens | hebergement | chambre | mariage | location salle">
-    <meta name="description" content="Château de Moliens, Oise, location de chambre, location de salle"> 
-     <meta property="og:title" content="Château de Moliens | hebergement | chambre | mariage | location salle"> 
-     <meta property="og:description" content="Château de Moliens, Oise, location de chambre, location de salle">
-     <meta property="og:type" content="">
-     <meta property="og:image" content="https://www.chateaudemoliens.com/css/image video/chateau1.jpg" 
-     data-mobile-convert="https://www.chateaudemoliens.com/css/image video/chateau1.jpg">
-     <meta property="og:url" content="https://www.chateaudemoliens.com/" data-mobile-convert="">
-<link rel="icon" sizes="32x32"id="pageLogo" href="./favicon/logochateaurond.ico">
+<!DOCTYPE HTML>
+<html lang="fr">
 
-<link rel="stylesheet" href="./css/phone_ver.css"/>
- <link rel="stylesheet" href="./css/style.css"/>
-<!--common link-->
-<!--separate link-->
-    <link rel="stylesheet" href="./css/diapo_mariage_reception.css">
-    <link rel="stylesheet" href="./css/phone_ver_mariage_reception.css">
-    <link rel="stylesheet" href="./css/siteweb_mariage_reception.css">
-   <!--separate link-->
-   
+<head>
+
+  <!--common link-->
+  <title>Château de Moliens</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="keywords" content="Château de Moliens | hebergement | chambre | mariage | location salle">
+  <meta name="description"
+    content="Découvrez Nos Chambres Avec Vues Sur Le Parc. Petit Déjeuner Offert. Meilleur Tarif Garanti. Hébergements avec 5 Chambres d' hôtes.Location De Grandes Salles Pour Mariage, Séminaires ...">
+  <meta property="og:title" content="Château de Moliens | hebergement | chambre | mariage | location salle">
+  <meta property="og:description" content="Château de Moliens, Oise, location de chambre, location de salle">
+  <meta property="og:type" content="">
+  <meta property="og:image" content="https://www.chateaudemoliens.com/css/image video/chateau1.jpg"
+    data-mobile-convert="https://www.chateaudemoliens.com/css/image video/chateau1.jpg">
+  <meta property="og:url" content="https://www.chateaudemoliens.com/" data-mobile-convert="">
+  <link rel="icon" sizes="32x32" id="pageLogo" href="./favicon/logochateaurond.ico">
+
+  <link rel="stylesheet" href="./css/phone_ver.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css?family=Prata%7COpen%20Sans%3A400%2C600%7CLato%3A300%2C400%7CPlayfair%20Display%3A400%2C700%7CPrata%3A400%7CMontserrat%3A700%7CLato%3A700%7CLibre%20Baskerville%3Aregular%2Citalic%2C700&amp;display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Prata%7COpen%20Sans%3A400%2C600%7CLato%3A300%2C400%7CPlayfair%20Display%3A400%2C700%7CPrata%3A400%7CMontserrat%3A700%7CLato%3A700%7CLibre%20Baskerville%3Aregular%2Citalic%2C700&amp;display=swap"
+    media="all" onload="this.media='all'">
+
+  <!--common link-->
+  <!--separate link-->
+  <link rel="stylesheet" href="./css/diapo_mariage_reception.css">
+  <link rel="stylesheet" href="./css/siteweb_mariage_reception.css">
+  <link rel="stylesheet" href="./css/phone_ver_mariage_reception.css">
+  <!--separate link-->
 
 </head>
-<body>
-   <!--Barre de navigation-->
-   <nav class="nav">
-    <a href="index.html"><h1 id="navTitle"style="border-bottom:none;">CHÂTEAU DE MOLIENS</h1></a>
-    <input type="checkbox" id="nav__checkbox" class="nav__checkbox"onclick="toggle_background()">
+
+<body id="body" onload="startTimer()">
+
+  <!--Barre de navigation-->
+  <nav class="nav">
+    <a href="index.html">
+      <h1 id="navTitle" style="border-bottom:none;">CHÂTEAU DE MOLIENS</h1>
+    </a>
+    <input type="checkbox" id="nav__checkbox" class="nav__checkbox" onclick="toggle_background()">
     <label for="nav__checkbox" class="nav__toggle">
-        <svg class="menu" fill="#000000" xmlns="https://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="80px" height="80px"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"/></svg>
-        <svg class="close"fill="#000000" xmlns="https://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="80px" height="80px"><path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z"/></svg>
+      <svg class="menu" fill="#000000" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" width="80px"
+        height="80px">
+        <path
+          d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z" />
+      </svg>
+      <svg class="close" fill="#000000" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 50 50" width="80px"
+        height="80px">
+        <path
+          d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z" />
+      </svg>
     </label>
-<div class="sidebar">
-    <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
-    <p id="ouverture">Ouverture le 1 mars 2022</p>
-   
-
-    <ul class="sidebarList" style="padding-left: 0;"id="nav_background">
-   <a href="index.html" class="imglink"><img class="imglogo"src=".\image video/logochateau.jpg"/></a> 
-   <h1 class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></h1>
-   <li><a href="index.html"  id="index"class="menu_link">ACCUEIL</a></li>
-      <li><a href="hebergements.html"id="hebergements"class="menu_link">HÉBERGEMENTS</a></li>
-      <li><a href="mariage.html"  id="index"class="menu_link current">MARIAGE</a></li>
-   <li><a href="index.html"  id="index"class="menu_link ">RÉCÉPTIONS / SÉMINAIRES</a></li>
-
-
-   <li><a href="contact.html"id="contact"class="menu_link">CONTACT</a></li>
-   <li><a href="covid-19.html"id="contact"class="menu_link ">COVID-19</a></li>
-   
-   </ul>
-   </div>
-
-</nav>
-
-<!--Barre de navigation-->
- <!--Code site web-->
-<div class="siteWeb">
-   
-    
-    <div id="img_div" > 
-    <div id="img_hebergement_background">
-   
+    <div class="sidebar">
+      <div class="no_bg" id="black_bg"> <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
       
-      
+        <!--<p id="ouverture">Ouverture le 1 mars 2022</p>-->
+
+
+        <ul class="nav_background" style="padding-left: 0;" id="nav_background">
+          <a href="index.html" class="imglink"><img class="imglogo" src=".\image video/logochateau.jpg" /></a>
+          <h1 class="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS</a></h1>
+          <li class="sidebar_item"><a href="index.html" id="index" class="menu_link">ACCUEIL</a></li>
+          <li class="sidebar_item"><a href="mariage.html" id="mariage" class="menu_link current">MARIAGE</a></li>
+          <!--<li class="sidebar_item"><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
+   <li class="sidebar_item"><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
+   <li class="sidebar_item"><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>-->
+          <li class="sidebar_item"><a href="hebergements.html" id="hebergements" class=" menu_link">HÉBERGEMENT</a>
+          </li>
+
+          <li class="sidebar_item"><a href="contact.html" id="contact" class="menu_link">CONTACT</a></li>
+          <li class="sidebar_item"><a href="covid-19.html" id="contact" class="menu_link">COVID-19</a></li>
+          <li class="sidebar_item"> <a href="tel:0644221786"
+            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+            <img id="phone2"class="telephoner"src="css/icones/icons8-téléphone-50-removebg-preview.png"></a></li>
           
-      
-     </div>
-    </div>     
-  
-      
-      <div class="texte">
-      <h2>Célébrez votre mariage privé au Château de Moliens</h2>
-    
 
-      
-      <p>Le Château de Moliens est un lieu de réception unique pour vos événements privés.
-          Au cœur d’un magnifique parc centenaire,
-           cette demeure de charme vous accueille dans un cadre magnifique et intime pour célébrer le plus beau jour de votre vie. </p>
+        </ul>
+      </div>
+    </div>
 
-           <p>Nous vous proposons la privatisation du lieu pour vous permettre de profiter de l'intégralité du domaine et de son parc de plus de 2 hectares.
-              Vous avez la possibilité de célébrer votre mariage et organiser votre cocktail en plein air. </p>
+  </nav>
 
-              
+  <!--Barre de navigation-->
+  <!--Code site web-->
+  <div class="siteWeb" id="siteWeb">
+    <div id="heading_div">
+      <h1 id="heading_top">MARIAGE</h1>
+    </div>
 
-          <div id="buttondiv"> <a href="contact.html"><button class="chambre_button" id="button2">Demander un devis</button></a></div>
+    <p class="p_center">Organisez votre mariage dans un cadre romantique. Le château de Moliens vous
+      offre, le cadre, qui marquera à coup sûr
+      les esprits de vos invités. Faites de votre mariage un moment magique et mémorable.
+    </p>
+
+    <div id="image_container">
+      <div class="image_row">
+        <img onclick="showDiapo()" class="grid_image" id="photo_chateau_1" src=".\image_mariage/salon_1.JPEG">
+        <p class="description">Salon du Château</p>
+        <img onclick="showDiapo()" class="grid_image" id="photo_chateau_1" src=".\image_mariage/orangerie_8.JPG">
+        <p class="description">Salle de réception</p>
+      </div>
+      <div class="image_row">
+        <img onclick="showDiapo()" class="grid_image" id="photo_chateau_1" src=".\image_mariage/orangerie_11.jpg">
+        <p class="description">Salle de réception</p>
+        <img onclick="showDiapo()" class="grid_image" id="photo_chateau_1" src=".\image_mariage/jardin_7.jpg">
+        <p class="description">Parc</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <h1 id="atouts_h">Votre mariage au château : Nos Atouts</h2>
+      <div class="atouts_columns">
+        <div class="atouts_rows">
+          <div>
+            <div> <img class="service_img" src=".\css/icones/icons8-groupe-d'utilisateurs-50 (1).png"></div>
+            <h3 class="align_center atouts_title">Une Grande Capacité D'accueil</h3>
+            <p class="atouts_p">Jusqu'à 200 personnes assises</p>
+
+          </div>
+          <div>
+            <div> <img class="service_img" src=".\css/icones/icons8-cadenas-100.png"></div>
+            <h3 class="align_center atouts_title">Une Privatisation Complète</h3>
+            <p class="atouts_p">Profitez du lieu qui vous est dédié, entièrement privatisé</p>
+
+          </div>
+
+        </div>
+        <div class="atouts_rows">
+          <div>
+            <div> <img class="service_img" src=".\css/icones/icons8-lit-50 (4).png"></div>
+            <h3 class="align_center atouts_title">Hébergements</h3>
+            <p class="atouts_p">Confort, calme, relâchement… <br> Détendez-vous dans nos chambres raffinées </p>
+
+          </div>
+          <div>
+            <div> <img class="service_img" src=".\css/icones/icons8-forêt-50 (1).png"></div>
+            <h3 class="align_center atouts_title">Un Parc De 2 Ha</h3>
+            <p class="atouts_p">Bénéficiez d'un cadre verdoyant aux arbes remarquables</p>
+
+          </div>
+
+        </div>
+        <div class="atouts_rows">
+          <div>
+            <div> <img class="service_img" src=".\css/icones/icons8-liste-64 (1).png"></div>
+            <h3 class="align_center atouts_title">Libre De Prestataires</h3>
+            <p class="atouts_p">Personnalisez votre mariage avec vos propres prestataires</p>
+
+          </div>
+          <div>
+            <div> <img class="service_img" src=".\css/icones/icons8-coup-de-main-50.png"></div>
+            <h3 class="align_center atouts_title">Conseils et accompagnement</h3>
+            <p class="atouts_p">Nos prestations de conseils et d’accompagnement sont au service de votre mariage</p>
+
+          </div>
+
+        </div>
+        <div class="atouts_rows">
+          <div>
+            <div> <img class="service_img" src=".\css/icones/icons8-key-48.png"></div>
+            <h3 class="align_center atouts_title">Mariage clé en main</h3>
+            <p class="atouts_p">Nous organisons ensemble votre mariage dans les moindres détails</p>
+
+          </div>
+          <div>
+            <div> <img class="service_img" src=".\css/icones/icons8-en-cours-50.png"></div>
+            <h3 class="align_center atouts_title">Personnalisez votre mariage</h3>
+            <p class="atouts_p">Arrivée en calèche, feu d'artifice, animations et prestataires ... <br> Choisissez les
+              options qui vous correspondent</p>
+
+          </div>
+
+        </div>
 
 
       </div>
-       <!-- Code diapo 1-->
-       <div class="slidercontainer">  
-        <div id="display1_1" class="slide1_1  "style="display: block;" >  
-            <div  class="grid-item" id="image_grid_container">
-                 
-                
-              <div id="diapo1_1" class="imageIndex">
-                
-                 
-                   
-                 </div>
+
+      <!--<h3 id="developpe_title"> Phrase d'intro</h3>-->
+
+      <div id="developpe_1_columns">
+        <div><img class="developpe_img" src=".\image_mariage/fontaine.jpg"></div>
+        <div> <img class="developpe_img_wide" src=".\image_mariage/orangerie_5.JPG"></div>
+        <div class="developpe_rows_1">
+          <div>
+            <h3 class="developpe_sub_title">Formule clé en main</h3>
+            <p class="developpe_text">Nous vous organisons: réception, repas, décoration,
+              mobilier et agencement de votre mariage pour vous offrir un service haut de gamme et personnalisé</p>
+            <!-- <p class="developpe_text_2">En savoir plus >></p>-->
+            <div id="button_div">
+              <!-- <button class="developpe_button" id="developpe_button_1">
+            Brochure PDF
+          </button>
+          <button class="developpe_button"id="developpe_button_2">
+            Nous contacter-->
+              </button>
             </div>
-        </div>  
-        <div id="display1_2" class="slide1_1 "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo1_2" class="imageIndex">
-        
-                 
-                </div>
-         </div>  
-        </div>  
-  
-        <div id="display1_3" class="slide1_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo1_3" class="imageIndex">
-                
-                 
-                </div>
-         </div> 
-        </div>  
-        <div id="display1_4" class="slide1_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo1_4" class="imageIndex">
-                 
-                 
-                </div>
-         </div> 
+          </div>
+
         </div>
-        <div id="display1_5" class="slide1_1  "style="display: none;">  
-          <div id="image_grid_container" class="grid-item">
-       
-              <div id="diapo1_5" class="imageIndex">
-               
-               
+
+      </div>
+      <div id="developpe_2_columns">
+
+        <div class="developpe_rows_2">
+          <div>
+            <h3 class="developpe_sub_title">Cérémonie Laïque</h3>
+            <p class="developpe_text">Entièrement conçue autour du couple,
+              rendez votre mariage le plus personnel possible, par le biais de textes,
+              d’interventions et de rituels que vous aurez choisi.
+            </p>
+            <!-- <div id="button_div">
+             <button class="developpe_button" id="developpe_button_1">
+               Brochure PDF
+             </button>
+             <button class="developpe_button"id="developpe_button_2">
+               Nous contacter
+             </button>
+           </div>-->
+          </div>
+
+        </div>
+        <div> <img id="img_center_wide" class="developpe_img_wide" src=".\image_mariage/ceremonie_1.jpg"></div>
+        <div style="text-align: right;"><img class="developpe_img" src=".\image_mariage/adventure.jpg"></div>
+      </div>
+
+      <div style="margin-top: 4em;"></div>
+      <div id="developpe_1_columns">
+        <div><img class="developpe_img" src=".\image_mariage/salon_2.jpg"></div>
+        <div> <img class="developpe_img_wide" src=".\image_mariage/salon_1.jpeg"></div>
+        <div class="developpe_rows_1">
+          <div>
+            <h3 class="developpe_sub_title">Cocktail</h3>
+            <p class="developpe_text">Vivez un moment précieux en réalisant le cocktail de votre mariage dans
+              l'intérieur élégant du château</p>
+            <!-- <p class="developpe_text_2">En savoir plus >></p>-->
+            <div id="button_div">
+              <!-- <button class="developpe_button" id="developpe_button_1">
+            Brochure PDF
+          </button>
+          <button class="developpe_button"id="developpe_button_2">
+            Nous contacter
+          </button>-->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div style="text-align: center;">
+        <h3>
+          Découvrez le château pour le mariage de vos rêves
+        </h3>
+        <button id="button_pdf">
+          <p><a style="text-transform: uppercase;" href="pdf/brochure_mariage.pdf" target="_blank">Télécharger BROCHURE
+              MARIAGE PDF <img id="icone_pdf" src="css/icones/icons8-pdf-50.png"></a></p>
+        </button>
+      </div>
+      <div id="contact" class="form_item">
+
+        <form id="form" action="https://formsubmit.co/chateaudemoliens@outlook.fr" method="POST">
+          <input type="hidden" name="_subject" value="Nouveau email">
+          <input type="hidden" name="_next" value="https://chateaudemoliens.com/succes.html">
+          <div id="form_container">
+            <div class="devis_form">
+
+              <div class="devis_titre"> Vos coordonnées</div>
+              <div class="margin_top_form"> <label>Civilité* : </label><span class=""><span class=""><span
+                      class=""><input class="input_style" type="radio" name="civilite" value="M."><span
+                        class="">M.</span></span><span class=""><input type="radio" name="civilite" value="Mme"><span
+                        class="">Mme</span></span><span class=" last"></div>
+              <div class="margin_top_form"> <label>Nom* : </label><span class="wpcf7-form-control-wrap nom"><input
+                    style="margin-left:4em;" class="input_style" type="text" name="nom" value="" size="30"
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+                    aria-invalid="false"></span></div>
+              <div class="margin_top_form"> <label>Prénom* : </label><span class="wpcf7-form-control-wrap prenom"><input
+                    style="margin-left:2.1em;" class="input_style" type="text" name="prenom" value="" size="30"
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+                    aria-invalid="false"></span></div>
+              <div class="margin_top_form"> <label>E-mail* : </label><span class="wpcf7-form-control-wrap email"><input
+                    style="margin-left:3em;" placeholder="exemple@mail.com" class="input_style" type="email"
+                    name="email" value="" size="30"
+                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                    aria-required="true" aria-invalid="false"></span></div>
+              <div class="margin_top_form"> <label>Téléphone* : </label><span class="wpcf7-form-control-wrap tel"><input
+                    style="margin-left:0.7em;" class="input_style" type="tel" name="tel" value="" size="30"
+                    placeholder="0X XX XX XX XX"
+                    class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
+                    aria-required="true" aria-invalid="false"></span></div>
+
+              <div class="margin_top_form devis_titre"> Votre événement <br><span>*Champs obligatoires</span></div>
+              <div class="margin_top_form"> <label>Type événement* : </label><span
+                  class="wpcf7-form-control-wrap evenement"><span class="wpcf7-form-control wpcf7-radio"><span
+                      class="wpcf7-list-item first"><label><input class="input_style" type="radio" name="evenement"
+                          value="Mariage"><span class="wpcf7-list-item-label">Mariage</span></label></span><span
+                      class="wpcf7-list-item"><label><input class="input_style" type="radio" name="evenement"
+                          value="Seminaire"><span class="wpcf7-list-item-label">Séminaire</span></label></span>
+
               </div>
-       </div> 
-      </div>
-      <div  id="display1_6" class="slide1_1  "style="display: none;">  
-        <div id="image_grid_container" class="grid-item">
-     
-            <div id="diapo1_6" class="imageIndex">
-             
-             
-            </div>
-     </div> 
-    </div>
-    
-         
-        <a id="left1" onclick="nextSlide1_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-        <a id="right1" onclick="nextSlide1_1(1)"><button class="button-Diapo2">❯</button></a> 
-       
-    </div>
-   <!-- Code diapo 1-->
-   
+              <div class="margin_top_form"> <label id="autre">Autre: </label> <span
+                  class="wpcf7-form-control-wrap autre"><br><input class="input_style" type="text" name="autre" value=""
+                    size="20" class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></div>
+              <div class="margin_top_form"> <label>Nombre de convives: </label><span
+                  class="wpcf7-form-control-wrap nombre-adultes"><br><input class="input_style" type="text"
+                    name="nombre-adultes" value="" size="20" class="wpcf7-form-control wpcf7-text"
+                    aria-invalid="false"></span></div>
 
-       <!-- Code diapo small img 1-->
-   <div id="img_container">
-    <img onclick="displayself1_1()"id="small_img_1_1" class="small_img_1" style="opacity:1 ;" src="./css/royale/img_1.jpg" >
-      <img onclick="displayself1_2()"id="small_img_1_2" class="small_img_1" style="opacity:0.5 ;" src="./css/royale/img_2.jpg">
-      <img onclick="displayself1_3()"id="small_img_1_3" class="small_img_1" style="opacity:0.5; " src="./css/royale/img_3.jpg" >
-     <img onclick="displayself1_4()"id="small_img_1_4" class="small_img_1" style="opacity:0.5; " src="./css/royale/img_4.jpg" >
-     <img onclick="displayself1_5()"id="small_img_1_5" class="small_img_1" style="opacity:0.5;" src="./css/royale/img_5.jpg" >
-       <img onclick="displayself1_6()"id="small_img_1_6" class="small_img_1" style="opacity:0.5; " src="./css/royale/img_6.jpg" >
-
-    </div> 
-       <!-- Code diapo small img 1-->
-           <div class="texte">
-
-       <h2>Salles de réception du Château</h2>
-
-      
-      </div> 
-       <h3>L'Orangerie</h3>
-        <!--tableau-->
-
-        <div id="grid_container">
-          <div class="grid_item">
-            <div id="rows_container">
-              <div class="grid_row row1"><span>SALLE</span></div>
-              <div class="grid_row row2">Orangerie</div>
-            </div></div>
-            <div class="grid_item">
-              <div id="rows_container">
-                <div class="grid_row row1"><span>CAPACITÉ</span></div>
-                <div class="grid_row row2">max 260 pers.</div>
-              </div></div>
-              <div class="grid_item">
-                <div id="rows_container">
-                  <div class="grid_row row1"><span>SUPERFICIE</span></div>
-                  <div class="grid_row row2">250 m²</div>
-                </div></div>
-                <div class="grid_item">
-                  <div id="rows_container">
-                    <div class="grid_row row1"><span>RÉSERVER</span></div>
-                    <div class="grid_row row2"><a href="contact.html"><button class="chambre_button2" id="button3">Demander un devis</button></a></div>
-                  </div></div>
-        </div>
-        <!--tableau-->
-      <!-- Code diapo 2-->
-      <div class="slidercontainer">  
-        <div id="display2_1" class="slide2_1  "style="display: block;" >  
-            <div  class="grid-item" id="image_grid_container">
-                 
-                
-              <div id="diapo2_1" class="imageIndex">
-                
-                 
-                   
-                 </div>
-            </div>
-        </div>  
-        <div id="display2_2" class="slide2_1 "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo2_2" class="imageIndex">
-        
-                 
-                </div>
-         </div>  
-        </div>  
-  
-        <div id="display2_3" class="slide2_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo2_3" class="imageIndex">
-                
-                 
-                </div>
-         </div> 
-        </div>  
-        <div id="display2_4" class="slide2_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo2_4" class="imageIndex">
-                 
-                 
-                </div>
-         </div> 
-        </div>
-        <div id="display2_5" class="slide2_1  "style="display: none;">  
-          <div id="image_grid_container" class="grid-item">
-       
-              <div id="diapo2_5" class="imageIndex">
-               
-               
+              <div class="margin_top_form"> <label>Date évènement : </label><span
+                  class="wpcf7-form-control-wrap date-evenement"><br><input class="input_style" type="text"
+                    placeholder="XX / XX / XX" name="date-evenement" value="" size="20"
+                    class="wpcf7-form-control wpcf7-text oneMonthDatepicker" id="date-dep" aria-invalid="false"></span>
               </div>
-       </div> 
-      </div>
-      <div  id="display2_6" class="slide2_1  "style="display: none;">  
-        <div id="image_grid_container" class="grid-item">
-     
-            <div id="diapo2_6" class="imageIndex">
-             
-             
-            </div>
-     </div> 
-    </div>
-    
-         
-        <a id="left1" onclick="nextSlide2_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-        <a id="right1" onclick="nextSlide2_1(1)"><button class="button-Diapo2">❯</button></a> 
-       
-    </div>
-   <!-- Code diapo 2-->
-   
-
-       <!-- Code diapo small img2 -->
-   <div id="img_container">
-    <img onclick="displayself2_1()"id="small_img_2_1" class="small_img_2" style="opacity:1 ;" src="./css/royale/img_1.jpg" >
-    <img onclick="displayself2_2()"id="small_img_2_2" class="small_img_2" style="opacity:0.5 ;" src="./css/royale/img_2.jpg">
-    <img onclick="displayself2_3()"id="small_img_2_3" class="small_img_2" style="opacity:0.5; " src="./css/royale/img_3.jpg" >
-   <img onclick="displayself2_4()"id="small_img_2_4" class="small_img_2" style="opacity:0.5; " src="./css/royale/img_4.jpg" >
-   <img onclick="displayself2_5()"id="small_img_2_5" class="small_img_2" style="opacity:0.5;" src="./css/royale/img_5.jpg" >
-     <img onclick="displayself2_6()"id="small_img_2_6" class="small_img_2" style="opacity:0.5; " src="./css/royale/img_6.jpg" >
-
-    </div> 
-       <!-- Code diapo small img 2-->
-      
-      <div class="texte">
-        <p>Entièrement rénovée, cette salle offre un grand espace agréable et lumineux. La salle dispose d'une cuisine attenante toute équipée qui
-          pourra acceuillir votre traiteur. Elle possède aussi une scène de x m² pour les animations et une piste de danse en plancher au centre de la salle. 
-        </p>
-      </div>
-
-
-       <h3>Le grand salon du château</h3>
-       <!--tableau-->
-
-       <div id="grid_container">
-        <div class="grid_item">
-          <div id="rows_container">
-            <div class="grid_row row1"><span>SALLE</span></div>
-            <div class="grid_row row2">Salon du château</div>
-          </div></div>
-          <div class="grid_item">
-            <div id="rows_container">
-              <div class="grid_row row1"><span>CAPACITÉ</span></div>
-              <div class="grid_row row2">max 80 pers.</div>
-              
-            </div></div>
-            <div class="grid_item">
-              <div id="rows_container">
-                <div class="grid_row row1"><span>SUPERFICIE</span></div>
-                <div class="grid_row row2">100 m²</div>
-              </div></div>
-              <div class="grid_item">
-                <div id="rows_container">
-                  <div class="grid_row row1"><span>RÉSERVER</span></div>
-                  <div class="grid_row row2"><a href="contact.html"><button class="chambre_button2" id="button3">Demander un devis</button></a></div>
-                </div></div>
-      </div>
-      <!--tableau-->
-             <!-- Code diapo 3-->
-      <div class="slidercontainer">  
-        <div id="display3_1" class="slide3_1  "style="display: block;" >  
-            <div  class="grid-item" id="image_grid_container">
-                 
-                
-              <div id="diapo3_1" class="imageIndex">
-                
-                 
-                   
-                 </div>
-            </div>
-        </div>  
-        <div id="display3_2" class="slide3_1 "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo3_2" class="imageIndex">
-        
-                 
-                </div>
-         </div>  
-        </div>  
-  
-        <div id="display3_3" class="slide3_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo3_3" class="imageIndex">
-                
-                 
-                </div>
-         </div> 
-        </div>  
-        <div id="display3_4" class="slide3_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo3_4" class="imageIndex">
-                 
-                 
-                </div>
-         </div> 
-        </div>
-        <div id="display3_5" class="slide3_1  "style="display: none;">  
-          <div id="image_grid_container" class="grid-item">
-       
-              <div id="diapo3_5" class="imageIndex">
-               
-               
+              <div class="margin_top_form"> <label>Commentaires : </label><br><span
+                  class="wpcf7-form-control-wrap commentaire"><textarea class="text_area" name="commentaire" cols="70"
+                    rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span></div>
+              <div class="margin_top_form"> <span class="wpcf7-form-control-wrap optin"><span
+                    class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first last"><input
+                        class="input_style" type="checkbox" name="optin[]"
+                        value="Je souhaite m’inscrire à la lettre d’information du Château de Montvillargenne pour être informé(e) des nouveautés et des promotions."><span
+                        class="wpcf7-list-item-label">Je souhaite m’inscrire à la lettre d’information du Château de
+                        Moliens pour être informé(e) des nouveautés et des promotions.</span></span></span></span>
               </div>
-       </div> 
-      </div>
-      <div  id="display3_6" class="slide3_1  "style="display: none;">  
-        <div id="image_grid_container" class="grid-item">
-     
-            <div id="diapo3_6" class="imageIndex">
-             
-             
-            </div>
-     </div> 
-    </div>
-    
-         
-        <a id="left1" onclick="nextSlide3_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-        <a id="right1" onclick="nextSlide3_1(1)"><button class="button-Diapo2">❯</button></a> 
-       
-    </div>
-   <!-- Code diapo 3-->
-   
-
-       <!-- Code diapo small img3 -->
-   <div id="img_container">
-    <img onclick="displayself3_1()"id="small_img_3_1" class="small_img_3" style="opacity:1 ;" src="./css/royale/img_1.jpg" >
-    <img onclick="displayself3_2()"id="small_img_3_2" class="small_img_3" style="opacity:0.5 ;" src="./css/royale/img_2.jpg">
-    <img onclick="displayself3_3()"id="small_img_3_3" class="small_img_3" style="opacity:0.5; " src="./css/royale/img_3.jpg" >
-   <img onclick="displayself3_4()"id="small_img_3_4" class="small_img_3" style="opacity:0.5; " src="./css/royale/img_4.jpg" >
-   <img onclick="displayself3_5()"id="small_img_3_5" class="small_img_3" style="opacity:0.5;" src="./css/royale/img_5.jpg" >
-     <img onclick="displayself3_6()"id="small_img_3_6" class="small_img_3" style="opacity:0.5; " src="./css/royale/img_6.jpg" >
-
-    </div> 
-       <!-- Code diapo small img 3-->
-       
-      <div class="texte">
-      <p>Le salon du château est une salle idéale pour un mariage en petit comité ou pour organiser votre cocktail. Elle vous offre un cadre
-        somptueux et raffiné avec chandelier en crystal, grande cheminée, murs tapissés et intérieur décoré. Elle permettra à vous et à 
-        vos invités de profiter pleinement du charme du lieux.
-      </p>
-    </div>
-
-      <h3>Informations pratiques</h3>
-
-      <div class="texte">
-        <p>- Un parking pouvant acceuillir jusqu'à 30 véhicules est prévu au sein du domaine pour faciliter l'accès à vos invités.</p>
-        <p>- Une pergola de 200 m² est située à l'arrière du château.
-           Elle peut acceuillir votre cocktail ou cérémonie en cas de temps défavorable le jour de votre mariage</p>
-        <p>- Nous laissons libre choix du traiteur aux mariés.</p>
-      </div>
-
-      <h3>Hébergements</h3>
-      <div class="texte">
-        <p>Pour vos invités venus de loin, ceux qui n’aiment pas conduire de nuit ou n’ont pas envie de se limiter pour faire la fête, le Château de Moliens
-          vous propose de réserver nos espace pour l'hébergement de vos convives. 
-        </p>
-      </div>
-      <div class="alignbtn"><a href="hebergements.html"><button class="chambre_button" id="button4" >En savoir plus</button></a>
-        </div>
-      <!-- Code diapo 4-->
-      <div class="slidercontainer">  
-        <div id="display4_1" class="slide4_1  "style="display: block;" >  
-            <div  class="grid-item" id="image_grid_container">
-                 
-                
-              <div id="diapo4_1" class="imageIndex">
-                
-                 
-                   
-                 </div>
-            </div>
-        </div>  
-        <div id="display4_2" class="slide4_1 "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo4_2" class="imageIndex">
-        
-                 
-                </div>
-         </div>  
-        </div>  
-  
-        <div id="display4_3" class="slide4_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo4_3" class="imageIndex">
-                
-                 
-                </div>
-         </div> 
-        </div>  
-        <div id="display4_4" class="slide4_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-         
-                <div id="diapo4_4" class="imageIndex">
-                 
-                 
-                </div>
-         </div> 
-        </div>
-        <div id="display4_5" class="slide4_1  "style="display: none;">  
-          <div id="image_grid_container" class="grid-item">
-       
-              <div id="diapo4_5" class="imageIndex">
-               
-               
+              <div class="loi"> (Conformément à l’article 34 de la loi informatique et liberté du 6 janvier 1978, vous
+                disposez d’un droit d’accès de rectification et de suppression des données vous concernant. )</div>
+              <div class="devis_submit">
+                <input type="submit" name="submit" formaction="https://formsubmit.co/chateaudemoliens@outlook.fr"
+                  value="ENVOYER" id="envoyer"></input>
               </div>
-       </div> 
-      </div>
-      <div  id="display4_6" class="slide4_1  "style="display: none;">  
-        <div id="image_grid_container" class="grid-item">
-     
-            <div id="diapo4_6" class="imageIndex">
-             
-             
+
+
+
+
             </div>
-     </div> 
-    </div>
-    
-         
-        <a id="left1" onclick="nextSlide4_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-        <a id="right1" onclick="nextSlide4_1(1)"><button class="button-Diapo2">❯</button></a> 
-       
-    </div>
-   <!-- Code diapo 4-->
-   
 
-       <!-- Code diapo small img4 -->
-   <div id="img_container">
-    <img onclick="displayself4_1()"id="small_img_4_1" class="small_img_4" style="opacity:1 ;" src="./css/royale/img_2.jpg" >
-    <img onclick="displayself4_2()"id="small_img_4_2" class="small_img_4" style="opacity:0.5 ;" src="./css/clemence/img_1.jpg">
-    <img onclick="displayself4_3()"id="small_img_4_3" class="small_img_4" style="opacity:0.5; " src="./css/alexandra/img_2.jpg" >
-   <img onclick="displayself4_4()"id="small_img_4_4" class="small_img_4" style="opacity:0.5; " src="./css/elise/img_2.jpg" >
-   <img onclick="displayself4_5()"id="small_img_4_5" class="small_img_4" style="opacity:0.5;" src="./css/olympe/img_2.jpg" >
-     <img onclick="displayself4_6()"id="small_img_4_6" class="small_img_4" style="opacity:0.5; " src="./css/royale/img_6.jpg" >
+            <div class="form_item">
 
-    </div> 
+              <h2 class="h2">CHÂTEAU DE MOLIENS</h2>
+              <p> 17 Rue de picardie<br>
+                60220 MOLIENS <br>
+                Tel : 06 31 38 38 31</p>
+              <br>
+              <br>
+              <h2 class="h2">LOCALISATION</h2>
+              <p>Proche des autoroutes, à 1h30 de Paris, 35min de Beauvais, 40min d'Amiens, 55min de Rouen et on vous
+                accueille 7j/7.<br>
 
-    <div class="alignbtn">
-      <a href="contact.html"><button class="chambre_button" id="button4" >Demander un devis</button></a></div>
-       <!-- Code diapo small img 3-->
-
-     
-       
+                Le château de Moliens est l’endroit idéal pour votre votre mariage, hébergement, l’organisation de vos
+                séminaires ou autres réunions de travail.</p>
+              <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2582.322136878691!2d1.8044470156
+          69032!3d49.66707037937486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7154f47ec7c97%3A0xb08384420e4f447d!2sCh%C3%A2teau%20De%20Moliens!5e0!3m2!1sfr
+          !2sfr!4v1640188440585!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 
-     
-     
-  
-  
-  <!--footer grid--><!--footer grid--><!--footer grid--><!--footer grid-->
-       
+        </form>
+      </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+
   <div id="footer_grid" class="grid-item">
-          
 
-             
+
+
 
     <div id="grid_footer">
       <div class="grid_footer_item">
-        <img  id="img_logo_footer"src=".\image video/logochateau.jpg"style="width:20vw;height=20vw;border-radius:10vw;"> 
-               
-        
-    </div>
-        <div class="grid_footer_item">
+        <img id="img_logo_footer" src=".\image video/logochateau1.jpg"
+          style="width:20vw;height:20vw;border-radius:10vw;">
 
-         
-          <li><a href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643">
-            <p class="footer_heading">Coordonnées</p>
-            <p style="line-height: 2vw;"><img src=".\image video/adresse.png "style="width:2vwpx;height:2vw;">Château de Moliens <br>
-            17 rue de Picardie<br>60220 Moliens</p></li></a>
-            <div><a href="https://www.instagram.com/chateau_de_moliens?r=nametag"target="_blank"><img src=".\image video/instalogo2.png "style="width:2vw;height:2vw;position:relative;top:5px;">
+
+      </div>
+      <div class="grid_footer_item">
+
+
+        <li><a
+            href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643">
+            <p1 class="footer_heading">Coordonnées</p1><br><br><br>
+            <p1 style="line-height: 2vw;"><img src=".\image video/adresse.png " style="width:2vwpx;height:2vw;">Château
+              de Moliens <br>
+              17 rue de Picardie<br>60220 Moliens</p1>
+        </li></a>
+        <div><a href="https://www.instagram.com/chateau_de_moliens?r=nametag" target="_blank"><img
+              src=".\image video/instalogo2.png " style="width:2vw;height:2vw;position:relative;top:5px;">
             Instagram</a></div>
-             
-        </div>
+
+      </div>
 
 
 
-        <div class="grid_footer_item">
-                 
-            <li>
-            
-           
-               <p class="footer_heading">Réserver </p>
-                <a href="tel:0631383831" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-           <p><img src=".\image video/call.png "style="width:2vwpx;height:2vw;"> 06 31 38 38 31</p></a>
-           <a href="mailto: chateaudemoliens@outlook.fr"><p> <img src=".\image video/mail.png "style="width:2vwpx;height:2vw;margin-bottom:-5px;margin-right:5px;">chateaudemoliens@outlook.fr</p> </a></li>
-         </div>
+      <div class="grid_footer_item">
+
+        <li>
+
+
+          <p1 class="footer_heading">Réserver </p1><br><br><br>
+          <a href="tel:0631383831"
+            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+            <p1><img src=".\image video/call.png " style="width:2vwpx;height:2vw;"> 06 31 38 38 31<img
+                src=".\image video/drapeau_fr.png " style="margin-left:1vw;width:2vw;height:1vw;"></p1>
+          </a><br>
+          <a href="tel:0644221786"
+            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+            <p1><img src=".\image video/call.png " style="width:2vwpx;height:2vw;"> 06 44 22 17 86<img
+                src=".\image video/drapeau_en.png " style="margin-left:1vw;width:2vw;height:1vw;"></p1>
+          </a><br>
+          <a href="mailto: chateaudemoliens@outlook.fr">
+            <p1> <img src=".\image video/mail.png "
+                style="width:2vwpx;height:2vw;margin-bottom:-5px;margin-right:5px;">chateaudemoliens@outlook.fr</p1>
+          </a>
+        </li>
+      </div>
 
 
 
-            <div class="grid_footer_item">
+      <div class="grid_footer_item">
 
-            <li>
-                 
-                <p style="line-height:3vw;"><p class="footer_heading"> Nos prestations</p> 
-               
+        <li>
 
-               </li>
-              <!-- <a href="mariage.html"><li>Mariage ❯❯</li></a><br>
+
+          <p1 class="footer_heading"> Nos prestations</p1><br><br><br>
+
+
+        </li>
+        <!-- <a href="mariage.html"><li>Mariage ❯❯</li></a><br>
                <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br>
                <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br>-->
-               <a href="hebergements.html"><li>Hébergements ❯❯</li></a><br>
-               
-           </div>
- 
-      
-
-           <div class="grid_footer_item">
-               
-                <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;">
-               
-              <p  class="footer_heading">Liens utiles</p>
-          
-              <a href="contact.html"><li>Contact ❯❯</li></a><br>
-     
-               <a href="covid-19.html"> <li>Infos sur COVID-19 ❯❯</li></a><br>
-               <a href="mentions.html"> <li>Mentions légales ❯❯</li></a><br>
-              <a href="politique.html"><li>Politique de confidentalité ❯❯</li></a>
-                <a href="https://icones8.fr/"><li>Icones </li></a>
-
-                </ul>
-            </div>
-  </div>
-</div> 
-<!--footer grid--><!--footer grid--><!--footer grid--><!--footer grid-->
-  </div>    
-     
-  
-   
-  
-  
-  <!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web--><!--Code site web-->
-<!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile--><!--Code mobile-->
-
-<div class="siteMobile">
-  
-  <div id="img_div" > 
-    <div id="img_hebergement_background">
-   
-      
-      
-          
-      
-     </div>
-    </div>     
-  
-      
-      <div class="texte">
-      <h2>Célébrez votre mariage au Château de Moliens</h2>
-    
-
-      
-      <p>Le Château de Moliens est un lieu de réception unique pour vos événements privés.
-          Au cœur d’un magnifique parc centenaire,
-           cette demeure de charme vous accueille dans un cadre magnifique et intime pour célébrer le plus beau jour de votre vie. </p>
-
-           <p>Nous vous proposons la privatisation du lieu pour vous permettre de profiter de l'intégralité du domaine et de son parc de plus de 2 hectares.
-              Vous avez la possibilité de célébrer votre mariage et organiser votre cocktail en plein air. </p>
-
-              
-
-          <div id="buttondiv"> <a href="contact.html"><button class="chambre_button" id="button2">Demander un devis</button></a></div>
-
-
-      </div>
-       <!-- Code diapo 5-->
-       <div class="slidercontainer">  
-        <div id="display5_1" class="slide5_1  "style="display: block;" >  
-            <div  class="grid-item" id="image_grid_container">
-                  
-        <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-       
-                
-              <div id="diapo5_1" class="imageIndex">   </div>
-                 <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-                   
-              
-            </div>
-        </div>  
-        <div id="display5_2" class="slide5_1 "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-          
-        <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-        
-                <div id="diapo5_2" class="imageIndex"></div>
-        <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-                
-         </div>  
-        </div>  
-  
-        <div id="display5_3" class="slide5_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-          
-        <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-        
-                <div id="diapo5_3" class="imageIndex"> </div>
-                <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-               
-         </div> 
-        </div>  
-        <div id="display5_4" class="slide5_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-          
-        <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-        
-                <div id="diapo5_4" class="imageIndex"></div>
-                 <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-                
-         </div> 
-        </div>
-        <div id="display5_5" class="slide5_1  "style="display: none;">  
-          <div id="image_grid_container" class="grid-item">
-        
-            <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-           
-              <div id="diapo5_5" class="imageIndex">    </div>
-                <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
-               
-          
-       </div> 
-      </div>
-      <div  id="display5_6" class="slide5_1  "style="display: none;">  
-        <div id="image_grid_container" class="grid-item">
-      
-          <a id="left1" onclick="nextSlide5_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-         
-            <div id="diapo5_6" class="imageIndex">   </div>
-              <a id="right1" onclick="nextSlide5_1(1)"><button class="button-Diapo2">❯</button></a> 
-             
-         
-     </div> 
-    </div>
-    
-         
-       
-       
-    </div>
-   <!-- Code diapo 5-->
-   
-
-       <!-- Code diapo small img 5-->
-   <div id="img_container">
-    <img onclick="displayself5_1()"id="small_img_5_1" class="small_img_5" style="opacity:1 ;" src="./css/royale/img_1.jpg" >
-      <img onclick="displayself5_2()"id="small_img_5_2" class="small_img_5" style="opacity:0.5 ;" src="./css/royale/img_2.jpg">
-      <img onclick="displayself5_3()"id="small_img_5_3" class="small_img_5" style="opacity:0.5; " src="./css/royale/img_3.jpg" >
-     <img onclick="displayself5_4()"id="small_img_5_4" class="small_img_5" style="opacity:0.5; " src="./css/royale/img_4.jpg" >
-     <img onclick="displayself5_5()"id="small_img_5_5" class="small_img_5" style="opacity:0.5;" src="./css/royale/img_5.jpg" >
-       <img onclick="displayself5_6()"id="small_img_5_6" class="small_img_5" style="opacity:0.5; " src="./css/royale/img_6.jpg" >
-
-    </div> 
-       <!-- Code diapo small img 5-->
-           <div class="texte">
-
-       <h2>Salles de réception du Château</h2>
-
-      
-      </div> 
-       <h3>L'Orangerie</h3>
-        <!--tableau-->
-
-        
-        <div id="grid_container">
-          <div class="grid_item">
-            <div class="rows_container">
-              <div class="grid_row row1"><p class="tableau_p">SALLE</p></div>
-              <div class="grid_row row2"><p class="tableau_p2">Orangerie</p></div>
-            </div></div>
-            <div class="grid_item">
-              <div class="rows_container">
-                <div class="grid_row row1"><p class="tableau_p">CAPACITÉ</p></div>
-                <div class="grid_row row2"><p class="tableau_p2">max 200 pers.</p></div>
-              
-              </div></div>
-              <div class="grid_item">
-                <div class="rows_container">
-                  <div class="grid_row row1"><p class="tableau_p">SUPERFICIE</p></div>
-                  <div class="grid_row row2"><p class="tableau_p2">250 m²</p></div>
-                </div></div>
-                <div class="grid_item">
-                  <div class="rows_container">
-                    <div class="grid_row row1"><p class="tableau_p">RÉSERVER</p></div>
-                    <div class="grid_row row2"><a href="contact.html"><button class="chambre_button2" id="button3">Demander un devis</button></a></div>
-                  </div></div>
-        </div>
-        <!--tableau-->
-      <!-- Code diapo 6-->
-      <div class="slidercontainer">  
-        <div id="display6_1" class="slide6_1  "style="display: block;" >  
-            <div  class="grid-item" id="image_grid_container">
-                 
-              <a id="left1" onclick="nextSlide6_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-             
-              <div id="diapo6_1" class="imageIndex">     </div>
-                 <a id="right1" onclick="nextSlide6_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-                   
-            
-            </div>
-        </div>  
-        <div id="display6_2" class="slide6_1 "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-              <a id="left1" onclick="nextSlide6_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-              
-                <div id="diapo6_2" class="imageIndex"> </div>
-        <a id="right1" onclick="nextSlide6_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-               
-         </div>  
-        </div>  
-  
-        <div id="display6_3" class="slide6_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-              <a id="left1" onclick="nextSlide6_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-              
-                <div id="diapo6_3" class="imageIndex"> </div>
-                <a id="right1" onclick="nextSlide6_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-               
-         </div> 
-        </div>  
-        <div id="display6_4" class="slide6_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-              <a id="left1" onclick="nextSlide6_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-              
-                <div id="diapo6_4" class="imageIndex">  </div>
-                 <a id="right1" onclick="nextSlide6_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-              
-         </div> 
-        </div>
-        <div id="display6_5" class="slide6_1  "style="display: none;">  
-          <div id="image_grid_container" class="grid-item">
-            <a id="left1" onclick="nextSlide6_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-              <div id="diapo6_5" class="imageIndex">   </div>
-                <a id="right1" onclick="nextSlide6_1(1)"><button class="button-Diapo2">❯</button></a> 
-               
-           
-       </div> 
-      </div>
-      <div  id="display6_6" class="slide6_1  "style="display: none;">  
-        <div id="image_grid_container" class="grid-item">
-          <a id="left1" onclick="nextSlide6_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-         
-            <div id="diapo6_6" class="imageIndex"> </div>
-              <a id="right1" onclick="nextSlide6_1(1)"><button class="button-Diapo2">❯</button></a> 
-             
-           
-     </div> 
-    </div>
-    
-        
-       
-    </div>
-   <!-- Code diapo 6-->
-   
-
-       <!-- Code diapo small img6 -->
-   <div id="img_container">
-    <img onclick="displayself6_1()"id="small_img_6_1" class="small_img_6" style="opacity:1 ;" src="./css/royale/img_1.jpg" >
-    <img onclick="displayself6_2()"id="small_img_6_2" class="small_img_6" style="opacity:0.5 ;" src="./css/royale/img_2.jpg">
-    <img onclick="displayself6_3()"id="small_img_6_3" class="small_img_6" style="opacity:0.5; " src="./css/royale/img_3.jpg" >
-   <img onclick="displayself6_4()"id="small_img_6_4" class="small_img_6" style="opacity:0.5; " src="./css/royale/img_4.jpg" >
-   <img onclick="displayself6_5()"id="small_img_6_5" class="small_img_6" style="opacity:0.5;" src="./css/royale/img_5.jpg" >
-     <img onclick="displayself6_6()"id="small_img_6_6" class="small_img_6" style="opacity:0.5; " src="./css/royale/img_6.jpg" >
-
-    </div> 
-       <!-- Code diapo small img 6-->
-      
-      <div class="texte">
-        <p>Entièrement rénovée, cette salle offre un grand espace agréable et lumineux. La salle dispose d'une cuisine attenante toute équipée qui
-          pourra acceuillir votre traiteur. Elle possède aussi une scène de x m² pour les animations et une piste de danse en plancher au centre de la salle. 
-        </p>
-      </div>
-
-
-       <h3>Le grand salon du château</h3>
-       <!--tableau-->
-
-       <div id="grid_container">
-        <div class="grid_item">
-          <div class="rows_container">
-            <div class="grid_row row1"><p class="tableau_p">SALLE</p></div>
-            <div class="grid_row row2"><p class="tableau_p2">Salon du château</p></div>
-          </div></div>
-          <div class="grid_item">
-            <div class="rows_container">
-              <div class="grid_row row1"><p class="tableau_p">CAPACITÉ</p></div>
-              <div class="grid_row row2"><p class="tableau_p2">max 100 pers.</p></div>
-            
-            </div></div>
-            <div class="grid_item">
-              <div class="rows_container">
-                <div class="grid_row row1"><p class="tableau_p">SUPERFICIE</p></div>
-                <div class="grid_row row2"><p class="tableau_p2">100 m²</p></div>
-              </div></div>
-              <div class="grid_item">
-                <div class="rows_container">
-                  <div class="grid_row row1"><p class="tableau_p">RÉSERVER</p></div>
-                  <div class="grid_row row2"><a href="contact.html"><button class="chambre_button2" id="button3">Demander un devis</button></a></div>
-                </div></div>
-      </div>
-      <!--tableau-->
-             <!-- Code diapo 7-->
-      <div class="slidercontainer">  
-        <div id="display7_1" class="slide7_1  "style="display: block;" >  
-            <div  class="grid-item" id="image_grid_container">
-                 
-              <a id="left1" onclick="nextSlide7_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-              
-              <div id="diapo7_1" class="imageIndex"></div>
-                <a id="right1" onclick="nextSlide7_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-                   
-                 
-            </div>
-        </div>  
-        <div id="display7_2" class="slide7_1 "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-              <a id="left1" onclick="nextSlide7_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-              
-                <div id="diapo7_2" class="imageIndex">   </div>
-        <a id="right1" onclick="nextSlide7_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-             
-         </div>  
-        </div>  
-  
-        <div id="display7_3" class="slide7_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-              <a id="left1" onclick="nextSlide7_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-             
-                <div id="diapo7_3" class="imageIndex"> </div>
-                 <a id="right1" onclick="nextSlide7_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-               
-         </div> 
-        </div>  
-        <div id="display7_4" class="slide7_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-              <a id="left1" onclick="nextSlide7_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-             
-                <div id="diapo7_4" class="imageIndex"> </div>
-                  <a id="right1" onclick="nextSlide7_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-               
-         </div> 
-        </div>
-        <div id="display7_5" class="slide7_1  "style="display: none;">  
-          <div id="image_grid_container" class="grid-item">
-            <a id="left1" onclick="nextSlide7_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-           
-              <div id="diapo7_5" class="imageIndex"> </div>
-                <a id="right1" onclick="nextSlide7_1(1)"><button class="button-Diapo2">❯</button></a> 
-               
-             
-       </div> 
-      </div>
-      <div  id="display7_6" class="slide7_1  "style="display: none;">  
-        <div id="image_grid_container" class="grid-item">
-          <a id="left1" onclick="nextSlide7_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-          
-            <div id="diapo7_6" class="imageIndex">     </div>
-             <a id="right1" onclick="nextSlide7_1(1)"><button class="button-Diapo2">❯</button></a> 
-             
-       
-     </div> 
-    </div>
-    
-         
-        
-       
-    </div>
-   <!-- Code diapo 7-->
-   
-
-       <!-- Code diapo small img7 -->
-   <div id="img_container">
-    <img onclick="displayself7_1()"id="small_img_7_1" class="small_img_7" style="opacity:1 ;" src="./css/royale/img_1.jpg" >
-    <img onclick="displayself7_2()"id="small_img_7_2" class="small_img_7" style="opacity:0.5 ;" src="./css/royale/img_2.jpg">
-    <img onclick="displayself7_3()"id="small_img_7_3" class="small_img_7" style="opacity:0.5; " src="./css/royale/img_3.jpg" >
-   <img onclick="displayself7_4()"id="small_img_7_4" class="small_img_7" style="opacity:0.5; " src="./css/royale/img_4.jpg" >
-   <img onclick="displayself7_5()"id="small_img_7_5" class="small_img_7" style="opacity:0.5;" src="./css/royale/img_5.jpg" >
-     <img onclick="displayself7_6()"id="small_img_7_6" class="small_img_7" style="opacity:0.5; " src="./css/royale/img_6.jpg" >
-
-    </div> 
-       <!-- Code diapo small img 3-->
-       
-      <div class="texte">
-      <p>Le salon du château est une salle idéale pour un mariage en petit comité ou pour organiser votre cocktail. Elle vous offre un cadre
-        somptueux et raffiné avec chandelier en crystal, grande cheminée, murs tapissés et intérieur décoré. Elle permettra à vous et à 
-        vos invités de profiter pleinement du charme du lieux.
-      </p>
-    </div>
-
-      <h3>Informations pratiques</h3>
-
-      <div class="texte">
-        <p>- Un parking pouvant acceuillir jusqu'à 30 véhicules est prévu au sein du domaine pour faciliter l'accès à vos invités.</p>
-        <p>- Une pergola de 200 m² est située à l'arrière du château.
-           Elle peut acceuillir votre cocktail ou cérémonie en cas de temps défavorable le jour de votre mariage</p>
-        <p>- Nous laissons libre choix du traiteur aux mariés.</p>
-      </div>
-
-      <h3>Hébergements</h3>
-      <div class="texte">
-        <p>Pour vos invités venus de loin, ceux qui n’aiment pas conduire de nuit ou n’ont pas envie de se limiter pour faire la fête, le Château de Moliens
-          vous propose de réserver nos espace pour l'hébergement de vos convives. 
-        </p>
-      </div>
-      <div class="alignbtn"><a href="hebergements.html"><button class="chambre_button" id="button4" >En savoir plus</button></a>
-       </div>
-      <!-- Code diapo 8-->
-      <div class="slidercontainer">  
-        <div id="display8_1" class="slide8_1  "style="display: block;" >  
-            <div  class="grid-item" id="image_grid_container">
-              <a id="left1" onclick="nextSlide8_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-              
-                
-              <div id="diapo8_1" class="imageIndex"> </div>
-                <a id="right1" onclick="nextSlide8_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-                   
-                
-            </div>
-        </div>  
-        <div id="display8_2" class="slide8_1 "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-              <a id="left1" onclick="nextSlide8_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-              
-         
-                <div id="diapo8_2" class="imageIndex"></div>
-        <a id="right1" onclick="nextSlide8_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-                
-         </div>  
-        </div>  
-  
-        <div id="display8_3" class="slide8_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-              <a id="left1" onclick="nextSlide8_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-             
-                <div id="diapo8_3" class="imageIndex"> </div>
-                 <a id="right1" onclick="nextSlide8_1(1)"><button class="button-Diapo2">❯</button></a> 
-                 
-               
-         </div> 
-        </div>  
-        <div id="display8_4" class="slide8_1  "style="display: none;">  
-            <div id="image_grid_container" class="grid-item">
-              <a id="left1" onclick="nextSlide8_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-            
-                <div id="diapo8_4" class="imageIndex"></div>
-                    <a id="right1" onclick="nextSlide8_1(1)"><button class="button-Diapo2">❯</button></a>
-                 
-                
-         </div> 
-        </div>
-        <div id="display8_5" class="slide8_1  "style="display: none;">  
-          <div id="image_grid_container" class="grid-item">
-            <a id="left1" onclick="nextSlide8_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-           
-       
-              <div id="diapo8_5" class="imageIndex"></div>
-                <a id="right1" onclick="nextSlide8_1(1)"><button class="button-Diapo2">❯</button></a> 
-               
-              
-       </div> 
-      </div>
-      <div  id="display8_6" class="slide8_1  "style="display: none;">  
-        <div id="image_grid_container" class="grid-item">
-          <a id="left1" onclick="nextSlide8_1(-1)" ><button class="button-Diapo1">❮</button></a> 
-          
-     
-            <div id="diapo8_6" class="imageIndex"></div>
-             
-             <a id="right1" onclick="nextSlide8_1(1)"><button class="button-Diapo2">❯</button></a> 
-            
-     </div> 
-    </div>
-    
-         
-      
-       
-    </div>
-   <!-- Code diapo 8-->
-   
-
-       <!-- Code diapo small img8 -->
-   <div id="img_container">
-    <img onclick="displayself8_1()"id="small_img_8_1" class="small_img_8" style="opacity:1 ;" src="./css/royale/img_2.jpg" >
-    <img onclick="displayself8_2()"id="small_img_8_2" class="small_img_8" style="opacity:0.5 ;" src="./css/clemence/img_1.jpg">
-    <img onclick="displayself8_3()"id="small_img_8_3" class="small_img_8" style="opacity:0.5; " src="./css/alexandra/img_2.jpg" >
-   <img onclick="displayself8_4()"id="small_img_8_4" class="small_img_8" style="opacity:0.5; " src="./css/elise/img_2.jpg" >
-   <img onclick="displayself8_5()"id="small_img_8_5" class="small_img_8" style="opacity:0.5;" src="./css/olympe/img_2.jpg" >
-     <img onclick="displayself8_6()"id="small_img_8_6" class="small_img_8" style="opacity:0.5; " src="./css/royale/img_6.jpg" >
-
-
-
-
-     
-    </div> 
-
-    <div class="alignbtn"></a>
-      <a href="contact.html"><button class="chambre_button" id="button4" >Demander un devis</button></a></div>
-       <!-- Code diapo small img 8-->
-
-     
-
-        
-
-      
- <!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container-->
-  
-<div id="footer_grid" class="grid--item">
-          
-
-             
-
-  <div id="grid_footer">
-    <div class="grid_footer_item">
-      <img  id="img_logo_footer"src=".\image video/logochateau.jpg"> 
-             
-      
-  </div>
-      <div class="grid_footer_item">
-
-       
-        <li><a href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643">
-          <p class="footer_heading">Coordonnées</p> <br>
-          <p class="footer_p" style="margin-left:-30px"><img src=".\image video/adresse.png "style="width:100px;height:100px;">Château de Moliens</p> <br>
-          <p  class="footer_p" >17 rue de Picardie<br> <br>60220 Moliens</p></li></a><br> <br>
-          <div><a href="https://www.instagram.com/chateau_de_moliens?r=nametag"target="_blank">
-          <p class="footer_p"><img src=".\image video/instalogo2.png "style="width:100px;height:100px;">Instagram</p></a></div>
-           
-      </div>
-
-
-
-      <div class="grid_footer_item">
-                   
-        <li>
-        
-       
-           <p class="footer_heading">Réserver </p><br><br> <br>
-            <a href="tel:0631383831" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-       <p class="footer_p"><img src=".\image video/call.png "style="width:100px;height:100px;"> 06 31 38 38 31</p></a><br> <br>
-       <a href="mailto: chateaudemoliens@outlook.fr"><p  class="footer_p"> <img src=".\image video/mail.png "style="width:100px;height:100px;">chateaudemoliens@outlook.fr</p> </a></li>
-     </div>
-
-
-
-          <div class="grid_footer_item">
-
+        <a href="hebergements.html">
           <li>
-               
-              <p style="line-height:3vw;"><p class="footer_heading"> Nos prestations</p> <br> <br> <br>
-             
+            <p1>Hébergements ❯❯</p1>
+          </li>
+        </a><br>
 
-             </li>
-            <!-- <a href="mariage.html"><li>Mariage ❯❯</li></a><br><br><br>
+      </div>
+
+
+
+      <div class="grid_footer_item">
+
+        <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;">
+
+          <p1 class="footer_heading">Liens utiles</p1><br><br><br>
+
+          <a href="contact.html">
+            <li>
+              <p1>Contact ❯❯</p1>
+            </li>
+          </a><br>
+
+          <a href="covid-19.html">
+            <li>
+              <p1>Infos sur COVID-19 ❯❯</p1>
+            </li>
+          </a><br>
+          <a href="mentions.html">
+            <li>
+              <p1>Mentions légales ❯❯</p1>
+            </li>
+          </a><br>
+          <a href="politique.html">
+            <li>
+              <p1>Politique de confidentalité ❯❯</p1>
+            </li>
+          </a>
+          <a href="https://icones8.fr/">
+            <li>
+              <p1>Icones </p1>
+            </li>
+          </a>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+
+  </div>
+  </div>
+
+
+
+
+
+  <!--Code site web-->
+  <!--Code site web-->
+  <!--Code site web-->
+  <!--Code site web-->
+  <!--Code site web-->
+  <!--Code site web-->
+  <!--Code site web-->
+  <!--Code site web-->
+  <!--Code site web-->
+  <!--Code mobile-->
+  <!--Code mobile-->
+  <!--Code mobile-->
+  <!--Code mobile-->
+  <!--Code mobile-->
+  <!--Code mobile-->
+  <!--Code mobile-->
+  <!--Code mobile-->
+  <!--Code mobile-->
+  <div class="siteMobile">
+
+
+
+
+
+
+
+
+    <div id="heading_div">
+      <h1 id="heading_top">MARIAGE</h1>
+    </div>
+
+    <p class="p_center">Organisez votre mariage dans un cadre romantique. Le château de Moliens vous
+      offre, le cadre, qui marquera à coup sûr
+      les esprits de vos invités. Faites de votre mariage un moment magique et mémorable.
+    </p>
+
+    <div id="image_container">
+      <div>
+        <img onclick="showDiapo()" class="grid_image" id="photo_chateau_1" src=".\image_mariage/salon_1.JPEG">
+        <p class="description">Salon du Château</p>
+      </div>
+      <div>
+        <img onclick="showDiapo()" class="grid_image" id="photo_chateau_1" src=".\image_mariage/orangerie_8.JPG">
+        <p class="description">Salle de réception</p>
+      </div>
+      <div>
+        <img onclick="showDiapo()" class="grid_image" id="photo_chateau_1" src=".\image_mariage/orangerie_11.jpg">
+        <p class="description">Salle de réception</p>
+      </div>
+      <div>
+        <img onclick="showDiapo()" class="grid_image" id="photo_chateau_1" src=".\image_mariage/jardin_7.jpg">
+        <p class="description">Parc</p>
+
+      </div>
+
+
+
+
+
+
+
+      <h1 id="atouts_h">Votre mariage au château : Nos Atouts</h2>
+        <div class="atouts_columns">
+          <div class="atouts_rows">
+            <div>
+              <div> <img class="service_img" src=".\css/icones/icons8-groupe-d'utilisateurs-50 (1).png"></div>
+              <h3 class="align_center atouts_title">Une Grande Capacité D'accueil</h3>
+              <p class="atouts_p">Jusqu'à 200 personnes assises</p>
+
+            </div>
+            <div>
+              <div> <img class="service_img" src=".\css/icones/icons8-cadenas-100.png"></div>
+              <h3 class="align_center atouts_title">Une Privatisation Complète</h3>
+              <p class="atouts_p">Profitez du lieu qui vous est dédié, entièrement privatisé</p>
+
+            </div>
+
+          </div>
+          <div class="atouts_rows">
+            <div>
+              <div> <img class="service_img" src=".\css/icones/icons8-lit-50 (4).png"></div>
+              <h3 class="align_center atouts_title">Hébergements</h3>
+              <p class="atouts_p">Confort, calme, relâchement… <br> Détendez-vous dans nos chambres raffinées </p>
+
+            </div>
+            <div>
+              <div> <img class="service_img" src=".\css/icones/icons8-forêt-50 (1).png"></div>
+              <h3 class="align_center atouts_title">Un Parc De 2 Ha</h3>
+              <p class="atouts_p">Bénéficiez d'un cadre verdoyant aux arbes remarquables</p>
+
+            </div>
+
+          </div>
+          <div class="atouts_rows">
+            <div>
+              <div> <img class="service_img" src=".\css/icones/icons8-liste-64 (1).png"></div>
+              <h3 class="align_center atouts_title">Libre De Prestataires</h3>
+              <p class="atouts_p">Personnalisez votre mariage avec vos propres prestataires</p>
+
+            </div>
+            <div>
+              <div> <img class="service_img" src=".\css/icones/icons8-coup-de-main-50.png"></div>
+              <h3 class="align_center atouts_title">Conseils et accompagnement</h3>
+              <p class="atouts_p">Nos prestations de conseils et d’accompagnement sont au service de votre mariage</p>
+
+            </div>
+
+          </div>
+          <div class="atouts_rows">
+            <div>
+              <div> <img class="service_img" src=".\css/icones/icons8-key-48.png"></div>
+              <h3 class="align_center atouts_title">Mariage clé en main</h3>
+              <p class="atouts_p">Nous organisons ensemble votre mariage dans les moindres détails</p>
+
+            </div>
+            <div>
+              <div> <img class="service_img" src=".\css/icones/icons8-en-cours-50.png"></div>
+              <h3 class="align_center atouts_title">Personnalisez votre mariage</h3>
+              <p class="atouts_p">Arrivée en calèche, feu d'artifice, animations et prestataires ... <br> Choisissez les
+                options qui vous correspondent</p>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <!--<h3 id="developpe_title"> Phrase d'intro</h3>-->
+
+        <div id="developpe_1_columns">
+          <div><img class="developpe_img" src=".\image_mariage/fontaine.jpg"></div>
+          <div> <img class="developpe_img_wide" src=".\image_mariage/orangerie_5.JPG"></div>
+         
+
+        </div>
+        <div class="developpe_rows_1">
+          <div>
+            <h3 class="developpe_sub_title">Formule clé en main</h3>
+            <p class="developpe_text">Nous vous organisons: réception, repas, décoration,
+              mobilier et agencement de votre mariage pour vous offrir un service haut de gamme et personnalisé</p>
+            <!-- <p class="developpe_text_2">En savoir plus >></p>-->
+            <div id="button_div">
+              <!-- <button class="developpe_button" id="developpe_button_1">
+          Brochure PDF
+        </button>
+        <button class="developpe_button"id="developpe_button_2">
+          Nous contacter-->
+              </button>
+            </div>
+          </div>
+
+        </div>
+        <div id="developpe_2_columns">
+
+          
+          <div> <img id="img_center_wide" class="developpe_img_wide" src=".\image_mariage/ceremonie_1.jpg"></div>
+          <div style="text-align: right;"><img class="developpe_img" src=".\image_mariage/adventure.jpg"></div>
+        </div>
+        <div class="developpe_rows_2">
+          <div>
+            <h3 class="developpe_sub_title">Cérémonie Laïque</h3>
+            <p class="developpe_text">Entièrement conçue autour du couple,
+              rendez votre mariage le plus personnel possible, par le biais de textes,
+              d’interventions et de rituels que vous aurez choisi.
+            </p>
+            <!-- <div id="button_div">
+           <button class="developpe_button" id="developpe_button_1">
+             Brochure PDF
+           </button>
+           <button class="developpe_button"id="developpe_button_2">
+             Nous contacter
+           </button>
+         </div>-->
+          </div>
+
+        </div>
+
+        <div style="margin-top: 4em;"></div>
+        <div id="developpe_1_columns">
+          <div><img class="developpe_img" src=".\image_mariage/salon_2.jpg"></div>
+          <div> <img class="developpe_img_wide" src=".\image_mariage/salon_1.jpeg"></div>
+         
+
+        </div>
+        <div class="developpe_rows_1">
+          <div>
+            <h3 class="developpe_sub_title">Cocktail</h3>
+            <p class="developpe_text">Vivez un moment précieux en réalisant le cocktail de votre mariage dans
+              l'intérieur élégant du château</p>
+            <!-- <p class="developpe_text_2">En savoir plus >></p>-->
+            <div id="button_div">
+              <!-- <button class="developpe_button" id="developpe_button_1">
+          Brochure PDF
+        </button>
+        <button class="developpe_button"id="developpe_button_2">
+          Nous contacter
+        </button>-->
+            </div>
+          </div>
+
+        </div>
+        <div style="text-align: center;">
+          <h3>
+            Découvrez le château pour le mariage de vos rêves 
+          </h3>
+          <button id="button_pdf">
+            <p><a style="text-transform: uppercase;" href="pdf/brochure_mariage.pdf" target="_blank">Télécharger
+                BROCHURE MARIAGE PDF <img id="icone_pdf" src="css/icones/icons8-pdf-50.png"></a></p>
+          </button>
+        </div>
+        <div id="contact" class="form_item">
+
+          <form id="form" action="https://formsubmit.co/chateaudemoliens@outlook.fr" method="POST">
+            <input type="hidden" name="_subject" value="Nouveau email">
+            <input type="hidden" name="_next" value="https://chateaudemoliens.com/succes.html">
+            <div id="form_container">
+              <div class="devis_form">
+
+                <div class="devis_titre"> Vos coordonnées</div>
+                <div class="margin_top_form"> <label>Civilité* : </label><span class=""><span class=""><span
+                        class=""><input class="input_style" type="radio" name="civilite" value="M."><span
+                          class="">M.</span></span><span class=""><input type="radio" name="civilite" value="Mme"><span
+                          class="">Mme</span></span><span class=" last"></div>
+                <div class="margin_top_form"> <label>Nom* : </label><br><span class="wpcf7-form-control-wrap nom"><input
+                      class="input_style" type="text" name="nom" value="" size="30"
+                      class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+                      aria-invalid="false"></span></div>
+                <div class="margin_top_form"> <label>Prénom* : </label><br><span
+                    class="wpcf7-form-control-wrap prenom"><input class="input_style" type="text" name="prenom" value=""
+                      size="30" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+                      aria-invalid="false"></span></div>
+                <div class="margin_top_form"> <label>E-mail* : </label><br><span
+                    class="wpcf7-form-control-wrap email"><input placeholder="exemple@mail.com" class="input_style"
+                      type="email" name="email" value="" size="30"
+                      class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                      aria-required="true" aria-invalid="false"></span></div>
+                <div class="margin_top_form"> <label>Téléphone* : </label><br><span
+                    class="wpcf7-form-control-wrap tel"><input class="input_style" type="tel" name="tel" value=""
+                      size="30" placeholder="0X XX XX XX XX"
+                      class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
+                      aria-required="true" aria-invalid="false"></span></div>
+
+                <div class="margin_top_form devis_titre"> Votre événement <br></div><span>*Champs obligatoires</span>
+                <div class="margin_top_form"> <label>Type événement* : </label><span
+                    class="wpcf7-form-control-wrap evenement"><span class="wpcf7-form-control wpcf7-radio"><span
+                        class="wpcf7-list-item first"><label><input class="input_style radio_style" type="radio"
+                            name="evenement" value="Mariage"><span
+                            class="wpcf7-list-item-label">Mariage</span></label></span><span
+                        class="wpcf7-list-item"><label><input class="input_style radio_style" type="radio"
+                            name="evenement" value="Seminaire"><span
+                            class="wpcf7-list-item-label">Séminaire</span></label></span>
+
+                </div>
+                <div class="margin_top_form"> <label id="autre">Autre: </label> <span
+                    class="wpcf7-form-control-wrap autre"><br><input class="input_style" type="text" name="autre"
+                      value="" size="20" class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span></div>
+                <div class="margin_top_form"> <label>Nombre de convives: </label><span
+                    class="wpcf7-form-control-wrap nombre-adultes"><br><input class="input_style" type="text"
+                      name="nombre-adultes" value="" size="20" class="wpcf7-form-control wpcf7-text"
+                      aria-invalid="false"></span></div>
+
+                <div class="margin_top_form"> <label>Date évènement : </label><span
+                    class="wpcf7-form-control-wrap date-evenement"><br><input class="input_style" type="text"
+                      placeholder="XX / XX / XX" name="date-evenement" value="" size="20"
+                      class="wpcf7-form-control wpcf7-text oneMonthDatepicker" id="date-dep"
+                      aria-invalid="false"></span>
+                </div>
+                <div class="margin_top_form"> <label>Commentaires : </label><br><span
+                    class="wpcf7-form-control-wrap commentaire"><textarea class="text_area" name="commentaire" cols="35"
+                      rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span></div>
+                <div class="margin_top_form"> <span class="wpcf7-form-control-wrap optin"><span
+                      class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first last"><input
+                          class="input_style" type="checkbox" name="optin[]"
+                          value="Je souhaite m’inscrire à la lettre d’information du Château de Montvillargenne pour être informé(e) des nouveautés et des promotions."><span
+                          class="wpcf7-list-item-label">Je souhaite m’inscrire à la lettre d’information du Château de
+                          Moliens pour être informé(e) des nouveautés et des promotions.</span></span></span></span>
+                </div>
+                <div class="loi"> (Conformément à l’article 34 de la loi informatique et liberté du 6 janvier 1978, vous
+                  disposez d’un droit d’accès de rectification et de suppression des données vous concernant. )</div>
+                <div class="devis_submit">
+                  <input type="submit" name="submit" formaction="https://formsubmit.co/chateaudemoliens@outlook.fr"
+                    value="ENVOYER" id="envoyer"></input>
+
+
+          </form>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+
+  <div id="footer_grid" class="grid--item">
+
+
+
+
+    <div id="grid_footer">
+      <div class="grid_footer_item">
+        <img id="img_logo_footer" src=".\image video/logochateau1.jpg">
+
+
+      </div>
+      <div class="grid_footer_item">
+
+
+        <li><a
+            href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643">
+            <p class="footer_heading">Coordonnées</p> <br>
+            <p class="footer_p" style="margin-left:-30px"><img src=".\image video/adresse.png "
+                style="width:100px;height:100px;">Château de Moliens</p> <br>
+            <p class="footer_p">17 rue de Picardie<br> <br>60220 Moliens</p>
+        </li></a><br> <br>
+        <div><a href="https://www.instagram.com/chateau_de_moliens?r=nametag" target="_blank">
+            <p class="footer_p"><img src=".\image video/instalogo2.png " style="width:100px;height:100px;">Instagram
+            </p>
+          </a></div>
+
+      </div>
+
+
+
+      <div class="grid_footer_item">
+
+        <li>
+
+
+          <p class="footer_heading">Réserver </p><br><br> <br>
+          <a href="tel:0631383831"
+            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+            <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 31 38 38 31
+              <img src=".\image video/drapeau_fr.png " style="margin-left:10px;width:100px;height:50px;">
+            </p>
+          </a><br> <br>
+          <a href="tel:0644221786"
+            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+            <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 44 22 17 86
+              <img src=".\image video/drapeau_en.png " style="margin-left:10px;width:100px;height:50px;">
+            </p>
+          </a><br> <br>
+          <a href="mailto: chateaudemoliens@outlook.fr">
+            <p class="footer_p"> <img src=".\image video/mail.png "
+                style="width:100px;height:100px;">chateaudemoliens@outlook.fr</p>
+          </a>
+        </li>
+      </div>
+
+
+
+      <div class="grid_footer_item">
+
+        <li>
+
+          <p style="line-height:3vw;">
+          <p class="footer_heading"> Nos prestations</p> <br> <br> <br>
+
+
+        </li>
+        <!-- <a href="mariage.html"><li>Mariage ❯❯</li></a><br><br><br>
              <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br><br><br>
              <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br><br><br>-->
-             <a href="hebergements.html"><li>Hébergements ❯❯</li></a><br>
-             
-         </div>
+        <a href="hebergements.html">
+          <li>Hébergements ❯❯</li>
+        </a><br>
 
-    
+      </div>
 
-         <div class="grid_footer_item">
-             
-              <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;">
-             
-            <p  class="footer_heading">Liens utiles</p> <br> <br>
-        
-            <a href="contact.html"><li>Contact ❯❯</li></a><br> <br>
-   
-             <a href="covid-19.html"> <li>Infos sur COVID-19 ❯❯</li></a><br> <br>
-             <a href="mentions.html"> <li>Mentions légales ❯❯</li></a><br> <br>
-            <a href="politique.html"><li>Politique de confidentalité ❯❯</li></a> <br>
-              <a href="https://icones8.fr/"><li>Icones </li></a>
 
-              </ul>
-          </div>
-</div>
-</div>
-     
-</div>
-   
 
-<!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container--><!--Footer_grid_container-->
+      <div class="grid_footer_item">
 
-        
-        
-        
-        
-        
-        
-        
-</div>
-        
-        
-        
-<!--Code mobile-->
-  
-<script type="text/javascript" src="./js/mariage.js"></script>
+        <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;">
 
+          <p class="footer_heading">Liens utiles</p> <br> <br>
+
+          <a href="contact.html">
+            <li>Contact ❯❯</li>
+          </a><br> <br>
+
+          <a href="covid-19.html">
+            <li>Infos sur COVID-19 ❯❯</li>
+          </a><br> <br>
+          <a href="mentions.html">
+            <li>Mentions légales ❯❯</li>
+          </a><br> <br>
+          <a href="politique.html">
+            <li>Politique de confidentalité ❯❯</li>
+          </a> <br>
+          <a href="https://icones8.fr/">
+            <li>Icones </li>
+          </a>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+
+  </div>
+  </div>
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+
+
+
+
+  </div>
+  <!--Code mobile-->
+
+  <script type="text/javascript" src="./js/index.js"></script>
+  <script type="text/javascript" src="./js/nav_background.js"></script>
 
 
 
