@@ -16,7 +16,9 @@
         height: 4vw;
         float: left;
     }
-    
+    .input_style {
+        display: inline;
+    }
     
     
     
@@ -110,7 +112,7 @@
     /*Contact form CSS*/
     .row{
         display: grid;
-        grid-template-rows: 0.5fr 0.5fr  1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
     }
     .row-items{
         padding: 0 0 0 1em;
@@ -266,7 +268,9 @@
         height: 4vw;
         float: left;
     }
-    
+    .input_style {
+        display: inline;
+    }
     
     
     
@@ -360,7 +364,7 @@
     /*Contact form CSS*/
     .row{
         display: grid;
-        grid-template-rows: 0.5fr 0.5fr  1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
     }
     .row-items{
         padding: 0 0 0 1em;
@@ -494,6 +498,9 @@ body{
     height: 4vw;
     float: left;
 }
+.input_style {
+    display: inline;
+}
 
 
 
@@ -588,7 +595,7 @@ article1 div img{
 /*Contact form CSS*/
 .row{
     display: grid;
-    grid-template-rows: 0.5fr 0.5fr  1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
 }
 .row-items{
     padding: 0 0 0 1em;
@@ -845,14 +852,24 @@ input:hover,textarea:hover,input:focus,textarea:focus{
     
     /*Contact form CSS*/
     .row{
+       
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr  3fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  3fr 1fr;
     }
     .row-items{
         padding: 0 0 0 1em;
         font-family: Montserrat, Helvetica, Arial, Lucida, sans-serif;
         font-size: 40px;
     }
+    .input_style {
+     text-align: left;
+     width: 55px;
+     height: 55px;
+    }
+    .string_input {
+      
+    }
+   
     
     label1,input,textarea{
         text-align: left;

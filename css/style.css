@@ -11,6 +11,9 @@
     .siteMobile {
         display: none;
     }
+    #telephone_nav{
+        display: none;
+    }
 
     .margin_top_heading {
         margin-top: 5em;
@@ -527,6 +530,9 @@
     }
 
     .siteMobile {
+        display: none;
+    }
+    #telephone_nav{
         display: none;
     }
 

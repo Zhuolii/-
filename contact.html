@@ -54,7 +54,7 @@
     </label>
     <div class="sidebar">
       <div class="no_bg" id="black_bg"> <a href="contact.html"><button class="reserver_button">Réserver >></button></a>
-      
+
         <!--<p id="ouverture">Ouverture le 1 mars 2022</p>-->
 
 
@@ -71,10 +71,10 @@
 
           <li class="sidebar_item"><a href="contact.html" id="contact" class="menu_link current">CONTACT</a></li>
           <li class="sidebar_item"><a href="covid-19.html" id="contact" class="menu_link">COVID-19</a></li>
-          <li class="sidebar_item"> <a href="tel:0644221786"
-            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-            <img id="phone2"class="telephoner"src="css/icones/icons8-téléphone-50-removebg-preview.png"></a></li>
-          
+          <li id="telephone_nav" class="sidebar_item"> <a href="tel:0644221786"
+              onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+              <img id="phone2" class="telephoner" src="css/icones/icons8-téléphone-50-removebg-preview.png"></a></li>
+
 
         </ul>
       </div>
@@ -96,7 +96,7 @@
 
       </div>
     </div> -->
-    <h2 class="margin_top_heading" >CONTACTER LE CHÂTEAU DE MOLIENS</h2>
+    <h2 class="margin_top_heading">CONTACTER LE CHÂTEAU DE MOLIENS</h2>
 
 
     <article1 class="grid-container2">
@@ -109,8 +109,8 @@
         <br>
         <br>
         <h2>accès</h2>
-        <p>Proche des autoroutes, à 1h30 de Paris, 35min de Beauvais, 40min d'Amiens, 55min de Rouen et on vous
-          accueille 7j/7.<br>
+        <p>Proche des autoroutes, à 1h30 de Paris, 35min de Beauvais, 40min d'Amiens, 55min de Rouen, on vous
+          acceuille 7j/7.<br>
 
           Le château de Moliens est l’endroit idéal pour votre votre mariage, hébergement, l’organisation de vos
           séminaires ou autres réunions de travail.</p>
@@ -129,12 +129,15 @@
 
           <div class="row">
             <div class="column">
-              <div class="row-items "><label for="nom">Nom</label><br>
-                <input type="text" name="nom" id="nom" placeholder="Nom" required class="half">
-              </div>
-
-              <div class="row-items "><label for="prenom">Prénom</label><br>
-                <input type="text" name="prenom" id="prenom" placeholder="Prénom" required class="half">
+              <div class="row-items "> <label>Civilité* :  </label><br><span
+                class="wpcf7-form-control-wrap evenement"><span class="wpcf7-form-control wpcf7-radio"><span
+                    class="wpcf7-list-item first"><label><input class="input_style" type="radio" name="civilite"
+                      value="M."><span class="wpcf7-list-item-label">M.</span></label></span><br><span
+                    class="wpcf7-list-item"><label><input class="input_style" type="radio" name="civilite"
+                      value="Mme"><span class="wpcf7-list-item-label">Mme</span></label></span>
+            </div>
+              <div class="row-items "><label for="nom prenom">Nom Prénom</label><br>
+                <input type="text" name="nom prenom" id="nom prenom" placeholder="nom Prénom" required class="half">
               </div>
             </div>
 
@@ -148,6 +151,32 @@
                 <input type="tel" name="telephone" id="tel" placeholder="Numéro de téléphone" pattern="[0-9]{10}"
                   required class="half"> <br>
               </div>
+            </div>
+            <div class="column">
+              <div class="row-items "> <label>Type événement* : </label><br><span
+                  class="wpcf7-form-control-wrap evenement"><span class="wpcf7-form-control wpcf7-radio"><span
+                      class="wpcf7-list-item first"><label><input class="input_style" type="radio" name="evenement"
+                          value="Mariage"><span class="wpcf7-list-item-label">Mariage</span></label></span><br><span
+                      class="wpcf7-list-item"><label><input class="input_style" type="radio" name="evenement"
+                          value="Seminaire"><span class="wpcf7-list-item-label">Séminaire</span></label></span>
+              </div>
+              <div class="row-items "><label for="Autre">Autre</label><br>
+                <input type="text" name="Autre" id="Autre" required class="half">
+              </div>
+
+
+            </div>
+            <div class="column">
+              <div class="row-items "><label for="Nombre de convives:">Nombre de convives:</label><br>
+                <input type="text" name="Nombre de convives:" id="Nombre de convives:" placeholder="Nombre de convives:"
+                  required class="half">
+              </div>
+              <div class="row-items "><label for="Date évènement :">Date évènement :</label><br>
+                <input type="text" name="Date évènement :" id="Date évènement :" placeholder="Date évènement :" required
+                  class="half">
+              </div>
+
+
             </div>
 
             <!-- <div class="row-items"><label for="objet">Objet</label><br>
@@ -197,7 +226,7 @@
 
       <div id="grid_footer">
         <div class="grid_footer_item">
-          <img id="img_logo_footer" src=".\image video/logochateau.jpg"
+          <img id="img_logo_footer" src=".\image video/logochateau1.jpg"
             style="width:20vw;height:20vw;border-radius:10vw;">
 
 
@@ -207,10 +236,11 @@
 
           <li><a
               href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643">
-              <p class="footer_heading">Coordonnées</p>
-              <p style="line-height: 2vw;"><img src=".\image video/adresse.png " style="width:2vwpx;height:2vw;">Château
+              <p1 class="footer_heading">Coordonnées</p1><br><br><br>
+              <p1 style="line-height: 2vw;"><img src=".\image video/adresse.png "
+                  style="width:2vwpx;height:2vw;">Château
                 de Moliens <br>
-                17 rue de Picardie<br>60220 Moliens</p>
+                17 rue de Picardie<br>60220 Moliens</p1>
           </li></a>
           <div><a href="https://instagram.com/chateaudemoliens?igshid=YmMyMTA2M2Y=" target="_blank"><img
                 src=".\image video/instalogo2.png " style="width:2vw;height:2vw;position:relative;top:5px;">
@@ -225,20 +255,20 @@
           <li>
 
 
-            <p class="footer_heading">Réserver </p>
+            <p1 class="footer_heading">Réserver </p1><br><br><br>
             <a href="tel:0631383831"
               onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-              <p><img src=".\image video/call.png " style="width:2vwpx;height:2vw;"> 06 31 38 38 31<img
-                  src=".\image video/drapeau_fr.png " style="margin-left:1vw;width:2vw;height:1vw;"></p>
-            </a>
+              <p1><img src=".\image video/call.png " style="width:2vwpx;height:2vw;"> 06 31 38 38 31<img
+                  src=".\image video/drapeau_fr.png " style="margin-left:1vw;width:2vw;height:1vw;"></p1>
+            </a><br>
             <a href="tel:0644221786"
               onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-              <p><img src=".\image video/call.png " style="width:2vwpx;height:2vw;"> 06 44 22 17 86<img
-                  src=".\image video/drapeau_en.png " style="margin-left:1vw;width:2vw;height:1vw;"></p>
-            </a>
+              <p1><img src=".\image video/call.png " style="width:2vwpx;height:2vw;"> 06 44 22 17 86<img
+                  src=".\image video/drapeau_en.png " style="margin-left:1vw;width:2vw;height:1vw;"></p1>
+            </a><br>
             <a href="mailto: chateaudemoliens@outlook.fr">
-              <p> <img src=".\image video/mail.png "
-                  style="width:2vwpx;height:2vw;margin-bottom:-5px;margin-right:5px;">chateaudemoliens@outlook.fr</p>
+              <p1> <img src=".\image video/mail.png "
+                  style="width:2vwpx;height:2vw;margin-bottom:-5px;margin-right:5px;">chateaudemoliens@outlook.fr</p1>
             </a>
           </li>
         </div>
@@ -249,17 +279,19 @@
 
           <li>
 
-            <p style="line-height:3vw;">
-            <p class="footer_heading"> Nos prestations</p>
+
+            <p1 class="footer_heading"> Nos prestations</p1><br><br><br>
 
 
           </li>
-           <a href="mariage.html"><li>Mariage ❯❯</li></a><br>
-            <!--   <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br>
+          <a href="mariage.html">
+            <li>Mariage ❯❯</li>
+          </a><br>
+          <!--    <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br>
                <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br>-->
           <a href="hebergements.html">
             <li>
-              <p>Hébergements ❯❯</p>
+              <p1>Hébergements ❯❯</p1>
             </li>
           </a><br>
 
@@ -271,32 +303,32 @@
 
           <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;">
 
-            <p class="footer_heading">Liens utiles</p>
+            <p1 class="footer_heading">Liens utiles</p1><br><br><br>
 
             <a href="contact.html">
               <li>
-                <p>Contact ❯❯</p>
+                <p1>Contact ❯❯</p1>
               </li>
             </a><br>
 
             <a href="covid-19.html">
               <li>
-                <p>Infos sur COVID-19 ❯❯</p>
+                <p1>Infos sur COVID-19 ❯❯</p1>
               </li>
             </a><br>
             <a href="mentions.html">
               <li>
-                <p>Mentions légales ❯❯</p>
+                <p1>Mentions légales ❯❯</p1>
               </li>
             </a><br>
             <a href="politique.html">
               <li>
-                <p>Politique de confidentalité ❯❯</p>
+                <p1>Politique de confidentalité ❯❯</p1>
               </li>
             </a>
             <a href="https://icones8.fr/">
               <li>
-                <p>Icones </p>
+                <p1>Icones </p1>
               </li>
             </a>
 
@@ -347,9 +379,9 @@
       </div>
     </div>
     <a href="tel:0644221786"
-    onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-    <img id="phone"class="telephoner"src="css/icones/icons8-téléphone-50-removebg-preview.png"></a>
-   
+      onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+      <img id="phone" class="telephoner" src="css/icones/icons8-téléphone-50-removebg-preview.png"></a>
+
 
     <article1 class="grid-container2">
 
@@ -362,8 +394,8 @@
         <br>
         <h2>accès</h2>
 
-        <p id="p1">Proche des autoroutes, à 1h30 de Paris, 35min de Beauvais, 40min d'Amiens, 55min de Rouen et on vous
-          accueille 7j/7.<br>
+        <p id="p1">Proche des autoroutes, à 1h30 de Paris, 35min de Beauvais, 40min d'Amiens, 55min de Rouen, on vous
+          acceuille 7j/7.<br>
 
           Le château de Moliens est l’endroit idéal pour votre votre mariage, hébergement, l’organisation de vos
           séminaires ou autres réunions de travail.</p>
@@ -380,13 +412,18 @@
           <div class="row">
 
             <div class="row-items ">
-              <label1 for="nom">Nom</label1><br>
-              <input type="text" name="nom" id="nom" placeholder="Nom" required class="half">
+              <label1 for="Civilité* :">Civilité* :</label1><br>
+              <label1><input class="input_style" type="radio" name="civilite"
+                value="M."><span class="string_input">M.</span></label1><br>
+                <label1><input class="input_style" type="radio" name="civilite"
+                  value="Mme"><span class="wpcf7-list-item-label">Mme</span></label1>
+             
+             
             </div>
 
             <div class="row-items ">
-              <label1 for="prenom">Prénom</label1><br>
-              <input type="text" name="prenom" id="prenom" placeholder="Prénom" required class="half">
+              <label1 for="nom prenom">Nom Prénom</label1><br>
+              <input type="text" name="nom prenom" id="nom prenom" placeholder="Nom Prénom" required class="half">
             </div>
 
             <div class="row-items">
@@ -398,11 +435,31 @@
             <div class="row-items">
               <label1 for="tel">Téléphone </label1><br>
               <input type="tel" name="telephone" id="tel" placeholder="Numéro de téléphone" pattern="[0-9]{10}" required
-                class="half"> <br>
+                class="half"> 
             </div>
+            <div class="row-items "> <label1>Type événement* : </label1><br><span
+              class="wpcf7-form-control-wrap evenement"><span class="wpcf7-form-control wpcf7-radio"><span
+                  class="wpcf7-list-item first"><label1><input class="input_style" type="radio" name="evenement"
+                      value="Mariage"><span class="wpcf7-list-item-label">Mariage</span></label1></span><br><span
+                  class="wpcf7-list-item"><label1><input class="input_style" type="radio" name="evenement"
+                      value="Seminaire"><span class="wpcf7-list-item-label">Séminaire</span></label1></span>
+          </div>
 
-            <!--<div class="row-items"><label1 for="objet">Objet</label1><br>
-               <input type="text" name="objet" id="objet" placeholder="Objet du message" required></div>https://formsubmit.co/chateaudemoliens@outlook.fr-->
+          <div class="row-items "><label1 for="Autre">Autre</label1><br>
+            <input type="text" name="Autre" id="Autre" required class="half">
+          </div>
+
+
+       
+        
+          <div class="row-items "><label1 for="Nombre de convives:">Nombre de convives:</label1><br>
+            <input type="text" name="Nombre de convives:" id="Nombre de convives:" placeholder="Nombre de convives:"
+              required class="half">
+          </div>
+          <div class="row-items "><label1 for="Date évènement :">Date évènement :</label1><br>
+            <input type="text" name="Date évènement :" id="Date évènement :" placeholder="Date évènement :" required
+              class="half">
+          </div>
 
             <div class="row-items">
               <label1 for="message">Message</label1><br>
@@ -413,8 +470,8 @@
                 formaction="https://formsubmit.co/chateaudemoliens@outlook.fr" value="       ENVOYER MON MESSAGE"
                 id="envoyer"></input></div>
 
-
-          </div>
+ </div>
+       
 
 
 
@@ -422,140 +479,128 @@
 
 
         </form>
-
-
-      </div>
+        
       <iframe Set-Cookie: CookieName=CookieValue; SameSite=Strict; id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2582.322136878691!2d1.8044470156
           69032!3d49.66707037937486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7154f47ec7c97%3A0xb08384420e4f447d!2sCh%C3%A2teau%20De%20Moliens!5e0!3m2!1sfr
           !2sfr!4v1640188440585!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
+</div>
 
     </article1>
 
 
-    <!--Footer_grid_container-->
-    <!--Footer_grid_container-->
-    <!--Footer_grid_container-->
-    <!--Footer_grid_container-->
-    <!--Footer_grid_container-->
-    <!--Footer_grid_container-->
-    <!--Footer_grid_container-->
+    <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
 
-    <div id="footer_grid" class="grid--item">
+  <div id="footer_grid" class="grid--item">
 
 
 
 
-      <div id="grid_footer">
-        <div class="grid_footer_item">
-          <img id="img_logo_footer" src=".\image video/logochateau1.jpg">
+    <div id="grid_footer">
+      <div class="grid_footer_item">
+        <img id="img_logo_footer" src=".\image video/logochateau1.jpg">
 
 
-        </div>
-        <div class="grid_footer_item">
+      </div>
+      <div class="grid_footer_item">
 
 
-          <li><a
-              href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643">
-              <p class="footer_heading">Coordonnées</p> <br>
-              <p class="footer_p" style="margin-left:-30px"><img src=".\image video/adresse.png "
-                  style="width:100px;height:100px;">Château de Moliens</p> <br>
-              <p class="footer_p">17 rue de Picardie<br> <br>60220 Moliens</p>
-          </li></a><br> <br>
-          <div><a href="https://instagram.com/chateaudemoliens?igshid=YmMyMTA2M2Y=" target="_blank">
-              <p class="footer_p"><img src=".\image video/instalogo2.png " style="width:100px;height:100px;">Instagram
-              </p>
-            </a></div>
+        <li><a
+            href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643">
+            <p class="footer_heading">Coordonnées</p> <br>
+            <p id="adresse_footer"class="footer_p" ><img src=".\image video/adresse.png "
+                style="width:100px;height:100px;">Château de Moliens</p> <br>
+            <p id="adresse_footer"class="footer_p"style="margin-left:171px">17 rue de Picardie<br> <br>60220 Moliens</p>
+        </li></a><br> <br>
+        <div><a href="https://instagram.com/chateaudemoliens?igshid=YmMyMTA2M2Y=" target="_blank">
+            <p class="footer_p"><img src=".\image video/instalogo2.png " style="width:100px;height:100px;">Instagram
+            </p>
+          </a></div>
 
-        </div>
-
-
-
-        <div class="grid_footer_item">
-
-          <li>
-
-
-            <p class="footer_heading">Réserver </p><br><br> <br>
-            <a href="tel:0631383831"
-              onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-              <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 31 38 38 31
-                <img src=".\image video/drapeau_fr.png " style="margin-left:10px;width:100px;height:50px;">
-              </p>
-            </a><br> <br>
-            <a href="tel:0644221786"
-              onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-              <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 44 22 17 86
-                <img src=".\image video/drapeau_en.png " style="margin-left:10px;width:100px;height:50px;">
-              </p>
-            </a><br> <br>
-            <a href="mailto: chateaudemoliens@outlook.fr">
-              <p class="footer_p"> <img src=".\image video/mail.png "
-                  style="width:100px;height:100px;">chateaudemoliens@outlook.fr</p>
-            </a>
-          </li>
-        </div>
+      </div>
 
 
 
-        <div class="grid_footer_item">
+      <div class="grid_footer_item">
 
-          <li>
-
-            <p style="line-height:3vw;">
-            <p class="footer_heading"> Nos prestations</p> <br> <br> <br>
+        <li>
 
 
-          </li>
-           <a href="mariage.html"><li>Mariage ❯❯</li></a><br><br><br>
-            <!--   <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br><br><br>
-               <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br><br><br>-->
-          <a href="hebergements.html">
-            <li>Hébergements ❯❯</li>
-          </a><br>
+          <p class="footer_heading">Réserver </p><br><br> <br>
+          <a href="tel:0631383831"
+            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+            <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 31 38 38 31
+              <img src=".\image video/drapeau_fr.png " style="margin-left:10px;width:100px;height:50px;">
+            </p>
+          </a><br> <br>
+          <a href="tel:0644221786"
+            onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
+            <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 44 22 17 86
+              <img src=".\image video/drapeau_en.png " style="margin-left:10px;width:100px;height:50px;">
+            </p>
+          </a><br> <br>
+          <a href="mailto: chateaudemoliens@outlook.fr">
+            <p class="footer_p"> <img src=".\image video/mail.png "
+                style="width:100px;height:100px;">chateaudemoliens@outlook.fr</p>
+          </a>
+        </li>
+      </div>
 
-        </div>
+
+
+      <div class="grid_footer_item">
+
+        <li>
+
+          <p style="line-height:3vw;">
+          <p class="footer_heading"> Nos prestations</p> <br> <br> <br>
+
+
+        </li>
+         <a href="mariage.html"><li>Mariage ❯❯</li></a><br><br><br>
+          <!--   <a href="events.html"><li>Événements/Réceptions ❯❯</li></a><br><br><br>
+             <a href="seminaires.html"><li>Séminaires ❯❯</li></a><br><br><br>-->
+        <a href="hebergements.html">
+          <li>Hébergements ❯❯</li>
+        </a><br>
+
+      </div>
 
 
 
-        <div class="grid_footer_item">
+      <div class="grid_footer_item">
 
-          <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;">
+        <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;">
 
-            <p class="footer_heading">Liens utiles</p> <br> <br>
+          <p class="footer_heading">Liens utiles</p> <br> <br>
 
-            <a href="contact.html">
-              <li>Contact ❯❯</li>
-            </a><br> <br>
+          <a href="contact.html">
+            <li>Contact ❯❯</li>
+          </a><br> <br>
 
-            <a href="covid-19.html">
-              <li>Infos sur COVID-19 ❯❯</li>
-            </a><br> <br>
-            <a href="mentions.html">
-              <li>Mentions légales ❯❯</li>
-            </a><br> <br>
-            <a href="politique.html">
-              <li>Politique de confidentalité ❯❯</li>
-            </a> <br>
-            <a href="https://icones8.fr/">
-              <li>Icones </li>
-            </a>
+          <a href="covid-19.html">
+            <li>Infos sur COVID-19 ❯❯</li>
+          </a><br> <br>
+          <a href="mentions.html">
+            <li>Mentions légales ❯❯</li>
+          </a><br> <br>
+          <a href="politique.html">
+            <li>Politique de confidentalité ❯❯</li>
+          </a> <br>
+          <a href="https://icones8.fr/">
+            <li>Icones </li>
+          </a>
 
-          </ul>
-        </div>
+        </ul>
       </div>
     </div>
-
   </div>
-
-
-  <!--Footer_grid_container-->
-  <!--Footer_grid_container-->
-  <!--Footer_grid_container-->
-  <!--Footer_grid_container-->
-  <!--Footer_grid_container-->
-  <!--Footer_grid_container-->
-  <!--Footer_grid_container-->
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
+  <!--footer grid-->
 
 
 
