@@ -6,6 +6,21 @@
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         
     }
+    #heading_top {
+        margin: 6em 0 3em 0;
+        font-size: 3em;
+        text-align: center;
+        LETTER-SPACING: 2px;
+        padding: 1em;
+        border-bottom: solid black 2px;
+        border-top: solid black 2px;
+        width: auto;
+        font-weight: normal;
+    }
+    #header_div {
+        justify-content: center;
+        display: flex;
+    }
     div#footer_grid p {
         font-size: 1.5vw;
     }
@@ -360,6 +375,21 @@ h3#charme{
     text-align: center;
     font-size: 1.5em;
     letter-spacing: 1.5px;
+}
+#heading_top {
+    margin: 6em 0 2em 0;
+    font-size: 1.5em;
+    text-align: center;
+    LETTER-SPACING: 2px;
+    padding: 1em;
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+    width: auto;
+    font-weight: normal;
+}
+#header_div {
+    justify-content: center;
+    display: flex;
 }
 #img_logo{
     
