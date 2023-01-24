@@ -216,16 +216,22 @@
         line-height: 2em;
     }
 
-#heading_top {
-    margin: 4em 0 0 0;
-    font-size: 3em;
-    text-align: center;
-    LETTER-SPACING: 2px;
-    padding: 1em;
-    border-bottom: solid black 2px;
-    border-top: solid black 2px;
-    width: 37%;
-}
+    #page_title {
+        font-family: courgette;
+        margin: 5em 0 1em 0;
+        font-size: 2.5em;
+        text-align: center;
+        LETTER-SPACING: 2px;
+        padding: 1em;
+        border-bottom: solid black 2px;
+        border-top: solid black 2px;
+        width: auto;
+        font-weight: normal;
+    }
+    #header_div {
+        justify-content: center;
+        display: flex;
+    }
     #heading_div {
        display: flex;
        justify-content: center;
