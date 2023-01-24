@@ -406,7 +406,7 @@
 
     /* Bas de page */
     #footer_grid {
-        background-color: #2c2a2b;
+        background-color: #f9d3b9;
         background-size: 100vw;
         width: 100vw;
         margin: 0 0 0 0;
@@ -453,7 +453,7 @@
 
     .grid_footer_item li a {
 
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
 
         border-top: none;
         width: 1000px;
@@ -929,7 +929,7 @@
 
     /* Bas de page */
     #footer_grid {
-        background-color: #2c2a2b;
+        background-color: #f9d3b9;
         background-size: 100vw;
         width: 100vw;
         margin: 0 0 0 0;
@@ -976,7 +976,7 @@
 
     .grid_footer_item li a {
 
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
 
         border-top: none;
         width: 1000px;
@@ -991,7 +991,7 @@
 
     .grid_footer_item a {
 
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         text-decoration: none;
         border-top: none;
         width: 1000px;

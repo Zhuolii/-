@@ -1,0 +1,230 @@
+@media only screen and (min-width: 2000px) {
+    .cols_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cols {
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .galerie_img {
+
+        max-width: 76%;
+        height: 44em;
+        filter: saturate(1.3) contrast(1.1);
+    }
+
+    #page_title {
+        margin: 6em 0 2em 0;
+        font-size: 2.5em;
+        text-align: center;
+        LETTER-SPACING: 2px;
+        padding: 1em;
+        border-bottom: solid black 2px;
+        border-top: solid black 2px;
+        width: auto;
+        font-weight: normal;
+    }
+
+    #header_div {
+        justify-content: center;
+        display: flex;
+    }
+
+    #img_logo {
+
+        margin-left: -0.2vw;
+        margin-top: -0.5vw;
+        border-radius: 2vw;
+        width: 4vw;
+        height: 4vw;
+        float: left;
+    }
+
+
+
+
+
+    #img_div {
+        position: relative;
+        top: 100px;
+    }
+
+    #img_hebergement_background {
+
+
+        width: 100vw;
+        height: 37vw;
+        background-image: url(./image\ video/chateau1.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vw;
+        color: white;
+        letter-spacing: 0.5vw;
+
+    }
+
+
+    #img_h1 {
+        text-align: center;
+        justify-content: center;
+        font-size: 3wv;
+    }
+
+    .siteWeb h2 {
+        text-align: center;
+        text-decoration: underline black 2px;
+        text-underline-offset: 10px;
+        letter-spacing: 2px;
+        line-height: 3vw;
+        font-size: 2.5vw;
+    }
+
+    .siteWeb h3 {
+
+        text-decoration: underline black 2px;
+        text-underline-offset: 10px;
+        letter-spacing: 1px;
+        font-size: 2.2vw;
+    }
+
+    .siteWeb p {
+        font-size: 2vw;
+        letter-spacing: 1px;
+        line-height: 2.4em;
+    }
+
+    .siteWeb li {
+   
+    }
+
+    #texte {
+
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 15%;
+    }
+
+
+}
+
+@media (min-device-width: 1024px) and (max-device-width: 1999px) {
+    .cols_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cols {
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .galerie_img {
+        max-width: 81%;
+        height: 26em;
+        filter: saturate(1.3) contrast(1.1);
+    }
+
+    #page_title {
+        margin: 6em 0 2em 0;
+        font-size: 1.5em;
+        text-align: center;
+        LETTER-SPACING: 2px;
+        padding: 1em;
+        border-bottom: solid black 2px;
+        border-top: solid black 2px;
+        width: auto;
+        font-weight: normal;
+    }
+
+    #header_div {
+        justify-content: center;
+        display: flex;
+    }
+
+    #img_logo {
+
+        margin-left: -0.2vw;
+        margin-top: -0.5vw;
+        border-radius: 2vw;
+        width: 4vw;
+        height: 4vw;
+        float: left;
+    }
+
+
+
+
+
+    #img_div {
+        position: relative;
+        top: 100px;
+    }
+
+    #img_hebergement_background {
+
+
+        width: 100vw;
+        height: 37vw;
+        background-image: url(./image\ video/chateau1.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vw;
+        color: white;
+        letter-spacing: 0.5vw;
+
+    }
+
+
+    #img_h1 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .siteWeb h2 {
+        text-align: center;
+        text-decoration: underline black 2px;
+        text-underline-offset: 10px;
+        letter-spacing: 2px;
+        line-height: 50px;
+    }
+
+    .siteWeb h3 {
+
+        text-decoration: underline black 2px;
+        text-underline-offset: 10px;
+        letter-spacing: 1px;
+    }
+
+    .siteWeb p {
+        font-size: 1.3em;
+        letter-spacing: 1px;
+        line-height: 2.4em;
+    }
+
+    .siteWeb li {
+        font-size: 1.3em;
+        letter-spacing: 1px;
+        line-height: 2.4em;
+    }
+
+    #texte {
+
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 15%;
+    }
+
+
+
+
+
+}
