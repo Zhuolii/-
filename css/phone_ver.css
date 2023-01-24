@@ -537,7 +537,7 @@
     }
 
     .grid_footer_item a {
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         text-decoration: none;
         border-top: none;
         width: 1000px;
@@ -555,7 +555,7 @@
         margin: 40px 40px 40px 70px;
         font-family: "Prata", Helvetica, Arial, Verdana, sans-serif;
         letter-spacing: 2px;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         font-size: 60px;
 
     }
