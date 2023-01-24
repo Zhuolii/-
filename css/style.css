@@ -11,6 +11,34 @@
     .siteMobile {
         display: none;
     }
+    #page_title{
+        font-family: courgette;
+            margin: 5em 0 1em 0;
+            font-size: 3em;
+            text-align: center;
+            LETTER-SPACING: 2px;
+            padding: 1em;
+            border-bottom: solid black 2px;
+            border-top: solid black 2px;
+            width: auto;
+            font-weight: normal;
+    }
+    #page_title2{
+        font-family: courgette;
+        margin: 2em 0 -2em 0;
+            font-size: 3em;
+            text-align: center;
+            LETTER-SPACING: 2px;
+            padding: 1em;
+            border-bottom: solid black 2px;
+            border-top: solid black 2px;
+            width: auto;
+            font-weight: normal;
+    }
+    #header_div {
+        justify-content: center;
+        display: flex;
+    }
     #telephone_nav{
         display: none;
     }
@@ -350,17 +378,13 @@
 
     /*image position properties*/
     .imglogo {
-        float: left;
         position: absolute;
         top: 1vw;
         left: 1vw;
-
-
         margin-left: -0.2vw;
         margin-top: -1vw;
-
-        width: 6em;
-        height: 5.5em;
+        width: 9em;
+        height: 9em;
         float: left;
     }
 
@@ -468,7 +492,7 @@
 
     .grid_footer_item a {
 
-        color: rgb(255, 255, 255);
+        color: rgb(0 0 0);
         text-decoration: none;
         border-top: none;
         width: 1000px;
@@ -527,6 +551,34 @@
         overflow-x: hidden;
         font-family: 'Times New Roman', Times, serif;
 
+    }
+    #page_title{
+        font-family: courgette;
+            margin: 5em 0 1em 0;
+            font-size: 1.5em;
+            text-align: center;
+            LETTER-SPACING: 2px;
+            padding: 1em;
+            border-bottom: solid black 2px;
+            border-top: solid black 2px;
+            width: auto;
+            font-weight: normal;
+    }
+    #page_title2{
+        font-family: courgette;
+            margin: 5em 0 -4em 0;
+            font-size: 1.5em;
+            text-align: center;
+            LETTER-SPACING: 2px;
+            padding: 1em;
+            border-bottom: solid black 2px;
+            border-top: solid black 2px;
+            width: auto;
+            font-weight: normal;
+    }
+    #header_div {
+        justify-content: center;
+        display: flex;
     }
 
     .siteMobile {

@@ -39,9 +39,10 @@
         justify-content: center;
         font-size: 3wv;
     }
+  
     .siteWeb h2{
         font-family: courgette;
-        margin: 6em 0 2em 0;
+    
         font-size: 2.5em;
         text-align: center;
         LETTER-SPACING: 2px;
@@ -123,12 +124,21 @@
     text-align: center;
     justify-content: center;
 }
-.siteWeb h2{
-    text-align:center;
-    text-decoration:underline black 2px;
-    text-underline-offset: 10px;
-    letter-spacing: 2px;
-    line-height: 50px;
+#page_title{
+    font-family: courgette;
+        margin: 4em 0 2em 0;
+        font-size: 2em;
+        text-align: center;
+        LETTER-SPACING: 2px;
+        padding: 1em;
+        border-bottom: solid black 2px;
+        border-top: solid black 2px;
+        width: auto;
+        font-weight: normal;
+}
+#header_div {
+    justify-content: center;
+    display: flex;
 }
 .siteWeb h3{
     

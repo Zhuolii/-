@@ -223,6 +223,7 @@
     }
     
     .grid--item h2{
+        font-family: courgette;
         text-align: center;
         letter-spacing: 2px;
         font-weight: 100;
@@ -588,6 +589,7 @@ article1 div img{
     text-align: center;
     letter-spacing: 2px;
     font-weight: 100;
+    font-family: courgette;
 }
 .grid--item p{
     margin:0 1vw 0 3vw;
