@@ -223,7 +223,7 @@
     }
     
     .grid--item h2{
-        font-family: courgette;
+        font-family:  courgette,Arial, Helvetica,serif;
         text-align: center;
         letter-spacing: 2px;
         font-weight: 100;

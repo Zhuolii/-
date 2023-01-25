@@ -12,7 +12,7 @@
         display: none;
     }
     #page_title{
-        font-family: courgette;
+        font-family:  courgette,Arial, Helvetica,serif;
             margin: 5em 0 1em 0;
             font-size: 3em;
             text-align: center;
@@ -553,7 +553,7 @@
 
     }
     #page_title{
-        font-family: courgette;
+        font-family: courgette,Arial, Helvetica,serif;
             margin: 5em 0 1em 0;
             font-size: 1.5em;
             text-align: center;
@@ -565,7 +565,7 @@
             font-weight: normal;
     }
     #page_title2{
-        font-family: courgette;
+        font-family:  courgette,Arial, Helvetica,serif;
             margin: 5em 0 -4em 0;
             font-size: 1.5em;
             text-align: center;

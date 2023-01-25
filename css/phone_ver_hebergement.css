@@ -110,7 +110,7 @@
      }
      
      .grid--item h2{
-        font-family: courgette;
+        font-family:  courgette,Arial, Helvetica,serif;
          text-align: center;
          font-size: 4em;
          letter-spacing: 6px;
