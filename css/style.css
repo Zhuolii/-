@@ -11,6 +11,26 @@
     .siteMobile {
         display: none;
     }
+    #lienMille {
+        width: 15em;
+        height: 15em;
+      
+    }
+    #align_center{
+        text-align: center;
+    }
+    #recommandation {
+        padding-bottom: 2vw;
+        border-bottom: solid rgb(248, 158, 56) 2px;
+        font-size: 1.5vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background: -webkit-linear-gradient(rgb(248, 158, 56), rgb(255, 189, 6));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
     #page_title{
         font-family:  courgette,Arial, Helvetica,serif;
             margin: 5em 0 1em 0;
@@ -551,6 +571,26 @@
         overflow-x: hidden;
         font-family: 'Times New Roman', Times, serif;
 
+    }
+    #lienMille {
+        width: 10em;
+        height: 10em;
+      
+    }
+    #align_center{
+        text-align: center;
+    }
+    #recommandation {
+        padding-bottom: 2vw;
+        border-bottom: solid rgb(248, 158, 56) 2px;
+        font-size: 1.5vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background: -webkit-linear-gradient(rgb(248, 158, 56), rgb(255, 189, 6));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
     }
     #page_title{
         font-family: courgette,Arial, Helvetica,serif;
