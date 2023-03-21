@@ -304,8 +304,8 @@
     }
 
     .service_img {
-        max-width: 11em;
-        height: 11em;
+        max-width: 13em;
+        height: 13em;
         border-radius: 50%;
         margin-top: 1em;
 
@@ -427,7 +427,7 @@
 
 #img_container {
     text-align: center;
-    margin-top: 9vw;
+    margin-top: 13vw;
 }
 }
 @media (min-width: 2000px) {
@@ -482,16 +482,10 @@
 @media only screen and (min-device-width: 1525px) and (max-device-width: 1724px) {
     #img_container {
         text-align: center;
-        margin-top: 12vw;
-    }
-}
-@media only screen and (min-device-width: 1724px) and (max-device-width: 1874px) {
-    #img_container {
-        text-align: center;
         margin-top: 15vw;
     }
 }
-@media only screen and (min-device-width: 1874px) and (max-device-width: 2000px) {
+@media only screen and (min-device-width: 1724px) and (max-device-width: 1874px) {
     #img_container {
         text-align: center;
         margin-top: 18vw;
@@ -500,18 +494,24 @@
 @media only screen and (min-device-width: 1874px) and (max-device-width: 2000px) {
     #img_container {
         text-align: center;
-        margin-top: 21vw;
+        margin-top: 20vw;
     }
 }
-@media only screen and (min-device-width: 2000px) and (max-device-width: 2200px) {
+@media only screen and (min-device-width: 1874px) and (max-device-width: 2000px) {
     #img_container {
         text-align: center;
         margin-top: 24vw;
     }
 }
+@media only screen and (min-device-width: 2000px) and (max-device-width: 2200px) {
+    #img_container {
+        text-align: center;
+        margin-top: 26vw;
+    }
+}
 @media only screen and (min-device-width: 2200px) and (max-device-width: 2560px) {
     #img_container {
         text-align: center;
-        margin-top: 27vw;
+        margin-top: 30vw;
     }
 }
