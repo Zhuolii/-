@@ -141,7 +141,7 @@
         overflow-wrap: break-word;
         text-align: justify;
         margin: 5% 10% 0% 10%;
-        text-transform: uppercase;
+   
         color: black;
         background: none;
 
@@ -366,6 +366,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+     
     }
 
     .service_img:hover {
@@ -389,7 +390,7 @@
     #form {
 
         padding: 2em;
-        margin: 1em;
+   
         font-size: 2.5em;
         background-color: #E6B596;
         color: white;
@@ -446,6 +447,9 @@
         text-decoration: none;
         color: black;
         letter-spacing: 2px;
+        font-family: "Prata", Helvetica, Arial, Verdana, sans-serif;
+
+
     }
 
 }

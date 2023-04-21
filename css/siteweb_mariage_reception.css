@@ -1,5 +1,30 @@
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1999px) {
-
+    #video {
+        width:50em ;
+        height:29em;
+    }
+#video_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2em 6em ;
+    grid-gap: 3em;
+}
+#video_item_1{
+  text-align: center;
+}
+#video_item_2{
+    text-align: left;
+    width:fit-content;
+    height: fit-content;
+  padding: 10% 5%;
+  margin-top: 10%;
+  margin-left: 5%;
+  
+  }
+  h4{
+    font-family: "Prata", Helvetica, Arial, Verdana, sans-serif;
+    letter-spacing: 0.15em;
+  }
     #image_container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -167,32 +192,59 @@
       
         margin: 5% 10% 0% 10%;
         text-transform: uppercase;
+      
+    
+   
+    text-align: center;
+ 
+  
+    width: auto;
+    font-weight: normal;
 
 
     }
 #button_pdf {
     margin: 2em 0;
-    background-color: white;
+    
     border: none;
-    color: black;
-    padding: 1em;
 
+    padding: 1em;
     justify-content: center;
     align-items: center;
+    background: repeat padding-box border-box 0 0/auto auto scroll linear-gradient(145deg,rgb(248, 158, 56),hsla(71,48%,89%,0)),#f9d3b9;
+  border-radius: 50px;
 }
 #button_pdf p {
     margin: 0 !important;
-    color: black !important;
+    color: brown !important;
 }
 #button_pdf p a{
-    color: black !important;
-    text-decoration: underline solid black 2px;
-    text-underline-offset: 10px;
+    color: brown !important;
+    text-decoration: none;
+  
+}
+#button_pdf p a:hover{
+    color: rgb(248, 4, 4) !important;
+  
+    transition: linear 0.3s;
+}
+#button_pdf p a:not(:hover){
+    color: brown !important;
+ 
+    transition: linear 0.3s;
 }
 #icone_pdf {
     width: 2em;
     height: 2em;
 }
+#icone_pdf:hover {
+  filter: brightness(1.5);
+  transition: linear 0.3s;
+}
+#icone_pdf:not(:hover) {
+    filter: brightness(1);
+    transition: linear 0.3s;
+  }
     
 
     
@@ -347,7 +399,7 @@
     #form {
 
         padding: 2em;
-        margin: 1em;
+        margin: 6em;
         font-size: 1.2em;
         background-color: #E6B596;
         color: white;
@@ -523,6 +575,47 @@
 
 }
 @media only screen and (min-device-width: 2000px) and (max-device-width: 2560px) {
+    label {
+        font-size: 2em;
+    }
+    #button_pdf {
+        margin: 2em 0;
+        
+        border: none;
+    
+        padding: 1em;
+        justify-content: center;
+        align-items: center;
+        background: repeat padding-box border-box 0 0/auto auto scroll linear-gradient(145deg,rgb(248, 158, 56),hsla(71,48%,89%,0)),#f9d3b9;
+      border-radius: 50px;
+    }
+    #video {
+        width: 87em;
+        height: 49em;
+    }
+#video_container {
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    padding: 2em 6em ;
+    grid-gap: 3em;
+}
+#video_item_1{
+  text-align: center;
+}
+#video_item_2{
+    text-align: left;
+    width:fit-content;
+    height: fit-content;
+  padding: 10% 5%;
+  margin-top: 10%;
+  margin-left: 5%;
+  
+  }
+  h4{
+    font-family: "Prata", Helvetica, Arial, Verdana, sans-serif;
+    letter-spacing: 0.15em;
+    font-size: 2em;
+  }
 
     #image_container {
         display: grid;
@@ -554,7 +647,7 @@
         display: flex;
         align-items: center;
         justify-content: left;
-        font-size: 1.8em !important;
+        font-size: 2em !important;
         font-style: italic !important;
         font-family: Verdana serif !important;
     }
@@ -562,7 +655,7 @@
     .siteWeb p {
         letter-spacing: 1.2px;
         line-height: 1.7em;
-        font-size: 2em;
+        font-size: 2.5em;
         font-style: normal;
 
         margin: 0 10% 5% 2%;
@@ -712,6 +805,16 @@
     color: black !important;
     text-decoration: underline solid black 2px;
     text-underline-offset: 10px;
+}
+#button_pdf p a:not(:hover) {
+    color: brown !important;
+    transition: linear 0.3s;
+    text-decoration: none;
+}
+#button_pdf p a:hover {
+    color: rgb(248, 4, 4) !important;
+    transition: linear 0.3s;
+    text-decoration: none;
 }
 #icone_pdf {
     width: 2em;
@@ -870,8 +973,8 @@
     #form {
 
         padding: 2em;
-        margin: 1em;
-        font-size: 1.2em;
+        margin: 6em;
+        font-size: 1.5em;
         background-color: #E6B596;
         color: white;
     }
@@ -944,7 +1047,7 @@
     }
     .atouts_p {
         margin: 1em 0 0 0 !important;
-        font-size: 1.5em !important;
+        font-size: 2em !important;
         padding: 0 2em;
         color: gray;
     }
@@ -1002,7 +1105,7 @@
     }
     .developpe_sub_title {
         margin: 0 0 0 1em;
-        font-size: 2em !important;
+        font-size: 2.5em !important;
         font-weight: normal;
         letter-spacing: 1.2px;
         font-style: italic;
@@ -1011,7 +1114,7 @@
     .developpe_text {
         margin: 0 !important;
         padding: 1em;
-        font-size: 1.5em !important;
+        font-size: 2em !important;
     }
     .developpe_text_2 {
         margin: 0 0 0 3em !important;

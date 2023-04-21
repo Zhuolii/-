@@ -1,3 +1,8 @@
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1999px) {
+
+}
+@media only screen and (min-width: 2000px) {
+}
 @media only screen and (min-device-width: 1024px) and (max-device-width: 2560px) {
     .slide1_1 {
         position: absolute;
@@ -150,7 +155,7 @@
         overflow-wrap: break-word;
         text-align: justify;
         margin: 5% 10% 0% 10%;
-        text-transform: uppercase;
+        text-transform: capitalize;
 
 
     }
@@ -246,7 +251,7 @@
 
     .slidercontainer {
         margin-top: -9em;
-        margin-bottom: 48em;
+        margin-bottom: 28em;
     }
 
 
@@ -254,14 +259,15 @@
 
 
     #map {
-        width: 90%;
+        width: 100%;
         margin-left: 5%;
-        height: 32em;
+        height: 20em;
 
     }
 
     .h2 {
         letter-spacing: 3px;
+        font-weight: normal;
     }
 
 
@@ -317,6 +323,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: "Prata", Helvetica, Arial, Verdana, sans-serif;
+    letter-spacing: 0.15em;
+
     }
 
     .service_img:hover {
@@ -341,7 +350,7 @@
 
         padding: 2em;
         margin: 1em;
-        font-size: 1.5em;
+        font-size: 1em;
         background-color: #E6B596;
         color: white;
     }
@@ -386,7 +395,7 @@
     }
 
     .devis_titre {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     #titre_video {
@@ -450,12 +459,15 @@
 
     }
     h3 {
-        font-size: 3em;
+        font-size: 2em;
         word-spacing: normal;
         overflow-wrap: break-word;
         text-align: justify;
         margin: 5% 10% 5% 10%;
         text-transform: uppercase;
+        font-family: "Prata", Helvetica, Arial, Verdana, sans-serif;
+    letter-spacing: 0.15em;
+    
 
 
     }

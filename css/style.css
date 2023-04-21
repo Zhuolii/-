@@ -1,4 +1,13 @@
 @media only screen and (min-width: 2000px) {
+   
+    #div_background {
+    
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+   
+        
+    }
     body {
         margin: 0;
 
@@ -154,82 +163,7 @@
 
 
     /*Navigation bar properties*/
-    /*hover effect navbar*/
-    #acceuil::after {
-        content: "";
-        display: inline-block;
-
-        width: 0;
-        height: 0px;
-        background: white;
-        transform: scale(0%);
-        transition: transform 0.2s ease-in-out;
-    }
-
-    #acceuil:hover::after {
-        transform: scale(1)
-    }
-
-    #mariage::after {
-        content: "";
-        display: inline-block;
-
-        width: 0;
-        height: 0;
-        background: white;
-        transform: scale(0%);
-        transition: transform 0.2s ease-in-out;
-    }
-
-    #mariage:hover::after {
-        transform: scale(1)
-    }
-
-    #events::after {
-        content: "";
-        display: inline-block;
-
-        width: 0;
-        height: 0;
-        background: white;
-        transform: scale(0%);
-        transition: transform 0.2s ease-in-out;
-    }
-
-    #events:hover::after {
-        transform: scale(1)
-    }
-
-
-    #seminaires::after {
-        content: "";
-        display: inline-block;
-
-        width: 0;
-        height: 0;
-        background: white;
-        transform: scale(0%);
-        transition: transform 0.2s ease-in-out;
-    }
-
-    #seminaires:hover::after {
-        transform: scale(1)
-    }
-
-    #hebergements::after {
-        content: "";
-        display: inline-block;
-
-        width: 0;
-        height: 0;
-        background: white;
-        transform: scale(0%);
-        transition: transform 0.2s ease-in-out;
-    }
-
-    #hebergements:hover::after {
-        transform: scale(1)
-    }
+   
 
     /*hover effect navbar*/
     button.buttonNavbar {
@@ -340,8 +274,8 @@
     }
 
     .nav_background .current {
-        text-decoration: solid black underline 3px;
-        text-underline-offset: 4px;
+      
+        color: rgb(224 156 79);
 
     }
 
@@ -351,7 +285,7 @@
         padding: 0;
 
         box-sizing: border-box;
-        display: inline-block;
+        
         display: table-row;
         align-items: center;
         color: black;
@@ -366,16 +300,22 @@
         letter-spacing: 2px;
         font-size: xx-large;
 
-        text-decoration: underline rgba(5, 5, 5, 0);
-        text-underline-offset: 5px;
-        transition: all 0.4s ease-out;
-
     }
 
 
     div ul li a:hover {
-        text-decoration: underline black 3px;
+        color: rgb(224 156 79);
         transition: all 0.5s ease-out;
+text-decoration: underline rgb(224 156 79);
+text-underline-offset: 5px;
+transition: all 0.3s ease-out;
+
+    }
+    div ul li a:not(:hover) {
+        color: black;
+        transition: linear 0.3s;
+text-decoration: none;
+text-underline-offset: 5px;
 
 
     }
@@ -564,6 +504,15 @@
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1999px) {
+
+    #div_background {
+       
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+       
+        
+    }
     body {
         margin: 0;
 
@@ -906,8 +855,8 @@
     }
 
     .nav_background .current {
-        text-decoration: solid black underline 3px;
-        text-underline-offset: 4px;
+      
+        color: rgb(224 156 79);
 
     }
 
@@ -917,7 +866,7 @@
         padding: 0;
 
         box-sizing: border-box;
-        display: inline-block;
+        
         display: table-row;
         align-items: center;
         color: black;
@@ -936,13 +885,14 @@
         text-decoration: underline rgba(5, 5, 5, 0);
         text-underline-offset: 5px;
         transition: all 0.4s ease-out;
-
+       
     }
 
 
     div ul li a:hover {
-        text-decoration: underline black 3px;
-        transition: all 0.5s ease-out;
+        text-decoration: underline rgb(224 156 79) 3px;
+        color: rgb(224 156 79);
+        transition: all 0.5s ease;
 
 
     }
