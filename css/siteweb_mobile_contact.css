@@ -127,9 +127,7 @@
         
        
     }
-    .grid--item img{
-      
-    }
+    
     .grid--item h2{
         text-align: center;
         text-transform: uppercase;
@@ -290,7 +288,7 @@
         background-color: rgb(255, 255, 255);
         overflow-x:hidden;
        
-        font-family: "Prata",Helvetica,Arial,Verdana,sans-serif;
+        font-family: 'Times New Roman', Times, serif;
         color: #000000;
         
     }
@@ -379,9 +377,7 @@
         
        
     }
-    .grid--item img{
-      
-    }
+    
     .grid--item h2{
         text-align: center;
         text-transform: uppercase;
@@ -461,11 +457,12 @@
         cursor: pointer;
     }
     .item1{
-        background-color: rgba(77, 1, 1, 0.815);
+        background-color: #E6B596;
         color: white;
+        letter-spacing: 2px;
     }
     .item2{
-        background-color: #f9d3b9;;
+        background-color: #E6B596;
         color: white;
     }
     
@@ -610,9 +607,7 @@ article1 div img{
     
    
 }
-.grid--item img{
-  
-}
+
 .grid--item h2{
     text-align: center;
     text-transform: uppercase;
@@ -766,10 +761,7 @@ input:hover,textarea:hover,input:focus,textarea:focus{
         color: white;
         text-align: center;
     }
-    .telephoner {
-       
-        
-    }
+    
     #phone {
         width: 5em;
         height: 5em;
@@ -901,9 +893,7 @@ input:hover,textarea:hover,input:focus,textarea:focus{
      width: 55px;
      height: 55px;
     }
-    .string_input {
-      
-    }
+    
    
     
     label1,input,textarea{
@@ -990,7 +980,7 @@ input:hover,textarea:hover,input:focus,textarea:focus{
         color: black;
     }
     .item2{
-        background-color: : #f9d3b9;;
+        background-color: #f9d3b9;;
         color: white;
     }
     /*Contact form CSS*/
