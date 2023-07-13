@@ -319,7 +319,7 @@
 
     .grid_image {
         max-width: 100%;
-        height: 26em;
+        height: 33em;
        
         filter: saturate(1.3) contrast(1.1);
     }

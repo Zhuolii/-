@@ -104,18 +104,18 @@
          document.getElementById("display1_1").style.display = "block";
          document.getElementById("display1_2").style.display = "none";
          document.getElementById("display1_3").style.display = "none";
-         document.getElementById("display1_4").style.display = "none";
+        /* document.getElementById("display1_4").style.display = "none";
          document.getElementById("display1_5").style.display = "none";
          document.getElementById("display1_6").style.display = "none";
-         document.getElementById("display1_7").style.display = "none";
+         document.getElementById("display1_7").style.display = "none";*/
      
          document.getElementById("small_img_1_1").style.opacity = 1;
          document.getElementById("small_img_1_2").style.opacity = 0.5;
          document.getElementById("small_img_1_3").style.opacity = 0.5;
-         document.getElementById("small_img_1_4").style.opacity = 0.5;
+         /* document.getElementById("small_img_1_4").style.opacity = 0.5;
          document.getElementById("small_img_1_5").style.opacity = 0.5;
          document.getElementById("small_img_1_6").style.opacity = 0.5;
-         document.getElementById("small_img_1_7").style.opacity = 0.5;
+         document.getElementById("small_img_1_7").style.opacity = 0.5;*/
          slide_index1 = 1;
      
      }
@@ -125,7 +125,7 @@
          document.getElementById("display1_1").style.display = "none";
          document.getElementById("display1_2").style.display = "block";
          document.getElementById("display1_3").style.display = "none";
-         document.getElementById("display1_4").style.display = "none";
+         /* document.getElementById("display1_4").style.display = "none";
          document.getElementById("display1_5").style.display = "none";
          document.getElementById("display1_6").style.display = "none";
          document.getElementById("display1_7").style.display = "none";
@@ -133,10 +133,10 @@
          document.getElementById("small_img_1_1").style.opacity = 0.5;
          document.getElementById("small_img_1_2").style.opacity = 1;
          document.getElementById("small_img_1_3").style.opacity = 0.5;
-         document.getElementById("small_img_1_4").style.opacity = 0.5;
+          /*document.getElementById("small_img_1_4").style.opacity = 0.5;
          document.getElementById("small_img_1_5").style.opacity = 0.5;
          document.getElementById("small_img_1_6").style.opacity = 0.5;
-         document.getElementById("small_img_1_7").style.opacity = 0.5;
+         document.getElementById("small_img_1_7").style.opacity = 0.5;*/
          slide_index1 = 2;
      }
      function displayself1_3(){
@@ -145,18 +145,18 @@
          document.getElementById("display1_1").style.display = "none";
          document.getElementById("display1_2").style.display = "none";
          document.getElementById("display1_3").style.display = "block";
-         document.getElementById("display1_4").style.display = "none";
+          /*document.getElementById("display1_4").style.display = "none";
          document.getElementById("display1_5").style.display = "none";
          document.getElementById("display1_6").style.display = "none";
-         document.getElementById("display1_7").style.display = "none";
+         document.getElementById("display1_7").style.display = "none";*/
      
          document.getElementById("small_img_1_1").style.opacity = 0.5;
          document.getElementById("small_img_1_2").style.opacity = 0.5;
          document.getElementById("small_img_1_3").style.opacity = 1;
-         document.getElementById("small_img_1_4").style.opacity = 0.5;
+          /*document.getElementById("small_img_1_4").style.opacity = 0.5;
          document.getElementById("small_img_1_5").style.opacity = 0.5;
          document.getElementById("small_img_1_6").style.opacity = 0.5;
-         document.getElementById("small_img_1_7").style.opacity = 0.5;
+         document.getElementById("small_img_1_7").style.opacity = 0.5;*/
          slide_index1 = 3;
      
      }
@@ -166,18 +166,18 @@
          document.getElementById("display1_1").style.display = "none";
          document.getElementById("display1_2").style.display = "none";
          document.getElementById("display1_3").style.display = "none";
-         document.getElementById("display1_4").style.display = "block";
+          /*document.getElementById("display1_4").style.display = "block";
          document.getElementById("display1_5").style.display = "none";
          document.getElementById("display1_6").style.display = "none";
-         document.getElementById("display1_7").style.display = "none";
+         document.getElementById("display1_7").style.display = "none";*/
      
          document.getElementById("small_img_1_1").style.opacity = 0.5;
          document.getElementById("small_img_1_2").style.opacity = 0.5;
          document.getElementById("small_img_1_3").style.opacity = 0.5;
-         document.getElementById("small_img_1_4").style.opacity = 1;
+         /* document.getElementById("small_img_1_4").style.opacity = 1;
          document.getElementById("small_img_1_5").style.opacity = 0.5;
          document.getElementById("small_img_1_6").style.opacity = 0.5;
-         document.getElementById("small_img_1_7").style.opacity = 0.5;
+         document.getElementById("small_img_1_7").style.opacity = 0.5;*/
          slide_index1 = 4;
      
      }
@@ -187,18 +187,18 @@
          document.getElementById("display1_1").style.display = "none";
          document.getElementById("display1_2").style.display = "none";
          document.getElementById("display1_3").style.display = "none";
-         document.getElementById("display1_4").style.display = "none";
+         /* document.getElementById("display1_4").style.display = "none";
          document.getElementById("display1_5").style.display = "block";
          document.getElementById("display1_6").style.display = "none";
-         document.getElementById("display1_7").style.display = "none";
+         document.getElementById("display1_7").style.display = "none";*/
      
          document.getElementById("small_img_1_1").style.opacity = 0.5;
          document.getElementById("small_img_1_2").style.opacity = 0.5;
          document.getElementById("small_img_1_3").style.opacity = 0.5;
-         document.getElementById("small_img_1_4").style.opacity = 0.5;
+         /* document.getElementById("small_img_1_4").style.opacity = 0.5;
          document.getElementById("small_img_1_5").style.opacity = 1;
          document.getElementById("small_img_1_6").style.opacity = 0.5;
-         document.getElementById("small_img_1_7").style.opacity = 0.5;
+         document.getElementById("small_img_1_7").style.opacity = 0.5;*/
          slide_index1 = 5;
      
      }
@@ -208,18 +208,18 @@
          document.getElementById("display1_1").style.display = "none";
          document.getElementById("display1_2").style.display = "none";
          document.getElementById("display1_3").style.display = "none";
-         document.getElementById("display1_4").style.display = "none";
+         /* document.getElementById("display1_4").style.display = "none";
          document.getElementById("display1_5").style.display = "none";
          document.getElementById("display1_6").style.display = "block";
-         document.getElementById("display1_7").style.display = "none";
+         document.getElementById("display1_7").style.display = "none";*/
      
          document.getElementById("small_img_1_1").style.opacity = 0.5;
          document.getElementById("small_img_1_2").style.opacity = 0.5;
          document.getElementById("small_img_1_3").style.opacity = 0.5;
-         document.getElementById("small_img_1_4").style.opacity = 0.5;
+         /* document.getElementById("small_img_1_4").style.opacity = 0.5;
          document.getElementById("small_img_1_5").style.opacity = 0.5;
          document.getElementById("small_img_1_6").style.opacity = 1;
-         document.getElementById("small_img_1_7").style.opacity = 0.5;
+         document.getElementById("small_img_1_7").style.opacity = 0.5;*/
          slide_index1 = 6;
      
      }
@@ -229,18 +229,18 @@
         document.getElementById("display1_1").style.display = "none";
         document.getElementById("display1_2").style.display = "none";
         document.getElementById("display1_3").style.display = "none";
-        document.getElementById("display1_4").style.display = "none";
+         /*document.getElementById("display1_4").style.display = "none";
         document.getElementById("display1_5").style.display = "none";
         document.getElementById("display1_6").style.display = "none";
-        document.getElementById("display1_7").style.display = "block";
+        document.getElementById("display1_7").style.display = "block";*/
     
         document.getElementById("small_img_1_1").style.opacity = 0.5;
         document.getElementById("small_img_1_2").style.opacity = 0.5;
         document.getElementById("small_img_1_3").style.opacity = 0.5;
-        document.getElementById("small_img_1_4").style.opacity = 0.5;
+         /*document.getElementById("small_img_1_4").style.opacity = 0.5;
         document.getElementById("small_img_1_5").style.opacity = 0.5;
         document.getElementById("small_img_1_6").style.opacity = 0.5;
-        document.getElementById("small_img_1_7").style.opacity = 1;
+        document.getElementById("small_img_1_7").style.opacity = 1;*/
         slide_index1 = 7;
     
     }
@@ -309,18 +309,18 @@
          document.getElementById("display5_1").style.display = "block";
          document.getElementById("display5_2").style.display = "none";
          document.getElementById("display5_3").style.display = "none";
-         document.getElementById("display5_4").style.display = "none";
+          /*document.getElementById("display5_4").style.display = "none";
          document.getElementById("display5_5").style.display = "none";
          document.getElementById("display5_6").style.display = "none";
-         document.getElementById("display5_7").style.display = "none";
+         document.getElementById("display5_7").style.display = "none";*/
      
          document.getElementById("small_img_5_1").style.opacity = 1;
          document.getElementById("small_img_5_2").style.opacity = 0.5;
          document.getElementById("small_img_5_3").style.opacity = 0.5;
-         document.getElementById("small_img_5_4").style.opacity = 0.5;
+         /* document.getElementById("small_img_5_4").style.opacity = 0.5;
          document.getElementById("small_img_5_5").style.opacity = 0.5;
          document.getElementById("small_img_5_6").style.opacity = 0.5;
-         document.getElementById("small_img_5_7").style.opacity = 0.5;
+         document.getElementById("small_img_5_7").style.opacity = 0.5;*/
          slide_index5 = 1;
      
      }
@@ -330,18 +330,18 @@
          document.getElementById("display5_1").style.display = "none";
          document.getElementById("display5_2").style.display = "block";
          document.getElementById("display5_3").style.display = "none";
-         document.getElementById("display5_4").style.display = "none";
+          /*document.getElementById("display5_4").style.display = "none";
          document.getElementById("display5_5").style.display = "none";
          document.getElementById("display5_6").style.display = "none";
-         document.getElementById("display5_7").style.display = "none";
+         document.getElementById("display5_7").style.display = "none";*/
      
          document.getElementById("small_img_5_1").style.opacity = 0.5;
          document.getElementById("small_img_5_2").style.opacity = 1;
          document.getElementById("small_img_5_3").style.opacity = 0.5;
-         document.getElementById("small_img_5_4").style.opacity = 0.5;
+          /*document.getElementById("small_img_5_4").style.opacity = 0.5;
          document.getElementById("small_img_5_5").style.opacity = 0.5;
          document.getElementById("small_img_5_6").style.opacity = 0.5;
-         document.getElementById("small_img_5_7").style.opacity = 0.5;
+         document.getElementById("small_img_5_7").style.opacity = 0.5;*/
          slide_index5 = 2;
      }
      function displayself5_3(){
@@ -350,18 +350,18 @@
          document.getElementById("display5_1").style.display = "none";
          document.getElementById("display5_2").style.display = "none";
          document.getElementById("display5_3").style.display = "block";
-         document.getElementById("display5_4").style.display = "none";
+          /*document.getElementById("display5_4").style.display = "none";
          document.getElementById("display5_5").style.display = "none";
          document.getElementById("display5_6").style.display = "none";
-         document.getElementById("display5_7").style.display = "none";
+         document.getElementById("display5_7").style.display = "none";*/
      
          document.getElementById("small_img_5_1").style.opacity = 0.5;
          document.getElementById("small_img_5_2").style.opacity = 0.5;
          document.getElementById("small_img_5_3").style.opacity = 1;
-         document.getElementById("small_img_5_4").style.opacity = 0.5;
+         /* document.getElementById("small_img_5_4").style.opacity = 0.5;
          document.getElementById("small_img_5_5").style.opacity = 0.5;
          document.getElementById("small_img_5_6").style.opacity = 0.5;
-         document.getElementById("small_img_5_7").style.opacity = 0.5;
+         document.getElementById("small_img_5_7").style.opacity = 0.5;*/
          slide_index5 = 3;
      
      }
@@ -371,18 +371,18 @@
          document.getElementById("display5_1").style.display = "none";
          document.getElementById("display5_2").style.display = "none";
          document.getElementById("display5_3").style.display = "none";
-         document.getElementById("display5_4").style.display = "block";
+          /*document.getElementById("display5_4").style.display = "block";
          document.getElementById("display5_5").style.display = "none";
          document.getElementById("display5_6").style.display = "none";
-         document.getElementById("display5_7").style.display = "none";
+         document.getElementById("display5_7").style.display = "none";*/
      
          document.getElementById("small_img_5_1").style.opacity = 0.5;
          document.getElementById("small_img_5_2").style.opacity = 0.5;
          document.getElementById("small_img_5_3").style.opacity = 0.5;
-         document.getElementById("small_img_5_4").style.opacity = 1;
+         /* document.getElementById("small_img_5_4").style.opacity = 1;
          document.getElementById("small_img_5_5").style.opacity = 0.5;
          document.getElementById("small_img_5_6").style.opacity = 0.5;
-         document.getElementById("small_img_5_7").style.opacity = 0.5;
+         document.getElementById("small_img_5_7").style.opacity = 0.5;*/
          slide_index5 = 4;
      
      }
@@ -392,18 +392,18 @@
          document.getElementById("display5_1").style.display = "none";
          document.getElementById("display5_2").style.display = "none";
          document.getElementById("display5_3").style.display = "none";
-         document.getElementById("display5_4").style.display = "none";
+         /* document.getElementById("display5_4").style.display = "none";
          document.getElementById("display5_5").style.display = "block";
          document.getElementById("display5_6").style.display = "none";
-         document.getElementById("display5_7").style.display = "none";
+         document.getElementById("display5_7").style.display = "none";*/
      
          document.getElementById("small_img_5_1").style.opacity = 0.5;
          document.getElementById("small_img_5_2").style.opacity = 0.5;
          document.getElementById("small_img_5_3").style.opacity = 0.5;
-         document.getElementById("small_img_5_4").style.opacity = 0.5;
+         /* document.getElementById("small_img_5_4").style.opacity = 0.5;
          document.getElementById("small_img_5_5").style.opacity = 1;
          document.getElementById("small_img_5_6").style.opacity = 0.5;
-         document.getElementById("small_img_5_7").style.opacity = 0.5;
+         document.getElementById("small_img_5_7").style.opacity = 0.5;*/
          slide_index5 = 5;
      
      }
@@ -413,18 +413,18 @@
          document.getElementById("display5_1").style.display = "none";
          document.getElementById("display5_2").style.display = "none";
          document.getElementById("display5_3").style.display = "none";
-         document.getElementById("display5_4").style.display = "none";
+         /* document.getElementById("display5_4").style.display = "none";
          document.getElementById("display5_5").style.display = "none";
          document.getElementById("display5_6").style.display = "block";
-         document.getElementById("display5_7").style.display = "none";
+         document.getElementById("display5_7").style.display = "none";*/
      
          document.getElementById("small_img_5_1").style.opacity = 0.5;
          document.getElementById("small_img_5_2").style.opacity = 0.5;
          document.getElementById("small_img_5_3").style.opacity = 0.5;
-         document.getElementById("small_img_5_4").style.opacity = 0.5;
+         /* document.getElementById("small_img_5_4").style.opacity = 0.5;
          document.getElementById("small_img_5_5").style.opacity = 0.5;
          document.getElementById("small_img_5_6").style.opacity = 1;
-         document.getElementById("small_img_5_7").style.opacity = 0.5;
+         document.getElementById("small_img_5_7").style.opacity = 0.5;*/
          slide_index5 = 6;
      
      }
@@ -434,18 +434,18 @@
         document.getElementById("display5_1").style.display = "none";
         document.getElementById("display5_2").style.display = "none";
         document.getElementById("display5_3").style.display = "none";
-        document.getElementById("display5_4").style.display = "none";
+        /* document.getElementById("display5_4").style.display = "none";
         document.getElementById("display5_5").style.display = "none";
         document.getElementById("display5_6").style.display = "none";
-        document.getElementById("display5_7").style.display = "block";
+        document.getElementById("display5_7").style.display = "block";*/
     
         document.getElementById("small_img_5_1").style.opacity = 0.5;
         document.getElementById("small_img_5_2").style.opacity = 0.5;
         document.getElementById("small_img_5_3").style.opacity = 0.5;
-        document.getElementById("small_img_5_4").style.opacity = 0.5;
+        /*document.getElementById("small_img_5_4").style.opacity = 0.5;
         document.getElementById("small_img_5_5").style.opacity = 0.5;
         document.getElementById("small_img_5_6").style.opacity =0.5;
-        document.getElementById("small_img_5_7").style.opacity = 1;
+        document.getElementById("small_img_5_7").style.opacity = 1;*/
         slide_index5 = 7;
     
     }

@@ -51,19 +51,19 @@
  #diapo1_1 {
      background-image:
  
-     url('olympe/img_1.jpg');
+     url('olympe/Olympe\ 1.jpg');
      width: 82em;
      height: 61em;
      background-size: cover;
      
      z-index: -1000;
-     filter: brightness(1.3);
+   
      
  }
  #diapo1_2 {
      background-image:
   
-     url('olympe/img_2.jpg');
+     url('olympe/Olympe-2.jpg');
      width: 82em;
      height: 61em;
      z-index: -1000;
@@ -75,7 +75,7 @@
  #diapo1_3 {
      background-image:
    
-     url('olympe/img_3.jpg');
+     url('olympe/Olympe-salle-de-bain.jpg');
      width: 82em;
     height: 61em;
      
@@ -85,7 +85,7 @@
      
      
  }
- #diapo1_4 {
+ /*#diapo1_4 {
      background-image:
  
      url('olympe/img_4.jpg');
@@ -132,7 +132,7 @@
      background-size: cover;
      
      
- } 
+ } */
  /*diapo 1*/
 }
 @media (max-width: 1023px)  /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */
@@ -203,15 +203,15 @@ body {
   #diapo5_1 {
       background-image:
   
-      url('olympe/img_1.jpg');
+      url('olympe/Olympe\ 1.jpg');
       
-      filter: brightness(1.3);
+
       
   }
   #diapo5_2 {
       background-image:
    
-      url('olympe/img_2.jpg');
+      url('olympe/Olympe-2.jpg');
      
       
       
@@ -219,12 +219,12 @@ body {
   #diapo5_3 {
       background-image:
     
-      url('olympe/img_3.jpg');
+      url('olympe/Olympe-salle-de-bain.jpg');
      
       
       
   }
-  #diapo5_4 {
+ /* #diapo5_4 {
       background-image:
  
       url('olympe/img_4.jpg');
@@ -255,7 +255,7 @@ body {
    
     
     
-} 
+} */
   /*diapo 5*/
   /*button diapo all*/
   
@@ -335,19 +335,19 @@ body {
 #diapo1_1 {
     background-image:
 
-    url('olympe/img_1.jpg');
+    url('olympe/Olympe\ 1.jpg');
     width: 38em;
     height: 28em;
     background-size: cover;
     
     z-index: -1000;
-    filter: brightness(1.3);
+  
     
 }
 #diapo1_2 {
     background-image:
  
-    url('olympe/img_2.jpg');
+    url('olympe/Olympe-2.jpg');
     width: 38em;
     height: 28em;
     z-index: -1000;
@@ -359,7 +359,7 @@ body {
 #diapo1_3 {
     background-image:
   
-    url('olympe/img_3.jpg');
+    url('olympe/Olympe-salle-de-bain.jpg');
     width: 38em;
     height: 28em;
     
@@ -369,7 +369,7 @@ body {
     
     
 }
-#diapo1_4 {
+/*#diapo1_4 {
     background-image:
 
     url('olympe/img_4.jpg');
@@ -417,7 +417,7 @@ body {
     background-size: cover;
     
     
-} 
+} */
 /*diapo 1*/
 
 

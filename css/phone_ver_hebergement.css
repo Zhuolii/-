@@ -219,7 +219,7 @@
     
     }
     #image_royale{
-        background-image: url('royale/img_1.jpg');
+        background-image: url('royale/Royale.jpg');
         height: 675px;
         width: 900px;
         
@@ -227,28 +227,28 @@
        
     }
     #image_alexandra{
-        background-image: url('alexandra/img_1.jpg');
+        background-image: url('alexandra/Alexandra-1.jpg');
         height: 675px;
         width: 900px;
         
         background-size: cover;
     }
     #image_clemence{
-        background-image: url('clemence/img_1.jpg');
+        background-image: url('clemence/Clémence\ 1.jpg');
         height: 675px;
         width: 900px;
         
         background-size: cover;
     }
     #image_elise{
-        background-image: url('elise/img_1.jpg');
+        background-image: url('elise/Elise\ 1.jpg');
         height: 675px;
         width: 900px;
         
         background-size: cover;
     }
     #image_olympe{
-        background-image: url('olympe/img_1.jpg');
+        background-image: url('olympe/Olympe\ 1.jpg');
         height: 675px;
         width: 900px;
         
