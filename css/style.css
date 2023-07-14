@@ -528,6 +528,8 @@ text-underline-offset: 5px;
     }
     #align_center{
         text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     #recommandation {
         padding-bottom: 2vw;

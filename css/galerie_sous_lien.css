@@ -1,0 +1,19 @@
+.cols {
+    margin: 0.3em;
+   display: inline;
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width: 1023px){
+    p {
+    font-size: 2.5em;
+    margin: 1em;
+    letter-spacing: 2px;
+}
+#header_div {
+    justify-content: center;
+    display: flex;
+    font-size: 1.5em;
+}
+
+}

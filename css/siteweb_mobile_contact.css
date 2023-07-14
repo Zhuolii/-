@@ -881,7 +881,7 @@ input:hover,textarea:hover,input:focus,textarea:focus{
     .row{
        
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  3fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 3fr;
     }
     .row-items{
         padding: 0 0 0 1em;

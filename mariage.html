@@ -73,7 +73,7 @@
 
           <li class="sidebar_item"><a href="contact.html" id="contact" class="menu_link">CONTACT</a></li>
           <li class="sidebar_item"><a href="galerie.html" id="galerie" class="menu_link ">GALERIE</a>
-          <li class="sidebar_item"><a href="covid-19.html" id="contact" class="menu_link">COVID-19</a></li>
+           <!--   <li class="sidebar_item"><a href="covid-19.html" id="contact" class="menu_link">COVID-19</a></li> -->
           <li id="telephone_nav" class="sidebar_item"> <a href="tel:0644221786"
               onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
               <img id="phone2" class="telephoner" src="css/icones/icons8-téléphone-50-removebg-preview.png"
@@ -295,7 +295,7 @@
 
         <form id="form" action="https://formsubmit.co/chateaudemoliens@outlook.fr" method="POST">
           <input type="hidden" name="_subject" value="Nouveau email">
-          <input type="hidden" name="_next" value="https://chateaudemoliens.com/index.html">
+          <input type="hidden" name="_next" value="https://chateaudemoliens.com/succes.html">
           <div id="form_container">
             <div class="devis_form">
 
@@ -509,11 +509,7 @@
             </li>
           </a><br>
 
-          <a href="covid-19.html">
-            <li>
-              <p1>Infos sur COVID-19 ❯❯</p1>
-            </li>
-          </a><br>
+          
           <a href="mentions.html">
             <li>
               <p1>Mentions légales ❯❯</p1>
@@ -529,16 +525,21 @@
               <p1>Icones </p1>
             </li>
           </a>
+         
 
         </ul>
       </div>
     </div>
     <h4 id="recommandation">Recommandé par :</h4>
-    <div id="align_center">
-      <a target="_blank"href="https://www.milleetunelistes.fr/">      
-       <img id ="lienMille"src="favicon/Logo_Milleeetunelistes.png">
-   </a> </div>
-  </div>
+            <div id="align_center">
+                <a target="_blank"href="https://www.mariages.net/chateau-mariage/chateau-de-moliens--e288396">              
+               <img id ="lienMille"src="favicon/mariagenet_logo.png"></a> 
+               <a target="_blank"href="https://www.zankyou.fr/f/chateau-de-moliens-1830">              
+                <img id ="lienMille"src="favicon/zankyou_logo.png"></a> 
+                <a target="_blank"href="https://www.milleetunelistes.fr/carnet-adresses?category=1&region=6">              
+                  <img id ="lienMille"src="favicon/Logo_Milleeetunelistes.png"></a> 
+           </div>
+</div>
   <!--footer grid-->
   <!--footer grid-->
   <!--footer grid-->
@@ -782,7 +783,7 @@
 
           <form id="form" action="https://formsubmit.co/chateaudemoliens@outlook.fr" method="POST">
             <input type="hidden" name="_subject" value="Nouveau email">
-            <input type="hidden" name="_next" value="https://chateaudemoliens.com/index.html">
+            <input type="hidden" name="_next" value="https://chateaudemoliens.com/succes.html">
             <div id="form_container">
               <div class="devis_form">
 
@@ -829,12 +830,16 @@
                       name="nombre-adultes" value="" size="20" class="wpcf7-form-control wpcf7-text"
                       aria-invalid="false"></span></div>
 
-                <div class="margin_top_form"> <label>Date évènement : </label><span
-                    class="wpcf7-form-control-wrap date-evenement"><br><input class="input_style" type="date"
-                      placeholder="XX / XX / XX" name="date-evenement" value="" size="20"
-                      class="wpcf7-form-control wpcf7-text oneMonthDatepicker" id="date-dep"
-                      aria-invalid="false"></span>
-                </div>
+                      <div class="margin_top_form"> <label>Date de début  : *</label><span
+                        class="wpcf7-form-control-wrap date-evenement"><br><input class="input_style" type="date"
+                          placeholder="JJ / MM / AAAA" name="Date de début" value="" size="20"
+                          class="wpcf7-form-control wpcf7-text oneMonthDatepicker" id="date-dep" aria-invalid="false"required></span>
+                    </div>
+                    <div class="margin_top_form"> <label>Date de fin : *</label><span
+                      class="wpcf7-form-control-wrap date-evenement"><br><input class="input_style" type="date"
+                        placeholder="JJ / MM / AAAA" name="Date de fin" value="" size="20"
+                        class="wpcf7-form-control wpcf7-text oneMonthDatepicker" id="date-dep" aria-invalid="false"required></span>
+                  </div>
                 <div class="margin_top_form"> <label>Commentaires : </label><br><span
                     class="wpcf7-form-control-wrap commentaire"><textarea class="text_area" name="commentaire" cols="35"
                       rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span></div>
@@ -967,9 +972,7 @@
             <li>Contact ❯❯</li>
           </a><br> <br>
 
-          <a href="covid-19.html">
-            <li>Infos sur COVID-19 ❯❯</li>
-          </a><br> <br>
+          
           <a href="mentions.html">
             <li>Mentions légales ❯❯</li>
           </a><br> <br>
@@ -985,9 +988,13 @@
     </div>
     <h4 id="recommandation">Recommandé par :</h4>
     <div id="align_center">
-      <a target="_blank"href="https://www.milleetunelistes.fr/">          
-       <img id ="lienMille"src="favicon/Logo_Milleeetunelistes.png">
-   </a> </div>
+      <a target="_blank"href="https://www.mariages.net/chateau-mariage/chateau-de-moliens--e288396">              
+        <img id ="lienMille"src="favicon/mariagenet_logo.png"></a> 
+        <a target="_blank"href="https://www.zankyou.fr/f/chateau-de-moliens-1830">              
+         <img id ="lienMille"src="favicon/zankyou_logo.png"></a> 
+         <a target="_blank"href="https://www.milleetunelistes.fr/carnet-adresses?category=1&region=6">              
+           <img id ="lienMille"src="favicon/Logo_Milleeetunelistes.png"></a> 
+   </div>
   </div>
   </div>
   </div>

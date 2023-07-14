@@ -1,0 +1,64 @@
+@media (max-width: 1023px){ 
+    .div_message {
+        margin-top: 30vw;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        font-size: 30px;
+    }
+    #img_logo_footer {
+        height: 50em;
+        border-radius: 50em;
+    }
+    .black_bg {
+        background-color: #ffab40;
+        position: relative;
+        right: 0px;
+        z-index: 0;
+        transition: all 0.3s ease;
+        height: 1000vh;
+        top: 8vh;
+        overflow: scroll;
+    }
+    .no_bg {
+        position: relative;
+        right: -1100px;
+        z-index: 0;
+        transition: all 0.3s ease;
+        background-color: #ffab40;
+        height: 1000vh;
+        top: 8vh;
+        overflow: scroll;
+    }
+}
+@media (min-device-width: 1024px) and (max-device-width: 1439px){
+    .div_message {
+        margin-top: 30vw;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        font-size: 30px;
+    }
+}
+@media (min-device-width: 1440px) and (max-device-width: 1999px){
+    .div_message {
+        margin-top: 30vw;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 2000px){
+    .div_message {
+        margin-top: 30vw;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        font-size: 30px;
+    }
+}
