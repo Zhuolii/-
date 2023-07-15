@@ -1,5 +1,54 @@
 @media (min-width: 1024px)
 {
+    /*review slider*/
+        /*review slider*/
+            /*review slider*/
+            .slider {
+                position: relative;
+                width: 100%;
+                height: 300px;
+                overflow: hidden;
+              }
+              
+              .slide {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                transition: opacity 0.5s ease-in-out;
+              }
+              
+              .slide.active {
+                opacity: 1;
+              }
+              
+              .review {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                width: 80%;
+                max-width: 600px;
+                margin: auto;
+              }
+              
+              .review p {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-bottom: 1rem;
+              }
+              
+              .author {
+                font-style: italic;
+                font-size: 1.2rem;
+              }
+                    /*review slider*/
+                        /*review slider*/
+                            /*review slider*/
+
 
 
 #img_logo{

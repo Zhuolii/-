@@ -1,4 +1,165 @@
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1999px) {
+    /*review */
+       /*review */
+          /*review */
+             /*review */
+                /*review */
+    .image {
+        position: absolute;
+        top: 1em;
+        right: 6em;
+        z-index: 1;
+      }
+      .image2 {
+        position: absolute;
+        bottom: 1em;
+        right: 6em;
+        z-index: 1;
+       
+      }
+       .image2 a img {
+        max-height: 6em;
+      }
+      #lien_galerie {
+        position: absolute;
+       bottom: 5em;
+        right: 16em;
+        z-index: 1;
+      }
+      
+      .image a img {
+        max-height: 6em;
+      }
+     
+    .review {
+        position: relative;
+        margin-bottom: 50px;
+        background-color: lightgray;
+        border: 1px solid #e6e6e6;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-size: 0.8em;
+        line-height: 1;
+        font-family: Arial, sans-serif;
+        padding: 20px 20px 20px 80px;
+      }
+      
+      .rating {
+        position: absolute;
+        top: 10em;
+        right: 3em;
+        display: flex;
+        align-items: center;
+      }
+      
+   
+        .star {
+            font-size: 24px;
+            color: #f7d83d;
+            margin-right: 5px;
+            text-shadow: 0 0 2px black;
+          }
+      
+      
+      .rating-value {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        margin-left: 10px;
+      }
+      
+      .textheading1,
+      .textheading2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+        margin-top: 1em;
+      }
+      
+      .date {
+        font-style: italic;
+        color: #999;
+        margin-bottom:2em;
+      }
+      
+      .text {
+        margin-bottom: 20px;
+      }
+      
+      .author {
+        font-style: italic;
+        color: #999;
+        margin-top: 10px;
+      }
+    .textheading1 {
+        margin: 1em 0;
+        font-weight: bold;
+    }
+    .textheading2 {
+        margin: 1em;
+        font-weight: bold;
+    }
+    .reviews-container {
+        position: relative;
+        overflow: hidden;
+       
+      }
+      
+      .reviews {
+        display: flex;
+        justify-content: center;
+        width: 270%;
+        transition: transform 0.5s ease-in-out;
+        
+     
+      }
+      
+      .review {
+        flex: 1;
+        padding: 20px;
+        text-align: left;
+        background-color: rgb(250, 202, 177);
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-right: 10px;
+   margin-left: 12em;
+   margin-bottom: 10em;
+   height: auto;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   font-family: ProximaNova,ProximaNova-fallback-Arial,sans-serif;
+  font-size: 0.9em;
+  line-height: 1.4;
+  letter-spacing: 1.2px;
+      }
+      
+      .review:last-child {
+        margin-right: 0;
+      }
+      
+      .review.active {
+        background-color: rgb(250, 202, 177);
+        color: black;
+     
+      }
+      .review .author {
+        font-size: 1.1em;
+        font-style: italic;
+        color: black;
+        font-weight: bold;
+        margin-top: 1.5em;
+    }
+    .review .date {
+        font-size: .775rem;
+    line-height: 1.3125rem;
+    margin-top: 1rem;
+    color: #6c6c6c;
+    }
+      /*review */
+       /*review */
+          /*review */
+             /*review */
+                /*review */
     #video {
         width:50em ;
         height:29em;
@@ -571,6 +732,166 @@
 
 }
 @media only screen and (min-device-width: 2000px) and (max-device-width: 2560px) {
+     /*review */
+       /*review */
+          /*review */
+             /*review */
+                /*review */
+                .image2 {
+                    position: absolute;
+                    bottom: 1em;
+                    right: 6em;
+                    z-index: 1;
+                   
+                  }
+                   .image2 a img {
+                    max-height: 6em;
+                  }
+                  #lien_galerie {
+                    position: absolute;
+                   bottom: 5em;
+                    right: 16em;
+                    z-index: 1;
+                  }
+                .image {
+                    position: absolute;
+                    top: 1em;
+                    right: 6em;
+                    z-index: 1;
+                  }
+                  
+                  .image a img {
+                    max-height: 6em;
+                  }
+                .review {
+                    position: relative;
+                    margin-bottom: 50px;
+                    background-color: lightgray;
+                    border: 1px solid #e6e6e6;
+                    border-radius: 20px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    font-size: 1.3em;
+                    line-height: 1;
+                    font-family: Arial, sans-serif;
+                    padding: 20px 20px 20px 80px;
+                  }
+                  
+                  .rating {
+                    position: absolute;
+                    top: 10em;
+                    right: 3em;
+                    display: flex;
+                    align-items: center;
+                  }
+                  
+               
+                    .star {
+                        font-size: 24px;
+                        color: #f7d83d;
+                        margin-right: 5px;
+                        text-shadow: 0 0 2px black;
+                      }
+                  
+                  
+                  .rating-value {
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #333;
+                    margin-left: 10px;
+                  }
+                  
+                  .textheading1,
+                  .textheading2 {
+                    font-size: 1.8em;
+                    font-weight: bold;
+                    color: #333;
+                    margin-bottom: 10px;
+                    margin-top: 1em;
+                  }
+                  
+                  .date {
+                    font-style: italic;
+                    color: #999;
+                    margin-bottom: 10px;
+                  }
+                  
+                  .text {
+                    margin-bottom: 20px;
+                  }
+                  
+                  .author {
+                    font-style: italic;
+                    color: #999;
+                    margin-top: 10px;
+                  }
+                .textheading1 {
+                    margin: 1em 0;
+                    font-weight: bold;
+                }
+                .textheading2 {
+                    margin: 1em;
+                    font-weight: bold;
+                }
+                .reviews-container {
+                    position: relative;
+                    overflow: hidden;
+                   
+                  }
+                  
+                  .reviews {
+                    display: flex;
+                    justify-content: center;
+                    width: 270%;
+                    transition: transform 0.5s ease-in-out;
+                    
+                 
+                  }
+                  
+                  .review {
+                    flex: 1;
+                    padding: 20px;
+                    text-align: left;
+                    background-color: rgb(250, 202, 177);
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    margin-right: 10px;
+               margin-left: 12em;
+               margin-bottom: 10em;
+               height: auto;
+               box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+               font-family: ProximaNova,ProximaNova-fallback-Arial,sans-serif;
+              font-size: 1.5em;
+              line-height: 1.4;
+              letter-spacing: 1.2px;
+                  }
+                  
+                  .review:last-child {
+                    margin-right: 0;
+                  }
+                  
+                  .review.active {
+                    background-color: rgb(250, 202, 177);
+                    color: black;
+                 
+                  }
+                  .review .author {
+                    font-size: 1.8em;
+                    font-style: italic;
+                    color: black;
+                    font-weight: bold;
+                    margin-top: 1.5em;
+                }
+                .review .date {
+                    font-size: 1.5rem;
+                line-height: 1.5125rem;
+                margin-top: 1rem;
+                color: #6c6c6c;
+                }
+                  /*review */
+                   /*review */
+                      /*review */
+                         /*review */
+                            /*review */
     label {
         font-size: 2em;
     }
