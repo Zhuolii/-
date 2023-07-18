@@ -67,7 +67,7 @@
           <li class="sidebar_item"><a href="mariage.html" id="mariage" class="menu_link">MARIAGE</a></li>
           <!--<li class="sidebar_item"><a href="château.html"id="château"class="menu_link">LE CHÂTEAU</a></li>
    <li class="sidebar_item"><a href="events.html" id="events"class="menu_link">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
-   <li class="sidebar_item"><a href="seminaires.html"id="seminaires"class="menu_link">SÉMINAIRES</a></li>-->
+   <li class="sidebar_item"><a href="succes.html"id="seminaires"class="menu_link">succes</a></li>-->
           <li class="sidebar_item"><a href="hebergements.html" id="hebergements" class=" menu_link">HÉBERGEMENT</a>
           </li>
 
@@ -394,7 +394,7 @@
     
       <form id="form" action="https://formsubmit.co/chateaudemoliens@outlook.fr" method="POST">
         <input type="hidden" name="_subject" value="Nouveau email">
-        <input type="hidden" name="_next" value="https://chateaudemoliens.com/index.html">
+        <input type="hidden" name="_next" value="https://chateaudemoliens.com/succes.html">
         <div id="form_container">
           <div class="devis_form">
 
@@ -893,7 +893,7 @@
      
         <form id="form" action="https://formsubmit.co/chateaudemoliens@outlook.fr" method="POST">
           <input type="hidden" name="_subject" value="Nouveau email">
-          <input type="hidden" name="_next" value="https://chateaudemoliens.com/index.html">
+          <input type="hidden" name="_next" value="https://chateaudemoliens.com/succes_message.html">
           <div id="form_container">
             <div class="devis_form">
 
@@ -940,11 +940,16 @@
                     name="nombre-adultes" value="" size="20" class="wpcf7-form-control wpcf7-text"
                     aria-invalid="false"></span></div>
 
-              <div class="margin_top_form"> <label>Date évènement : </label><span
-                  class="wpcf7-form-control-wrap date-evenement"><br><input class="input_style" type="text"
-                    placeholder="XX / XX / XX" name="date-evenement" value="" size="20"
-                    class="wpcf7-form-control wpcf7-text oneMonthDatepicker" id="date-dep" aria-invalid="false"></span>
-              </div>
+                    <div class="margin_top_form"> <label>Date de début  : *</label><span
+                      class="wpcf7-form-control-wrap date-evenement"><br><input class="input_style" type="date"
+                        placeholder="JJ / MM / AAAA" name="Date de début" value="" size="20"
+                        class="wpcf7-form-control wpcf7-text oneMonthDatepicker" id="date-dep" aria-invalid="false"required></span>
+                  </div>
+                  <div class="margin_top_form"> <label>Date de fin : *</label><span
+                    class="wpcf7-form-control-wrap date-evenement"><br><input class="input_style" type="date"
+                      placeholder="JJ / MM / AAAA" name="Date de fin" value="" size="20"
+                      class="wpcf7-form-control wpcf7-text oneMonthDatepicker" id="date-dep" aria-invalid="false"required></span>
+                </div>
               <div class="margin_top_form"> <label>Commentaires : </label><br><span
                   class="wpcf7-form-control-wrap commentaire"><textarea class="text_area" name="commentaire" cols="35"
                     rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span></div>
