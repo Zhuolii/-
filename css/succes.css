@@ -34,6 +34,11 @@
     }
 }
 @media (min-device-width: 1024px) and (max-device-width: 1439px){
+    .texte_redirection {
+        font-size: 1em;
+        font-weight: bold;
+        margin: 1em;
+    }
     #countdown {
         font-size: 24px;
         text-align: center;
@@ -67,6 +72,10 @@
     }
 }
 @media (min-device-width: 1440px) and (max-device-width: 1999px){
+    .texte_redirection {
+        font-size: 1em;
+        font-weight: bold;
+    }
     .div_message {
         margin-top: 12vw;
         text-align: center;
@@ -95,6 +104,12 @@
     }
 }
 @media only screen and (min-width: 2000px){
+    .texte_redirection {
+        font-size: 1.8em;
+        font-weight: bold;
+        margin: 1em;
+    }
+    
     .div_message {
         margin-top: 10vw;
         text-align: center;
