@@ -1,4 +1,4 @@
-var seconds = 5;
+var seconds = 10;
 		var countdown = setInterval(function() {
 			seconds--;
 			document.getElementById("countdown").innerHTML = seconds;
@@ -7,7 +7,7 @@ var seconds = 5;
 				window.location.href = "https://www.chateaudemoliens.com/index.html";
 			}
 		}, 1000);
-        var seconds2 = 5;
+        var seconds2 = 10;
 		var countdown2 = setInterval(function() {
 			seconds2--;
 			document.getElementById("countdown2").innerHTML = seconds2;
