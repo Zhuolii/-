@@ -7,6 +7,7 @@
         width: 100%;
         height: 500px;
         font-size: 30px;
+        text-shadow: 5px 5px black;
     }
     #img_logo_footer {
         height: 50em;
@@ -31,6 +32,21 @@
         height: 1000vh;
         top: 8vh;
         overflow: scroll;
+    }
+    .texte_redirection {
+        font-size: 2em;
+        font-weight: bold;
+        margin: 1.8em;
+        color: black;
+        text-shadow: none;
+    }
+    #footer_grid {
+        background-color: #f9d3b9;
+        background-size: 100%;
+        width: 100%;
+        margin: 23em 0 0 0;
+        padding: 0 0 5em 0;
+        border-top: solid (143, 143, 143) 4px;
     }
 }
 @media (min-device-width: 1024px) and (max-device-width: 1439px){
