@@ -1,4 +1,5 @@
 @media (max-width: 1023px){ 
+   
     .div_message {
         margin-top: 30vw;
         text-align: center;
@@ -33,8 +34,31 @@
     }
 }
 @media (min-device-width: 1024px) and (max-device-width: 1439px){
+    #countdown {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #retour {
+        margin: 2em 0 2em 1em;
+        width: 70%;
+        height: 1.5em;
+        border-radius: 2px;
+        background-color: brown;
+        color: white;
+        border: solid brown 1px;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        transition: width 2s ease;
+        transition: letter-spacing 1s ease;
+        transition: all 0.5s ease;
+    }
+    h2{
+        font-size: 1em;
+    }
     .div_message {
-        margin-top: 30vw;
+        margin-top: 15vw;
         text-align: center;
         align-items: center;
         width: 100%;
@@ -44,17 +68,35 @@
 }
 @media (min-device-width: 1440px) and (max-device-width: 1999px){
     .div_message {
-        margin-top: 30vw;
+        margin-top: 12vw;
         text-align: center;
         align-items: center;
         width: 100%;
         height: 500px;
         font-size: 30px;
     }
+    #retour {
+        margin: 2em 0 2em 1em;
+        width: 70%;
+        height: 1.5em;
+        border-radius: 2px;
+        background-color: brown;
+        color: white;
+        border: solid brown 1px;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 2px;
+        transition: width 2s ease;
+        transition: letter-spacing 1s ease;
+        transition: all 0.5s ease;
+    }
+    h2{
+        font-size: 1em;
+    }
 }
 @media only screen and (min-width: 2000px){
     .div_message {
-        margin-top: 30vw;
+        margin-top: 10vw;
         text-align: center;
         align-items: center;
         width: 100%;
