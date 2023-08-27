@@ -1,4 +1,11 @@
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1999px) {
+    .developpe_sub_title2 {
+        margin: 0 0 3em 3em;
+        font-size: 1.5em !important;
+        font-weight: normal;
+        letter-spacing: 1.2px;
+        font-style: italic;
+    }
     /*review */
        /*review */
           /*review */
@@ -178,7 +185,7 @@
     width:fit-content;
     height: fit-content;
   padding: 10% 5%;
-  margin-top: 10%;
+  margin-top: 0%;
   margin-left: 5%;
   
   }
@@ -924,7 +931,7 @@
     width:fit-content;
     height: fit-content;
   padding: 10% 5%;
-  margin-top: 10%;
+  margin-top: 0%;
   margin-left: 5%;
   
   }
@@ -1418,6 +1425,13 @@
     }
     .developpe_sub_title {
         margin: 0 0 0 1em;
+        font-size: 2.5em !important;
+        font-weight: normal;
+        letter-spacing: 1.2px;
+        font-style: italic;
+    }
+    .developpe_sub_title2 {
+        margin: 0 0 3em 3em;
         font-size: 2.5em !important;
         font-weight: normal;
         letter-spacing: 1.2px;
