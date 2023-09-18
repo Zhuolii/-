@@ -148,13 +148,13 @@
 
     .galerie_img {
         max-width: 100%;
-        height: 26em;
+        height: 30em;
         filter: saturate(1.3) contrast(1.1);
     }
     .galerie_img_2 {
 
         max-width: 100%;
-        height: 58em;
+        height: 54em;
         filter: saturate(1.3) contrast(1.1);
     }
     #page_title {
