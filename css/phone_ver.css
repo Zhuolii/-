@@ -90,9 +90,11 @@
     /* bouton de navigation*/
     label.nav__toggle {
         position: fixed;
-        left: 56.4em;
+        /* left: 56.4em; */
         top: 3em;
         z-index: 100;
+        right: 3em;
+    
 
 
 
@@ -384,7 +386,8 @@
     
     .no_bg {
         position: relative;
-        right: -1100px;
+        right: -2000px;
+
         z-index: 0;
         transition: all 0.3s ease;
         background-color: #ffab40;
@@ -651,4 +654,10 @@
 
 
 
+}
+@media (min-device-width: 500px) and (max-device-width: 767px)
+{
+body{
+    width: 1200px;
+}
 }
