@@ -21,16 +21,14 @@
         font-weight: normal;
     }
     h3 {
-        text-transform: uppercase;
+        font-family: 'times',sans-serif;
+        margin: 1em 0 0 0;
+        font-size: 4em;
         text-align: center;
-        font-weight: 100;
-        margin: 100px 0 100px 0;
-        letter-spacing: 7px;
-        font-size: 2em;
-        padding: 1em;
-        color: white;
-        background: brown;
-        text-decoration: underline none;
+        LETTER-SPACING: 2px;
+        width: auto;
+        font-weight: normal;
+        color: black;
     }
 
     #index {
