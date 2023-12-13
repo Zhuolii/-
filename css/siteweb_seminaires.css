@@ -1,6 +1,6 @@
 @media only screen and (min-device-width: 1024px) and (max-device-width: 2600px) {
     #page_title_2 {
-        font-family: 'Playfair Display',sans-serif;
+        font-family: 'Playfair Display', sans-serif;
         margin: 4em 0 0 0;
         font-size: 1.5em;
         text-align: center;
@@ -8,45 +8,51 @@
         width: auto;
         font-weight: normal;
     }
-    #button_container{
+
+    #button_container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 5em;
         margin: 1em 10em;
         padding: 2em;
     }
+
     .button_pdf p a:not(:hover) {
         color: brown !important;
         transition: linear 0.2s;
         justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size:1.2em;
+        align-items: center;
+        display: flex;
+        font-size: 1.2em;
     }
+
     .button_pdf p a:hover {
         color: rgb(237, 126, 126) !important;
         transition: linear 0.2s;
         justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size:1em;
+        align-items: center;
+        display: flex;
+        font-size: 1em;
     }
+
     .button_pdf p {
         margin: 0 !important;
         color: brown !important;
-        font-size:1em;
+        font-size: 1em;
         text-underline-offset: 5px;
     }
+
     .button_pdf {
         margin: 2em 0;
         border: none;
         padding: 1em;
         justify-content: center;
         align-items: center;
-        background: repeat padding-box border-box 0 0/auto auto scroll linear-gradient(145deg,rgb(248, 158, 56),hsla(71,48%,89%,0)),#f9d3b9;
+        background: repeat padding-box border-box 0 0/auto auto scroll linear-gradient(145deg, rgb(248, 158, 56), hsla(71, 48%, 89%, 0)), #f9d3b9;
         border-radius: 50px;
     }
-    .link{
+
+    .link {
         text-decoration: underline black 1.5px;
         text-underline-offset: 5px;
         font-size: 1.2em;
@@ -54,77 +60,91 @@
         letter-spacing: 2px;
         color: black;
     }
-    
-    .link:hover{
-color: rgb(181, 181, 181);
-text-decoration: underline rgb(181, 181, 181) 1.5px;
-transition: linear 0.3s;
+
+    .link:hover {
+        color: rgb(181, 181, 181);
+        text-decoration: underline rgb(181, 181, 181) 1.5px;
+        transition: linear 0.3s;
     }
-    .img_container{
+
+    .img_container {
         display: grid;
         grid-template-columns: 1FR 1FR 1FR;
         grid-gap: 1em;
         margin: 2em 10em;
     }
-    .align_center{
 
-margin: 1em 7em;
+    .align_center {
+
+        margin: 1em 7em;
     }
-    .p_center{
+
+    .p_center {
         padding: 0 12em;
     }
-.p_style{
-    margin: 3em 0;
-    font-size: 1.2em;
-    line-height: 1.5em;
-    letter-spacing: 2px;
-}
-.img_left{
-display: grid;
-grid-template-columns: 0.1fr 0.4fr 0.4fr 0.1fr;
-padding: 2em 4em;
-    grid-gap: 1em;
-  
-}
-.text_grid_left{
-    margin-left: 3em;
-}
-.img_right{
-    display: grid;
-    grid-template-columns: 0.1fr 0.4fr 0.4fr 0.1fr;
-    padding: 2em 4em;
-    grid-gap: 1em;
-}
-.grid_image{
-    max-width: 100%;
-    height: 20vw;
 
-}
-.grid_image_2{
-    max-width: 100%;
-    height: 18vw;
+    .p_style {
+        margin: 3em 0;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        letter-spacing: 2px;
+    }
 
+    .img_left {
+        display: grid;
+        grid-template-columns: 0.1fr 0.4fr 0.4fr 0.1fr;
+        padding: 2em 4em;
+        grid-gap: 1em;
+
+    }
+
+    .text_grid_left {
+        margin-left: 3em;
+    }
+
+    .img_right {
+        display: grid;
+        grid-template-columns: 0.1fr 0.4fr 0.4fr 0.1fr;
+        padding: 2em 4em;
+        grid-gap: 1em;
+    }
+
+    .grid_image {
+        max-width: 100%;
+        height: 20vw;
+
+    }
+
+    .grid_image_2 {
+        max-width: 100%;
+        height: 18vw;
+
+    }
+
+    .center_img {
+
+        text-align: center;
+    }
+
+    .h_grid {
+        font-size: 1.5em;
+        letter-spacing: 1.5px;
+        font-weight: normal;
+        margin-top: 0;
+        text-transform: uppercase;
+    }
+
+    .p_grid {
+        font-size: 1.1em;
+        line-height: 1.5em;
+        letter-spacing: 1.5px;
+    }
+
+    .div_text {
+        padding: 0 2em 2em 2em;
+    }
 }
-.center_img{
-    
-   text-align: center;
-}
-.h_grid{
-font-size: 1.5em;
-letter-spacing: 1.5px;
-font-weight: normal;
-margin-top: 0;
-text-transform: uppercase;
-}
-.p_grid{
-    font-size: 1.1em;
-    line-height: 1.5em;
-    letter-spacing: 1.5px;
-}
-.div_text{
-    padding: 0 2em 2em 2em;
-}
-}
+
 @media only screen and (min-device-width: 1440px) and (max-device-width: 1999px) {
     .p_style {
         margin: 3em 0;
@@ -132,6 +152,7 @@ text-transform: uppercase;
         line-height: 1.5em;
         letter-spacing: 2px;
     }
+
     .h_grid {
         font-size: 2em;
         letter-spacing: 1.5px;
@@ -139,13 +160,15 @@ text-transform: uppercase;
         margin-top: 0;
         text-transform: uppercase;
     }
+
     .p_grid {
         font-size: 1.5em;
         line-height: 1.5em;
         letter-spacing: 1.5px;
     }
+
     #page_title_2 {
-        font-family: 'Playfair Display',sans-serif;
+        font-family: 'Playfair Display', sans-serif;
         margin: 4em 0 0 0;
         font-size: 2em;
         text-align: center;
@@ -153,13 +176,15 @@ text-transform: uppercase;
         width: auto;
         font-weight: normal;
     }
+
     .button_pdf p {
         margin: 0 !important;
         color: brown !important;
         font-size: 1.5em;
         text-underline-offset: 5px;
     }
-    .link{
+
+    .link {
         text-decoration: underline black 1.5px;
         text-underline-offset: 5px;
         font-size: 1.2em;
@@ -169,6 +194,7 @@ text-transform: uppercase;
     }
 
 }
+
 @media only screen and (min-device-width: 2000px) and (max-device-width: 2600px) {
     .p_style {
         margin: 3em 0;
@@ -176,6 +202,7 @@ text-transform: uppercase;
         line-height: 2em;
         letter-spacing: 2px;
     }
+
     .h_grid {
         font-size: 3em;
         letter-spacing: 1.5px;
@@ -183,13 +210,15 @@ text-transform: uppercase;
         margin-top: 0;
         text-transform: uppercase;
     }
+
     .p_grid {
         font-size: 2.3em;
         line-height: 2em;
         letter-spacing: 1.5px;
     }
+
     #page_title_2 {
-        font-family: 'Playfair Display',sans-serif;
+        font-family: 'Playfair Display', sans-serif;
         margin: 4em 0 0 0;
         font-size: 4em;
         text-align: center;
@@ -197,13 +226,15 @@ text-transform: uppercase;
         width: auto;
         font-weight: normal;
     }
+
     .button_pdf p {
         margin: 0 !important;
         color: brown !important;
         font-size: 2.3em;
         text-underline-offset: 5px;
     }
-    .link{
+
+    .link {
         text-decoration: underline black 1.5px;
         text-underline-offset: 5px;
         font-size: 2em;
@@ -211,7 +242,7 @@ text-transform: uppercase;
         letter-spacing: 2px;
         color: black;
     }
- 
+
 
 
 }

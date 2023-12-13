@@ -1,536 +1,641 @@
-@media only screen and (min-width: 2561px){
-    #image_grid_container{
+@media only screen and (min-width: 2561px) {
+    #image_grid_container {
         display: flex;
-         text-align: center;
-         justify-content: center;
-         align-items: center;
-         position: relative;
-         top: 10em;
-     }
- /* siteweb css*/
- /*diapo chambre 1*/
- 
- 
- 
- /*diapo chambre 1*/
- /*diapo 1*/
- .button-Diapo1,.button-Diapo2{
-     width: 3vw;  
-     height: 3vw;
-     background-color: rgba(128, 128, 128, 0.479);
-     border:none;
-     font-size:2vw;
-     position: relative;
-     top:-4em;
-     left: 6em;
-     cursor: pointer;
- 
- }
- .button-Diapo2{
-     left:40em;
- } 
- #img_container{
-     text-align: center;
-     margin-top: 9em;
-   }
- .small_img_1{
-     width: 7%;
-     height:5% ;
-     
-     
- }
- .small_img_1:hover{
-     cursor: pointer;
-     
-     
- }
- 
- 
- 
- 
- #diapo1_1 {
-     background-image:
- 
-     url('image_chateau/chateau/img_1.JPG');
-     width: 81em;
-     height: 61em;
-     background-size: cover;
-     
-     z-index: -1000;
-     filter: brightness(1.3);
-     
- }
- #diapo1_2 {
-     background-image:
-  
-     url('image_chateau/chateau/img_2.JPG');
-     width: 38em;
-     height: 28em;
-     z-index: -1000;
-    
-     background-size: cover;
-     
-     
- }
- #diapo1_3 {
-     background-image:
-   
-     url('image_chateau/chateau/img_3.jpg');
-     width: 38em;
-     height: 28em;
-     
-     z-index: -1000;
-    
-     background-size: cover;
-     
-     
- }
- #diapo1_4 {
-     background-image:
- 
-     url('image_chateau/chateau/img_4.JPG');
-     width: 38em;
-     height: 28em;
-     
-     z-index: -1000;
-     background-size: cover;
-     
-     
- }
- #diapo1_5 {
-     background-image:
- 
-     url('image_chateau/jardin/img_1.JPG');
-     width: 38em;
-     height: 28em;
-     
-     
-     z-index: -1000;
-     background-size: cover;
-     
-     
- }
- #diapo1_6 {
-     background-image:
- 
-     url('image_chateau/jardin/img_2.jpg');
-     width: 38em;
-     height: 28em;
-     
-     z-index: -1000;
-     background-size: cover;
-     
-     
- } 
- #diapo1_7 {
-     background-image:
- 
-     url('image_chateau/jardin/img_3.JPG');
-     width: 38em;
-     height: 28em;
-     
-     z-index: -1000;
-     background-size: cover;
-     
-     
- } 
- /*diapo 1*/
- 
- 
- 
- /* siteweb css*/
- /*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver */
-}
-@media (max-width: 1023px)  /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */
-{
-body {  
-    margin: 0;  
-    background: rgb(255, 255, 255);  
-}  
-
-
-
-
-#image_grid_container{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-/*diapo chambre 1*/
-
-
-
-
-#button-Diapo1_1,#button-Diapo2_1{
-    width: 1.5em;  
-    height: 2em;
-    background-color: rgba(128, 128, 128, 0.479);
-    border:none;
-    font-size:3em;
-    border-radius: 10px;
-    display:inline;
-    margin: 10px;
-    
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 10em;
     }
 
-.imageIndex{
-    width: 51em;
-    height: 38em;
-    background-size: cover;
-    z-index: -1000;
+    /* siteweb css*/
+    /*diapo chambre 1*/
+
+
+
+    /*diapo chambre 1*/
+    /*diapo 1*/
+    .button-Diapo1,
+    .button-Diapo2 {
+        width: 3vw;
+        height: 3vw;
+        background-color: rgba(128, 128, 128, 0.479);
+        border: none;
+        font-size: 2vw;
+        position: relative;
+        top: -4em;
+        left: 6em;
+        cursor: pointer;
+
+    }
+
+    .button-Diapo2 {
+        left: 40em;
+    }
+
+    #img_container {
+        text-align: center;
+        margin-top: 9em;
+    }
+
+    .small_img_1 {
+        width: 7%;
+        height: 5%;
+
+
+    }
+
+    .small_img_1:hover {
+        cursor: pointer;
+
+
+    }
+
+
+
+
+    #diapo1_1 {
+        background-image:
+
+            url('image_chateau/chateau/img_1.JPG');
+        width: 81em;
+        height: 61em;
+        background-size: cover;
+
+        z-index: -1000;
+        filter: brightness(1.3);
+
+    }
+
+    #diapo1_2 {
+        background-image:
+
+            url('image_chateau/chateau/img_2.JPG');
+        width: 38em;
+        height: 28em;
+        z-index: -1000;
+
+        background-size: cover;
+
+
+    }
+
+    #diapo1_3 {
+        background-image:
+
+            url('image_chateau/chateau/img_3.jpg');
+        width: 38em;
+        height: 28em;
+
+        z-index: -1000;
+
+        background-size: cover;
+
+
+    }
+
+    #diapo1_4 {
+        background-image:
+
+            url('image_chateau/chateau/img_4.JPG');
+        width: 38em;
+        height: 28em;
+
+        z-index: -1000;
+        background-size: cover;
+
+
+    }
+
+    #diapo1_5 {
+        background-image:
+
+            url('image_chateau/jardin/img_1.JPG');
+        width: 38em;
+        height: 28em;
+
+
+        z-index: -1000;
+        background-size: cover;
+
+
+    }
+
+    #diapo1_6 {
+        background-image:
+
+            url('image_chateau/jardin/img_2.jpg');
+        width: 38em;
+        height: 28em;
+
+        z-index: -1000;
+        background-size: cover;
+
+
+    }
+
+    #diapo1_7 {
+        background-image:
+
+            url('image_chateau/jardin/img_3.JPG');
+        width: 38em;
+        height: 28em;
+
+        z-index: -1000;
+        background-size: cover;
+
+
+    }
+
+    /*diapo 1*/
+
+
+
+    /* siteweb css*/
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
 }
-#img_container{
-    text-align: center;
-    margin-top: 56em;
-  }
-  .slidercontainer { 
-      height: auto;
-   
-      
-  }  
-  .small_img_2 {
-    width: 18%;
-    height: 14%;
+
+@media (max-width: 1023px)
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+    {
+    body {
+        margin: 0;
+        background: rgb(255, 255, 255);
+    }
+
+
+
+
+    #image_grid_container {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*diapo chambre 1*/
+
+
+
+
+    #button-Diapo1_1,
+    #button-Diapo2_1 {
+        width: 1.5em;
+        height: 2em;
+        background-color: rgba(128, 128, 128, 0.479);
+        border: none;
+        font-size: 3em;
+        border-radius: 10px;
+        display: inline;
+        margin: 10px;
+
+    }
+
+    .imageIndex {
+        width: 51em;
+        height: 38em;
+        background-size: cover;
+        z-index: -1000;
+    }
+
+    #img_container {
+        text-align: center;
+        margin-top: 56em;
+    }
+
+    .slidercontainer {
+        height: auto;
+
+
+    }
+
+    .small_img_2 {
+        width: 18%;
+        height: 14%;
+    }
+
+    /*diapo 5*/
+    .small_img_5 {
+        width: 25%;
+
+
+
+    }
+
+    .small_img_5:hover {
+        cursor: pointer;
+
+
+    }
+
+
+
+
+    #diapo5_1 {
+        background-image:
+
+            url('image_chateau/chateau/img_1.jpg');
+
+        filter: brightness(1.3);
+
+    }
+
+    #diapo5_2 {
+        background-image:
+
+            url('image_chateau/chateau/img_2.JPG');
+
+
+
+    }
+
+    #diapo5_3 {
+        background-image:
+
+            url('image_chateau/chateau/img_3.jpg');
+
+
+
+    }
+
+    #diapo5_4 {
+        background-image:
+
+            url('image_chateau/chateau/img_4.JPG');
+
+
+
+    }
+
+    #diapo5_5 {
+        background-image:
+
+            url('image_chateau/jardin/img_1.JPG');
+
+
+
+    }
+
+    #diapo5_6 {
+        background-image:
+
+            url('image_chateau/jardin/img_2.jpg');
+
+
+
+    }
+
+    #diapo5_7 {
+        background-image:
+
+            url('image_chateau/jardin/img_3.JPG');
+
+
+
+    }
+
+    /*diapo 5*/
+    /*button diapo all*/
+
+    .button-Diapo1,
+    .button-Diapo2 {
+        width: 1.5em;
+        height: 2em;
+        background-color: rgba(128, 128, 128, 0.479);
+        border: none;
+        font-size: 3em;
+        border-radius: 10px;
+        display: inline;
+        margin: 10px;
+
+    }
+
+    .button-Diapo2 {
+        left: 78vw;
+    }
+
+    /*button diapo all*/
+
 }
-  /*diapo 5*/
-  .small_img_5{
-      width: 25%;
-   
-      
-      
-  }
-  .small_img_5:hover{
-      cursor: pointer;
-      
-      
-  }
- 
-  
-  
-  
-  #diapo5_1 {
-      background-image:
-  
-      url('image_chateau/chateau/img_1.jpg');
-      
-      filter: brightness(1.3);
-      
-  }
-  #diapo5_2 {
-      background-image:
-   
-      url('image_chateau/chateau/img_2.JPG');
-     
-      
-      
-  }
-  #diapo5_3 {
-      background-image:
-    
-      url('image_chateau/chateau/img_3.jpg');
-     
-      
-      
-  }
-  #diapo5_4 {
-      background-image:
- 
-      url('image_chateau/chateau/img_4.JPG');
-     
-      
-      
-  }
-  #diapo5_5 {
-      background-image:
- 
-      url('image_chateau/jardin/img_1.JPG');
-     
-      
-      
-  }
-  #diapo5_6 {
-      background-image:
- 
-      url('image_chateau/jardin/img_2.jpg');
-     
-      
-      
-  } 
-  #diapo5_7 {
-    background-image:
 
-    url('image_chateau/jardin/img_3.JPG');
-   
-    
-    
-} 
-  /*diapo 5*/
-  /*button diapo all*/
-  
-  .button-Diapo1,.button-Diapo2{
-    width: 1.5em;
-    height: 2em;
-    background-color: rgba(128, 128, 128, 0.479);
-    border: none;
-    font-size: 3em;
-    border-radius: 10px;
-    display: inline;
-    margin: 10px;
-  
-  }
-  .button-Diapo2{
-    left: 78vw;
-  } 
-  
-  /*button diapo all*/
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/* phone ver */
+/*web ver */
+/*web ver */
+/*web ver */
+/*web ver */
+/*web ver */
+/*web ver */
+/*web ver */
+/*web ver */
+/*web ver */
+/*web ver */
+/*web ver */
+/*web ver */
+/*web ver */
+/*web ver */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 2560px) {
 
-}
 
- /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver */ /* phone ver *//* phone ver *//* phone ver */
-/*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 2560px)
-{
-    
-    
-/* siteweb css*/
-/*diapo chambre 1*/
+    /* siteweb css*/
+    /*diapo chambre 1*/
 
 
 
-/*diapo chambre 1*/
-/*diapo 1*/
-.button-Diapo1,.button-Diapo2{
-    width: 4vw;  
-    height: 4vw;
-    background-color: transparent;
-    border:none;
-    font-size:3vw;
-    position: relative;
-    top:-5em;
-    left: 0.5em;
-    cursor: pointer;
-    color: rgb(238, 225, 225);
-    text-shadow: black 2px 1px;
+    /*diapo chambre 1*/
+    /*diapo 1*/
+    .button-Diapo1,
+    .button-Diapo2 {
+        width: 4vw;
+        height: 4vw;
+        background-color: transparent;
+        border: none;
+        font-size: 3vw;
+        position: relative;
+        top: -5em;
+        left: 0.5em;
+        cursor: pointer;
+        color: rgb(238, 225, 225);
+        text-shadow: black 2px 1px;
 
-}
-.button-Diapo1:hover,.button-Diapo2:hover{
-    color: rgb(213, 194, 194);
-    transition: linear 0.3s;
-}
-.button-Diapo2{
-    left:90vw;
-} 
-.button-Diapo3,.button-Diapo4{
-    width: 4vw;  
-    height: 4vw;
-    background-color: transparent;
-    border:none;
-    font-size:3vw;
-    position: relative;
-    top:-5em;
-    left: -3.5em;
-    cursor: pointer;
-    color: rgb(238, 225, 225);
-    text-shadow: black 2px 1px;
+    }
 
-}
-.button-Diapo3:hover,.button-Diapo4:hover{
-    color: rgb(213, 194, 194);
-    transition: linear 0.3s;
-}
-.button-Diapo4{
-    left:62vw;
-} 
-#img_container{
-    text-align: center;
-    margin-top: 9em;
-  }
- 
+    .button-Diapo1:hover,
+    .button-Diapo2:hover {
+        color: rgb(213, 194, 194);
+        transition: linear 0.3s;
+    }
+
+    .button-Diapo2 {
+        left: 90vw;
+    }
+
+    .button-Diapo3,
+    .button-Diapo4 {
+        width: 4vw;
+        height: 4vw;
+        background-color: transparent;
+        border: none;
+        font-size: 3vw;
+        position: relative;
+        top: -5em;
+        left: -3.5em;
+        cursor: pointer;
+        color: rgb(238, 225, 225);
+        text-shadow: black 2px 1px;
+
+    }
+
+    .button-Diapo3:hover,
+    .button-Diapo4:hover {
+        color: rgb(213, 194, 194);
+        transition: linear 0.3s;
+    }
+
+    .button-Diapo4 {
+        left: 62vw;
+    }
+
+    #img_container {
+        text-align: center;
+        margin-top: 9em;
+    }
 
 
 
 
 
-#diapo1_1 {
-    background-image:
-    linear-gradient(to bottom, rgba(1, 1, 1, 0.173), rgba(13, 13, 13, 0.178)),
-    url('image_mariage/jardin_1.JPG');
-    width: 100em;
-    height: 57em;
-    background-size: cover;
 
-    z-index: -1000;
-    filter: brightness(1.3);
+    #diapo1_1 {
+        background-image:
+            linear-gradient(to bottom, rgba(1, 1, 1, 0.173), rgba(13, 13, 13, 0.178)),
+            url('image_mariage/jardin_1.JPG');
+        width: 100em;
+        height: 57em;
+        background-size: cover;
 
-
-    
-  
-    
-   
-    
-}
-#diapo1_2 {
-    background-image:
- 
-    url('image_mariage/jardin_4.JPG');
-    width: 100em;
-    height: 57em;
-    z-index: -1000;
-   
-    background-size: cover;
-    
-    
-}
-#diapo1_3 {
-    background-image:
-  
-    url('image_mariage/jardin_2.JPG');
-    width: 100em;
-    height: 57em;
-    
-    z-index: -1000;
-   
-    background-size: cover;
-    
-    
-}
-#diapo1_4 {
-    background-image:
-
-    url('image_mariage/orangerie_5.JPG');
-    width: 100em;
-    height: 57em;
-    
-    z-index: -1000;
-    background-size: cover;
-    
-    
-}
-#diapo1_5 {
-    background-image:
-
-    url('image_mariage/orangerie_8.JPG');
-    width: 100em;
-    height: 57em;
-    
-    
-    z-index: -1000;
-    background-size: cover;
-    
-    
-}
-#diapo1_6 {
-    background-image:
-
-    url('image_mariage/salon_1.JPEG');
-    width: 100em;
-    height:57em;
-    
-    z-index: -1000;
-    background-size: cover;
-    
-    
-} 
-#diapo1_7 {
-    background-image:
-
-    url('image_mariage/jardin_5.JPG');
-    width: 100em;
-    height: 57em;
-    
-    z-index: -1000;
-    background-size: cover;
-    
-    
-} 
-/*diapo 1*/
-#diapo2_1 {
-    background-image:
-   
-    url('image_mariage/orangerie_8.JPG');
-    width: 60em;
-    height: 45em;
-    background-size: cover;
-    filter: saturate(1.5) contrast(1.2);
-
-
-    
-
-
-
-    
-  
-    
-   
-    
-}
-#diapo2_2 {
-    background-image:
- 
-    url('image_mariage/orangerie_5.JPG');
-    width: 60em;
-    height: 45em;
-
-    
-   
-    background-size: cover;
-    filter: saturate(1.3) contrast(1.1);
-    
-}
-#diapo2_3 {
-    background-image:
-  
-    url('image_mariage/orangerie_9.JPG');
-    width: 60em;
-    height: 45em;
-      
-    background-size: cover;
-    filter: saturate(1.3) contrast(1.1);
-    
-}
-#diapo2_4 {
-    background-image:
-
-    url('image_chateau/chateau/img_4.JPG');
-    width: 60em;
-    height: 45em;
-    
-
-    background-size: cover;
-    filter: saturate(1.3) contrast(1.1);
-    
-}
-#diapo2_5 {
-    background-image:
-
-    url('image_chateau/jardin/img_1.JPG');
-    width: 60em;
-    height: 45em;
-    
-    
-
-    background-size: cover;
-    filter: saturate(1.3) contrast(1.1);
-    
-}
-#diapo2_6 {
-    background-image:
-
-    url('image_chateau/jardin/img_2.jpg');
-    width: 60em;
-    height: 45em;
-    
- 
-    background-size: cover;
-    filter: saturate(1.3) contrast(1.1);
-    
-} 
+        z-index: -1000;
+        filter: brightness(1.3);
 
 
 
 
 
-/* siteweb css*/
-/*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver *//*web ver */
+
+
+    }
+
+    #diapo1_2 {
+        background-image:
+
+            url('image_mariage/jardin_4.JPG');
+        width: 100em;
+        height: 57em;
+        z-index: -1000;
+
+        background-size: cover;
+
+
+    }
+
+    #diapo1_3 {
+        background-image:
+
+            url('image_mariage/jardin_2.JPG');
+        width: 100em;
+        height: 57em;
+
+        z-index: -1000;
+
+        background-size: cover;
+
+
+    }
+
+    #diapo1_4 {
+        background-image:
+
+            url('image_mariage/orangerie_5.JPG');
+        width: 100em;
+        height: 57em;
+
+        z-index: -1000;
+        background-size: cover;
+
+
+    }
+
+    #diapo1_5 {
+        background-image:
+
+            url('image_mariage/orangerie_8.JPG');
+        width: 100em;
+        height: 57em;
+
+
+        z-index: -1000;
+        background-size: cover;
+
+
+    }
+
+    #diapo1_6 {
+        background-image:
+
+            url('image_mariage/salon_1.JPEG');
+        width: 100em;
+        height: 57em;
+
+        z-index: -1000;
+        background-size: cover;
+
+
+    }
+
+    #diapo1_7 {
+        background-image:
+
+            url('image_mariage/jardin_5.JPG');
+        width: 100em;
+        height: 57em;
+
+        z-index: -1000;
+        background-size: cover;
+
+
+    }
+
+    /*diapo 1*/
+    #diapo2_1 {
+        background-image:
+
+            url('image_mariage/orangerie_8.JPG');
+        width: 60em;
+        height: 45em;
+        background-size: cover;
+        filter: saturate(1.5) contrast(1.2);
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+    #diapo2_2 {
+        background-image:
+
+            url('image_mariage/orangerie_5.JPG');
+        width: 60em;
+        height: 45em;
+
+
+
+        background-size: cover;
+        filter: saturate(1.3) contrast(1.1);
+
+    }
+
+    #diapo2_3 {
+        background-image:
+
+            url('image_mariage/orangerie_9.JPG');
+        width: 60em;
+        height: 45em;
+
+        background-size: cover;
+        filter: saturate(1.3) contrast(1.1);
+
+    }
+
+    #diapo2_4 {
+        background-image:
+
+            url('image_chateau/chateau/img_4.JPG');
+        width: 60em;
+        height: 45em;
+
+
+        background-size: cover;
+        filter: saturate(1.3) contrast(1.1);
+
+    }
+
+    #diapo2_5 {
+        background-image:
+
+            url('image_chateau/jardin/img_1.JPG');
+        width: 60em;
+        height: 45em;
+
+
+
+        background-size: cover;
+        filter: saturate(1.3) contrast(1.1);
+
+    }
+
+    #diapo2_6 {
+        background-image:
+
+            url('image_chateau/jardin/img_2.jpg');
+        width: 60em;
+        height: 45em;
+
+
+        background-size: cover;
+        filter: saturate(1.3) contrast(1.1);
+
+    }
+
+
+
+
+
+    /* siteweb css*/
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
+    /*web ver */
 }
