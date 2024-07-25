@@ -534,6 +534,16 @@
         margin-top: 53em;
     }
 }
+@media only screen and (min-device-width:322px) and (max-device-width:424px) {
+    .slidercontainer {
+        margin-top: -60em;
+        margin-bottom: 48em;
+    }
+    #img_container {
+        text-align: center;
+        margin-top: 53em;
+    }
+}
 @media only screen and (min-device-width: 425px) and (max-device-width:768px) {
     .slidercontainer {
         margin-top: -60em;
@@ -544,34 +554,54 @@
         margin-top: 53em;
     }
 }
+@media only screen and (min-device-width: 769px) and (max-device-width:1023px) {
+    .slidercontainer {
+        margin-top: -60em;
+        margin-bottom: 48em;
+    }
+    #img_container {
+        text-align: center;
+        margin-top: 53em;
+    }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width:1524px) {
+    .slidercontainer {
+        margin-top: -60em;
+        margin-bottom: 48em;
+    }
+    #img_container {
+        text-align: center;
+        margin-top:45vw;
+    }
+}
 @media only screen and (min-device-width: 1525px) and (max-device-width: 1724px) {
     #img_container {
         text-align: center;
-        margin-top: 15vw;
+        margin-top: 45vw;
     }
 }
 @media only screen and (min-device-width: 1724px) and (max-device-width: 1874px) {
     #img_container {
         text-align: center;
-        margin-top: 18vw;
+        margin-top: 45vw;
     }
 }
 @media only screen and (min-device-width: 1874px) and (max-device-width: 2000px) {
     #img_container {
         text-align: center;
-        margin-top: 20vw;
+        margin-top: 45vw;
     }
 }
 @media only screen and (min-device-width: 1874px) and (max-device-width: 2000px) {
     #img_container {
         text-align: center;
-        margin-top: 24vw;
+        margin-top: 45vw;
     }
 }
 @media only screen and (min-device-width: 2000px) and (max-device-width: 2200px) {
     #img_container {
         text-align: center;
-        margin-top: 26vw;
+        margin-top: 45vw;
     }
 }
 @media only screen and (min-device-width: 2200px) and (max-device-width: 2560px) {
