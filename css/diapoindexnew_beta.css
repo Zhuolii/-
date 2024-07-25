@@ -411,14 +411,9 @@
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1999px) {
 
     #image_grid_container {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: 13.5em;
+       
         margin-bottom: 5em;
-        left: 16.5em;
+    
     }
 
     /* siteweb css*/

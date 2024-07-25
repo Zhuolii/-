@@ -1,9 +1,11 @@
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1399px) {
     .slide1_1 {
         position: absolute;
-        transition: ease-in 1.5s;
-        left: 1%;
-        margin-bottom: 5em;
+        transition: ease-in 1s;
+        top: 25%;
+        left: 30%;
+    
+     
     }
     #video_title {
         font-size: 2em;
@@ -21,13 +23,18 @@
       
     }
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 2560px) {
+@media only screen and (min-device-width: 1400px) and (max-device-width: 2560px) {
     .slide1_1 {
+       
         position: absolute;
-        transition: ease-in 1.5s;
-        left: 10%;
-        margin-bottom: 5em;
+        transition: ease-in 1s;
+        top: 25%;
+        left: 30%;
+      
     }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 2560px) {
+   
     .image_number {
         color: white;
         font-size: 3em;
@@ -178,12 +185,12 @@
 
     }
 
-    div#grid_item_one {}
+    
 
     #grid_container_first {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 7vh 2vw 2vw 2vw;
+        margin: 2vw 2vw 2vw 2vw;
         grid-gap: 3em;
     }
 
@@ -432,24 +439,7 @@
     }
 
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1092px) {
-    #img_container {
-        text-align: center;
-        margin-top: 54vw;
-    }
-}
-@media only screen and (min-device-width: 1092px) and (max-device-width: 1236px) {
-    #img_container {
-        text-align: center;
-        margin-top: 0vw;
-    }
-}
-@media only screen and (min-device-width: 1236px) and (max-device-width: 1440px) {
-    #img_container {
-        text-align: center;
-        margin-top: 6vw;
-    }
-}
+
 @media only screen and (min-device-width: 1440px) and (max-device-width: 1524px) {
     #video {
         width: 41%;
@@ -531,7 +521,7 @@
     }
     #img_container {
         text-align: center;
-        margin-top: 53em;
+        margin-top: 103em;
     }
 }
 @media only screen and (min-device-width:322px) and (max-device-width:424px) {
@@ -541,7 +531,7 @@
     }
     #img_container {
         text-align: center;
-        margin-top: 53em;
+        margin-top: 103em;
     }
 }
 @media only screen and (min-device-width: 425px) and (max-device-width:768px) {
@@ -551,7 +541,7 @@
     }
     #img_container {
         text-align: center;
-        margin-top: 53em;
+        margin-top: 103em;
     }
 }
 @media only screen and (min-device-width: 769px) and (max-device-width:1023px) {
@@ -561,7 +551,7 @@
     }
     #img_container {
         text-align: center;
-        margin-top: 53em;
+        margin-top: 103em;
     }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width:1524px) {
@@ -571,13 +561,53 @@
     }
     #img_container {
         text-align: center;
-        margin-top:45vw;
+        margin-top:128vw;
+    }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width:1324px) {
+    .slidercontainer {
+        margin-top: -60em;
+        margin-bottom: 48em;
+    }
+    #img_container {
+        text-align: center;
+        margin-top:125vw;
+    }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width:1200px) {
+    .slidercontainer {
+        margin-top: -60em;
+        margin-bottom: 48em;
+    }
+    #img_container {
+        text-align: center;
+        margin-top:127vw;
+    }
+}
+@media only screen and (min-device-width: 1200px) and (max-device-width:1324px) {
+    .slidercontainer {
+        margin-top: -60em;
+        margin-bottom: 48em;
+    }
+    #img_container {
+        text-align: center;
+        margin-top:115vw;
+    }
+}
+@media only screen and (min-device-width: 1325px) and (max-device-width:1524px) {
+    .slidercontainer {
+        margin-top: -60em;
+        margin-bottom: 48em;
+    }
+    #img_container {
+        text-align: center;
+        margin-top:105vw;
     }
 }
 @media only screen and (min-device-width: 1525px) and (max-device-width: 1724px) {
     #img_container {
         text-align: center;
-        margin-top: 45vw;
+        margin-top: 80vw;
     }
 }
 @media only screen and (min-device-width: 1724px) and (max-device-width: 1874px) {
