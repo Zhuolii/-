@@ -29,6 +29,7 @@
   <!--separate link-->
   <link rel="stylesheet" href="./css/diapo_chambre_olympe.css">
   <link rel="stylesheet" href="./css/siteweb_mobile_chambre.css">
+  <link rel="stylesheet" href="./css/reservation.css">
   <!--separate link-->
   <title>Château de Moliens </title>
 </head>
@@ -179,9 +180,65 @@
         </div>
       </section>
       <section>
-        <div class="buttondiv"> <a
-            href="https://www.chambres-hotes.fr/chambres-hotes_chateau-de-moliens_moliens_73492.htm"
-            target="_blank"><button class="chambre_button" id="button2">Réserver</button></a>
+        <div class="buttondiv">
+           <button class="chambre_button reservation-btn"  id="reservation-btn" onclick="openModal()">Réserver une chambre</button>
+        </div>
+      
+
+  <div id="reservation-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeModal()">&times;</span>
+      <form id="reservation-form"    action="https://formsubmit.co/chateaudemoliens@outlook.fr" method="POST">
+       
+              <input type="hidden" name="_subject" value="DEMANDE RESERVATION CHAMBRE">
+              <input type="hidden" name="_next" value="https://www.chateaudemoliens.com/reservation_valide.html">
+              <!-- Champs du formulaire de réservation -->
+              <div class="container_reservation">
+                <h2>Réservation de Chambre</h2><br>
+                <form action="/reservation" method="post">
+                  <label for="name">Nom :</label>
+                  <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            
+                  <label for="email">Email :</label>
+                  <input type="text" id="email" name="email" placeholder="Votre email" required>
+            
+                  <label for="arrival_date">Date d'arrivée :</label>
+                  <input type="date" id="arrival_date" name="arrival_date" required>
+            
+                  <label for="departure_date">Date de départ :</label>
+                  <input type="date" id="departure_date" name="departure_date" required>
+            
+                  <label for="room_type">Nom de chambre :</label>
+                  <select id="room_type" name="room_type" onchange="updateNumPeopleOptions()" required>
+                    <option value="">Sélectionnez une chambre</option>
+                    <option value="Chambre Alexandra">Chambre Alexandra</option>
+                    <option value="Chambre Clemence">Chambre Clemence</option>
+                    <option value="Chambre Elise">Chambre Elise</option>
+                    <option value="Chambre Royale">Chambre Royale</option>
+                    <option value="Chambre Olympe">Chambre Olympe</option>
+                    
+                  </select>
+                  <label for="num_people">Nombre de personnes :</label>
+                  <select id="num_people" name="num_people" required>
+                    <option value="">Sélectionnez le nombre de personnes</option>
+                    <option value="1">1 personne</option>
+                    <option value="2">2 personnes</option>
+                    <option value="3">3 personnes</option>
+                    <option value="4">4 personnes</option>
+                
+                  </select>
+                <label for="message">Indications supplémentaires</label><br>
+                    <textarea id="myTextarea"  placeholder="Écrivez votre message ici"
+                      ></textarea>
+                 
+            
+                  <button id="button_reserver"type="submit" formaction="https://formsubmit.co/chateaudemoliens@outlook.fr"
+                  value="Réserver">Envoyer ma demande</button>
+                </form>
+              </div>
+                 <!-- Champs du formulaire de réservation -->
+            </form>
+          </div>
         </div>
       </section>
       <section>
@@ -286,12 +343,7 @@
 
         </div>
       </section>
-      <section>
-        <div class="buttondiv"> <a
-            href="https://www.chambres-hotes.fr/chambres-hotes_chateau-de-moliens_moliens_73492.htm"
-            target="_blank"><button class="chambre_button" id="button2">Réserver</button></a>
-        </div>
-      </section>
+
     </main>
     <footer>
       <div id="footer_grid" class="grid-item">
@@ -544,9 +596,65 @@
       </div>
     </section>
     <section>
-      <div class="buttondiv"> <a
-          href="https://www.chambres-hotes.fr/chambres-hotes_chateau-de-moliens_moliens_73492.htm"
-          target="_blank"><button class="chambre_button" id="button2">Réserver</button></a>
+      <div class="buttondiv">
+         <button class="chambre_button reservation-btn"  id="reservation-btn" onclick="openModal2()">Réserver une chambre</button>
+      </div>
+    
+
+<div id="reservation-modal2" class="modal" style="display: none;">
+  <div class="modal-content">
+    <span class="close-button" onclick="closeModal2()">&times;</span>
+    <form id="reservation-form"    action="https://formsubmit.co/chateaudemoliens@outlook.fr" method="POST">
+     
+            <input type="hidden" name="_subject" value="DEMANDE RESERVATION CHAMBRE">
+            <input type="hidden" name="_next" value="https://www.chateaudemoliens.com/reservation_valide.html">
+            <!-- Champs du formulaire de réservation -->
+            <div class="container">
+              <h2>Réservation de Chambre</h2><br>
+              <form action="/reservation" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+          
+                <label for="email">Email :</label>
+                <input type="text" id="email" name="email" placeholder="Votre email" required>
+          
+                <label for="arrival_date">Date d'arrivée :</label>
+                <input type="date" id="arrival_date" name="arrival_date" required>
+          
+                <label for="departure_date">Date de départ :</label>
+                <input type="date" id="departure_date" name="departure_date" required>
+          
+                <label for="room_type">Nom chambre :</label>
+                <select id="room_type" name="room_type" onchange="updateNumPeopleOptions()" required>
+                  <option value="">Sélectionnez une chambre</option>
+                  <option value="Chambre Alexandra">Chambre Alexandra</option>
+                  <option value="Chambre Clemence">Chambre Clemence</option>
+                  <option value="Chambre Elise">Chambre Elise</option>
+                  <option value="Chambre Royale">Chambre Royale</option>
+                  <option value="Chambre Olympe">Chambre Olympe</option>
+                  
+                </select>
+                <label for="num_people">Nombre de personnes :</label>
+                <select id="num_people" name="num_people" required>
+                  <option value="">Sélectionnez le nombre de personnes</option>
+                  <option value="1">1 personne</option>
+                  <option value="2">2 personnes</option>
+                  <option value="3">3 personnes</option>
+                  <option value="4">4 personnes</option>
+              
+                </select>
+              <label for="message">Indications supplémentaires</label>
+                  <textarea id="myTextarea"  placeholder="Écrivez votre message ici"
+                    ></textarea>
+               
+          
+                <button id="button_reserver"type="submit" formaction="https://formsubmit.co/chateaudemoliens@outlook.fr"
+                value="Réserver">Envoyer ma demande</button>
+              </form>
+            </div>
+               <!-- Champs du formulaire de réservation -->
+          </form>
+        </div>
       </div>
     </section>
     <section>
@@ -642,12 +750,7 @@
 
       </div>
     </section>
-    <section>
-      <div class="buttondiv"> <a
-          href="https://www.chambres-hotes.fr/chambres-hotes_chateau-de-moliens_moliens_73492.htm"
-          target="_blank"><button class="chambre_button" id="button2">Réserver</button></a>
-      </div>
-    </section>
+   
     <footer>
       <div id="footer_grid" class="grid--item">
         <div id="grid_footer">
@@ -739,6 +842,7 @@
 
   <script type="text/javascript" src="./js/olympe.js"></script>
   <script type="text/javascript" src="./js/nav_background.js"></script>
+  <script type="text/javascript" src="./js/reservation.js"></script>
 </body>
 
 </html>
