@@ -385,3 +385,4 @@ function displayself5_6(){
 }
 /* onclick img*/  
 /*diapo 5 */
+
