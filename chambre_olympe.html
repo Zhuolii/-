@@ -196,11 +196,11 @@
               <div class="container_reservation">
                 <h2>Réservation de Chambre</h2><br>
                 <form action="/reservation" method="post">
-                  <label for="name">Nom :</label>
-                  <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                  <label for="name">Nom Prenom :</label>
+                  <input type="text" id="name" name="name" placeholder="Nom Prenom" required>
             
                   <label for="email">Email :</label>
-                  <input type="text" id="email" name="email" placeholder="Votre email" required>
+                  <input type="text" id="email" name="email" placeholder="Email" required>
             
                   <label for="arrival_date">Date d'arrivée :</label>
                   <input type="date" id="arrival_date" name="arrival_date" required>
@@ -210,7 +210,7 @@
             
                   <label for="room_type">Nom de chambre :</label>
                   <select id="room_type" name="room_type" onchange="updateNumPeopleOptions()" required>
-                    <option value="">Sélectionnez une chambre</option>
+                    <option value=""disabled selected>Sélectionnez une chambre</option>
                     <option value="Chambre Alexandra">Chambre Alexandra</option>
                     <option value="Chambre Clemence">Chambre Clemence</option>
                     <option value="Chambre Elise">Chambre Elise</option>
@@ -220,13 +220,20 @@
                   </select>
                   <label for="num_people">Nombre de personnes :</label>
                   <select id="num_people" name="num_people" required>
-                    <option value="">Sélectionnez le nombre de personnes</option>
-                    <option value="1">1 personne</option>
-                    <option value="2">2 personnes</option>
-                    <option value="3">3 personnes</option>
-                    <option value="4">4 personnes</option>
+                    <option value=""disabled selected>Sélectionnez le nombre de personnes</option>
+                   
                 
                   </select>
+                  <div class="form-group">
+                    <label for="baby_crib" class="control-label">Lit bébé :</label>
+                    <div class="radio-inline">
+                      <input type="radio" id="baby_crib_yes" name="baby_crib" value="OUI">
+                      <label for="baby_crib_yes">Oui</label>
+                    </div>
+                    <div class="radio-inline">
+                      <input type="radio" id="baby_crib_no" name="baby_crib" value="NON">
+                      <label for="baby_crib_no">Non</label>
+                    </div></div><br>
                 <label for="message">Indications supplémentaires</label><br>
                     <textarea id="myTextarea"  placeholder="Écrivez votre message ici"
                       ></textarea>
@@ -612,11 +619,11 @@
             <div class="container">
               <h2>Réservation de Chambre</h2><br>
               <form action="/reservation" method="post">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                <label for="name">Nom Prenom :</label>
+                <input type="text" id="name" name="name" placeholder="Nom Prenom" required>
           
                 <label for="email">Email :</label>
-                <input type="text" id="email" name="email" placeholder="Votre email" required>
+                <input type="text" id="email" name="email" placeholder="email" required>
           
                 <label for="arrival_date">Date d'arrivée :</label>
                 <input type="date" id="arrival_date" name="arrival_date" required>
@@ -625,8 +632,8 @@
                 <input type="date" id="departure_date" name="departure_date" required>
           
                 <label for="room_type">Nom chambre :</label>
-                <select id="room_type" name="room_type" onchange="updateNumPeopleOptions()" required>
-                  <option value="">Sélectionnez une chambre</option>
+                <select id="room_type2" name="room_type" onchange="updateNumPeopleOptions2()" required>
+                  <option value=""disabled selected>Sélectionnez une chambre</option>
                   <option value="Chambre Alexandra">Chambre Alexandra</option>
                   <option value="Chambre Clemence">Chambre Clemence</option>
                   <option value="Chambre Elise">Chambre Elise</option>
@@ -635,17 +642,24 @@
                   
                 </select>
                 <label for="num_people">Nombre de personnes :</label>
-                <select id="num_people" name="num_people" required>
-                  <option value="">Sélectionnez le nombre de personnes</option>
-                  <option value="1">1 personne</option>
-                  <option value="2">2 personnes</option>
-                  <option value="3">3 personnes</option>
-                  <option value="4">4 personnes</option>
+                <select id="num_people2" name="num_people" required>
+                  <option value="" disabled selected>Sélectionnez le nombre de personnes</option>
+                 
               
-                </select>
+                </select><br><br>
+                <div class="form-group">
+                  <label for="baby_crib" class="control-label">Lit bébé :</label>
+                  <div class="radio-inline">
+                    <input type="radio" id="baby_crib_yes" name="baby_crib" value="yes">
+                    <label for="baby_crib_yes">Oui</label>
+                  </div>
+                  <div class="radio-inline">
+                    <input type="radio" id="baby_crib_no" name="baby_crib" value="no">
+                    <label for="baby_crib_no">Non</label>
+                  </div></div><br>
               <label for="message">Indications supplémentaires</label>
                   <textarea id="myTextarea"  placeholder="Écrivez votre message ici"
-                    ></textarea>
+                    ></textarea><br>
                
           
                 <button id="button_reserver"type="submit" formaction="https://formsubmit.co/chateaudemoliens@outlook.fr"

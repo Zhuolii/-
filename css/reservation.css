@@ -40,7 +40,7 @@ body {
   #myTextarea {
     width: 100%;
     display: block;
-    min-height: 100px;
+    min-height: 200px;
     padding: 8px;
   
     line-height: 1.4;
@@ -137,5 +137,26 @@ body {
     .btn {
       font-size: 0.8em;
       padding: 10px;
+    }
+    .form-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+  
+    .form-group label.control-label {
+      margin-right: 10px;
+    }
+  
+    .radio-inline {
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
+    }
+  
+    .radio-inline input[type="radio"] {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
     }
   }
