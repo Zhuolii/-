@@ -535,12 +535,12 @@
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width:1524px) {
     .slidercontainer {
-        margin-top: -60em;
+        margin-top: -70em;
         margin-bottom: 48em;
     }
     #img_container {
         text-align: center;
-        margin-top: 147vw;
+        margin-top: 160vw;
     }
 
 }
