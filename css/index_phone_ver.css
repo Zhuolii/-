@@ -3,6 +3,7 @@
         transform: scale(2);
         height: 67vh;
         width: 150vw;
+        margin-top: 23rem;
     }
     #video_title {
         font-size: 2em;
@@ -14,6 +15,7 @@
         transform: scale(2);
         height: 65vh;
         width: 114vw;
+        margin-top: 23rem;
     }
     #video_title {
         font-size: 2em;
@@ -25,6 +27,7 @@
         transform: scale(2);
         height: 70vh;
         width: 109vw;
+        margin-top: 23rem;
     }
     #video_title {
         font-size: 3em;
@@ -36,6 +39,7 @@
         transform: scale(2);
         height: 32vh;
         width: 60vw;
+        margin-top: 23rem;
     }
     #video_title {
         font-size: 2em;

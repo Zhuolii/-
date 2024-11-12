@@ -1,8 +1,6 @@
 @media (min-width: 1024px)
 {
-*{
-    
-}
+
 body{
     background-color: whitesmoke;
 }
@@ -128,4 +126,5 @@ body{
     z-index:2;
     font-size:2.5vw;
     line-height: 5vw;
+}
 }

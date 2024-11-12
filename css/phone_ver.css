@@ -1,4 +1,52 @@
 @media (max-width:1023px) {
+    .non-transparent {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    .flag {
+        width: 20px; 
+        height: auto; 
+        margin-right: 8px;
+    }
+    select {
+        padding: 5px;
+        font-size: 16px;
+    }
+    .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+      }
+      
+      .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .poppins-regular-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .poppins-medium-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .poppins-semibold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
     #lienMille {
         width: 17em;
         height: 17em;
@@ -31,22 +79,14 @@
         color: black;
     }
 
-    #index {
-        margin-top: 2.3em;
-    }
+   
 
     nav {
         position: relative;
         z-index: 100000;
     }
 
-    div ul li a {
-
-
-
-
-        padding: 40px 100px 40px 100px;
-    }
+  
 
 
     .siteWeb {
@@ -88,17 +128,20 @@
     /* bouton de navigation*/
     label.nav__toggle {
         position: fixed;
-        /* left: 56.4em; */
         top: 3em;
         z-index: 100;
-        right: 3em;
-    
-
-
-
+        left: 5em;
     }
 
     label.nav__toggle:hover {
+        cursor: pointer;
+
+    }
+    label.nav__toggle_2 {
+   
+    }
+
+    label.nav__toggle_2:hover {
         cursor: pointer;
 
     }
@@ -128,14 +171,17 @@
         display: none;
         position: fixed;
     }
+    .nav__checkbox_2 {
+      display: none;
+    }  
 
     div.sidebar {
 
         top: 0px;
-        background-color: rgb(255, 255, 255);
+     
         align-items: center;
         width: 100%;
-        height: 10em;
+        height: 14em;
         opacity: 1;
         position: fixed;
 
@@ -144,35 +190,13 @@
 
 
     }
+    #sidebar_first{
+        background-color: white;
+    border-bottom: 1px solid black;
+    height: 200px;
+    }
 
-    /*Liste menu bloc*/
-    /*ul.sidebarList{
-        display:flex;
-        flex-direction: column;
-        gap: 0rem;
-        align-items: center;
-        margin-top: 75px;
-        list-style:none;
-       
-        z-index: 10000;
-        
-        width: 1100px;
-        overflow-x: hidden;
-        overflow-y: auto scroll;
-        position: fixed;
-        top: 0px;
-        left: -50px;
-        text-align: center;
-        align-items: center;
-        height: 1380px;
-        
-       
-        
-        
-    }*/
-    /*Liste menu bloc*/
-    /*Liste menu item*/
-
+   
 
     .sidebarList .current {
         text-decoration: solid black underline 3px;
@@ -198,13 +222,13 @@
     }
 
     .current {
-      text-decoration: underline solid white;
-      text-underline-offset: 20px;
+        padding-top: 2em;
+      border-top: solid grey 2px;
     }
 
     /*texte barre menu */
     div ul li a {
-        text-align: center;
+        text-align: left;
 
 
         box-sizing: border-box;
@@ -229,10 +253,10 @@
 
         background-color: rgb(255, 255, 255);
         /* padding: 80px 100px 80px 100px;*/
-        color: black;
-        font-size: 40px;
+        color: #21436a;
+       font-size: 50px;
         display: block;
-        width: 1040px;
+        width: 1000vw;
 
 
         /* border: solid black 3px;*/
@@ -244,7 +268,23 @@
 
 
     }
-
+    .sidebar_item_container_row {
+        display: grid;
+        grid-template-rows:auto;
+        width: auto;
+    }
+    .sidebar_item {
+        list-style-type: none;
+        padding: 2rem;
+       
+    }
+    .item_container_item_col {
+        display: grid;
+        grid-template-columns: 3fr 7fr;
+        background-color: #FBF8F4;
+        align-items: center;
+        padding: 1rem;
+    }
     a#bottomlist {
         border: solid black 3px;
     }
@@ -253,8 +293,8 @@
 
 
     div ul li a:hover {
-        background-color: rgb(255, 238, 215);
-        color: rgb(0, 0, 0);
+        background-color: #FBF8F4;
+        color: #21436a;
 
 
     }
@@ -271,11 +311,32 @@
         display: block;
         position: fixed;
         top: 0.5rem;
-        left: 2rem;
-
-
+        left: 28rem;
+        z-index: 1000;
+        padding-top: 2rem;
     }
-
+.black_filter{
+    width:1040px;
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+    transition: 0.0001s;
+    background-color: rgba(0, 0, 0, 0.41);
+    height: 1000vh;
+    top: 0vh;
+    overflow: scroll;
+}
+.no_black_filter{
+    width: 1040px;
+    position: absolute;
+    left: -2000px;
+    z-index: 0;
+    transition: 0.0001s;
+    background-color: rgba(0, 0, 0, 0.41);
+    height: 1000vh;
+    top: 0vh;
+    overflow: scroll;
+}
     /*bouton voir tarrif*/
     button.buttonNavbar {
         color: black;
@@ -286,16 +347,18 @@
         font-weight: bold;
         border: solid white;
         border-radius: 2px;
-
+        
         width: 70em;
         height: 5em;
         margin: 70px 0 70px 0;
 
     }
-
+#index {
+    padding-left: 5rem;
+}
     .menu_link {
         position: relative;
-
+        background-color: #FBF8F4;
     }
 
     .reserver_button {
@@ -369,29 +432,54 @@
         background-color: #ffab40;
 
     }
+    .nav_icon {
+        width: 5rem;
+        height: 5rem;
+       
+    }
 
 
     .black_bg {
-        background-color: #ffab40;
-        position: relative;
-        right: 0px;
-        z-index: 0;
-        transition: all 0.3s ease;
-        height: 1000vh;
-        top: 24vh;
-        overflow: scroll;
+        background-color: white;
+        position: relative; /* Keep it fixed in place */
+        top: 0; /* Align to the top */
+        left: 0;
+       z-index: 1000002;
+        transition: all 0.5s ease-in-out;
+        top: 0vh;
+        overflow-x: hidden; /* Enable vertical scrolling */
+        overflow-y: auto; /* Enable vertical scrolling */
+        overflow-wrap: break-word;
+        height: 325vh;
     }
     
     .no_bg {
         position: relative;
-        right: -2000px;
-
-        z-index: 0;
-        transition: all 0.3s ease;
-        background-color: #ffab40;
+      
+        top: 0; /* Align to the top */
+        left: -2000px;
+        z-index: 10000;
+        
+        transition: all 0.5s ease-in-out;
+        background-color: white;
         height: 1000vh;
-        top: 24vh;
-        overflow: scroll;
+        top: 0vh;
+        overflow-y: auto; /* Enable vertical scrolling */
+    }
+
+    .navbar {
+        display: block;
+        transition: all 0.2s ease-in-out;
+        width: 100%;
+        height: 13rem;
+        background-color: none;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+    .no_navbar {
+display: none;
+transition: all 0.5s ease-in-out;
     }
 
 
@@ -438,6 +526,7 @@
 
     label.nav__toggle .menu {
         width: 7rem;
+        height: 7rem;
         fill: rgb(5, 5, 5);
         display: block;
     }
@@ -447,7 +536,11 @@
 
 
     }
-
+.close{
+    position: relative;
+    top: 3em;
+    left: 55em;
+}
 
 
     /*nab button*/
