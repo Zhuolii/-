@@ -159,11 +159,11 @@
         border-bottom: 1px solid black;
       
     }
-    .navbar_ {
+    .navbar {
         display: block;
         transition: all 0.2s ease-in-out;
         width: 100%;
-        height: 9rem;
+        height: 10rem;
         background-color: none;
         position: fixed;
         z-index: 1000;
@@ -183,16 +183,7 @@
         position: fixed;
         z-index: 2;
     }
-    .navbar {
-        display: block;
-        transition: all 0.2s ease-in-out;
-        width: 100%;
-        height: 10rem;
-        background-color: none;
-        position: fixed;
-        z-index: 1000;
-        top: 0;
-    }
+   
    
     nav {
         position: relative;
@@ -703,7 +694,7 @@
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1999px) {
     /*navbar*/
-    .navbar_ {
+    .navbar {
         display: block;
         transition: all 0.2s ease-in-out;
         width: 100%;
@@ -980,7 +971,7 @@
     }
     #page_title {
       
-        margin: 27em 0 0 0;
+        margin: 5em 0 0 0;
         font-size: 1.5em;
         text-align: center;
         LETTER-SPACING: 2px;
