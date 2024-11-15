@@ -38,8 +38,8 @@
   <link rel="stylesheet" href="./css/index_phone_ver.css">
   <!--separate link-->
 </head>
-
-<body id="body" onload="startTimer(),startTimer2()">
+<!--startTimer(),-->
+<body id="body" onload="startTimer2()">
   <nav class="nav">
     <div id="navbar_id" class="navbar_">
       <input type="button" id="nav__checkbox" class="nav__checkbox" onclick="toggle_background(),toggle_background_2()">
@@ -140,9 +140,8 @@
       <div id="black_filter" class="no_black_filter"></div>
       <section>
         <div style="text-align: center; ">
-          <p>
-          </p>
-          <video id="video" autoplay muted width="250" src="./video/video_drone_cut.mp4" type="mp4">
+          
+          <video id="video" autoplay loop muted width="250" src="./video/video_drone_cut.mp4" type="mp4">
             Your browser does not support the video tag.
           </video>
         
@@ -157,7 +156,7 @@
         </div>
       </section>
     
-      
+      <!--
       <section>
         <div class="slidercontainer">
           <div id="display1_1" class="slide1_1" style="opacity:1;">
@@ -226,6 +225,7 @@
             alt="image salon">
         </div>
       </section>
+    -->
       <section>
         <div id="grid_container_first">
           <div class="grid-item_1" id="grid_item_one">
@@ -280,7 +280,7 @@
                 <h3 class="align_center">Mariage</h3>
               </a>
               <div class="align_center"> <a href="mariage.html"><img class="service_img"
-                    src="/galerie/compo_florale/image00001.jpeg"></a></div>
+                    src="./galerie/galerie_mariage/image 01_12_23/image00010.HEIC"></a></div>
             </div>
             <div>
               <a href="seminaires.html" class="link_style">
@@ -498,10 +498,9 @@
     <main>
       <div id="black_filter_2" class="no_black_filter"></div>
       <section>
-        <div style="text-align: center; ">
-          <p>
-          </p>
-          <video id="video" autoplay muted width="250" src="./video/video_drone_cut.mp4" type="mp4">
+        <div style="text-align: center;overflow: hidden; ">
+       
+          <video id="video" autoplay loop muted width="250" src="./video/video_drone_cut.mp4" type="mp4">
             Your browser does not support the video tag.
           </video>
         

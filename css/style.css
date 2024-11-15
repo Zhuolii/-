@@ -159,8 +159,15 @@
         border-bottom: 1px solid black;
       
     }
-    .nav_background {
-       
+    .navbar_ {
+        display: block;
+        transition: all 0.2s ease-in-out;
+        width: 100%;
+        height: 9rem;
+        background-color: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
     }
     
     .reserver_button {
@@ -186,9 +193,7 @@
         z-index: 1000;
         top: 0;
     }
-    .non-transparent {
-        background-color: rgba(255, 255, 255, 1);
-    }
+   
     nav {
         position: relative;
         z-index: 100000;

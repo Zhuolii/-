@@ -11,12 +11,7 @@
     }
 }
 @media (min-device-width: 321px) and (max-device-width: 425px) {
-    #video {
-        transform: scale(2);
-        height: 65vh;
-        width: 114vw;
-        margin-top: 23rem;
-    }
+  
     #video_title {
         font-size: 2em;
         margin-top: 8em;
@@ -25,9 +20,9 @@
 @media (min-device-width: 321px) and (max-device-width: 768px) {
     #video {
         transform: scale(2);
-        height: 70vh;
-        width: 109vw;
-        margin-top: 23rem;
+        height: 154vh;
+        width: 269vw;
+        margin-top: -28rem;
     }
     #video_title {
         font-size: 3em;
