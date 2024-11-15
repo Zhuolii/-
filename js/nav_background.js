@@ -6,7 +6,7 @@ var navbar = document.getElementById("navbar_id");
 var filter = document.getElementById("black_filter");
 filter.classList.toggle("no_black_filter");
 filter.classList.toggle("black_filter");
-navbar.classList.toggle("navbar");
+navbar.classList.toggle("navbar_");
 navbar.classList.toggle("no_navbar");
   background.classList.toggle("black_bg");
   background.classList.toggle("no_bg");

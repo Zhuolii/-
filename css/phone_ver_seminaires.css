@@ -104,7 +104,10 @@
         font-size: 3em;
         line-height: 1.5em;
         letter-spacing: 2.5px;
+        text-align: justify;
+        padding: 6rem;
     }
+    
 
     .img_left {
         display: grid;
@@ -147,7 +150,7 @@
         letter-spacing: 3px;
         font-weight: normal;
         margin-top: 0;
-        text-transform: uppercase;
+ 
         font-family: "georgia";
     }
 
@@ -155,6 +158,8 @@
         font-size: 3em;
         line-height: 1.5em;
         letter-spacing: 2px;
+        text-align: justify;
+        padding: 4rem;
     }
 
     .div_text {

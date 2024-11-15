@@ -309,9 +309,7 @@
         height: 9rem;
         fill: rgb(255, 255, 255);
         display: block;
-        position: fixed;
-        top: 0.5rem;
-        left: 28rem;
+       
         z-index: 1000;
         padding-top: 2rem;
     }
@@ -467,7 +465,7 @@
         overflow-y: auto; /* Enable vertical scrolling */
     }
 
-    .navbar {
+    .navbar_ {
         display: block;
         transition: all 0.2s ease-in-out;
         width: 100%;

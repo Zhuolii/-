@@ -216,8 +216,7 @@
 
         background-color: rgb(255, 255, 255);
         overflow-x: hidden;
-        font-family: 'Times New Roman', Times, serif;
-
+        
     }
     .poppins-regular {
         font-family: "Poppins", sans-serif;
@@ -269,7 +268,7 @@
         padding-bottom: 2vw;
         border-bottom: solid rgb(248, 158, 56) 2px;
         font-size: 1.5vw;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
         text-transform: uppercase;
         letter-spacing: 2px;
         background: -webkit-linear-gradient(rgb(248, 158, 56), rgb(255, 189, 6));
@@ -278,7 +277,7 @@
         text-align: center;
     }
     #page_title {
-        font-family: 'Playfair Display', sans-serif;
+       
         margin: 6em 0 0 0;
         font-size: 3rem;
         text-align: center;
@@ -287,7 +286,7 @@
         font-weight: normal;
     }
     #page_title2{
-        font-family:  courgette,Arial, Helvetica,serif;
+      
             margin: 5em 0 -4em 0;
             font-size: 1.5em;
             text-align: center;
@@ -350,7 +349,7 @@
         font-size: 20px;
         font-weight: 100;
         letter-spacing: 2px;
-        font-family: 'Times New Roman', Times, serif;
+       
 
 
     }
@@ -374,7 +373,7 @@
         color: black;
         border: solid black 0.15vw;
         font-size: larger;
-        font-family: 'Times New Roman', Times, serif;
+     
         position: fixed;
         right: 7vw;
         top: 0.5vw;
@@ -610,7 +609,7 @@
         -webkit-text-fill-color: transparent;
         font-weight: bold;
         font-size: 1.2vw;
-        font-family: serif;
+        
         display: flex;
         justify-content: center;
     }
@@ -661,7 +660,7 @@
         font-size: 1vw;
 
         transition: color 0.3s;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+      
     }
 
     .grid_footer_item a:hover {
@@ -673,7 +672,7 @@
         padding-bottom: 2vw;
         border-bottom: solid rgb(248, 158, 56) 2px;
         font-size: 1.5vw;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
         text-transform: uppercase;
         letter-spacing: 2px;
         background: -webkit-linear-gradient(rgb(248, 158, 56), rgb(255, 189, 6));
@@ -699,7 +698,7 @@
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1999px) {
     /*navbar*/
-    .navbar {
+    .navbar_ {
         display: block;
         transition: all 0.2s ease-in-out;
         width: 100%;
@@ -913,7 +912,7 @@
 
         background-color: rgb(255, 255, 255);
         overflow-x: hidden;
-        font-family: 'Times New Roman', Times, serif;
+  
 
     }
     .poppins-regular {
@@ -966,7 +965,7 @@
         padding-bottom: 2vw;
         border-bottom: solid rgb(248, 158, 56) 2px;
         font-size: 1.5vw;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      
         text-transform: uppercase;
         letter-spacing: 2px;
         background: -webkit-linear-gradient(rgb(248, 158, 56), rgb(255, 189, 6));
@@ -974,19 +973,17 @@
         -webkit-text-fill-color: transparent;
         text-align: center;
     }
-    #page_title{
-        font-family: 'Playfair Display',sans-serif;
-            margin: 6em 0 0 0;
-            font-size: 1.5em;
-            text-align: center;
-            LETTER-SPACING: 2px;
-            
-           
-            width: auto;
-            font-weight: normal;
+    #page_title {
+      
+        margin: 27em 0 0 0;
+        font-size: 1.5em;
+        text-align: center;
+        LETTER-SPACING: 2px;
+        width: auto;
+        font-weight: normal;
     }
     #page_title2{
-        font-family:  courgette,Arial, Helvetica,serif;
+      
             margin: 5em 0 -4em 0;
             font-size: 1.5em;
             text-align: center;
@@ -1049,7 +1046,7 @@
         font-size: 20px;
         font-weight: 100;
         letter-spacing: 2px;
-        font-family: 'Times New Roman', Times, serif;
+       
 
 
     }
@@ -1073,7 +1070,7 @@
         color: black;
         border: solid black 0.15vw;
         font-size: larger;
-        font-family: 'Times New Roman', Times, serif;
+       
         position: fixed;
         right: 7vw;
         top: 0.5vw;
@@ -1312,7 +1309,7 @@
         -webkit-text-fill-color: transparent;
         font-weight: bold;
         font-size: 1.2vw;
-        font-family: serif;
+       
         display: flex;
         justify-content: center;
     }
@@ -1363,7 +1360,7 @@
         font-size: 1vw;
 
         transition: color 0.3s;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+      
     }
 
     .grid_footer_item a:hover {
@@ -1375,7 +1372,7 @@
         padding-bottom: 2vw;
         border-bottom: solid rgb(248, 158, 56) 2px;
         font-size: 1.5vw;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      
         text-transform: uppercase;
         letter-spacing: 2px;
         background: -webkit-linear-gradient(rgb(248, 158, 56), rgb(255, 189, 6));
