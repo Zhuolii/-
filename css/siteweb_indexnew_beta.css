@@ -41,9 +41,24 @@
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 2560px) {
+  #carrousel_section{
+    display: flex;
+    justify-content: center;
+
+  }
+    .carrousel_heading {
+        text-align: center; /* Centrer le titre */
+        margin-bottom: 1.5rem; /* Marge en bas du titre */
+    }
+    
+    .carrousel_text {
+        text-align: justify; /* Justifier le texte */
+        padding: 0 1.25rem; /* Ajouter du padding à gauche et à droite */
+        margin-bottom: 1.5rem; /* Marge en bas des paragraphes */
+    }
     #index_title {
-        margin: 35em 0 0 0;
-        font-size: 1.5em;
+        margin: 32em 0 2em 0;
+        font-size: 2em;
         text-align: center;
         LETTER-SPACING: 2px;
         width: auto;
@@ -63,14 +78,7 @@
     }
 
 
-    .siteWeb p {
-        letter-spacing: 0.8px;
-        line-height: 1.7em;
-        font-size: 1em;
-        font-style: normal;
-
-        margin: 5% 10% 5% 5%;
-    }
+    
 
 
 
@@ -90,8 +98,8 @@
     }
 
     #img_video {
-        width: 60vw;
-        height: 40vw;
+        width: 40vw;
+        height: auto;
     }
 
 
@@ -172,22 +180,7 @@
         line-height: 1.5em;
     }
 
-    p.video_text {
-
-
-        font-size: 1.5em;
-       
-        word-spacing: normal;
-        overflow-wrap: break-word;
-        text-align: justify;
-        line-height: 1.5em;
-        letter-spacing: 2px;
-
-
-
-
-
-    }
+  
 
     h3 {
 
@@ -201,26 +194,22 @@
     }
 
     
-
     #grid_container_first {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 2vw 2vw 2vw 2vw;
-        grid-gap: 3em;
+        text-align: justify;
+        margin: 2vw 6vw 2vw 6vw;
+        display: flex;
+        justify-content: center;
+        gap: 3em;
     }
 
     #grid_item_one {
-        color: black;
-        font-size: 0.7em;
-        display: grid;
-        grid-template-rows: 0.4fr 0.6fr;
+       
     }
 
     
 
     #grid_item_two {
-        display: grid;
-        grid-template-rows: 0.2fr 0.8fr;
+       
     }
 
 
@@ -449,10 +438,11 @@
     .devis_form {
         padding: 2em;
     }
-  #video {
+    #video {
         width: 100%;
         margin-bottom: 3em;
-        position: absolute;
+        /* position: absolute; */
+        position: relative;
         top: 0;
         left: 0;
     }
@@ -477,18 +467,7 @@
         transition: ease-in 1.5s;
         left: 8%;
     }  
-    p.video_text {
-
-
-       font-family: 'Times New Roman', Times, serif;
-        word-spacing: normal;
-        overflow-wrap: break-word;
-        text-align: justify;
-        line-height: 1.5em;
-        letter-spacing: 2px;
-        font-size: 40px;
-
-    }
+    
     h3 {
         font-size: 2em;
         word-spacing: normal;
@@ -502,12 +481,7 @@
 
 
     }
-    #grid_item_one {
-        color: black;
-        font-size: 2em;
-        display: grid;
-        grid-template-rows: 0.4fr 0.6fr;
-    }
+   
     .service_img {
         max-width: 25em;
         height: 25em;
@@ -630,7 +604,8 @@
     #video {
         width: 100%;
         margin-bottom: 3em;
-        position: absolute;
+        /* position: absolute; */
+        position: relative;
         top: 0;
         left: 0;
     }

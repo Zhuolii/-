@@ -202,9 +202,9 @@
 
     #grid_item_one {
 
-
+padding: 3em;
         font-size: 2em;
-
+text-align: justify;
     }
 
     .title_center {

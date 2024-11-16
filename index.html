@@ -36,10 +36,11 @@
   <link rel="stylesheet" href="./css/diapoindexnew_beta.css">
   <link rel="stylesheet" href="./css/siteweb_indexnew_beta.css">
   <link rel="stylesheet" href="./css/index_phone_ver.css">
+  <link rel="stylesheet" href="./css/carrousel.css">
   <!--separate link-->
 </head>
 <!--startTimer(),-->
-<body id="body" onload="startTimer2()">
+<body id="body"onload="startAutoScroll2(),startAutoScroll()">
   <nav class="nav">
     <div id="navbar_id" class="navbar">
       <input type="button" id="nav__checkbox" class="nav__checkbox" onclick="toggle_background(),toggle_background_2()">
@@ -51,7 +52,7 @@
         </svg>
 
       </label>
-      <div style="display: flex;justify-content: center;align-items: center;"> <a href="index.html" class="imglink">   <img class="imglogo" src="./css/icones/ms-icon-310x310-removebg-preview.png" /></a></div>
+      <div style="display: flex;justify-content: center;align-items: center;margin: 0 50vw;"> <a href="index.html" class="imglink">   <img class="imglogo" src="./css/icones/ms-icon-310x310-removebg-preview.png" /></a></div>
      
     </div>
  
@@ -150,118 +151,68 @@
       <section>
         <div id="div_background">
       </section>
-      <section>
-        <div id="header_div">
-          <h2 id="index_title">Salle de réception, mariage et séminaire</h2>
-        </div>
-      </section>
+     
     
-      <!--
-      <section>
-        <div class="slidercontainer">
-          <div id="display1_1" class="slide1_1" style="opacity:1;">
-            <div class="grid-item" id="image_grid_container">
-              <div id="diapo1_1" class="imageIndex">
-              </div>
-            </div>
-          </div>
-          <div id="display1_2" class="slide1_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo1_2" class="imageIndex">
-              </div>
-            </div>
-          </div>
-          <div id="display1_3" class="slide1_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo1_3" class="imageIndex">
-              </div>
-            </div>
-          </div>
-          <div id="display1_4" class="slide1_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo1_4" class="imageIndex">
-              </div>
-            </div>
-          </div>
-          <div id="display1_5" class="slide1_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo1_5" class="imageIndex">
-              </div>
-            </div>
-          </div>
-          <div id="display1_6" class="slide1_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
+    
+   <section id="carrousel_section">
+<div class="carrousel_grid">
+    <div>
+      <p class="carrousel_text poppins-regular"><em>Au Cœur de la Picardie Verte</em></p>
+      <h2 class="carrousel_heading poppins-regular">Château de Moliens : L'Art de Recevoir</h2>
 
-              <div id="diapo1_6" class="imageIndex">
-              </div>
-            </div>
-          </div>
-          <div id="display1_7" class="slide1_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo1_7" class="imageIndex">
-              </div>
-            </div>
-          </div>
+      <p class="carrousel_text poppins-regular">
+          Le <strong>Château de Moliens</strong> vous propose de <strong>privatiser</strong> son <strong>domaine d'exception</strong> pour vos <strong>événements</strong>, qu'ils soient <strong>privés</strong> ou <strong>professionnels</strong>. <br>
+          Situé au cœur de la <strong>Picardie Verte</strong>, cet écrin naturel offre un cadre apaisant, parfait pour des moments <strong>inoubliables</strong>. <br>
+      </p>
+      
+      <p class="carrousel_text poppins-regular">
+          Bénéficiez d'un <strong>service de qualité</strong> et d'une <strong>équipe professionnelle</strong> dédiée à la réussite de votre événement. <br>
+          Notre personnel <strong>expérimenté</strong> est à votre écoute pour vous garantir une expérience <strong>mémorable</strong>. <br>
 
+      </p>
+    </div>
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="./css/image_index/1.JPG" alt="Car 1" class="carousel-image">
+            <img src=".\galerie\galerie_mariage\galerie_mariage_2024\image00010.jpeg" alt="Car 3" class="carousel-image">
+               <img src="./galerie/shooting_hiver/4.jpg" alt="Car 2" class="carousel-image">
+            <img src=".\galerie\galerie_mariage\image 01_12_23\image00010.HEIC" alt="Car 4" class="carousel-image">
+            <img src=".\css\royale\Royale.jpg" alt="Car 5" class="carousel-image">
         </div>
-
-      </section>
-
-      <section>
-        <div id="img_container">
-          <img id="small_img_1_1" class="small_img_1" style="opacity:1 ;" src="./css/image_index/1.JPG"
-            alt="image jardin">
-          <img id="small_img_1_2" class="small_img_1" style="opacity:0.5 ;" src="./css/image_index/2.jpg"
-            alt="image pergola">
-          <img id="small_img_1_3" class="small_img_1" style="opacity:0.5; " src="./css/image_index/3.JPG"
-            alt="image jardin">
-          <img id="small_img_1_4" class="small_img_1" style="opacity:0.5; " src="./css/image_index/4.jpg"
-            alt="table orangerie">
-          <img id="small_img_1_5" class="small_img_1" style="opacity:0.5;" src="./css/image_index/5.jpg"
-            alt="devant chateau">
-          <img id="small_img_1_6" class="small_img_1" style="opacity:0.5; " src="./css/image_index/6.jpg"
-            alt="chemin orangerie">
-          <img id="small_img_1_7" class="small_img_1" style="opacity:0.5; " src="./css/image_index/7.JPEG"
-            alt="image salon">
+        <button class="arrow arrow-left" onclick="prevSlide()">❮</button>
+        <button class="arrow arrow-right" onclick="nextSlide()">❯</button>
+        
+        <div class="carousel-dots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
         </div>
-      </section>
-    -->
+    </div>
+</div>
+    </section>
       <section>
         <div id="grid_container_first">
-          <div class="grid-item_1" id="grid_item_one">
-            <div></div>
-            <div >
-              <p class="video_text">
-                Grâce à son orangerie de 245m² chauffée et climatisée, le domaine peut accueillir jusqu'à 180
-                personnes
-                assises pour
-                vos
-                réceptions.
-                <br> <br>
-                Le grand salon du château composé d'une grande cheminée, de moulures et tissus dorés avec un grand
-                chandelier en cristal
-                offrira une touche somptueuse à vos cocktails.
-                <br> <br>
-                Profitez des 2 hectares de parc qui sont à votre
-                disposition pour organiser vos cocktails en plein air, cérémonies laïques, animations diverses...
-              </p>
-            </div>
-          </div>
           <div class="grid-item_1" id="grid_item_two">
-            <div>
-              <p class="video_text">
-                Le Château de Moliens vous propose la privatisation de son domaine pour l'organisation de vos
-                événements
-                privés et professionnels.
-                <br>
-                Situé au coeur de la Picardie Verte, ce lieu vous offre un cadre idéal pour faire de vos
-                événements des moments
-                inoubliables. La bâtisse datant du XIXe siècle confère un charme indéniable à la propriété.
-                <br>
-              </p>
-            </div>
+            
             <img id="img_video" src="galerie/galerie_mariage/10_11_24/image00011.jpeg" alt="image orangerie">
           </div>
+          <div class="grid-item_1" id="grid_item_one">
+            
+            <div >
+              <p class="video_text poppins-regular">
+                
+                  Grâce à son <strong>orangerie</strong> de <strong>245 m²</strong> chauffée et climatisée, le domaine peut accueillir jusqu'à <strong>180 personnes</strong> assises pour vos réceptions.
+                  <br>
+                  Le grand salon du château, composé d'une <strong>grande cheminée</strong>, de <strong>moulures</strong> et de <strong>tissus dorés</strong>, avec un <strong>chandelier en cristal</strong>, vous offrira une touche <strong>somptueuse</strong> à vos cocktails.
+                  <br>
+                  Profitez des <strong>2 hectares de parc</strong> qui sont à votre disposition pour organiser vos <strong>cocktails</strong>, <strong>cérémonies</strong>, et diverses <strong>animations en plein air</strong> ou sous notre <strong>pergola</strong>.
+              
+              </p>
+            </div>
+          </div>
+          
         </div>
       </section>
       <section>
@@ -395,102 +346,91 @@
       <div id="footer_grid" class="grid-item">
         <div id="grid_footer">
           <div class="grid_footer_item">
-            <img id="img_logo_footer" src=".\image video/logochateau1.jpg"
-              style="width:20vw;height:20vw;border-radius:10vw;" alt="logo chateau de moliens">
+            <img id="img_logo_footer" src="./favicon/logo_no_bg.png"
+               alt="logo chateau de moliens">
           </div>
+          <section id="footer_column_container">
           <div class="grid_footer_item">
             <li><a
                 href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643">
-                <p1 class="footer_heading poppins-regular">Coordonnées</p1><br><br><br>
-                <p1 style="line-height: 2vw;"class="poppins-regular"><img src=".\image video/adresse.png " style="width:2vwpx;height:2vw;"
-                    alt="logo adresse">
+              
+                <p style="line-height: 2vw;"class="poppins-regular">
                   <br>Château
                   de Moliens <br>
                   17 rue de Picardie<br>60220 Moliens
-                </p1>
+                </p>
             </li></a>
             <div><a href="https://instagram.com/chateaudemoliens?igshid=YmMyMTA2M2Y=" target="_blank"><img
                   src=".\image video/instalogo2.png " style="width:2vw;height:2vw;position:relative;top:5px;"
                   alt="logo instagram">
-                  <p class="poppins-regular">
-                Instagram</p></a></div>
+                 </a></div>
           </div>
           <div class="grid_footer_item">
             <li>
-              <p1 class="footer_heading poppins-regular">Réserver </p1><br><br><br>
+              <p class="footer_heading poppins-regular">Nous contacter</p>
               <a href="tel:0631383831"
                 onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-                <p1 class="poppins-regular"><img src=".\image video/call.png " style="width:2vwpx;height:2vw;" alt="logo telephone"> 06 31 38 38
+                <p class="poppins-regular"><img src=".\image video/call.png " style="width:2vwpx;height:2vw;" alt="logo telephone"> 06 31 38 38
                   31<img src=".\image video/drapeau_fr.png " style="margin-left:1vw;width:2vw;height:1vw;"
                     alt="logo drapeau">
-                </p1>
-              </a><br>
+                </p>
+              </a>
               <a href="tel:0644221786"
                 onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-                <p1 class="poppins-regular"><img src=".\image video/call.png " style="width:2vwpx;height:2vw;" alt="logo telephone"> 06 44 22 17
+                <p class="poppins-regular"><img src=".\image video/call.png " style="width:2vwpx;height:2vw;" alt="logo telephone"> 06 44 22 17
                   86
                   <img src=".\image video/drapeau_en.png " style="margin-left:1vw;width:2vw;height:1vw;"
                     alt="logo drapeau">
-                </p1>
-              </a><br>
+                </p>
+              </a>
               <a href="mailto: chateaudemoliens@outlook.fr">
-                <p1 class="poppins-regular"> <img src=".\image video/mail.png "
+                <p class="poppins-regular"> <img src=".\image video/mail.png "
                     style="width:2vwpx;height:2vw;margin-bottom:-5px;margin-right:5px;"
-                    alt="logo mail">chateaudemoliens@outlook.fr</p1>
+                    alt="logo mail">chateaudemoliens@outlook.fr</p>
+              </a>
+              <a href="contact.html">
+                <li>
+                  <p class="poppins-regular">Contact </p>
+                </li>
               </a>
             </li>
           </div>
-          <div class="grid_footer_item">
-            <li>
-              <p1 class="footer_heading poppins-regular"> Nos prestations</p1><br><br><br>
-            </li>
-            <a href="mariage.html">
-              <li class="poppins-regular">Mariage ❯❯</li>
-            </a><br>
-            <a href="seminaires.html">
-              <li class="poppins-regular">Séminaires ❯❯</li>
-            </a><br>
-            <a href="hebergements.html">
-              <li class="poppins-regular">
-                <p1>Hébergements ❯❯</p1>
-              </li>
-            </a><br>
-          </div>
-          <div class="grid_footer_item">
+        </section>
+        <section id="footer_column_container">
+ <div class="grid_footer_item">
             <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;">
-              <p1 class="footer_heading">Liens utiles</p1><br><br><br>
-              <a href="contact.html">
-                <li>
-                  <p1 class="poppins-regular">Contact ❯❯</p1>
-                </li>
-              </a><br>
+             
+             
               <a href="mentions.html">
                 <li>
-                  <p1 class="poppins-regular">Mentions légales ❯❯</p1>
+                  <p class="poppins-regular">Mentions légales </p>
                 </li>
-              </a><br>
+              </a>
               <a href="politique.html">
                 <li>
-                  <p1 class="poppins-regular">Politique de confidentalité ❯❯</p1>
+                  <p class="poppins-regular">Politique de confidentalité </p>
                 </li>
               </a>
               <a href="https://icones8.fr/">
                 <li>
-                  <p1 class="poppins-regular">Icones </p1>
+                  <p class="poppins-regular">Icones </p>
                 </li>
-              </a>
+              </a> 
+             
             </ul>
           </div>
-        </div>
-        <h4 id="recommandation"class="poppins-regular">Recommandé par :</h4>
+        
+      
         <div id="align_center">
+          <p class="footer_heading poppins-regular">Récommandé par</p>
           <a target="_blank" href="https://www.mariages.net/chateau-mariage/chateau-de-moliens--e288396">
             <img id="lienMille" src="favicon/mariagenet_logo.png"></a>
-          <a target="_blank" href="https://www.zankyou.fr/f/chateau-de-moliens-1830">
-            <img id="lienMille" src="favicon/zankyou_logo.png"></a>
+         
           <a target="_blank" href="https://www.milleetunelistes.fr/carnet-adresses?category=1&region=6">
             <img id="lienMille" src="favicon/Logo_Milleeetunelistes.png"></a>
         </div>
+        </section>
+         
       </div>
     </footer>
   </div>
@@ -511,86 +451,59 @@
           <h2 id="page_title">Salle de réception, mariage et séminaire</h2>
         </div>
       </section>
-      <section>
-        <div class="slidercontainer">
-          <div id="display3_1" class="slide3_1" style="opacity:1;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo3_1" class="imageIndex">
-              </div>
+      <section id="carrousel_section2">
+        <div class="carrousel_grid2">
+            <div>
+              <p class="carrousel_text poppins-regular"><em>Au Cœur de la Picardie Verte</em></p>
+              <h2 class="carrousel_heading poppins-regular">Château de Moliens : L'Art de Recevoir</h2>
+        
+              <p class="carrousel_text poppins-regular">
+                  Le <strong>Château de Moliens</strong> vous propose de <strong>privatiser</strong> son <strong>domaine d'exception</strong> pour vos <strong>événements</strong>, qu'ils soient <strong>privés</strong> ou <strong>professionnels</strong>. <br>
+                  Situé au cœur de la <strong>Picardie Verte</strong>, cet écrin naturel offre un cadre apaisant, parfait pour des moments <strong>inoubliables</strong>. <br>
+              </p>
+              
+              <p class="carrousel_text poppins-regular">
+                  Bénéficiez d'un <strong>service de qualité</strong> et d'une <strong>équipe professionnelle</strong> dédiée à la réussite de votre événement. <br>
+                  Notre personnel <strong>expérimenté</strong> est à votre écoute pour vous garantir une expérience <strong>mémorable</strong>. <br>
+        
+              </p>
             </div>
-          </div>
-          <div id="display3_2" class="slide3_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo3_2" class="imageIndex">
+            <div class="carousel2">
+              <div class="carousel-images2">
+                  <img src="./css/image_index/1.JPG" alt="Car 1" class="carousel-image2">
+                  <img src=".\galerie\galerie_mariage\galerie_mariage_2024\image00010.jpeg" alt="Car 2" class="carousel-image2">
+                  <img src="./galerie/shooting_hiver/4.jpg" alt="Car 2" alt="Car 3" class="carousel-image2">
+                <img src=".\galerie\galerie_mariage\image 01_12_23\image00010.HEIC" alt="Car 4" class="carousel-image2">
+                  <img src=".\css\royale\Royale.jpg" alt="Car 5" class="carousel-image2">
               </div>
-            </div>
-          </div>
-          <div id="display3_3" class="slide3_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo3_3" class="imageIndex">
+            
+               
+            
+              <button class="arrow2 arrow-left2" onclick="prevSlide2()">❮</button>
+              <button class="arrow2 arrow-right2" onclick="nextSlide2()">❯</button>
+              
+              <div class="carousel-dots2">
+                  <span class="dot2 active2" onclick="currentSlide2(0)"></span>
+                  <span class="dot2" onclick="currentSlide2(1)"></span>
+                  <span class="dot2" onclick="currentSlide2(2)"></span>
+                  <span class="dot2" onclick="currentSlide2(3)"></span>
+                  <span class="dot2" onclick="currentSlide2(4)"></span>
               </div>
-            </div>
           </div>
-          <div id="display3_4" class="slide3_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo3_4" class="imageIndex">
-              </div>
-            </div>
-          </div>
-          <div id="display3_5" class="slide3_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo3_5" class="imageIndex">
-              </div>
-            </div>
-          </div>
-          <div id="display3_6" class="slide3_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo3_6" class="imageIndex">
-              </div>
-            </div>
-          </div>
-          <div id="display3_7" class="slide3_1" style="opacity:0;">
-            <div id="image_grid_container" class="grid-item">
-              <div id="diapo3_7" class="imageIndex">
-              </div>
-            </div>
-          </div>
-
-      </section>
-      <section>
-        <div id="img_container">
-          <img onclick="displayself2_1()" id="small_img_2_1" class="small_img_2" style="opacity:1;"
-            src="./css/image_index/1.JPG" alt="image jardin">
-          <img onclick="displayself2_2()" id="small_img_2_2" class="small_img_2" style="opacity:0.5 ;"
-            src="./css/image_index/2.jpg" alt="image pergola">
-          <img onclick="displayself2_3()" id="small_img_2_3" class="small_img_2" style="opacity:0.5; "
-            src="./css/image_index/3.JPG" alt="image jardin">
-          <img onclick="displayself2_4()" id="small_img_2_4" class="small_img_2" style="opacity:0.5; "
-            src="./css/image_index/4.jpg" alt="table orangerie">
-          <img onclick="displayself2_5()" id="small_img_2_5" class="small_img_2" style="opacity:0.5;"
-            src="./css/image_index/5.jpg" alt="devant chateau">
-          <img onclick="displayself2_6()" id="small_img_2_6" class="small_img_2" style="opacity:0.5; "
-            src="./css/image_index/6.jpg" alt="chemin orangerie">
-          <img onclick="displayself2_7()" id="small_img_2_7" class="small_img_2" style="opacity:0.5; "
-            src="./css/image_index/7.JPEG" alt="image salon">
         </div>
-      </section>
+            </section>
+
       <section>
         <div id="grid_container_first">
-          <div class="grid-item_1" id="grid_item_one">
+          <div class="grid-item_1 poppins-regular" id="grid_item_one">
             <div>
-              <p class="video_text">
-                Grâce à son orangerie de 245m² chauffée et climatisée, le domaine peut accueillir jusqu'à 180 personnes
-                assises pour
-                vos
-                réceptions.
-                <br> <br>
-                Le grand salon du château composé d'une grande cheminée, de moulures et tissus dorés avec un grand
-                chandelier en crystal
-                vous offrira une touche somptueuse à vos cocktails.
-                <br> <br>
-                Profitez des 2 hectares de parc qui sont à votre
-                disposition pour organiser vos cocktails en plein air, cérémonies laïques, animations diverses...
+             
+                <p>
+                  Grâce à son <strong>orangerie</strong> de <strong>245 m²</strong> chauffée et climatisée, le domaine peut accueillir jusqu'à <strong>180 personnes</strong> assises pour vos réceptions.
+                  <br>
+                  Le grand salon du château, composé d'une <strong>grande cheminée</strong>, de <strong>moulures</strong> et de <strong>tissus dorés</strong>, avec un <strong>chandelier en cristal</strong>, vous offrira une touche <strong>somptueuse</strong> à vos cocktails.
+                  <br>
+                  Profitez des <strong>2 hectares de parc</strong> qui sont à votre disposition pour organiser vos <strong>cocktails</strong>, <strong>cérémonies</strong>, et diverses <strong>animations en plein air</strong> ou sous notre <strong>pergola</strong>.
               </p>
             </div>
           </div>
@@ -598,17 +511,7 @@
             <img id="img_video" src="galerie/galerie_mariage/10_11_24/image00011.jpeg" alt="image orangerie">
           </div>
           <div class="grid-item_1" id="grid_item_two">
-            <div>
-              <p class="video_text">
-                Le Château de Moliens vous propose la privatisation de son domaine pour l'organisation de vos événements
-                privés et professionnels.
-                <br>
-                Situé au coeur de la Picardie Verte, ce lieu vous offre un cadre idéal pour faire de vos
-                événements des moments
-                inoubliables. La bâtisse datant du XIXe siècle confère un charme indéniable à la propriété.
-                <br>
-              </p>
-            </div>
+           
           </div>
         </div>
       </section>
@@ -620,7 +523,7 @@
               <a href="mariage.html" class="link_style">
                 <h3 class="align_center">Mariage</h3>
               </a>
-              <div class="align_center"> <a href="mariage.html"><img class="service_img" src=".\css/image_index/8.jpg"
+              <div class="align_center"> <a href="mariage.html"><img class="service_img" src="./galerie/galerie_mariage/image 01_12_23/image00010.HEIC"
                     alt="image orangerie"></a></div>
             </div>
             <div>
@@ -737,92 +640,81 @@
       <div id="footer_grid" class="grid--item">
         <div id="grid_footer">
           <div class="grid_footer_item">
-            <img id="img_logo_footer" src=".\image video/logochateau1.jpg" alt="logo chateau de moliens">
+            <img id="img_logo_footer" src="favicon\logo_no_bg.png" alt="logo chateau de moliens">
           </div>
           <div class="grid_footer_item">
             <li><a
                 href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643">
-                <p class="footer_heading poppins-medium">Coordonnées</p> <br>
-                <p class="footer_p" style="margin-left:-30px"><img src=".\image video/adresse.png "
-                    style="width:100px;height:100px;">Château de Moliens</p> <br>
-                <p class="footer_p">17 rue de Picardie<br> <br>60220 Moliens</p>
-            </li></a><br> <br>
+              
+                <p class="">Château de Moliens</p> 
+                <p class=" poppins-regular">17 rue de Picardie <br>60220 Moliens</p>
+            </li></a>
             <div><a href="https://instagram.com/chateaudemoliens?igshid=YmMyMTA2M2Y=" target="_blank">
-                <p class="footer_p"><img src=".\image video/instalogo2.png " style="width:100px;height:100px;"
-                    alt="logo instagram">Instagram
+                <p class=""><img src=".\image video/instalogo2.png " style="width:100px;height:100px;"
+                    alt="logo instagram">
                 </p>
               </a></div>
           </div>
           <div class="grid_footer_item">
             <li>
-              <p class="footer_heading">Réserver </p><br><br> <br>
+              <p class="footer_heading poppins-regular">Nous contacter </p>
               <a href="tel:0631383831"
                 onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-                <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 31 38 38 31
+                <p class="poppins-regular"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 31 38 38 31
                   <img src=".\image video/drapeau_fr.png " style="margin-left:10px;width:100px;height:50px;"
                     alt="icone drapeau">
                 </p>
-              </a><br> <br>
+              </a>
               <a href="tel:0644221786"
                 onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})">
-                <p class="footer_p"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 44 22 17 86
+                <p class="poppins-regular"><img src=".\image video/call.png " style="width:100px;height:100px;"> 06 44 22 17 86
                   <img src=".\image video/drapeau_en.png " style="margin-left:10px;width:100px;height:50px;"
                     alt="icone drapeau">
                 </p>
-              </a><br> <br>
+              </a>
               <a href="mailto: chateaudemoliens@outlook.fr">
-                <p class="footer_p"> <img src=".\image video/mail.png " style="width:100px;height:100px;"
+                <p class="poppins-regular"> <img src=".\image video/mail.png " style="width:100px;height:100px;"
                     alt="icone mail">chateaudemoliens@outlook.fr</p>
               </a>
             </li>
           </div>
+    
           <div class="grid_footer_item">
-            <li>
-              <p style="line-height:3vw;">
-              <p class="footer_heading"> Nos prestations</p> <br> <br> <br>
-            </li>
-            <a href="mariage.html">
-              <li>Mariage ❯❯</li>
-            </a><br><br><br>
-            <a href="seminaires.html">
-              <li>Séminaires ❯❯</li>
-            </a><br><br><br>
-            <a href="hebergements.html">
-              <li>Hébergements ❯❯</li>
-            </a><br>
+              
+            <p class="footer_heading poppins-regular">Recommandé par :</p> 
           </div>
-          <div class="grid_footer_item">
-            <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;">
-              <p class="footer_heading">Liens utiles</p> <br> <br>
-              <a href="contact.html">
-                <li>Contact ❯❯</li>
-              </a><br> <br>
-              <a href="mentions.html">
-                <li>Mentions légales ❯❯</li>
-              </a><br> <br>
-              <a href="politique.html">
-                <li>Politique de confidentalité ❯❯</li>
-              </a> <br>
-              <a href="https://icones8.fr/">
-                <li>Icones </li>
-              </a>
-            </ul>
-          </div>
+       
         </div>
-        <h4 id="recommandation">Recommandé par :</h4>
+      
         <div id="align_center">
           <a target="_blank" href="https://www.mariages.net/chateau-mariage/chateau-de-moliens--e288396">
             <img id="lienMille" src="favicon/mariagenet_logo.png"></a>
-          <a target="_blank" href="https://www.zankyou.fr/f/chateau-de-moliens-1830">
-            <img id="lienMille" src="favicon/zankyou_logo.png"></a>
           <a target="_blank" href="https://www.milleetunelistes.fr/carnet-adresses?category=1&region=6">
             <img id="lienMille" src="favicon/Logo_Milleeetunelistes.png"></a>
         </div>
+        <div class="grid_footer_item">
+        <ul style="padding:0;list-style: none;margin-top:0;z-index:-1;font-size: 10px;">
+         
+          <a href="contact.html">
+            <li class="poppins-regular">Contact</li>
+          </a>
+          <a href="mentions.html">
+            <li class="poppins-regular">Mentions légales</li>
+          </a>
+          <a href="politique.html">
+            <li class="poppins-regular">Politique de confidentalité</li>
+          </a> 
+          <a href="https://icones8.fr/">
+            <li class="poppins-regular">Icones </li>
+          </a>
+        </ul> 
+      </div>
       </div>
     </footer>
   </div>
 
-  <script type="text/javascript" src="./js/index.js"></script>
+  
+  <script type="text/javascript" src="./js/carrousel.js"></script>
   <script type="text/javascript" src="./js/nav_background.js"></script>
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">

@@ -1,0 +1,139 @@
+@media (max-width:1023px) {
+    
+    .carrousel_grid2 {
+        gap: 20px;
+      
+        padding: 0 4em 0 4em;
+    }
+
+.carousel2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-images2 {
+    display: flex;
+    transition: transform 0.5s ease;
+   
+ 
+}
+
+.carousel-image2 {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-dots2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot2 {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #bbb;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for dot color and scale */
+}
+
+.dot2.active2 {
+    background-color: #717171;
+    transform: scale(1.5); /* Slightly larger active dot */
+}
+
+.arrow2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.arrow-left2 {
+    left: 10px;
+}
+
+.arrow-right2 {
+    right: 10px;
+}
+}
+@media (min-width:1024px) {
+
+.carrousel_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1500px;
+    width: 100%;
+    margin: 2em 5em;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-image {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #bbb;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for dot color and scale */
+}
+
+.dot.active {
+    background-color: #717171;
+    transform: scale(1.5); /* Slightly larger active dot */
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+
+
+}
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
