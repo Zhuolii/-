@@ -41,6 +41,67 @@
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 2560px) {
+    .image-gallery {
+        display: flex;
+        flex-direction: column; /* Stack rows vertically */
+        align-items: center; /* Center the bottom row */
+    }
+    
+    .top-row {
+        margin-top: 10px; /* Space above the bottom image */
+        width: 100%; /* Full width */
+        max-width: 800px; /* Set a max-width for layout */
+        display: flex;
+        justify-content: center; /* Center the bottom image */
+    }
+    
+    .image-link {
+        position: relative;
+        display: inline-block;
+        margin: 10px; /* Space between images */
+        text-decoration: none; /* Removes underline from links */
+        width: calc(48%); /* Adjust width for two images */
+        opacity: 1;
+    }
+    
+    .image-link img {
+        width: 100%; /* Full width of the link container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Prevents bottom space under images */
+    }
+    
+    .bottom-row {
+        margin-top: 10px; /* Space above the bottom image */
+        width: 100%; /* Full width */
+        max-width: 800px; /* Set a max-width for layout */
+        display: flex;
+        justify-content: center; /* Center the bottom image */
+    }
+    
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center the text */
+        color: white; /* Text color */
+        font-size: 24px; /* Font size */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+        z-index: 2; /* Ensure text is above the image */
+    }
+    .image-link::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    height: 100%;
+        background-color: rgba(0, 0, 0, 0.242); /* Black veil with 50% opacity */
+        z-index: 1; /* Place the overlay behind the text */
+    }
+    .image-link:hover::before {
+        opacity: 0; /* Remove the veil on hover */
+        transition: 0.2s ease;
+    }
   #carrousel_section{
     display: flex;
     justify-content: center;
@@ -319,28 +380,27 @@
 
 
     #service_row_container {
-        display: grid;
-        grid-template-rows: 1fr ;
-        margin-left: 1em;
-        margin-bottom: 10em;
+        display: grid
+        ;
+                grid-template-rows: 1fr;
+           
+                padding: 3em;
       
 
 
     }
-
     .service_column_container {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        height: auto;
-        margin: 1em;
+display: grid;
+grid-template-columns: 1fr 1fr;
     }
 
-    .service_img {
-        max-width: 13em;
-        height: 13em;
-        border-radius: 50%;
-        margin-top: 1em;
+ 
 
+    .service_img {
+        max-width: 40vw;
+        height: auto;
+       
+        margin-top: 1em;
     }
 
 
