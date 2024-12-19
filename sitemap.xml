@@ -13,70 +13,81 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/index.html</loc>
-  <lastmod>2022-01-27T20:15:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.chateaudemoliens.com/contact.html</loc>
+  <loc>https://www.chateaudemoliens.com/mariage</loc>
   <lastmod>2022-01-27T20:15:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/hebergements.html</loc>
+  <loc>https://www.chateaudemoliens.com/hébergement</loc>
   <lastmod>2022-01-27T20:15:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/covid-19.html</loc>
+  <loc>https://www.chateaudemoliens.com/séminaire</loc>
   <lastmod>2022-01-27T20:15:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/mentions.html</loc>
+  <loc>https://www.chateaudemoliens.com/contact-6</loc>
   <lastmod>2022-01-27T20:15:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/politique.html</loc>
+  <loc>https://www.chateaudemoliens.com/galerie</loc>
   <lastmod>2022-01-27T20:15:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/chambre_elise.html</loc>
+  <loc>https://www.chateaudemoliens.com/mariage-1</loc>
   <lastmod>2022-01-27T20:15:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/chambre_clemence.html</loc>
+  <loc>https://www.chateaudemoliens.com/nos-extérieurs</loc>
   <lastmod>2022-01-27T20:15:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/chambre_olympe.html</loc>
+  <loc>https://www.chateaudemoliens.com/shooting-d-inspiration</loc>
   <lastmod>2022-01-27T20:15:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/chambre_alexandra.html</loc>
+  <loc>https://www.chateaudemoliens.com/traiteur</loc>
   <lastmod>2022-01-27T20:15:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/chambre_royale.html</loc>
+  <loc>https://www.chateaudemoliens.com/compositions-florales</loc>
   <lastmod>2022-01-27T20:15:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/preconisation_covid_19.pdf</loc>
+  <loc>https://www.chateaudemoliens.com/chambres</loc>
   <lastmod>2022-01-27T20:15:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.chateaudemoliens.com/politique.pdf</loc>
+  <loc>https://www.chateaudemoliens.com/mentions-légales</loc>
   <lastmod>2022-01-27T20:15:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://www.chateaudemoliens.com/politique-en-matière-de-cookies</loc>
+  <lastmod>2022-01-27T20:15:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/politique-de-confidentialité</loc>
+  <lastmod>2022-01-27T20:15:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chateaudemoliens.com/conditions-d-utilisation</loc>
+  <lastmod>2022-01-27T20:15:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 
 
 </urlset>
